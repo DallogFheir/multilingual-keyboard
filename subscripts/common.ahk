@@ -143,6 +143,9 @@ return
 ::sub9\::
     Send, ₉
 return
+::--\::
+    Send, —
+return
 ::hearts\::
     Send, ♥
 return
