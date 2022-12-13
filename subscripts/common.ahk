@@ -52,7 +52,6 @@ return
 !+.::
     Send, ⟩
 return
-
 ::#\::
     Send, ♯
 return
@@ -151,6 +150,12 @@ return
 return
 ::''\::
     Send, ʾ
+return
+::"d\::
+    Send, „
+return
+::"u\::
+    Send, ”
 return
 ::x\::
     Send, ×
