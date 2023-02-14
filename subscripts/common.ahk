@@ -67,6 +67,9 @@ return
 ::+-\::
     Send, ±
 return
+::infty\::
+    Send, ∞
+return
 ::oe\::
     Send, œ
 return
