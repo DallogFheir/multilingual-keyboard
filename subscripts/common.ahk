@@ -76,6 +76,9 @@ return
 ::tm\::
     Send, ™
 return
+::deg\::
+    Send, °
+return
 ::diamonds\::
     Send, ♦
 return
