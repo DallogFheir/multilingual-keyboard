@@ -181,6 +181,9 @@ return
 ::b\::
     Send, ♭
 return
+::not\::
+    Send, ¬
+return
 ::<<\::
     Send, ≪
 return
