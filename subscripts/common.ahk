@@ -76,6 +76,12 @@ return
 ::tm\::
     Send, ™
 return
+::or\::
+    Send, ∨
+return
+::and\::
+    Send, ∧
+return
 ::deg\::
     Send, °
 return
