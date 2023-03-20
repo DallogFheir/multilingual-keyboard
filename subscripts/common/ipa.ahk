@@ -1,0 +1,3 @@
+﻿::circle\::
+    Send, ◌
+return
