@@ -7,6 +7,9 @@ return
 ::+-\::
     Send, ±
 return
+::empty\::
+    Send, ∅
+return
 ::infty\::
     Send, ∞
 return
