@@ -19,6 +19,9 @@ return
 ::x\::
     Send, ×
 return
+::cdot\::
+    Send, ⋅
+return
 ::<<\::
     Send, ≪
 return
