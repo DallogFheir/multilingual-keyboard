@@ -3,7 +3,7 @@ F2::
     suspend, Permit
     if A_IsSuspended
     {
-        Menu, Tray, Icon, icons\language_specific\%curIcon%.ico, , 0
+        Menu, Tray, Icon, icons\keyboards\%curIcon%.ico, , 0
         Suspend, Off
     }
     else

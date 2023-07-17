@@ -1,635 +1,515 @@
 ﻿; input level so that it works with combining diacritics
 #InputLevel, 0
 
-::è::
-    Send, è
-return
-::È::
-    Send, È
-return
-::ỳ::
-    Send, ỳ
-return
-::Ỳ::
-    Send, Ỳ
-return
-::ù::
-    Send, ù
-return
-::Ù::
-    Send, Ù
-return
-::ì::
-    Send, ì
-return
-::Ì::
-    Send, Ì
-return
-::ò::
-    Send, ò
-return
-::Ò::
-    Send, Ò
-return
-::à::
-    Send, à
-return
 ::À::
     Send, À
-return
-::ȅ::
-    Send, ȅ
-return
-::Ȅ::
-    Send, Ȅ
-return
-::ȕ::
-    Send, ȕ
-return
-::Ȕ::
-    Send, Ȕ
-return
-::ȉ::
-    Send, ȉ
-return
-::Ȉ::
-    Send, Ȉ
-return
-::ȍ::
-    Send, ȍ
-return
-::Ȍ::
-    Send, Ȍ
-return
-::ȁ::
-    Send, ȁ
-return
-::Ȁ::
-    Send, Ȁ
-return
-::ẽ::
-    Send, ẽ
-return
-::Ẽ::
-    Send, Ẽ
-return
-::ỹ::
-    Send, ỹ
-return
-::Ỹ::
-    Send, Ỹ
-return
-::ũ::
-    Send, ũ
-return
-::Ũ::
-    Send, Ũ
-return
-::ĩ::
-    Send, ĩ
-return
-::Ĩ::
-    Send, Ĩ
-return
-::õ::
-    Send, õ
-return
-::Õ::
-    Send, Õ
-return
-::ã::
-    Send, ã
-return
-::Ã::
-    Send, Ã
-return
-::ṽ::
-    Send, ṽ
-return
-::Ṽ::
-    Send, Ṽ
-return
-::ñ::
-    Send, ñ
-return
-::Ñ::
-    Send, Ñ
-return
-::ȇ::
-    Send, ȇ
-return
-::Ȇ::
-    Send, Ȇ
-return
-::ȓ::
-    Send, ȓ
-return
-::Ȓ::
-    Send, Ȓ
-return
-::ȗ::
-    Send, ȗ
-return
-::Ȗ::
-    Send, Ȗ
-return
-::ȋ::
-    Send, ȋ
-return
-::Ȋ::
-    Send, Ȋ
-return
-::ȏ::
-    Send, ȏ
-return
-::Ȏ::
-    Send, Ȏ
-return
-::ȃ::
-    Send, ȃ
-return
-::Ȃ::
-    Send, Ȃ
-return
-::ĕ::
-    Send, ĕ
-return
-::Ĕ::
-    Send, Ĕ
-return
-::ŭ::
-    Send, ŭ
-return
-::Ŭ::
-    Send, Ŭ
-return
-::ĭ::
-    Send, ĭ
-return
-::Ĭ::
-    Send, Ĭ
-return
-::ŏ::
-    Send, ŏ
-return
-::Ŏ::
-    Send, Ŏ
-return
-::ă::
-    Send, ă
-return
-::Ă::
-    Send, Ă
-return
-::ê::
-    Send, ê
-return
-::Ê::
-    Send, Ê
-return
-::ŷ::
-    Send, ŷ
-return
-::Ŷ::
-    Send, Ŷ
-return
-::û::
-    Send, û
-return
-::Û::
-    Send, Û
-return
-::î::
-    Send, î
-return
-::Î::
-    Send, Î
-return
-::ô::
-    Send, ô
-return
-::Ô::
-    Send, Ô
-return
-::â::
-    Send, â
-return
-::Â::
-    Send, Â
-return
-::ŝ::
-    Send, ŝ
-return
-::Ŝ::
-    Send, Ŝ
-return
-::ĝ::
-    Send, ĝ
-return
-::Ĝ::
-    Send, Ĝ
-return
-::ĥ::
-    Send, ĥ
-return
-::Ĥ::
-    Send, Ĥ
-return
-::ĵ::
-    Send, ĵ
-return
-::Ĵ::
-    Send, Ĵ
-return
-::ĉ::
-    Send, ĉ
-return
-::Ĉ::
-    Send, Ĉ
-return
-::ě::
-    Send, ě
-return
-::Ě::
-    Send, Ě
-return
-::ř::
-    Send, ř
-return
-::Ř::
-    Send, Ř
-return
-::ť::
-    Send, ť
-return
-::Ť::
-    Send, Ť
-return
-::ǔ::
-    Send, ǔ
-return
-::Ǔ::
-    Send, Ǔ
-return
-::ǐ::
-    Send, ǐ
-return
-::Ǐ::
-    Send, Ǐ
-return
-::ǒ::
-    Send, ǒ
-return
-::Ǒ::
-    Send, Ǒ
-return
-::ǎ::
-    Send, ǎ
-return
-::Ǎ::
-    Send, Ǎ
-return
-::š::
-    Send, š
-return
-::Š::
-    Send, Š
-return
-::ď::
-    Send, ď
-return
-::Ď::
-    Send, Ď
-return
-::ǧ::
-    Send, ǧ
-return
-::Ǧ::
-    Send, Ǧ
-return
-::ľ::
-    Send, ľ
-return
-::Ľ::
-    Send, Ľ
-return
-::ž::
-    Send, ž
-return
-::Ž::
-    Send, Ž
-return
-::č::
-    Send, č
-return
-::Č::
-    Send, Č
-return
-::ň::
-    Send, ň
-return
-::Ň::
-    Send, Ň
-return
-::ẘ::
-    Send, ẘ
-return
-::W̊::
-    Send, W̊
-return
-::ẙ::
-    Send, ẙ
-return
-::Y̊::
-    Send, Y̊
-return
-::ů::
-    Send, ů
-return
-::Ů::
-    Send, Ů
-return
-::å::
-    Send, å
-return
-::Å::
-    Send, Å
-return
-::ē::
-    Send, ē
-return
-::Ē::
-    Send, Ē
-return
-::ȳ::
-    Send, ȳ
-return
-::Ȳ::
-    Send, Ȳ
-return
-::ū::
-    Send, ū
-return
-::Ū::
-    Send, Ū
-return
-::ī::
-    Send, ī
-return
-::Ī::
-    Send, Ī
-return
-::ō::
-    Send, ō
-return
-::Ō::
-    Send, Ō
-return
-::ā::
-    Send, ā
-return
-::Ā::
-    Send, Ā
-return
-::ë::
-    Send, ë
-return
-::Ë::
-    Send, Ë
-return
-::ÿ::
-    Send, ÿ
-return
-::Ÿ::
-    Send, Ÿ
-return
-::ü::
-    Send, ü
-return
-::Ü::
-    Send, Ü
-return
-::ï::
-    Send, ï
-return
-::Ï::
-    Send, Ï
-return
-::ö::
-    Send, ö
-return
-::Ö::
-    Send, Ö
-return
-::ä::
-    Send, ä
-return
-::Ä::
-    Send, Ä
-return
-::ϊ::
-    Send, ϊ
-return
-::Ϊ::
-    Send, Ϊ
-return
-::é::
-    Send, é
-return
-::É::
-    Send, É
-return
-::ŕ::
-    Send, ŕ
-return
-::Ŕ::
-    Send, Ŕ
-return
-::ý::
-    Send, ý
-return
-::Ý::
-    Send, Ý
-return
-::ú::
-    Send, ú
-return
-::Ú::
-    Send, Ú
-return
-::í::
-    Send, í
-return
-::Í::
-    Send, Í
-return
-::ó::
-    Send, ó
-return
-::Ó::
-    Send, Ó
-return
-::á::
-    Send, á
 return
 ::Á::
     Send, Á
 return
-::ś::
-    Send, ś
+::Â::
+    Send, Â
 return
-::Ś::
-    Send, Ś
+::Ã::
+    Send, Ã
 return
-::ĺ::
-    Send, ĺ
+::Ä::
+    Send, Ä
 return
-::Ĺ::
-    Send, Ĺ
-return
-::ć::
-    Send, ć
-return
-::Ć::
-    Send, Ć
-return
-::ń::
-    Send, ń
-return
-::Ń::
-    Send, Ń
-return
-::ά::
-    Send, ά
-return
-::Ά::
-    Send, Ά
-return
-::έ::
-    Send, έ
-return
-::Έ::
-    Send, Έ
-return
-::ή::
-    Send, ή
-return
-::Ή::
-    Send, Ή
-return
-::ί::
-    Send, ί
-return
-::Ί::
-    Send, Ί
-return
-::ό::
-    Send, ό
-return
-::Ό::
-    Send, Ό
-return
-::ύ::
-    Send, ύ
-return
-::Ύ::
-    Send, Ύ
-return
-::ώ::
-    Send, ώ
-return
-::Ώ::
-    Send, Ώ
-return
-::ű::
-    Send, ű
-return
-::Ű::
-    Send, Ű
-return
-::ő::
-    Send, ő
-return
-::Ő::
-    Send, Ő
-return
-::ş::
-    Send, ş
-return
-::Ş::
-    Send, Ş
-return
-::ç::
-    Send, ç
+::Å::
+    Send, Å
 return
 ::Ç::
     Send, Ç
 return
-::ę::
-    Send, ę
+::È::
+    Send, È
 return
-::Ę::
-    Send, Ę
+::É::
+    Send, É
 return
-::ų::
-    Send, ų
+::Ê::
+    Send, Ê
 return
-::Ų::
-    Send, Ų
+::Ë::
+    Send, Ë
 return
-::į::
-    Send, į
+::Ì::
+    Send, Ì
 return
-::Į::
-    Send, Į
+::Í::
+    Send, Í
 return
-::ǫ::
-    Send, ǫ
+::Î::
+    Send, Î
 return
-::Ǫ::
-    Send, Ǫ
+::Ï::
+    Send, Ï
 return
-::ą::
-    Send, ą
+::Ñ::
+    Send, Ñ
+return
+::Ò::
+    Send, Ò
+return
+::Ó::
+    Send, Ó
+return
+::Ô::
+    Send, Ô
+return
+::Õ::
+    Send, Õ
+return
+::Ö::
+    Send, Ö
+return
+::Ù::
+    Send, Ù
+return
+::Ú::
+    Send, Ú
+return
+::Û::
+    Send, Û
+return
+::Ü::
+    Send, Ü
+return
+::Ý::
+    Send, Ý
+return
+::à::
+    Send, à
+return
+::á::
+    Send, á
+return
+::â::
+    Send, â
+return
+::ã::
+    Send, ã
+return
+::ä::
+    Send, ä
+return
+::å::
+    Send, å
+return
+::ç::
+    Send, ç
+return
+::è::
+    Send, è
+return
+::é::
+    Send, é
+return
+::ê::
+    Send, ê
+return
+::ë::
+    Send, ë
+return
+::ì::
+    Send, ì
+return
+::í::
+    Send, í
+return
+::î::
+    Send, î
+return
+::ï::
+    Send, ï
+return
+::ñ::
+    Send, ñ
+return
+::ò::
+    Send, ò
+return
+::ó::
+    Send, ó
+return
+::ô::
+    Send, ô
+return
+::õ::
+    Send, õ
+return
+::ö::
+    Send, ö
+return
+::ù::
+    Send, ù
+return
+::ú::
+    Send, ú
+return
+::û::
+    Send, û
+return
+::ü::
+    Send, ü
+return
+::ý::
+    Send, ý
+return
+::ÿ::
+    Send, ÿ
+return
+::Ā::
+    Send, Ā
+return
+::ā::
+    Send, ā
+return
+::Ă::
+    Send, Ă
+return
+::ă::
+    Send, ă
 return
 ::Ą::
     Send, Ą
 return
-::ḁ::
-    Send, ḁ
+::ą::
+    Send, ą
 return
-::Ḁ::
-    Send, Ḁ
+::Ć::
+    Send, Ć
 return
-::l̴::
-    Send, ɫ
+::ć::
+    Send, ć
 return
-::L̴::
-    Send, Ɫ
+::Ĉ::
+    Send, Ĉ
 return
-::ṳ::
-    Send, ṳ
+::ĉ::
+    Send, ĉ
 return
-::Ṳ::
-    Send, Ṳ
+::Č::
+    Send, Č
 return
-::ḛ::
-    Send, ḛ
+::č::
+    Send, č
 return
-::Ḛ::
-    Send, Ḛ
+::Ď::
+    Send, Ď
 return
-::ṵ::
-    Send, ṵ
+::ď::
+    Send, ď
 return
-::Ṵ::
-    Send, Ṵ
+::Ē::
+    Send, Ē
 return
-::ḭ::
-    Send, ḭ
+::ē::
+    Send, ē
 return
-::Ḭ::
-    Send, Ḭ
+::Ĕ::
+    Send, Ĕ
+return
+::ĕ::
+    Send, ĕ
+return
+::Ę::
+    Send, Ę
+return
+::ę::
+    Send, ę
+return
+::Ě::
+    Send, Ě
+return
+::ě::
+    Send, ě
+return
+::Ĝ::
+    Send, Ĝ
+return
+::ĝ::
+    Send, ĝ
+return
+::Ĥ::
+    Send, Ĥ
+return
+::ĥ::
+    Send, ĥ
+return
+::Ĩ::
+    Send, Ĩ
+return
+::ĩ::
+    Send, ĩ
+return
+::Ī::
+    Send, Ī
+return
+::ī::
+    Send, ī
+return
+::Ĭ::
+    Send, Ĭ
+return
+::ĭ::
+    Send, ĭ
+return
+::Į::
+    Send, Į
+return
+::į::
+    Send, į
+return
+::Ĵ::
+    Send, Ĵ
+return
+::ĵ::
+    Send, ĵ
+return
+::Ĺ::
+    Send, Ĺ
+return
+::ĺ::
+    Send, ĺ
+return
+::Ľ::
+    Send, Ľ
+return
+::ľ::
+    Send, ľ
+return
+::Ń::
+    Send, Ń
+return
+::ń::
+    Send, ń
+return
+::Ň::
+    Send, Ň
+return
+::ň::
+    Send, ň
+return
+::Ō::
+    Send, Ō
+return
+::ō::
+    Send, ō
+return
+::Ŏ::
+    Send, Ŏ
+return
+::ŏ::
+    Send, ŏ
+return
+::Ő::
+    Send, Ő
+return
+::ő::
+    Send, ő
+return
+::Ŕ::
+    Send, Ŕ
+return
+::ŕ::
+    Send, ŕ
+return
+::Ř::
+    Send, Ř
+return
+::ř::
+    Send, ř
+return
+::Ś::
+    Send, Ś
+return
+::ś::
+    Send, ś
+return
+::Ŝ::
+    Send, Ŝ
+return
+::ŝ::
+    Send, ŝ
+return
+::Ş::
+    Send, Ş
+return
+::ş::
+    Send, ş
+return
+::Š::
+    Send, Š
+return
+::š::
+    Send, š
+return
+::Ť::
+    Send, Ť
+return
+::ť::
+    Send, ť
+return
+::Ũ::
+    Send, Ũ
+return
+::ũ::
+    Send, ũ
+return
+::Ū::
+    Send, Ū
+return
+::ū::
+    Send, ū
+return
+::Ŭ::
+    Send, Ŭ
+return
+::ŭ::
+    Send, ŭ
+return
+::Ů::
+    Send, Ů
+return
+::ů::
+    Send, ů
+return
+::Ű::
+    Send, Ű
+return
+::ű::
+    Send, ű
+return
+::Ų::
+    Send, Ų
+return
+::ų::
+    Send, ų
+return
+::Ŷ::
+    Send, Ŷ
+return
+::ŷ::
+    Send, ŷ
+return
+::Ÿ::
+    Send, Ÿ
+return
+::Ž::
+    Send, Ž
+return
+::ž::
+    Send, ž
+return
+::Ǎ::
+    Send, Ǎ
+return
+::ǎ::
+    Send, ǎ
+return
+::Ǐ::
+    Send, Ǐ
+return
+::ǐ::
+    Send, ǐ
+return
+::Ǒ::
+    Send, Ǒ
+return
+::ǒ::
+    Send, ǒ
+return
+::Ǔ::
+    Send, Ǔ
+return
+::ǔ::
+    Send, ǔ
+return
+::Ǧ::
+    Send, Ǧ
+return
+::ǧ::
+    Send, ǧ
+return
+::Ǫ::
+    Send, Ǫ
+return
+::ǫ::
+    Send, ǫ
+return
+::Ȁ::
+    Send, Ȁ
+return
+::ȁ::
+    Send, ȁ
+return
+::Ȃ::
+    Send, Ȃ
+return
+::ȃ::
+    Send, ȃ
+return
+::Ȅ::
+    Send, Ȅ
+return
+::ȅ::
+    Send, ȅ
+return
+::Ȇ::
+    Send, Ȇ
+return
+::ȇ::
+    Send, ȇ
+return
+::Ȉ::
+    Send, Ȉ
+return
+::ȉ::
+    Send, ȉ
+return
+::Ȋ::
+    Send, Ȋ
+return
+::ȋ::
+    Send, ȋ
+return
+::Ȍ::
+    Send, Ȍ
+return
+::ȍ::
+    Send, ȍ
+return
+::Ȏ::
+    Send, Ȏ
+return
+::ȏ::
+    Send, ȏ
+return
+::Ȓ::
+    Send, Ȓ
+return
+::ȓ::
+    Send, ȓ
+return
+::Ȕ::
+    Send, Ȕ
+return
+::ȕ::
+    Send, ȕ
+return
+::Ȗ::
+    Send, Ȗ
+return
+::ȗ::
+    Send, ȗ
+return
+::Ȳ::
+    Send, Ȳ
+return
+::ȳ::
+    Send, ȳ
 return
 ::ə˞::
     Send, ɚ
@@ -642,6 +522,120 @@ return
 return
 ::Ɜ˞::
     Send, ɝ
+return
+::l̴::
+    Send, ɫ
+return
+::Ά::
+    Send, Ά
+return
+::Έ::
+    Send, Έ
+return
+::Ή::
+    Send, Ή
+return
+::Ί::
+    Send, Ί
+return
+::Ό::
+    Send, Ό
+return
+::Ύ::
+    Send, Ύ
+return
+::Ώ::
+    Send, Ώ
+return
+::Ϊ::
+    Send, Ϊ
+return
+::ά::
+    Send, ά
+return
+::έ::
+    Send, έ
+return
+::ή::
+    Send, ή
+return
+::ί::
+    Send, ί
+return
+::ϊ::
+    Send, ϊ
+return
+::ό::
+    Send, ό
+return
+::ύ::
+    Send, ύ
+return
+::ώ::
+    Send, ώ
+return
+::Ḁ::
+    Send, Ḁ
+return
+::ḁ::
+    Send, ḁ
+return
+::Ḛ::
+    Send, Ḛ
+return
+::ḛ::
+    Send, ḛ
+return
+::Ḭ::
+    Send, Ḭ
+return
+::ḭ::
+    Send, ḭ
+return
+::Ṳ::
+    Send, Ṳ
+return
+::ṳ::
+    Send, ṳ
+return
+::Ṵ::
+    Send, Ṵ
+return
+::ṵ::
+    Send, ṵ
+return
+::Ṽ::
+    Send, Ṽ
+return
+::ṽ::
+    Send, ṽ
+return
+::ẘ::
+    Send, ẘ
+return
+::ẙ::
+    Send, ẙ
+return
+::Ẽ::
+    Send, Ẽ
+return
+::ẽ::
+    Send, ẽ
+return
+::Ỳ::
+    Send, Ỳ
+return
+::ỳ::
+    Send, ỳ
+return
+::Ỹ::
+    Send, Ỹ
+return
+::ỹ::
+    Send, ỹ
+return
+::L̴::
+    Send, Ɫ
 return
 
 #InputLevel, 1

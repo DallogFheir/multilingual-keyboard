@@ -1,16 +1,16 @@
 ﻿; Punctuation marks
 ; Various punctuation marks.
-!=::
-    Send, — ; em dash
-return
 !+=::
     Send, – ; en dash
 return
-::"d\::
-    Send, „ ; double low quotation mark (left)
+!=::
+    Send, — ; em dash
 return
 ::"u\::
     Send, ” ; double quotation mark (right)
+return
+::"d\::
+    Send, „ ; double low quotation mark (left)
 return
 !+,::
     Send, ⟨ ; angle bracket (left)

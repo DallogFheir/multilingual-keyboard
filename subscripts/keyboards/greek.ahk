@@ -1,153 +1,153 @@
 ﻿; Greek
 ; The Greek alphabet.
 ; UPPERCASE
-e::
-    Send, ε ; epsilon
-return
-+e::
-    Send, Ε
-return
-r::
-    Send, ρ ; rho
-return
-+r::
-    Send, Ρ
-return
-t::
-    Send, τ ; tau
-return
-+t::
-    Send, Τ
-return
-!t::
-    Send, θ ; theta
-return
-!+t::
-    Send, Θ
-return
-u::
-    Send, υ ; upsilon
-return
-+u::
-    Send, Υ
-return
-i::
-    Send, ι ; iota
-return
-+i::
-    Send, Ι
-return
-!i::
-    Send, η ; eta
-return
-!+i::
-    Send, Η
-return
-o::
-    Send, ο ; omicron
-return
-+o::
-    Send, Ο
-return
-!o::
-    Send, ω ; omega
-return
-!+o::
-    Send, Ω
-return
-p::
-    Send, π ; pi
-return
-+p::
-    Send, Π
-return
-!p::
-    Send, ψ ; psi
-return
-!+p::
-    Send, Ψ
-return
 a::
-    Send, α ; alpha
+    Send, α ; _alpha_
 return
 +a::
     Send, Α
 return
-s::
-    Send, σ ; sigma
+v::
+    Send, β ; _beta_
 return
-+s::
-    Send, Σ
-return
-!s::
-    Send, ς ; sigma (final)
-return
-!+s::
-    Send, Σ
-return
-d::
-    Send, δ ; delta
-return
-+d::
-    Send, Δ
-return
-f::
-    Send, φ ; phi
-return
-+f::
-    Send, Φ
++v::
+    Send, Β
 return
 g::
-    Send, γ ; gamma
+    Send, γ ; _gamma_
 return
 +g::
     Send, Γ
 return
-h::
-    Send, χ ; chi
+d::
+    Send, δ ; _delta_
 return
-+h::
-    Send, Χ
++d::
+    Send, Δ
+return
+e::
+    Send, ε ; _epsilon_
+return
++e::
+    Send, Ε
+return
+z::
+    Send, ζ ; _zeta_
+return
++z::
+    Send, Ζ
+return
+!i::
+    Send, η ; _eta_
+return
+!+i::
+    Send, Η
+return
+!t::
+    Send, θ ; _theta_
+return
+!+t::
+    Send, Θ
+return
+i::
+    Send, ι ; _iota_
+return
++i::
+    Send, Ι
 return
 k::
-    Send, κ ; kappa
+    Send, κ ; _kappa_
 return
 +k::
     Send, Κ
 return
 l::
-    Send, λ ; lambda
+    Send, λ ; _lambda_
 return
 +l::
     Send, Λ
 return
-z::
-    Send, ζ ; zeta
+m::
+    Send, μ ; _mu_
 return
-+z::
-    Send, Ζ
-return
-x::
-    Send, ξ ; xi
-return
-+x::
-    Send, Ξ
-return
-v::
-    Send, β ; beta
-return
-+v::
-    Send, Β
++m::
+    Send, Μ
 return
 n::
-    Send, ν ; nu
+    Send, ν ; _nu_
 return
 +n::
     Send, Ν
 return
-m::
-    Send, μ ; mu
+x::
+    Send, ξ ; _xi_
 return
-+m::
-    Send, Μ
++x::
+    Send, Ξ
+return
+o::
+    Send, ο ; _omicron_
+return
++o::
+    Send, Ο
+return
+p::
+    Send, π ; _pi_
+return
++p::
+    Send, Π
+return
+r::
+    Send, ρ ; _rho_
+return
++r::
+    Send, Ρ
+return
+!s::
+    Send, ς ; _sigma_ (final)
+return
+s::
+    Send, σ ; _sigma_
+return
++s::
+    Send, Σ
+return
+!+s::
+    Send, Σ
+return
+t::
+    Send, τ ; _tau_
+return
++t::
+    Send, Τ
+return
+u::
+    Send, υ ; _upsilon_
+return
++u::
+    Send, Υ
+return
+f::
+    Send, φ ; _phi_
+return
++f::
+    Send, Φ
+return
+h::
+    Send, χ ; _chi_
+return
++h::
+    Send, Χ
+return
+!p::
+    Send, ψ ; _psi_
+return
+!+p::
+    Send, Ψ
+return
+!o::
+    Send, ω ; _omega_
+return
+!+o::
+    Send, Ω
 return

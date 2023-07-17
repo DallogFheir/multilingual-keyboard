@@ -7,7 +7,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 ; AUTO-EXECUTE SECTION
 keyboard := "default"
 curIcon := "default"
-Menu, Tray, Icon, icons\language_specific\default.ico
+Menu, Tray, Icon, icons\keyboards\default.ico
 
 ; * = without ending char, ? = inside another string
 #Hotstring * ?
@@ -19,31 +19,31 @@ Menu, Tray, Icon, icons\language_specific\default.ico
 !+1::
     keyboard := "default"
     curIcon := "default"
-    Menu, Tray, Icon, icons\language_specific\default.ico
+    Menu, Tray, Icon, icons\keyboards\default.ico
 return
 
 !+2::
     keyboard := "cyrillic"
     curIcon := "cyrillic"
-    Menu, Tray, Icon, icons\language_specific\cyrillic.ico
+    Menu, Tray, Icon, icons\keyboards\cyrillic.ico
 return
 
 !+3::
     keyboard := "greek"
     curIcon := "greek"
-    Menu, Tray, Icon, icons\language_specific\greek.ico
+    Menu, Tray, Icon, icons\keyboards\greek.ico
 return
 
 !+4::
     keyboard := "ipa"
     curIcon := "ipa"
-    Menu, Tray, Icon, icons\language_specific\ipa.ico
+    Menu, Tray, Icon, icons\keyboards\ipa.ico
 return
 
 !+5::
     keyboard := "flag"
     curIcon := "flag"
-    Menu, Tray, Icon, icons\language_specific\flag.ico
+    Menu, Tray, Icon, icons\keyboards\flag.ico
 return
 
 ; INTERNATIONAL KEYBOARD

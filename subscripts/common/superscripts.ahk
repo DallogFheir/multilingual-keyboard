@@ -1,32 +1,32 @@
 ﻿; Superscripts
 ; Superscript characters.
-::sup0\::
-    Send, ⁰ ; 0 (superscript)
-return
-::sup1\::
-    Send, ¹ ; 1 (superscript)
-return
 ::sup2\::
-    Send, ² ; 2 (superscript)
+    Send, ² ; _2_ (superscript)
 return
 ::sup3\::
-    Send, ³ ; 3 (superscript)
+    Send, ³ ; _3_ (superscript)
+return
+::sup1\::
+    Send, ¹ ; _1_ (superscript)
+return
+::sup0\::
+    Send, ⁰ ; _0_ (superscript)
 return
 ::sup4\::
-    Send, ⁴ ; 4 (superscript)
+    Send, ⁴ ; _4_ (superscript)
 return
 ::sup5\::
-    Send, ⁵ ; 5 (superscript)
+    Send, ⁵ ; _5_ (superscript)
 return
 ::sup6\::
-    Send, ⁶ ; 6 (superscript)
+    Send, ⁶ ; _6_ (superscript)
 return
 ::sup7\::
-    Send, ⁷ ; 7 (superscript)
+    Send, ⁷ ; _7_ (superscript)
 return
 ::sup8\::
-    Send, ⁸ ; 8 (superscript)
+    Send, ⁸ ; _8_ (superscript)
 return
 ::sup9\::
-    Send, ⁹ ; 9 (superscript)
+    Send, ⁹ ; _9_ (superscript)
 return

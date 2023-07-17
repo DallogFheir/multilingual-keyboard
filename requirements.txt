@@ -1,5 +1,6 @@
 click==8.1.5
 colorama==0.4.6
+github-slugger==0.0.3
 linkify-it-py==2.0.2
 markdown-it-py==2.2.0
 mdformat==0.7.16

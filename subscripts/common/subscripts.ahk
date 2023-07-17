@@ -1,32 +1,32 @@
 ﻿; Subscripts
 ; Subscript characters.
 ::sub0\::
-    Send, ₀ ; 0 (subscript)
+    Send, ₀ ; _0_ (subscript)
 return
 ::sub1\::
-    Send, ₁ ; 1 (subscript)
+    Send, ₁ ; _1_ (subscript)
 return
 ::sub2\::
-    Send, ₂ ; 2 (subscript)
+    Send, ₂ ; _2_ (subscript)
 return
 ::sub3\::
-    Send, ₃ ; 3 (subscript)
+    Send, ₃ ; _3_ (subscript)
 return
 ::sub4\::
-    Send, ₄ ; 4 (subscript)
+    Send, ₄ ; _4_ (subscript)
 return
 ::sub5\::
-    Send, ₅ ; 5 (subscript)
+    Send, ₅ ; _5_ (subscript)
 return
 ::sub6\::
-    Send, ₆ ; 6 (subscript)
+    Send, ₆ ; _6_ (subscript)
 return
 ::sub7\::
-    Send, ₇ ; 7 (subscript)
+    Send, ₇ ; _7_ (subscript)
 return
 ::sub8\::
-    Send, ₈ ; 8 (subscript)
+    Send, ₈ ; _8_ (subscript)
 return
 ::sub9\::
-    Send, ₉ ; 9 (subscript)
+    Send, ₉ ; _9_ (subscript)
 return

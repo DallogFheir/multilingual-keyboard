@@ -1,14 +1,14 @@
 ﻿; Cards
 ; Symbols representing cards and card suits.
-::diamonds\::
-    Send, ♦ ; diamonds
-return
 ::spades\::
     Send, ♠ ; spades
+return
+::clubs\::
+    Send, ♣ ; clubs
 return
 ::hearts\::
     Send, ♥ ; hearts
 return
-::clubs\::
-    Send, ♣ ; clubs
+::diamonds\::
+    Send, ♦ ; diamonds
 return
