@@ -1,30 +1,32 @@
-﻿::-+\::
-    Send, ∓
+﻿; Mathematics
+; Various mathematical symbols.
+::-+\::
+    Send, ∓ ; minus plus
 return
 ::=/=::
-    Send, ≠
+    Send, ≠ ; not equal
 return
 ::+-\::
-    Send, ±
+    Send, ± ; plus minus
 return
 ::empty\::
-    Send, ∅
+    Send, ∅ ; empty set
 return
 ::infty\::
-    Send, ∞
+    Send, ∞ ; infinity
 return
 ::sqrt\::
-    Send, √
+    Send, √ ; square root
 return
 ::x\::
-    Send, ×
+    Send, × ; multiplication sign
 return
 ::cdot\::
-    Send, ⋅
+    Send, ⋅ ; multiplication dot 
 return
 ::<<\::
-    Send, ≪
+    Send, ≪ ; much less than
 return
 ::>>\::
-    Send, ≫
+    Send, ≫ ; much greater than
 return

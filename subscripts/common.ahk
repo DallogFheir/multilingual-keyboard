@@ -6,6 +6,6 @@
 #include subscripts/common/math.ahk
 #include subscripts/common/music.ahk
 #include subscripts/common/other.ahk
+#include subscripts/common/punctuation_marks.ahk
 #include subscripts/common/subscripts.ahk
 #include subscripts/common/superscripts.ahk
-#include subscripts/common/typography.ahk

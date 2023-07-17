@@ -1,6 +1,6 @@
 ﻿::#\::
-    Send, ♯
+    Send, ♯ ; sharp
 return
 ::b\::
-    Send, ♭
+    Send, ♭ ; flat
 return
