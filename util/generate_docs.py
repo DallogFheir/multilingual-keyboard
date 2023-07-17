@@ -154,11 +154,7 @@ def generate_docs() -> None:
                     if len(table) > 0:
                         subsection_slug = slugger.slug(subsection_title)
                         links = dedent(
-                            f"""\
-                                ⬆️ [go back to top](#multilingual-keyboard)
-                                ⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-                                ⬆️ [go back to {title}](#{section_slug})
-                                ⬆️ [go back to {subsection_title}](#{subsection_slug})"""
+                            f"⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [{title}](#{section_slug}) | [{subsection_title}](#{subsection_slug}) ⬆️"
                         )
 
                         subsections.append(

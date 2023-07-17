@@ -1,25 +1,6 @@
 # Multilingual Keyboard
 
-## Table of contents
-
-- [Hotkeys \& hotstrings](#hotkeys--hotstrings)
-  - [Keyboards](#keyboards)
-    - [Cyrillic](#cyrillic)
-    - [Default](#default)
-    - [Flags](#flags)
-    - [Greek](#greek)
-    - [IPA](#ipa)
-  - [Common](#common)
-    - [Cards](#cards)
-    - [Diacritics](#diacritics)
-    - [Letters](#letters)
-    - [Logic](#logic)
-    - [Mathematics](#mathematics)
-    - [Music](#music)
-    - [Other](#other)
-    - [Punctuation marks](#punctuation-marks)
-    - [Subscripts](#subscripts)
-    - [Superscripts](#superscripts)
+description here
 
 ## Hotkeys & hotstrings
 
@@ -68,10 +49,7 @@ The Cyrillic alphabet.
 |   ї    |     Ї     | `U+0457` / `U+0407` |       _yi_       |    `Alt` + `o`     |
 |   ґ    |     Ґ     | `U+0491` / `U+0490` | _ge_ with upturn |    `Alt` + `g`     |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Keyboards](#keyboards)
-⬆️ [go back to Cyrillic](#cyrillic)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Cyrillic](#cyrillic) ⬆️
 
 #### Default
 
@@ -93,10 +71,7 @@ Default keyboard.
 |   ъ    |     Ъ     | `U+044A` / `U+042A` |    hard sign     |    `Alt` + `w`     |
 |   ь    |     Ь     | `U+044C` / `U+042C` |    soft sign     |    `Alt` + `q`     |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Keyboards](#keyboards)
-⬆️ [go back to Default](#default)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Default](#default) ⬆️
 
 #### Flags
 
@@ -131,10 +106,7 @@ The regional indicator symbols that can be combined into flag emojis.
 |   🇾   | `U+1F1FE` | _Y_ (regional indicator symbol) |        `y`         |
 |   🇿   | `U+1F1FF` | _Z_ (regional indicator symbol) |        `z`         |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Keyboards](#keyboards)
-⬆️ [go back to Flags](#flags)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Flags](#flags) ⬆️
 
 #### Greek
 
@@ -168,10 +140,7 @@ The Greek alphabet.
 |   ψ    |     Ψ     | `U+03C8` / `U+03A8` |      _psi_      |    `Alt` + `p`     |
 |   ω    |     Ω     | `U+03C9` / `U+03A9` |     _omega_     |    `Alt` + `o`     |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Keyboards](#keyboards)
-⬆️ [go back to Greek](#greek)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Greek](#greek) ⬆️
 
 #### IPA
 
@@ -321,10 +290,7 @@ The International Phonetic Alphabet.
 |   ꜛ    | `U+A71B` |                    upstep                    |       `Shift` + `.`        |
 |   ꜜ    | `U+A71C` |                   downstep                   |       `Shift` + `,`        |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Keyboards](#keyboards)
-⬆️ [go back to IPA](#ipa)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [IPA](#ipa) ⬆️
 
 ### Common
 
@@ -339,10 +305,7 @@ Symbols representing cards and card suits.
 |   ♥    | `U+2665` |   hearts    |     `hearts\`      |
 |   ♦    | `U+2666` |  diamonds   |    `diamonds\`     |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Cards](#cards)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Cards](#cards) ⬆️
 
 #### Diacritics
 
@@ -366,10 +329,7 @@ Combining diacritical marks.
 |   ◌̨    | `U+0328` |     ogonek     |        `Alt` + `.`        |
 |   ◌    | `U+25CC` | dotted circle  |         `circle\`         |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Diacritics](#diacritics)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Diacritics](#diacritics) ⬆️
 
 #### Letters
 
@@ -380,10 +340,7 @@ Miscellaneous letters.
 |   œ    | `U+0153` |           _oe_           |       `oe\`        |
 |   ʾ    | `U+02BE` | letter half ring (right) |       `''\`        |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Letters](#letters)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Letters](#letters) ⬆️
 
 #### Logic
 
@@ -395,10 +352,7 @@ Symbols used in mathematical logic.
 |   ∧    | `U+2227` | conjunction (logical _AND_) |       `and\`       |
 |   ∨    | `U+2228` | disjunction (logical _OR_)  |       `or\`        |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Logic](#logic)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Logic](#logic) ⬆️
 
 #### Mathematics
 
@@ -417,10 +371,7 @@ Various mathematical symbols.
 |   ≫    | `U+226B` |  much greater than  |       `>>\`        |
 |   ⋅    | `U+22C5` | multiplication dot  |      `cdot\`       |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Mathematics](#mathematics)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Mathematics](#mathematics) ⬆️
 
 #### Music
 
@@ -431,10 +382,7 @@ Symbols used in musical notation.
 |   ♭    | `U+266D` |    flat     |        `b\`        |
 |   ♯    | `U+266F` |    sharp    |        `#\`        |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Music](#music)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Music](#music) ⬆️
 
 #### Other
 
@@ -448,10 +396,7 @@ Other symbols.
 |   →    | `U+2192` | arrow (right) |       `->\`        |
 |   ✓    | `U+2713` |  check mark   |        `v\`        |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Other](#other)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Other](#other) ⬆️
 
 #### Punctuation marks
 
@@ -466,10 +411,7 @@ Various punctuation marks.
 |   ⟨    | `U+27E8` |       angle bracket (left)       | `Alt` + `Shift` + `,` |
 |   ⟩    | `U+27E9` |      angle bracket (right)       | `Alt` + `Shift` + `.` |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Punctuation marks](#punctuation-marks)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Punctuation marks](#punctuation-marks) ⬆️
 
 #### Subscripts
 
@@ -488,10 +430,7 @@ Subscript characters.
 |   ₈    | `U+2088` | _8_ (subscript) |      `sub8\`       |
 |   ₉    | `U+2089` | _9_ (subscript) |      `sub9\`       |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Subscripts](#subscripts)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Subscripts](#subscripts) ⬆️
 
 #### Superscripts
 
@@ -510,7 +449,4 @@ Superscript characters.
 |   ⁸    | `U+2078` | _8_ (superscript) |      `sup8\`       |
 |   ⁹    | `U+2079` | _9_ (superscript) |      `sup9\`       |
 
-⬆️ [go back to top](#multilingual-keyboard)
-⬆️ [go back to Hotkeys & hotstrings](#hotstrings--hotkeys)
-⬆️ [go back to Common](#common)
-⬆️ [go back to Superscripts](#superscripts)
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Superscripts](#superscripts) ⬆️
