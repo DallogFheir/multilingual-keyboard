@@ -1,6 +1,8 @@
-﻿::oe\::
-    Send, œ
+﻿; Letters
+; Miscellaneous letters.
+::oe\::
+    Send, œ ; oe
 return
 ::''\::
-    Send, ʾ
+    Send, ʾ ; letter half ring (right)
 return

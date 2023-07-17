@@ -1,42 +1,44 @@
-﻿!`::
-    Send, ̀
+﻿; Diacritics
+; Combining diacritical marks.
+!`::
+    Send, ̀ ; grave
 return
 !+`::
-    Send, ̏
+    Send, ̏ ; double grave
 return
 !1::
-    Send, ̃
+    Send, ̃ ; tilde
 return
 !4::
-    Send, ̑
+    Send, ̑ ; inverted breve
 return
 !5::
-    Send, ̆
+    Send, ̆ ; breve
 return
 !6::
-    Send, ̂
+    Send, ̂ ; circumflex
 return
 !7::
-    Send, ̌
+    Send, ̌ ; caron
 return
 !0::
-    Send, ̊
+    Send, ̊ ; overring
 return
 !-::
-    Send, ̄
+    Send, ̄ ; macron
 return
-!`;::
-Send, ̈
+!;::
+Send, ̈ ; diaeresis
 return
 !'::
-    Send, ́
+    Send, ́ ; acute
 return
 !+'::
-    Send, ̋
+    Send, ̋ ; double accute
 return
 !,::
-    Send, ̧
+    Send, ̧ ; cedilla
 return
 !.::
-    Send, ̨
+    Send, ̨ ; ogonek
 return

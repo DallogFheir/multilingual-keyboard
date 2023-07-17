@@ -1,15 +1,17 @@
-﻿::->\::
-    Send, →
+﻿; Other
+; Other symbols.
+::->\::
+    Send, → ; arrow (right)
 return
 ::tm\::
-    Send, ™
+    Send, ™ ; trademark
 return
 ::deg\::
-    Send, °
+    Send, ° ; degree
 return
 ::c\::
-    Send, ©
+    Send, © ; copyright
 return
 ::v\::
-    Send, ✓
+    Send, ✓ ; check mark
 return

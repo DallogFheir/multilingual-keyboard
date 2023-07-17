@@ -1,42 +1,56 @@
-from collections import namedtuple
 from pathlib import Path
 import re
 from textwrap import dedent
+import mdformat
 
 INTRO = """# Multilingual Keyboard
 
 description here
 
-# Hotkeys & hotstrings
+## Hotkeys & hotstrings
 
 """
 
-TABLE_HEADER = "| Symbol{} | Description{} | Hotstring / hotkey{} |"
-TABLE_SEPARATOR = "| {} | {} | {} |"
+SYMBOL = "Symbol"
+DESCRIPTION = "Description"
+HOTSTRING_HOTKEY = "Hotstring / hotkey"
+UPPERCASE = "Uppercase"
 
-TableRow = namedtuple("TableRow", ["symbol", "description", "hotkey"])
+TABLE_HEADERS = [SYMBOL, DESCRIPTION, HOTSTRING_HOTKEY]
+TABLE_HEADERS_UPPERCASE = [SYMBOL, UPPERCASE, DESCRIPTION, HOTSTRING_HOTKEY]
+
+COMBINING_DIACRITIC_RANGE = (768, 879)
+DIACRITIC_PLACEHOLDER = "◌"
 
 
-def generate_table(script_lines):
-    rows = []
-    max_length_symbol = 6
-    max_length_description = 11
-    max_length_hotkey = 18
-    for i in range(0, len(script_lines), 3):
-        hotkey = script_lines[i]
-        symbol_with_description = script_lines[i + 1]
+def generate_table(script, with_uppercase=False):
+    rows = {}
 
-        # parse the returned symbol and description
-        rematch = re.fullmatch(r"\s*Send, (.+?)(?: ; (.+))?", symbol_with_description)
-        if rematch is None:
+    for rule_match in re.findall(
+        r"^(.+?)::.*?Send, (.+?)(?: ; (.+?))?\nreturn$",
+        script,
+        re.DOTALL | re.MULTILINE,
+    ):
+        hotkey, symbol, description = rule_match
+
+        if len(description) == 0:
+            hotkey_uppercase = hotkey.replace("+", "", 1).removesuffix("::")
+            if (
+                with_uppercase
+                and re.match(r"^(!)?\+", hotkey) is not None
+                and hotkey_uppercase in rows
+            ):
+                rows[hotkey_uppercase][UPPERCASE] = symbol
+
             continue
 
-        symbol, description = rematch.groups()
-        if description is None:
-            continue
+        # append placeholder to combining diacritics
+        if COMBINING_DIACRITIC_RANGE[0] <= ord(symbol) <= COMBINING_DIACRITIC_RANGE[1]:
+            symbol = DIACRITIC_PLACEHOLDER + symbol
 
         # parse the hotkey / hotstring
         keys = []
+        hotkey_original = hotkey
         if hotkey.startswith("::"):
             hotkey = hotkey.removeprefix("::")
         else:
@@ -44,49 +58,40 @@ def generate_table(script_lines):
                 if hotkey.startswith(key_symbol):
                     keys.append(key)
                     hotkey = hotkey.removeprefix(key_symbol)
+        keys.append(hotkey)
 
-        keys.append(hotkey.removesuffix("::"))
-        keys_string = " + ".join(f"`{key}`" for key in keys)
+        keys_string = " + ".join(
+            f"`` {key} ``" if "`" in key else f"`{key}`" for key in keys
+        )
 
-        if len(symbol) > max_length_symbol:
-            max_length_symbol = len(symbol)
-        if len(description) > max_length_description:
-            max_length_description = len(description)
-        if len(keys_string) > max_length_hotkey:
-            max_length_hotkey = len(keys_string)
-
-        rows.append(TableRow(symbol, description, keys_string))
+        rows[hotkey_original] = {
+            SYMBOL: symbol,
+            UPPERCASE: "",
+            DESCRIPTION: description,
+            HOTSTRING_HOTKEY: keys_string,
+            "hotkey_raw": hotkey,
+        }
 
     if len(rows) == 0:
         return ""
 
-    space_fillers = (
-        " " * (max_length_symbol - 6),
-        " " * (max_length_description - 11),
-        " " * (max_length_hotkey - 18),
-    )
-    hyphen_fillers = (
-        "-" * max_length_symbol,
-        "-" * max_length_description,
-        "-" * max_length_hotkey,
-    )
-    table = [
-        TABLE_HEADER.format(*space_fillers),
-        TABLE_SEPARATOR.format(*hyphen_fillers),
-    ]
+    headers = TABLE_HEADERS_UPPERCASE if with_uppercase else TABLE_HEADERS
+    table = []
 
-    for row in rows:
-        table.append(
-            f"| {row.symbol}{' ' * (max_length_symbol - len(row.symbol))} "
-            f"| {row.description}{' ' * (max_length_description - len(row.description))} "
-            f"| {row.hotkey}{' ' * (max_length_hotkey - len(row.hotkey))} |"
-        )
+    for row in sorted(rows.values(), key=lambda k: k[SYMBOL]):
+        table.append(f"| {' | '.join(row[header] for header in headers)} |")
 
-    return "\n".join(table)
+    return "\n".join(
+        [
+            f"| {' | '.join(header for header in headers)} |",
+            f"| {' | '.join('-' for _ in headers)} |",
+        ]
+        + table
+    )
 
 
 def generate_docs():
-    keyboards_path = Path.cwd() / "subscripts" / "language_scripts"
+    keyboards_path = Path.cwd() / "subscripts" / "keyboards"
     common_path = Path.cwd() / "subscripts" / "common"
 
     sections = []
@@ -103,7 +108,12 @@ def generate_docs():
                 ):
                     subsection_title = script_lines[0].removeprefix("; ")
                     subsection_description = script_lines[1].removeprefix("; ")
-                    table = generate_table(script_lines[2:])
+                    uppercase_flag = script_lines[2].strip() == "; UPPERCASE"
+
+                    table = generate_table(
+                        "\n".join(script_lines[3 if uppercase_flag else 2 :]),
+                        with_uppercase=uppercase_flag,
+                    )
 
                     subsection_template = dedent(
                         """\
@@ -113,17 +123,18 @@ def generate_docs():
                         
                         {}"""
                     )
-                    subsections.append(
-                        subsection_template.format(
-                            subsection_title, subsection_description, table
+                    if len(table) > 0:
+                        subsections.append(
+                            subsection_template.format(
+                                subsection_title, subsection_description, table
+                            )
                         )
-                    )
 
         if len(subsections) > 0:
             subsections_string = "\n\n".join(subsections)
             sections.append(f"""### {title}\n\n{subsections_string}""")
 
-    document = INTRO + "\n\n".join(sections)
+    document = INTRO + "\n\n".join(sections) + "\n"
 
     with open(Path.cwd() / "README.md", "w", encoding="utf-8") as f:
-        f.write(document)
+        f.write(mdformat.text(document, extensions=("gfm",)))

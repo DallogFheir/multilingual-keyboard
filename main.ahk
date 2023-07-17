@@ -49,23 +49,23 @@ return
 ; INTERNATIONAL KEYBOARD
 #Hotstring C
 #If keyboard = "default"
-    #include subscripts\language_scripts\default.ahk
+    #include subscripts\keyboards\default.ahk
 #If
 
 #If keyboard = "cyrillic"
-    #include subscripts\language_scripts\cyrillic.ahk
+    #include subscripts\keyboards\cyrillic.ahk
 #If
 
 #If keyboard = "greek"
-    #include subscripts\language_scripts\greek.ahk
+    #include subscripts\keyboards\greek.ahk
 #If
 
 #If keyboard = "ipa"
-    #include subscripts\language_scripts\ipa.ahk
+    #include subscripts\keyboards\ipa.ahk
 #If
 
 #If keyboard = "flag"
-    #include subscripts\language_scripts\flag.ahk
+    #include subscripts\keyboards\flag.ahk
 #If
 
 #Hotstring C0

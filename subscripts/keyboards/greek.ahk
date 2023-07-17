@@ -1,149 +1,152 @@
-﻿e::
-    Send, ε
+﻿; Greek
+; The Greek alphabet.
+; UPPERCASE
+e::
+    Send, ε ; epsilon
 return
 +e::
     Send, Ε
 return
 r::
-    Send, ρ
+    Send, ρ ; rho
 return
 +r::
     Send, Ρ
 return
 t::
-    Send, τ
+    Send, τ ; tau
 return
 +t::
     Send, Τ
 return
 !t::
-    Send, θ
+    Send, θ ; theta
 return
 !+t::
     Send, Θ
 return
 u::
-    Send, υ
+    Send, υ ; upsilon
 return
 +u::
     Send, Υ
 return
 i::
-    Send, ι
+    Send, ι ; iota
 return
 +i::
     Send, Ι
 return
 !i::
-    Send, η
+    Send, η ; eta
 return
 !+i::
     Send, Η
 return
 o::
-    Send, ο
+    Send, ο ; omicron
 return
 +o::
     Send, Ο
 return
 !o::
-    Send, ω
+    Send, ω ; omega
 return
 !+o::
     Send, Ω
 return
 p::
-    Send, π
+    Send, π ; pi
 return
 +p::
     Send, Π
 return
 !p::
-    Send, ψ
+    Send, ψ ; psi
 return
 !+p::
     Send, Ψ
 return
 a::
-    Send, α
+    Send, α ; alpha
 return
 +a::
     Send, Α
 return
 s::
-    Send, σ
+    Send, σ ; sigma
 return
 +s::
     Send, Σ
 return
 !s::
-    Send, ς
+    Send, ς ; sigma (final)
 return
 !+s::
     Send, Σ
 return
 d::
-    Send, δ
+    Send, δ ; delta
 return
 +d::
     Send, Δ
 return
 f::
-    Send, φ
+    Send, φ ; phi
 return
 +f::
     Send, Φ
 return
 g::
-    Send, γ
+    Send, γ ; gamma
 return
 +g::
     Send, Γ
 return
 h::
-    Send, χ
+    Send, χ ; chi
 return
 +h::
     Send, Χ
 return
 k::
-    Send, κ
+    Send, κ ; kappa
 return
 +k::
     Send, Κ
 return
 l::
-    Send, λ
+    Send, λ ; lambda
 return
 +l::
     Send, Λ
 return
 z::
-    Send, ζ
+    Send, ζ ; zeta
 return
 +z::
     Send, Ζ
 return
 x::
-    Send, ξ
+    Send, ξ ; xi
 return
 +x::
     Send, Ξ
 return
 v::
-    Send, β
+    Send, β ; beta
 return
 +v::
     Send, Β
 return
 n::
-    Send, ν
+    Send, ν ; nu
 return
 +n::
     Send, Ν
 return
 m::
-    Send, μ
+    Send, μ ; mu
 return
 +m::
     Send, Μ

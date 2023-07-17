@@ -1,4 +1,4 @@
-﻿; Logics
+﻿; Logic
 ; Symbols used in mathematical logic.
 ::or\::
     Send, ∨ ; disjunction (logical OR)

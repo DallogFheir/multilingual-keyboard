@@ -1,5 +1,6 @@
 ﻿; Cyrillic
 ; The Cyrillic alphabet.
+; UPPERCASE
 q::
     Send, ь ; soft sign
 return
@@ -151,7 +152,7 @@ return
     Send, Ґ
 return
 h::
-    Send, x ; _kha_
+    Send, х ; _kha_
 return
 +h::
     Send, X
