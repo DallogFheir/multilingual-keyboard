@@ -1,6 +1,5 @@
 ﻿#include subscripts/common/cards.ahk
 #include subscripts/common/diacritics.ahk
-#include subscripts/common/ipa.ahk
 #include subscripts/common/letters.ahk
 #include subscripts/common/logic.ahk
 #include subscripts/common/math.ahk

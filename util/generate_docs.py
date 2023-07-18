@@ -3,14 +3,7 @@ import re
 from textwrap import dedent
 from github_slugger import GithubSlugger
 import mdformat
-
-INTRO = """# Multilingual Keyboard
-
-description here
-
-## Hotkeys & hotstrings
-
-"""
+from .intro import INTRO
 
 SYMBOL = "Symbol"
 UNICODE = "Unicode"
@@ -113,10 +106,11 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
     )
 
 
-def generate_docs() -> None:
+def generate_docs(without_intro: bool) -> None:
     """Generates documentation for the multilingual keyboard project."""
-    keyboards_path = Path.cwd() / "subscripts" / "keyboards"
-    common_path = Path.cwd() / "subscripts" / "common"
+    subscripts_path = Path.cwd() / "src" / "subscripts"
+    keyboards_path = subscripts_path / "keyboards"
+    common_path = subscripts_path / "common"
 
     slugger = GithubSlugger()
     sections = []
@@ -167,7 +161,13 @@ def generate_docs() -> None:
             subsections_string = "\n\n".join(subsections)
             sections.append(f"""### {title}\n\n{subsections_string}""")
 
-    document = INTRO + "\n\n".join(sections) + "\n"
+    document = (
+        "# Multilingual Keyboard\n\n"
+        + ("" if without_intro else INTRO)
+        + ("" if len(sections) == 0 else "## Hotkeys & hotstrings\n\n")
+        + "\n\n".join(sections)
+        + "\n"
+    )
 
     with open(Path.cwd() / "README.md", "w", encoding="utf-8") as f:
         f.write(mdformat.text(document, extensions=("gfm",)))

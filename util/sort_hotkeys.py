@@ -4,8 +4,9 @@ import re
 
 def sort_hotkeys() -> None:
     """Sorts hotkeys in AHK scripts in directories 'common' and 'keyboards' alphabetically (lowercase letters before their uppercase counterparts)."""
-    keyboards_path = Path.cwd() / "subscripts" / "keyboards"
-    common_path = Path.cwd() / "subscripts" / "common"
+    subscripts_path = Path.cwd() / "src" / "subscripts"
+    keyboards_path = subscripts_path / "keyboards"
+    common_path = subscripts_path / "common"
 
     for path in (keyboards_path, common_path):
         for file in path.iterdir():

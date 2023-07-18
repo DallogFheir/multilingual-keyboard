@@ -13,5 +13,6 @@ F2::
     }
 return
 
+; disables changing languages
 #Space::
 return

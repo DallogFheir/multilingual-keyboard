@@ -1,6 +1,44 @@
 # Multilingual Keyboard
 
-description here
+**Multilingual Keyboard** is an Autohotkey application that allows you to easily switch between keyboard layouts of different languages and scripts, and provides hotstrings for a variety of symbols.
+
+## Usage
+
+To use this app, you have to install [AutoHotkey](https://www.autohotkey.com/)
+and download `src` directory from this repository. Then you can just run
+the `main.ahk` file.
+
+The app currently supports 5 keyboard layouts:
+
+1. **default**, containing a variety of common-use symbols, but not modifying any standard keys
+1. **Cyrillic**, containing the letters of the Cyrillic alphabet
+1. **Greek**, containing the letters of the Greek alphabet
+1. **IPA**, containing the symbols of the International Phonetic Alphabet
+1. **flag**, containing the _regional indicator symbols_ used to produce flag emojis
+
+You can switch between keyboards by pressing `Alt` + `Shift` + the keyboard's number, for example `Alt` + `Shift` + `5` for the flag keyboard.
+
+Outside of keyboard layouts, Multilingual Keyboard enables hotstrings used to type various symbols. For example, to get the ♥ symbol, you can type `hearts\`.
+
+The app also automatically converts letters followed by combining diacritics to pre-composed characters, if available.
+
+Below you can find the documentation on available keyboard layouts and hotstrings.
+
+To suspend the app, press `F2`.
+
+## Modification
+
+If you want to modify the app, you should get familiar with AutoHotkey documentation.
+
+Each AHK file should start with 2 lines of comments: the first containing the name of the module, the second - the description. Optionally, on the third line, you can type `; UPPERCASE` to indicate that the module will contain lowercase and uppercase variants of characters.
+
+Each AHK rule consists of the hotkey/hotstring, the `Send` clause, and `return` keyword. You can put a comment after the `Send` clause to describe the replacement symbol. If there is no comment, the symbol will not be included in the auto-generated documentation, unless it's the uppercase variant of another character.
+
+If you want to create a new `common` module, you need to include it in the `common.ahk` file.
+
+If you want to create a new keyboard layout, you need to add a conditional rule to the `main.ahk` file.
+
+Provided for you is a Python script that can generate the documentation (`main.py docs`) and sort hotkeys/hotstrings alphabetically (according to their Unicode code point, but putting lowercase letters before their uppercase counterparts; `main.py sort`). To generate the documentation without this introduction, you can run `main.py docs -w`.
 
 ## Hotkeys & hotstrings
 
@@ -79,32 +117,32 @@ The regional indicator symbols that can be combined into flag emojis.
 
 | Symbol |  Unicode  |           Description           | Hotstring / hotkey |
 | :----: | :-------: | :-----------------------------: | :----------------: |
-|   🇦   | `U+1F1E6` | _A_ (regional indicator symbol) |        `a`         |
-|   🇧   | `U+1F1E7` | _B_ (regional indicator symbol) |        `b`         |
-|   🇨   | `U+1F1E8` | _C_ (regional indicator symbol) |        `c`         |
-|   🇩   | `U+1F1E9` | _D_ (regional indicator symbol) |        `d`         |
-|   🇪   | `U+1F1EA` | _E_ (regional indicator symbol) |        `e`         |
-|   🇫   | `U+1F1EB` | _F_ (regional indicator symbol) |        `f`         |
-|   🇬   | `U+1F1EC` | _G_ (regional indicator symbol) |        `g`         |
-|   🇭   | `U+1F1ED` | _H_ (regional indicator symbol) |        `h`         |
-|   🇮   | `U+1F1EE` | _I_ (regional indicator symbol) |        `i`         |
-|   🇯   | `U+1F1EF` | _J_ (regional indicator symbol) |        `j`         |
-|   🇰   | `U+1F1F0` | _K_ (regional indicator symbol) |        `k`         |
-|   🇱   | `U+1F1F1` | _L_ (regional indicator symbol) |        `l`         |
-|   🇲   | `U+1F1F2` | _M_ (regional indicator symbol) |        `m`         |
-|   🇳   | `U+1F1F3` | _N_ (regional indicator symbol) |        `n`         |
-|   🇴   | `U+1F1F4` | _O_ (regional indicator symbol) |        `o`         |
-|   🇵   | `U+1F1F5` | _P_ (regional indicator symbol) |        `p`         |
-|   🇶   | `U+1F1F6` | _Q_ (regional indicator symbol) |        `q`         |
-|   🇷   | `U+1F1F7` | _R_ (regional indicator symbol) |        `r`         |
-|   🇸   | `U+1F1F8` | _S_ (regional indicator symbol) |        `s`         |
-|   🇹   | `U+1F1F9` | _T_ (regional indicator symbol) |        `t`         |
-|   🇺   | `U+1F1FA` | _U_ (regional indicator symbol) |        `u`         |
-|   🇻   | `U+1F1FB` | _V_ (regional indicator symbol) |        `v`         |
-|   🇼   | `U+1F1FC` | _W_ (regional indicator symbol) |        `w`         |
-|   🇽   | `U+1F1FD` | _X_ (regional indicator symbol) |        `x`         |
-|   🇾   | `U+1F1FE` | _Y_ (regional indicator symbol) |        `y`         |
-|   🇿   | `U+1F1FF` | _Z_ (regional indicator symbol) |        `z`         |
+|   🇦    | `U+1F1E6` | _A_ (regional indicator symbol) |        `a`         |
+|   🇧    | `U+1F1E7` | _B_ (regional indicator symbol) |        `b`         |
+|   🇨    | `U+1F1E8` | _C_ (regional indicator symbol) |        `c`         |
+|   🇩    | `U+1F1E9` | _D_ (regional indicator symbol) |        `d`         |
+|   🇪    | `U+1F1EA` | _E_ (regional indicator symbol) |        `e`         |
+|   🇫    | `U+1F1EB` | _F_ (regional indicator symbol) |        `f`         |
+|   🇬    | `U+1F1EC` | _G_ (regional indicator symbol) |        `g`         |
+|   🇭    | `U+1F1ED` | _H_ (regional indicator symbol) |        `h`         |
+|   🇮    | `U+1F1EE` | _I_ (regional indicator symbol) |        `i`         |
+|   🇯    | `U+1F1EF` | _J_ (regional indicator symbol) |        `j`         |
+|   🇰    | `U+1F1F0` | _K_ (regional indicator symbol) |        `k`         |
+|   🇱    | `U+1F1F1` | _L_ (regional indicator symbol) |        `l`         |
+|   🇲    | `U+1F1F2` | _M_ (regional indicator symbol) |        `m`         |
+|   🇳    | `U+1F1F3` | _N_ (regional indicator symbol) |        `n`         |
+|   🇴    | `U+1F1F4` | _O_ (regional indicator symbol) |        `o`         |
+|   🇵    | `U+1F1F5` | _P_ (regional indicator symbol) |        `p`         |
+|   🇶    | `U+1F1F6` | _Q_ (regional indicator symbol) |        `q`         |
+|   🇷    | `U+1F1F7` | _R_ (regional indicator symbol) |        `r`         |
+|   🇸    | `U+1F1F8` | _S_ (regional indicator symbol) |        `s`         |
+|   🇹    | `U+1F1F9` | _T_ (regional indicator symbol) |        `t`         |
+|   🇺    | `U+1F1FA` | _U_ (regional indicator symbol) |        `u`         |
+|   🇻    | `U+1F1FB` | _V_ (regional indicator symbol) |        `v`         |
+|   🇼    | `U+1F1FC` | _W_ (regional indicator symbol) |        `w`         |
+|   🇽    | `U+1F1FD` | _X_ (regional indicator symbol) |        `x`         |
+|   🇾    | `U+1F1FE` | _Y_ (regional indicator symbol) |        `y`         |
+|   🇿    | `U+1F1FF` | _Z_ (regional indicator symbol) |        `z`         |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Flags](#flags) ⬆️
 
@@ -249,32 +287,32 @@ The International Phonetic Alphabet.
 |   ˧    | `U+02E7` |             mid Chao tone letter             |            `3`             |
 |   ˨    | `U+02E8` |          half-low Chao tone letter           |            `4`             |
 |   ˩    | `U+02E9` |             low Chao tone letter             |            `5`             |
-|   ◌̈    | `U+0308` |                 centralized                  |     `Shift` + `` `; ``     |
-|   ◌̍    | `U+030D` |               syllabic (above)               |       `Shift` + `0`        |
-|   ◌̘    | `U+0318` |             advanced tongue root             |        `Alt` + `\`         |
-|   ◌̙    | `U+0319` |            retracted tongue root             |   `Alt` + `Shift` + `\`    |
-|   ◌̚    | `U+031A` |              no audible release              |            `7`             |
-|   ◌̜    | `U+031C` |             less rounded (below)             |          `lround`          |
-|   ◌̝    | `U+031D` |                    raised                    |            `8`             |
-|   ◌̞    | `U+031E` |               lowered (below)                |            `9`             |
-|   ◌̟    | `U+031F` |               advanced (below)               |            `=`             |
-|   ◌̠    | `U+0320` |              retracted (below)               |         `retract`          |
-|   ◌̥    | `U+0325` |                  voiceless                   |            `0`             |
-|   ◌̩    | `U+0329` |               syllabic (below)               |       `Shift` + `-`        |
-|   ◌̪    | `U+032A` |                dental (below)                |       `Shift` + `[`        |
-|   ◌̬    | `U+032C` |                    voiced                    |          `voiced`          |
-|   ◌̯    | `U+032F` |                 non-syllabic                 |       `Shift` + `6`        |
-|   ◌̰    | `U+0330` |                creaky voiced                 |       `Shift` + `7`        |
-|   ◌̴    | `U+0334` |          velarized / pharyngealized          |          `` ` ``           |
-|   ◌̹    | `U+0339` |             more rounded (below)             |          `mround`          |
-|   ◌̺    | `U+033A` |                    apical                    |       `Shift` + `]`        |
-|   ◌̼    | `U+033C` |                 linguolabial                 |         `linglab`          |
-|   ◌̽    | `U+033D` |               mid-centralized                |        `midcentral`        |
-|   ◌͆    | `U+0346` |                    dental                    |        `Alt` + `[`         |
-|   ◌͑    | `U+0351` |             less rounded (above)             |         `alround`          |
-|   ◌͗    | `U+0357` |             more rounded (above)             |         `amround`          |
-|   ◌͜    | `U+035C` |              affricate (below)               |          `affric`          |
-|   ◌͡    | `U+0361` |              affricate (above)               |            `,`             |
+|   ◌̈   | `U+0308` |                 centralized                  |     `Shift` + `` `; ``     |
+|   ◌̍   | `U+030D` |               syllabic (above)               |       `Shift` + `0`        |
+|   ◌̘   | `U+0318` |             advanced tongue root             |        `Alt` + `\`         |
+|   ◌̙   | `U+0319` |            retracted tongue root             |   `Alt` + `Shift` + `\`    |
+|   ◌̚   | `U+031A` |              no audible release              |            `7`             |
+|   ◌̜   | `U+031C` |             less rounded (below)             |          `lround`          |
+|   ◌̝   | `U+031D` |                    raised                    |            `8`             |
+|   ◌̞   | `U+031E` |               lowered (below)                |            `9`             |
+|   ◌̟   | `U+031F` |               advanced (below)               |            `=`             |
+|   ◌̠   | `U+0320` |              retracted (below)               |         `retract`          |
+|   ◌̥   | `U+0325` |                  voiceless                   |            `0`             |
+|   ◌̩   | `U+0329` |               syllabic (below)               |       `Shift` + `-`        |
+|   ◌̪   | `U+032A` |                dental (below)                |       `Shift` + `[`        |
+|   ◌̬   | `U+032C` |                    voiced                    |          `voiced`          |
+|   ◌̯   | `U+032F` |                 non-syllabic                 |       `Shift` + `6`        |
+|   ◌̰   | `U+0330` |                creaky voiced                 |       `Shift` + `7`        |
+|   ◌̴   | `U+0334` |          velarized / pharyngealized          |          `` ` ``           |
+|   ◌̹   | `U+0339` |             more rounded (below)             |          `mround`          |
+|   ◌̺   | `U+033A` |                    apical                    |       `Shift` + `]`        |
+|   ◌̼   | `U+033C` |                 linguolabial                 |         `linglab`          |
+|   ◌̽   | `U+033D` |               mid-centralized                |        `midcentral`        |
+|   ◌͆   | `U+0346` |                    dental                    |        `Alt` + `[`         |
+|   ◌͑   | `U+0351` |             less rounded (above)             |         `alround`          |
+|   ◌͗   | `U+0357` |             more rounded (above)             |         `amround`          |
+|   ◌͜   | `U+035C` |              affricate (below)               |          `affric`          |
+|   ◌͡   | `U+0361` |              affricate (above)               |            `,`             |
 |   β    | `U+03B2` |          voiced bilabial fricative           |        `Alt` + `b`         |
 |   θ    | `U+03B8` |          voiceless dental fricative          |        `Alt` + `t`         |
 |   χ    | `U+03C7` |          voiceless uvular fricative          |        `Alt` + `x`         |
@@ -313,20 +351,20 @@ Combining diacritical marks.
 
 | Symbol | Unicode  |  Description   |    Hotstring / hotkey     |
 | :----: | :------: | :------------: | :-----------------------: |
-|   ◌̀    | `U+0300` |     grave      |      `Alt` + `` ` ``      |
-|   ◌́    | `U+0301` |     acute      |        `Alt` + `'`        |
-|   ◌̂    | `U+0302` |   circumflex   |        `Alt` + `6`        |
-|   ◌̃    | `U+0303` |     tilde      |        `Alt` + `1`        |
-|   ◌̄    | `U+0304` |     macron     |        `Alt` + `-`        |
-|   ◌̆    | `U+0306` |     breve      |        `Alt` + `5`        |
-|   ◌̈    | `U+0308` |   diaeresis    |        `Alt` + `;`        |
-|   ◌̊    | `U+030A` |    overring    |        `Alt` + `0`        |
-|   ◌̋    | `U+030B` | double accute  |   `Alt` + `Shift` + `'`   |
-|   ◌̌    | `U+030C` |     caron      |        `Alt` + `7`        |
-|   ◌̏    | `U+030F` |  double grave  | `Alt` + `Shift` + `` ` `` |
-|   ◌̑    | `U+0311` | inverted breve |        `Alt` + `4`        |
-|   ◌̧    | `U+0327` |    cedilla     |        `Alt` + `,`        |
-|   ◌̨    | `U+0328` |     ogonek     |        `Alt` + `.`        |
+|   ◌̀   | `U+0300` |     grave      |      `Alt` + `` ` ``      |
+|   ◌́   | `U+0301` |     acute      |        `Alt` + `'`        |
+|   ◌̂   | `U+0302` |   circumflex   |        `Alt` + `6`        |
+|   ◌̃   | `U+0303` |     tilde      |        `Alt` + `1`        |
+|   ◌̄   | `U+0304` |     macron     |        `Alt` + `-`        |
+|   ◌̆   | `U+0306` |     breve      |        `Alt` + `5`        |
+|   ◌̈   | `U+0308` |   diaeresis    |        `Alt` + `;`        |
+|   ◌̊   | `U+030A` |    overring    |        `Alt` + `0`        |
+|   ◌̋   | `U+030B` | double accute  |   `Alt` + `Shift` + `'`   |
+|   ◌̌   | `U+030C` |     caron      |        `Alt` + `7`        |
+|   ◌̏   | `U+030F` |  double grave  | `Alt` + `Shift` + `` ` `` |
+|   ◌̑   | `U+0311` | inverted breve |        `Alt` + `4`        |
+|   ◌̧   | `U+0327` |    cedilla     |        `Alt` + `,`        |
+|   ◌̨   | `U+0328` |     ogonek     |        `Alt` + `.`        |
 |   ◌    | `U+25CC` | dotted circle  |         `circle\`         |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Diacritics](#diacritics) ⬆️

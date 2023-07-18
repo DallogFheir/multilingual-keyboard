@@ -10,9 +10,16 @@ def cli():
 
 
 @cli.command("docs", help="generate docs for the AHK project")
-def generate_docs_command():
+@click.option(
+    "-w",
+    "--without-intro",
+    is_flag=True,
+    flag_value=True,
+    help="Exclude the introduction from the documentation.",
+)
+def generate_docs_command(without_intro):
     click.echo("Generating docs...")
-    generate_docs()
+    generate_docs(without_intro)
     click.echo(f"README.md file created in directory {Path.cwd()}.")
 
 
