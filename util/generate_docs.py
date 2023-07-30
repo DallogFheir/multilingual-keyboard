@@ -82,13 +82,15 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
         return ""
 
     for hotkey in rows.values():
-        unicode_symbol = f"{ord(hotkey['symbol_original']):x}".zfill(4)
-        unicode_uppercase = f"{ord(hotkey[UPPERCASE]):x}".zfill(4)
+        unicode_symbol = "U+" + f"{ord(hotkey['symbol_original']):x}".zfill(4).upper()
+        unicode_symbol_link = f"https://codepoints.net/{unicode_symbol}"
+        unicode_uppercase = "U+" + f"{ord(hotkey[UPPERCASE]):x}".zfill(4).upper()
+        unicode_uppercase_link = f"https://codepoints.net/{unicode_uppercase}"
 
         hotkey[UNICODE] = (
-            f"`U+{unicode_symbol}`".upper()
+            f"[{unicode_symbol}]({unicode_symbol_link})"
             if hotkey[UPPERCASE] == " "
-            else f"`U+{unicode_symbol}` / `U+{unicode_uppercase}`".upper()
+            else f"[{unicode_symbol}]({unicode_symbol_link}) / [{unicode_uppercase}]({unicode_uppercase_link})"
         )
 
     headers = TABLE_HEADERS_UPPERCASE if with_uppercase else TABLE_HEADERS
