@@ -1,8 +1,5 @@
 ﻿; IPA
 ; The International Phonetic Alphabet.
-!.::
-    Send, / ; phonemic transcription
-return
 +a::
     Send, æ ; near-open front unrounded vowel
 return
