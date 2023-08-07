@@ -3,6 +3,7 @@
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 ; (DISABLED) SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 ; SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
+#SingleInstance Force
 
 ; AUTO-EXECUTE SECTION
 keyboard := "default"
@@ -67,8 +68,6 @@ return
 #If keyboard = "flag"
     #include subscripts\keyboards\flag.ahk
 #If
-
-#Hotstring C0
 
 ; COMMON
 #include subscripts\common.ahk
