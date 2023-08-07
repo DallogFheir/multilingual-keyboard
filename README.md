@@ -46,6 +46,8 @@ Provided for you is a Python script that can generate the documentation (`main.p
 
 #### Cyrillic
 
+**Hotkey to switch to keyboard:** `Alt` + `Shift` + `2`
+
 The Cyrillic alphabet.
 
 | Symbol | Uppercase |                                      Unicode                                      |   Description    | Hotstring / hotkey |
@@ -91,6 +93,8 @@ The Cyrillic alphabet.
 
 #### Default
 
+**Hotkey to switch to keyboard:** `Alt` + `Shift` + `1`
+
 Default keyboard.
 
 | Symbol | Uppercase |                                      Unicode                                      |   Description    | Hotstring / hotkey |
@@ -112,6 +116,8 @@ Default keyboard.
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Default](#default) ⬆️
 
 #### Flags
+
+**Hotkey to switch to keyboard:** `Alt` + `Shift` + `5`
 
 The regional indicator symbols that can be combined into flag emojis.
 
@@ -148,6 +154,8 @@ The regional indicator symbols that can be combined into flag emojis.
 
 #### Greek
 
+**Hotkey to switch to keyboard:** `Alt` + `Shift` + `3`
+
 The Greek alphabet.
 
 | Symbol | Uppercase |                                      Unicode                                      |   Description   | Hotstring / hotkey |
@@ -182,11 +190,12 @@ The Greek alphabet.
 
 #### IPA
 
+**Hotkey to switch to keyboard:** `Alt` + `Shift` + `4`
+
 The International Phonetic Alphabet.
 
 | Symbol |                 Unicode                 |                 Description                  |     Hotstring / hotkey     |
 | :----: | :-------------------------------------: | :------------------------------------------: | :------------------------: |
-|   /    | [U+002F](https://codepoints.net/U+002F) |            phonemic transcription            |        `Alt` + `.`         |
 |   æ    | [U+00E6](https://codepoints.net/U+00E6) |       near-open front unrounded vowel        |       `Shift` + `a`        |
 |   ç    | [U+00E7](https://codepoints.net/U+00E7) |         voiceless palatal fricative          |        `Alt` + `c`         |
 |   ð    | [U+00F0](https://codepoints.net/U+00F0) |           voiced dental fricative            |        `Alt` + `d`         |

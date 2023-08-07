@@ -1,5 +1,6 @@
 ﻿; Cyrillic
 ; The Cyrillic alphabet.
+; !+2
 ; UPPERCASE
 a::
     Send, а ; _a_

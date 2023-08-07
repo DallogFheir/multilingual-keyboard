@@ -1,5 +1,6 @@
 ﻿; Flags
 ; The regional indicator symbols that can be combined into flag emojis.
+; !+5
 a::
     Send, 🇦 ; _A_ (regional indicator symbol)
 return

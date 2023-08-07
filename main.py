@@ -1,12 +1,37 @@
 from util.generate_docs import generate_docs
+from util.generate_main_files import generate_common, generate_main
 from util.sort_hotkeys import sort_hotkeys
 from pathlib import Path
 import click
 
 
-@click.group()
-def cli():
-    pass
+def generate_docs_func(without_intro: bool) -> None:
+    print("Generating docs...")
+    generate_docs(without_intro)
+    print(f"README.md file created in directory {Path.cwd()}.")
+
+
+def sort_hotkeys_func() -> None:
+    print("Sorting hotkeys in scripts...")
+    sort_hotkeys()
+    print(f"Hotkeys in scripts sorted.")
+
+
+def generate_main_files_func(default: str) -> None:
+    print("Generating common.ahk...")
+    generate_common()
+    print("Generating main.ahk...")
+    generate_main(default)
+    print("Main files generated.")
+
+
+@click.group(invoke_without_command=True)
+@click.pass_context
+def cli(ctx: click.Context) -> None:
+    if ctx.invoked_subcommand is None:
+        sort_hotkeys_func()
+        generate_main_files_func("default")
+        generate_docs_func(False)
 
 
 @cli.command("docs", help="generate docs for the AHK project")
@@ -17,17 +42,25 @@ def cli():
     flag_value=True,
     help="Exclude the introduction from the documentation.",
 )
-def generate_docs_command(without_intro):
-    click.echo("Generating docs...")
-    generate_docs(without_intro)
-    click.echo(f"README.md file created in directory {Path.cwd()}.")
+def generate_docs_command(without_intro: bool) -> None:
+    generate_docs_func(without_intro)
 
 
 @cli.command("sort", help="sort hotkeys in AHK scripts alphabetically")
-def sort_hotkeys_command():
-    click.echo("Sorting hotkeys in scripts...")
-    sort_hotkeys()
-    click.echo(f"Hotkeys in scripts sorted.")
+def sort_hotkeys_command() -> None:
+    sort_hotkeys_func()
+
+
+@cli.command("main-files", help="generate main.ahk and common.ahk files")
+@click.option(
+    "-d",
+    "--default",
+    default="default",
+    show_default=True,
+    help="Choose the default keyboard name.",
+)
+def generate_main_files_command(default: str) -> None:
+    generate_main_files_func(default)
 
 
 if __name__ == "__main__":

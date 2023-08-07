@@ -8,9 +8,8 @@ def sort_file(file: Path) -> None:
     Args:
         file (Path): AHK file in which to sort hotkeys
     """
-
     if file.is_file() and file.suffix == ".ahk":
-        with open(file, encoding="utf-8") as f:
+        with open(file, encoding="utf-8-sig") as f:
             script = f.read()
 
         rest = re.fullmatch(r"((?:.|\n)*?)((?:\n?.+\n.*\nreturn)+)((?:.|\n)*)", script)
@@ -47,7 +46,7 @@ def sort_file(file: Path) -> None:
                 + after
             )
 
-            with open(file, "w", encoding="utf-8") as f:
+            with open(file, "w", encoding="utf-8-sig") as f:
                 f.write(new_script)
 
 

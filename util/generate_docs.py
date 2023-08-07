@@ -3,7 +3,7 @@ import re
 from textwrap import dedent
 from github_slugger import GithubSlugger
 import mdformat
-from .intro import INTRO
+from .templates.intro import INTRO
 
 SYMBOL = "Symbol"
 UNICODE = "Unicode"
@@ -16,6 +16,20 @@ TABLE_HEADERS_UPPERCASE = [SYMBOL, UPPERCASE, UNICODE, DESCRIPTION, HOTSTRING_HO
 
 COMBINING_DIACRITIC_RANGE = (768, 879)
 DIACRITIC_PLACEHOLDER = "◌"
+
+
+def parse_hotkey(hotkey: str) -> str:
+    keys = []
+    if hotkey.startswith("::"):
+        hotkey = hotkey.removeprefix("::")
+    else:
+        for key_symbol, key in [("!", "Alt"), ("+", "Shift")]:
+            if hotkey.startswith(key_symbol):
+                keys.append(key)
+                hotkey = hotkey.removeprefix(key_symbol)
+    keys.append(hotkey.removeprefix("::"))
+
+    return " + ".join(f"`` {key} ``" if "`" in key else f"`{key}`" for key in keys)
 
 
 def generate_table(script: str, with_uppercase: bool = False) -> str:
@@ -53,21 +67,8 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
         if COMBINING_DIACRITIC_RANGE[0] <= ord(symbol) <= COMBINING_DIACRITIC_RANGE[1]:
             symbol = DIACRITIC_PLACEHOLDER + symbol
 
-        # parse the hotkey / hotstring
-        keys = []
         hotkey_original = hotkey
-        if hotkey.startswith("::"):
-            hotkey = hotkey.removeprefix("::")
-        else:
-            for key_symbol, key in [("!", "Alt"), ("+", "Shift")]:
-                if hotkey.startswith(key_symbol):
-                    keys.append(key)
-                    hotkey = hotkey.removeprefix(key_symbol)
-        keys.append(hotkey.removeprefix("::"))
-
-        keys_string = " + ".join(
-            f"`` {key} ``" if "`" in key else f"`{key}`" for key in keys
-        )
+        keys_string = parse_hotkey(hotkey)
 
         rows[hotkey_original] = {
             SYMBOL: symbol,
@@ -108,6 +109,66 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
     )
 
 
+def parse_file(title: str, path: Path, slugger: GithubSlugger) -> str | None:
+    subsections = []
+    section_slug = slugger.slug(title)
+
+    for file in path.iterdir():
+        if file.is_file() and file.suffix == ".ahk":
+            with open(file, encoding="utf-8-sig") as f:
+                script_lines = f.read().splitlines()
+
+            if script_lines[0].startswith("; ") and script_lines[1].startswith("; "):
+                subsection_title = script_lines[0].removeprefix("; ")
+                subsection_description = script_lines[1].removeprefix("; ")
+
+                hotkey = None
+                start_idx = 2
+                if title == "Keyboards":
+                    hotkey = script_lines[2].removeprefix("; ")
+                    start_idx += 1
+                uppercase_flag = script_lines[start_idx].strip() == "; UPPERCASE"
+
+                table = generate_table(
+                    "\n".join(
+                        script_lines[start_idx + 1 if uppercase_flag else start_idx :]
+                    ),
+                    with_uppercase=uppercase_flag,
+                )
+
+                subsection_template = dedent(
+                    """\
+                    #### {}
+                    
+                    {}
+                    
+                    {}
+                    
+                    {}"""
+                )
+                if len(table) > 0:
+                    subsection_slug = slugger.slug(subsection_title)
+                    links = dedent(
+                        f"⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [{title}](#{section_slug}) | [{subsection_title}](#{subsection_slug}) ⬆️"
+                    )
+
+                    if hotkey is not None:
+                        subsection_description = (
+                            f"**Hotkey to switch to keyboard:** {parse_hotkey(hotkey)}\n\n"
+                            + subsection_description
+                        )
+
+                    subsections.append(
+                        subsection_template.format(
+                            subsection_title, subsection_description, table, links
+                        )
+                    )
+
+    if len(subsections) > 0:
+        subsections_string = "\n\n".join(subsections)
+        return f"""### {title}\n\n{subsections_string}"""
+
+
 def generate_docs(without_intro: bool) -> None:
     """Generates documentation for the multilingual keyboard project."""
     subscripts_path = Path.cwd() / "src" / "subscripts"
@@ -117,51 +178,9 @@ def generate_docs(without_intro: bool) -> None:
     slugger = GithubSlugger()
     sections = []
     for title, path in (("Keyboards", keyboards_path), ("Common", common_path)):
-        subsections = []
-        section_slug = slugger.slug(title)
-
-        for file in path.iterdir():
-            if file.is_file() and file.suffix == ".ahk":
-                with open(file, encoding="utf-8-sig") as f:
-                    script_lines = f.read().splitlines()
-
-                if script_lines[0].startswith("; ") and script_lines[1].startswith(
-                    "; "
-                ):
-                    subsection_title = script_lines[0].removeprefix("; ")
-                    subsection_description = script_lines[1].removeprefix("; ")
-                    uppercase_flag = script_lines[2].strip() == "; UPPERCASE"
-
-                    table = generate_table(
-                        "\n".join(script_lines[3 if uppercase_flag else 2 :]),
-                        with_uppercase=uppercase_flag,
-                    )
-
-                    subsection_template = dedent(
-                        """\
-                        #### {}
-                        
-                        {}
-                        
-                        {}
-                        
-                        {}"""
-                    )
-                    if len(table) > 0:
-                        subsection_slug = slugger.slug(subsection_title)
-                        links = dedent(
-                            f"⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [{title}](#{section_slug}) | [{subsection_title}](#{subsection_slug}) ⬆️"
-                        )
-
-                        subsections.append(
-                            subsection_template.format(
-                                subsection_title, subsection_description, table, links
-                            )
-                        )
-
-        if len(subsections) > 0:
-            subsections_string = "\n\n".join(subsections)
-            sections.append(f"""### {title}\n\n{subsections_string}""")
+        res = parse_file(title, path, slugger)
+        if res is not None:
+            sections.append(res)
 
     document = (
         "# Multilingual Keyboard\n\n"

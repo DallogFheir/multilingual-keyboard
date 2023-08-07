@@ -1,5 +1,6 @@
 ﻿; IPA
 ; The International Phonetic Alphabet.
+; !+4
 +a::
     Send, æ ; near-open front unrounded vowel
 return

@@ -1,9 +1,12 @@
 ; suspends this script
 F2::
     suspend, Permit
+
+    iconPath := curIcon == "*" ? "*" : "icons\keyboards\" curIcon ".ico"
+
     if A_IsSuspended
     {
-        Menu, Tray, Icon, icons\keyboards\%curIcon%.ico, , 0
+        Menu, Tray, Icon, %iconPath% , 0
         Suspend, Off
     }
     else

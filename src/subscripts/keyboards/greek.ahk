@@ -1,5 +1,6 @@
 ﻿; Greek
 ; The Greek alphabet.
+; !+3
 ; UPPERCASE
 a::
     Send, α ; _alpha_

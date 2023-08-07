@@ -1,5 +1,6 @@
 ﻿; Default
 ; Default keyboard.
+; !+1
 ; UPPERCASE
 !o::
     Send, ó ; _o_ with acute

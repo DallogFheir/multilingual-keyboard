@@ -16,7 +16,8 @@ Menu, Tray, Icon, icons\keyboards\default.ico
 ; input level above precomposed characters
 #InputLevel, 1
 
-; VARIABLES
+; KEYBOARD LAYOUTS
+; hotkeys
 !+1::
     keyboard := "default"
     curIcon := "default"
@@ -47,8 +48,7 @@ return
     Menu, Tray, Icon, icons\keyboards\flag.ico
 return
 
-; INTERNATIONAL KEYBOARD
-#Hotstring C
+; switches
 #If keyboard = "default"
     #include subscripts\keyboards\default.ahk
 #If
