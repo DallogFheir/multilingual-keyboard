@@ -382,10 +382,10 @@ Combining diacritical marks.
 
 Miscellaneous letters.
 
-| Symbol |                 Unicode                 |       Description        | Hotstring / hotkey |
-| :----: | :-------------------------------------: | :----------------------: | :----------------: |
-|   œ    | [U+0153](https://codepoints.net/U+0153) |           _oe_           |       `oe\`        |
-|   ʾ    | [U+02BE](https://codepoints.net/U+02BE) | letter half ring (right) |       `''\`        |
+| Symbol | Uppercase |                                      Unicode                                      |       Description        | Hotstring / hotkey |
+| :----: | :-------: | :-------------------------------------------------------------------------------: | :----------------------: | :----------------: |
+|   œ    |     Œ     | [U+0153](https://codepoints.net/U+0153) / [U+0152](https://codepoints.net/U+0152) |           _oe_           |   `oe\` / `OE\`    |
+|   ʾ    |           |                      [U+02BE](https://codepoints.net/U+02BE)                      | letter half ring (right) |       `''\`        |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Letters](#letters) ⬆️
 

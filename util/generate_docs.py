@@ -53,12 +53,18 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
 
         if len(description) == 0:
             hotkey_uppercase = hotkey.replace("+", "", 1)
+            hotstring_uppercase = hotkey.lower()
             if (
                 with_uppercase
                 and re.match(r"^(!)?\+", hotkey) is not None
                 and hotkey_uppercase in rows
             ):
                 rows[hotkey_uppercase][UPPERCASE] = symbol
+            elif with_uppercase and hotstring_uppercase in rows:
+                rows[hotstring_uppercase][UPPERCASE] = symbol
+                rows[hotstring_uppercase][
+                    HOTSTRING_HOTKEY
+                ] += f" / {parse_hotkey(hotkey)}"
 
             continue
 
