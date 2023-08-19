@@ -115,10 +115,11 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
     )
 
 
-def parse_file(title: str, path: Path, slugger: GithubSlugger) -> str | None:
+def parse_files(title: str, path: Path, slugger: GithubSlugger) -> str | None:
     subsections = []
     section_slug = slugger.slug(title)
 
+    order = {}
     for file in path.iterdir():
         if file.is_file() and file.suffix == ".ahk":
             with open(file, encoding="utf-8-sig") as f:
@@ -164,11 +165,17 @@ def parse_file(title: str, path: Path, slugger: GithubSlugger) -> str | None:
                             + subsection_description
                         )
 
-                    subsections.append(
-                        subsection_template.format(
-                            subsection_title, subsection_description, table, links
-                        )
+                    formatted_subsection = subsection_template.format(
+                        subsection_title, subsection_description, table, links
                     )
+
+                    order[formatted_subsection] = (
+                        hotkey if hotkey is not None else file.stem
+                    )
+
+                    subsections.append(formatted_subsection)
+
+    subsections.sort(key=lambda k: order[k])
 
     if len(subsections) > 0:
         subsections_string = "\n\n".join(subsections)
@@ -184,7 +191,7 @@ def generate_docs(without_intro: bool) -> None:
     slugger = GithubSlugger()
     sections = []
     for title, path in (("Keyboards", keyboards_path), ("Common", common_path)):
-        res = parse_file(title, path, slugger)
+        res = parse_files(title, path, slugger)
         if res is not None:
             sections.append(res)
 
