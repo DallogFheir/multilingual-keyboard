@@ -27,7 +27,7 @@ jobs:
       - name: Commit changes
         id: commit
         continue-on-error: true
-        run: 'git commit -m "Generated files"'
+        run: 'git commit -m "Generated files after ${{ github.sha }}"'
       - name: push
         if: steps.commit.outcome == 'success'
         env:
