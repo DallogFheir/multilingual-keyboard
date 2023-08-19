@@ -2,6 +2,7 @@
 #include subscripts/common/logic.ahk
 #include subscripts/common/superscripts.ahk
 #include subscripts/common/letters.ahk
+#include subscripts/common/zodiac.ahk
 #include subscripts/common/cards.ahk
 #include subscripts/common/other.ahk
 #include subscripts/common/punctuation_marks.ahk

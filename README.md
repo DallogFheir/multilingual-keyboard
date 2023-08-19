@@ -402,6 +402,27 @@ Miscellaneous letters.
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Letters](#letters) ⬆️
 
+#### Zodiac
+
+Western zodiac signs.
+
+| Symbol |                 Unicode                 | Description | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :---------: | :----------------: |
+|   ♈    | [U+2648](https://codepoints.net/U+2648) |    Aries    |      `aries\`      |
+|   ♉    | [U+2649](https://codepoints.net/U+2649) |   Taurus    |     `taurus\`      |
+|   ♊    | [U+264A](https://codepoints.net/U+264A) |   Gemini    |     `gemini\`      |
+|   ♋    | [U+264B](https://codepoints.net/U+264B) |   Cancer    |     `cancer\`      |
+|   ♌    | [U+264C](https://codepoints.net/U+264C) |     Leo     |       `leo\`       |
+|   ♍    | [U+264D](https://codepoints.net/U+264D) |    Virgo    |      `virgo\`      |
+|   ♎    | [U+264E](https://codepoints.net/U+264E) |    Libra    |      `libra\`      |
+|   ♏    | [U+264F](https://codepoints.net/U+264F) |   Scorpio   |    `scorpius\`     |
+|   ♐    | [U+2650](https://codepoints.net/U+2650) | Sagittarius |   `sagittarius\`   |
+|   ♑    | [U+2651](https://codepoints.net/U+2651) |  Capricorn  |    `capricorn\`    |
+|   ♒    | [U+2652](https://codepoints.net/U+2652) |  Aquarius   |    `aquarius\`     |
+|   ♓    | [U+2653](https://codepoints.net/U+2653) |   Pisces    |     `pisces\`      |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Zodiac](#zodiac) ⬆️
+
 #### Cards
 
 Symbols representing cards and card suits.

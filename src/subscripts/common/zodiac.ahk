@@ -1,4 +1,4 @@
-; Zodiac
+﻿; Zodiac
 ; Western zodiac signs.
 ::aries\::
     Send, ♈ ; Aries
