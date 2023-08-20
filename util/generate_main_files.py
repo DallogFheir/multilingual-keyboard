@@ -7,7 +7,9 @@ def generate_common():
     src_dir = Path.cwd() / "src"
     includes = [
         f"#include {str(file.relative_to(src_dir))}\n"
-        for file in (src_dir / "subscripts" / "common").iterdir()
+        for file in sorted(
+            (src_dir / "subscripts" / "common").iterdir(), key=lambda k: k.stem
+        )
         if file.suffix == ".ahk"
     ]
 
