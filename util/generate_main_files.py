@@ -1,4 +1,4 @@
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from textwrap import dedent
 
 
@@ -54,7 +54,7 @@ def generate_main(default: str):
         )
     default_icon = default
     default_icon_path = icons_dir / f"{default}.ico"
-    default_icon_path_str = str(default_icon_path.relative_to(src_dir))
+    default_icon_path_str = str(PureWindowsPath(default_icon_path.relative_to(src_dir)))
     if not default_icon_path.exists():
         default_icon = "*"
         default_icon_path_str = "*"
