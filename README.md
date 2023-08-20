@@ -44,6 +44,30 @@ Provided for you is a Python script that can generate the documentation (`main.p
 
 ### Keyboards
 
+#### Default
+
+**Hotkey to switch to keyboard:** `Alt` + `Shift` + `1`
+
+Default keyboard.
+
+| Symbol | Uppercase |                                      Unicode                                      |   Description    | Hotstring / hotkey |
+| :----: | :-------: | :-------------------------------------------------------------------------------: | :--------------: | :----------------: |
+|   ó    |     Ó     | [U+00F3](https://codepoints.net/U+00F3) / [U+00D3](https://codepoints.net/U+00D3) |  _o_ with acute  |    `Alt` + `o`     |
+|   þ    |     Þ     | [U+00FE](https://codepoints.net/U+00FE) / [U+00DE](https://codepoints.net/U+00DE) |      thorn       |    `Alt` + `t`     |
+|   ą    |     Ą     | [U+0105](https://codepoints.net/U+0105) / [U+0104](https://codepoints.net/U+0104) | _a_ with ogonek  |    `Alt` + `a`     |
+|   ć    |     Ć     | [U+0107](https://codepoints.net/U+0107) / [U+0106](https://codepoints.net/U+0106) |  _c_ with acute  |    `Alt` + `c`     |
+|   ę    |     Ę     | [U+0119](https://codepoints.net/U+0119) / [U+0118](https://codepoints.net/U+0118) | _e_ with ogonek  |    `Alt` + `e`     |
+|   ł    |     Ł     | [U+0142](https://codepoints.net/U+0142) / [U+0141](https://codepoints.net/U+0141) | _l_ with stroke  |    `Alt` + `l`     |
+|   ń    |     Ń     | [U+0144](https://codepoints.net/U+0144) / [U+0143](https://codepoints.net/U+0143) |  _n_ with acute  |    `Alt` + `n`     |
+|   ś    |     Ś     | [U+015B](https://codepoints.net/U+015B) / [U+015A](https://codepoints.net/U+015A) |  _s_ with acute  |    `Alt` + `s`     |
+|   ź    |     Ź     | [U+017A](https://codepoints.net/U+017A) / [U+0179](https://codepoints.net/U+0179) |  _z_ with acute  |    `Alt` + `x`     |
+|   ż    |     Ż     | [U+017C](https://codepoints.net/U+017C) / [U+017B](https://codepoints.net/U+017B) | _z_ with overdot |    `Alt` + `z`     |
+|   ǫ    |     Ǫ     | [U+01EB](https://codepoints.net/U+01EB) / [U+01EA](https://codepoints.net/U+01EA) | _o_ with ogonek  |    `Alt` + `p`     |
+|   ъ    |     Ъ     | [U+044A](https://codepoints.net/U+044A) / [U+042A](https://codepoints.net/U+042A) |    hard sign     |    `Alt` + `w`     |
+|   ь    |     Ь     | [U+044C](https://codepoints.net/U+044C) / [U+042C](https://codepoints.net/U+042C) |    soft sign     |    `Alt` + `q`     |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Default](#default) ⬆️
+
 #### Cyrillic
 
 **Hotkey to switch to keyboard:** `Alt` + `Shift` + `2`
@@ -90,30 +114,6 @@ The Cyrillic alphabet.
 |   ґ    |     Ґ     | [U+0491](https://codepoints.net/U+0491) / [U+0490](https://codepoints.net/U+0490) | _ge_ with upturn |    `Alt` + `g`     |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Cyrillic](#cyrillic) ⬆️
-
-#### Default
-
-**Hotkey to switch to keyboard:** `Alt` + `Shift` + `1`
-
-Default keyboard.
-
-| Symbol | Uppercase |                                      Unicode                                      |   Description    | Hotstring / hotkey |
-| :----: | :-------: | :-------------------------------------------------------------------------------: | :--------------: | :----------------: |
-|   ó    |     Ó     | [U+00F3](https://codepoints.net/U+00F3) / [U+00D3](https://codepoints.net/U+00D3) |  _o_ with acute  |    `Alt` + `o`     |
-|   þ    |     Þ     | [U+00FE](https://codepoints.net/U+00FE) / [U+00DE](https://codepoints.net/U+00DE) |      thorn       |    `Alt` + `t`     |
-|   ą    |     Ą     | [U+0105](https://codepoints.net/U+0105) / [U+0104](https://codepoints.net/U+0104) | _a_ with ogonek  |    `Alt` + `a`     |
-|   ć    |     Ć     | [U+0107](https://codepoints.net/U+0107) / [U+0106](https://codepoints.net/U+0106) |  _c_ with acute  |    `Alt` + `c`     |
-|   ę    |     Ę     | [U+0119](https://codepoints.net/U+0119) / [U+0118](https://codepoints.net/U+0118) | _e_ with ogonek  |    `Alt` + `e`     |
-|   ł    |     Ł     | [U+0142](https://codepoints.net/U+0142) / [U+0141](https://codepoints.net/U+0141) | _l_ with stroke  |    `Alt` + `l`     |
-|   ń    |     Ń     | [U+0144](https://codepoints.net/U+0144) / [U+0143](https://codepoints.net/U+0143) |  _n_ with acute  |    `Alt` + `n`     |
-|   ś    |     Ś     | [U+015B](https://codepoints.net/U+015B) / [U+015A](https://codepoints.net/U+015A) |  _s_ with acute  |    `Alt` + `s`     |
-|   ź    |     Ź     | [U+017A](https://codepoints.net/U+017A) / [U+0179](https://codepoints.net/U+0179) |  _z_ with acute  |    `Alt` + `x`     |
-|   ż    |     Ż     | [U+017C](https://codepoints.net/U+017C) / [U+017B](https://codepoints.net/U+017B) | _z_ with overdot |    `Alt` + `z`     |
-|   ǫ    |     Ǫ     | [U+01EB](https://codepoints.net/U+01EB) / [U+01EA](https://codepoints.net/U+01EA) | _o_ with ogonek  |    `Alt` + `p`     |
-|   ъ    |     Ъ     | [U+044A](https://codepoints.net/U+044A) / [U+042A](https://codepoints.net/U+042A) |    hard sign     |    `Alt` + `w`     |
-|   ь    |     Ь     | [U+044C](https://codepoints.net/U+044C) / [U+042C](https://codepoints.net/U+042C) |    soft sign     |    `Alt` + `q`     |
-
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Default](#default) ⬆️
 
 #### Greek
 
@@ -341,6 +341,66 @@ The regional indicator symbols that can be combined into flag emojis.
 
 ### Common
 
+#### Cards
+
+Symbols representing cards and card suits.
+
+| Symbol |                 Unicode                 | Description | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :---------: | :----------------: |
+|   ♠    | [U+2660](https://codepoints.net/U+2660) |   spades    |     `spades\`      |
+|   ♣    | [U+2663](https://codepoints.net/U+2663) |    clubs    |      `clubs\`      |
+|   ♥    | [U+2665](https://codepoints.net/U+2665) |   hearts    |     `hearts\`      |
+|   ♦    | [U+2666](https://codepoints.net/U+2666) |  diamonds   |    `diamonds\`     |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Cards](#cards) ⬆️
+
+#### Diacritics
+
+Combining diacritical marks.
+
+| Symbol |                 Unicode                 |  Description   |    Hotstring / hotkey     |
+| :----: | :-------------------------------------: | :------------: | :-----------------------: |
+|   ◌̀   | [U+0300](https://codepoints.net/U+0300) |     grave      |      `Alt` + `` ` ``      |
+|   ◌́   | [U+0301](https://codepoints.net/U+0301) |     acute      |        `Alt` + `'`        |
+|   ◌̂   | [U+0302](https://codepoints.net/U+0302) |   circumflex   |        `Alt` + `6`        |
+|   ◌̃   | [U+0303](https://codepoints.net/U+0303) |     tilde      |        `Alt` + `1`        |
+|   ◌̄   | [U+0304](https://codepoints.net/U+0304) |     macron     |        `Alt` + `-`        |
+|   ◌̆   | [U+0306](https://codepoints.net/U+0306) |     breve      |        `Alt` + `5`        |
+|   ◌̈   | [U+0308](https://codepoints.net/U+0308) |   diaeresis    |        `Alt` + `;`        |
+|   ◌̊   | [U+030A](https://codepoints.net/U+030A) |    overring    |        `Alt` + `0`        |
+|   ◌̋   | [U+030B](https://codepoints.net/U+030B) | double accute  |   `Alt` + `Shift` + `'`   |
+|   ◌̌   | [U+030C](https://codepoints.net/U+030C) |     caron      |        `Alt` + `7`        |
+|   ◌̏   | [U+030F](https://codepoints.net/U+030F) |  double grave  | `Alt` + `Shift` + `` ` `` |
+|   ◌̑   | [U+0311](https://codepoints.net/U+0311) | inverted breve |        `Alt` + `4`        |
+|   ◌̧   | [U+0327](https://codepoints.net/U+0327) |    cedilla     |        `Alt` + `,`        |
+|   ◌̨   | [U+0328](https://codepoints.net/U+0328) |     ogonek     |        `Alt` + `.`        |
+|   ◌    | [U+25CC](https://codepoints.net/U+25CC) | dotted circle  |         `circle\`         |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Diacritics](#diacritics) ⬆️
+
+#### Letters
+
+Miscellaneous letters.
+
+| Symbol | Uppercase |                                      Unicode                                      |       Description        | Hotstring / hotkey |
+| :----: | :-------: | :-------------------------------------------------------------------------------: | :----------------------: | :----------------: |
+|   œ    |     Œ     | [U+0153](https://codepoints.net/U+0153) / [U+0152](https://codepoints.net/U+0152) |           _oe_           |   `oe\` / `OE\`    |
+|   ʾ    |           |                      [U+02BE](https://codepoints.net/U+02BE)                      | letter half ring (right) |       `''\`        |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Letters](#letters) ⬆️
+
+#### Logic
+
+Symbols used in mathematical logic.
+
+| Symbol |                 Unicode                 |         Description         | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :-------------------------: | :----------------: |
+|   ¬    | [U+00AC](https://codepoints.net/U+00AC) |  negation (logical _NOT_)   |       `not\`       |
+|   ∧    | [U+2227](https://codepoints.net/U+2227) | conjunction (logical _AND_) |       `and\`       |
+|   ∨    | [U+2228](https://codepoints.net/U+2228) | disjunction (logical _OR_)  |       `or\`        |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Logic](#logic) ⬆️
+
 #### Mathematics
 
 Various mathematical symbols.
@@ -360,81 +420,16 @@ Various mathematical symbols.
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Mathematics](#mathematics) ⬆️
 
-#### Logic
+#### Music
 
-Symbols used in mathematical logic.
-
-| Symbol |                 Unicode                 |         Description         | Hotstring / hotkey |
-| :----: | :-------------------------------------: | :-------------------------: | :----------------: |
-|   ¬    | [U+00AC](https://codepoints.net/U+00AC) |  negation (logical _NOT_)   |       `not\`       |
-|   ∧    | [U+2227](https://codepoints.net/U+2227) | conjunction (logical _AND_) |       `and\`       |
-|   ∨    | [U+2228](https://codepoints.net/U+2228) | disjunction (logical _OR_)  |       `or\`        |
-
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Logic](#logic) ⬆️
-
-#### Superscripts
-
-Superscript characters.
-
-| Symbol |                 Unicode                 |    Description    | Hotstring / hotkey |
-| :----: | :-------------------------------------: | :---------------: | :----------------: |
-|   ²    | [U+00B2](https://codepoints.net/U+00B2) | _2_ (superscript) |      `sup2\`       |
-|   ³    | [U+00B3](https://codepoints.net/U+00B3) | _3_ (superscript) |      `sup3\`       |
-|   ¹    | [U+00B9](https://codepoints.net/U+00B9) | _1_ (superscript) |      `sup1\`       |
-|   ⁰    | [U+2070](https://codepoints.net/U+2070) | _0_ (superscript) |      `sup0\`       |
-|   ⁴    | [U+2074](https://codepoints.net/U+2074) | _4_ (superscript) |      `sup4\`       |
-|   ⁵    | [U+2075](https://codepoints.net/U+2075) | _5_ (superscript) |      `sup5\`       |
-|   ⁶    | [U+2076](https://codepoints.net/U+2076) | _6_ (superscript) |      `sup6\`       |
-|   ⁷    | [U+2077](https://codepoints.net/U+2077) | _7_ (superscript) |      `sup7\`       |
-|   ⁸    | [U+2078](https://codepoints.net/U+2078) | _8_ (superscript) |      `sup8\`       |
-|   ⁹    | [U+2079](https://codepoints.net/U+2079) | _9_ (superscript) |      `sup9\`       |
-
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Superscripts](#superscripts) ⬆️
-
-#### Letters
-
-Miscellaneous letters.
-
-| Symbol | Uppercase |                                      Unicode                                      |       Description        | Hotstring / hotkey |
-| :----: | :-------: | :-------------------------------------------------------------------------------: | :----------------------: | :----------------: |
-|   œ    |     Œ     | [U+0153](https://codepoints.net/U+0153) / [U+0152](https://codepoints.net/U+0152) |           _oe_           |   `oe\` / `OE\`    |
-|   ʾ    |           |                      [U+02BE](https://codepoints.net/U+02BE)                      | letter half ring (right) |       `''\`        |
-
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Letters](#letters) ⬆️
-
-#### Zodiac
-
-Western zodiac signs.
+Symbols used in musical notation.
 
 | Symbol |                 Unicode                 | Description | Hotstring / hotkey |
 | :----: | :-------------------------------------: | :---------: | :----------------: |
-|   ♈    | [U+2648](https://codepoints.net/U+2648) |    Aries    |      `aries\`      |
-|   ♉    | [U+2649](https://codepoints.net/U+2649) |   Taurus    |     `taurus\`      |
-|   ♊    | [U+264A](https://codepoints.net/U+264A) |   Gemini    |     `gemini\`      |
-|   ♋    | [U+264B](https://codepoints.net/U+264B) |   Cancer    |     `cancer\`      |
-|   ♌    | [U+264C](https://codepoints.net/U+264C) |     Leo     |       `leo\`       |
-|   ♍    | [U+264D](https://codepoints.net/U+264D) |    Virgo    |      `virgo\`      |
-|   ♎    | [U+264E](https://codepoints.net/U+264E) |    Libra    |      `libra\`      |
-|   ♏    | [U+264F](https://codepoints.net/U+264F) |   Scorpio   |    `scorpius\`     |
-|   ♐    | [U+2650](https://codepoints.net/U+2650) | Sagittarius |   `sagittarius\`   |
-|   ♑    | [U+2651](https://codepoints.net/U+2651) |  Capricorn  |    `capricorn\`    |
-|   ♒    | [U+2652](https://codepoints.net/U+2652) |  Aquarius   |    `aquarius\`     |
-|   ♓    | [U+2653](https://codepoints.net/U+2653) |   Pisces    |     `pisces\`      |
+|   ♭    | [U+266D](https://codepoints.net/U+266D) |    flat     |        `b\`        |
+|   ♯    | [U+266F](https://codepoints.net/U+266F) |    sharp    |        `#\`        |
 
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Zodiac](#zodiac) ⬆️
-
-#### Cards
-
-Symbols representing cards and card suits.
-
-| Symbol |                 Unicode                 | Description | Hotstring / hotkey |
-| :----: | :-------------------------------------: | :---------: | :----------------: |
-|   ♠    | [U+2660](https://codepoints.net/U+2660) |   spades    |     `spades\`      |
-|   ♣    | [U+2663](https://codepoints.net/U+2663) |    clubs    |      `clubs\`      |
-|   ♥    | [U+2665](https://codepoints.net/U+2665) |   hearts    |     `hearts\`      |
-|   ♦    | [U+2666](https://codepoints.net/U+2666) |  diamonds   |    `diamonds\`     |
-
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Cards](#cards) ⬆️
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Music](#music) ⬆️
 
 #### Other
 
@@ -484,37 +479,42 @@ Subscript characters.
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Subscripts](#subscripts) ⬆️
 
-#### Music
+#### Superscripts
 
-Symbols used in musical notation.
+Superscript characters.
+
+| Symbol |                 Unicode                 |    Description    | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :---------------: | :----------------: |
+|   ²    | [U+00B2](https://codepoints.net/U+00B2) | _2_ (superscript) |      `sup2\`       |
+|   ³    | [U+00B3](https://codepoints.net/U+00B3) | _3_ (superscript) |      `sup3\`       |
+|   ¹    | [U+00B9](https://codepoints.net/U+00B9) | _1_ (superscript) |      `sup1\`       |
+|   ⁰    | [U+2070](https://codepoints.net/U+2070) | _0_ (superscript) |      `sup0\`       |
+|   ⁴    | [U+2074](https://codepoints.net/U+2074) | _4_ (superscript) |      `sup4\`       |
+|   ⁵    | [U+2075](https://codepoints.net/U+2075) | _5_ (superscript) |      `sup5\`       |
+|   ⁶    | [U+2076](https://codepoints.net/U+2076) | _6_ (superscript) |      `sup6\`       |
+|   ⁷    | [U+2077](https://codepoints.net/U+2077) | _7_ (superscript) |      `sup7\`       |
+|   ⁸    | [U+2078](https://codepoints.net/U+2078) | _8_ (superscript) |      `sup8\`       |
+|   ⁹    | [U+2079](https://codepoints.net/U+2079) | _9_ (superscript) |      `sup9\`       |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Superscripts](#superscripts) ⬆️
+
+#### Zodiac
+
+Western zodiac signs.
 
 | Symbol |                 Unicode                 | Description | Hotstring / hotkey |
 | :----: | :-------------------------------------: | :---------: | :----------------: |
-|   ♭    | [U+266D](https://codepoints.net/U+266D) |    flat     |        `b\`        |
-|   ♯    | [U+266F](https://codepoints.net/U+266F) |    sharp    |        `#\`        |
+|   ♈    | [U+2648](https://codepoints.net/U+2648) |    Aries    |      `aries\`      |
+|   ♉    | [U+2649](https://codepoints.net/U+2649) |   Taurus    |     `taurus\`      |
+|   ♊    | [U+264A](https://codepoints.net/U+264A) |   Gemini    |     `gemini\`      |
+|   ♋    | [U+264B](https://codepoints.net/U+264B) |   Cancer    |     `cancer\`      |
+|   ♌    | [U+264C](https://codepoints.net/U+264C) |     Leo     |       `leo\`       |
+|   ♍    | [U+264D](https://codepoints.net/U+264D) |    Virgo    |      `virgo\`      |
+|   ♎    | [U+264E](https://codepoints.net/U+264E) |    Libra    |      `libra\`      |
+|   ♏    | [U+264F](https://codepoints.net/U+264F) |   Scorpio   |    `scorpius\`     |
+|   ♐    | [U+2650](https://codepoints.net/U+2650) | Sagittarius |   `sagittarius\`   |
+|   ♑    | [U+2651](https://codepoints.net/U+2651) |  Capricorn  |    `capricorn\`    |
+|   ♒    | [U+2652](https://codepoints.net/U+2652) |  Aquarius   |    `aquarius\`     |
+|   ♓    | [U+2653](https://codepoints.net/U+2653) |   Pisces    |     `pisces\`      |
 
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Music](#music) ⬆️
-
-#### Diacritics
-
-Combining diacritical marks.
-
-| Symbol |                 Unicode                 |  Description   |    Hotstring / hotkey     |
-| :----: | :-------------------------------------: | :------------: | :-----------------------: |
-|   ◌̀   | [U+0300](https://codepoints.net/U+0300) |     grave      |      `Alt` + `` ` ``      |
-|   ◌́   | [U+0301](https://codepoints.net/U+0301) |     acute      |        `Alt` + `'`        |
-|   ◌̂   | [U+0302](https://codepoints.net/U+0302) |   circumflex   |        `Alt` + `6`        |
-|   ◌̃   | [U+0303](https://codepoints.net/U+0303) |     tilde      |        `Alt` + `1`        |
-|   ◌̄   | [U+0304](https://codepoints.net/U+0304) |     macron     |        `Alt` + `-`        |
-|   ◌̆   | [U+0306](https://codepoints.net/U+0306) |     breve      |        `Alt` + `5`        |
-|   ◌̈   | [U+0308](https://codepoints.net/U+0308) |   diaeresis    |        `Alt` + `;`        |
-|   ◌̊   | [U+030A](https://codepoints.net/U+030A) |    overring    |        `Alt` + `0`        |
-|   ◌̋   | [U+030B](https://codepoints.net/U+030B) | double accute  |   `Alt` + `Shift` + `'`   |
-|   ◌̌   | [U+030C](https://codepoints.net/U+030C) |     caron      |        `Alt` + `7`        |
-|   ◌̏   | [U+030F](https://codepoints.net/U+030F) |  double grave  | `Alt` + `Shift` + `` ` `` |
-|   ◌̑   | [U+0311](https://codepoints.net/U+0311) | inverted breve |        `Alt` + `4`        |
-|   ◌̧   | [U+0327](https://codepoints.net/U+0327) |    cedilla     |        `Alt` + `,`        |
-|   ◌̨   | [U+0328](https://codepoints.net/U+0328) |     ogonek     |        `Alt` + `.`        |
-|   ◌    | [U+25CC](https://codepoints.net/U+25CC) | dotted circle  |         `circle\`         |
-
-⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Diacritics](#diacritics) ⬆️
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Zodiac](#zodiac) ⬆️
