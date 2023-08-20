@@ -8,7 +8,7 @@
 ; AUTO-EXECUTE SECTION
 keyboard := "default"
 curIcon := "default"
-Menu, Tray, Icon, icons/keyboards/default.ico
+Menu, Tray, Icon, icons\keyboards\default.ico
 
 ; * = without ending char, ? = inside another string
 #Hotstring * ?
