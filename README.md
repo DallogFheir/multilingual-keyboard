@@ -65,6 +65,8 @@ Default keyboard.
 |   ǫ    |     Ǫ     | [U+01EB](https://codepoints.net/U+01EB) / [U+01EA](https://codepoints.net/U+01EA) | _o_ with ogonek  |    `Alt` + `p`     |
 |   ъ    |     Ъ     | [U+044A](https://codepoints.net/U+044A) / [U+042A](https://codepoints.net/U+042A) |    hard sign     |    `Alt` + `w`     |
 |   ь    |     Ь     | [U+044C](https://codepoints.net/U+044C) / [U+042C](https://codepoints.net/U+042C) |    soft sign     |    `Alt` + `q`     |
+|   ₤    |           |                      [U+20A4](https://codepoints.net/U+20A4)                      |      pound       |    `Alt` + `2`     |
+|   €    |           |                      [U+20AC](https://codepoints.net/U+20AC)                      |       euro       |    `Alt` + `3`     |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Default](#default) ⬆️
 
