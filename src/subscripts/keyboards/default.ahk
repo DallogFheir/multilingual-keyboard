@@ -80,3 +80,9 @@ return
 !+q::
     Send, Ь
 return
+!3::
+    Send, € ; euro
+return
+!2::
+    Send, ₤ ; pound
+return
