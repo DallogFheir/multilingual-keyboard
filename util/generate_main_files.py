@@ -76,7 +76,7 @@ def generate_main(default: str):
 
             name = keyboard.stem
             icon_path = icons_dir / f"{name}.ico"
-            icon_path_str = str(icon_path.relative_to(src_dir))
+            icon_path_str = str(PureWindowsPath(icon_path.relative_to(src_dir)))
             icon = name
             if not icon_path.exists():
                 icon = "*"
