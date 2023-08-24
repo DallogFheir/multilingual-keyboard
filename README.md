@@ -457,6 +457,8 @@ Various punctuation marks.
 |   —    | [U+2014](https://codepoints.net/U+2014) |             em dash              |      `Alt` + `=`      |
 |   ”    | [U+201D](https://codepoints.net/U+201D) |  double quotation mark (right)   |         `"u\`         |
 |   „    | [U+201E](https://codepoints.net/U+201E) | double low quotation mark (left) |         `"d\`         |
+|   •    | [U+2022](https://codepoints.net/U+2022) |           bullet point           |         `*\`          |
+|   ○    | [U+25CB](https://codepoints.net/U+25CB) |           white circle           |         `**\`         |
 |   ⟨    | [U+27E8](https://codepoints.net/U+27E8) |       angle bracket (left)       | `Alt` + `Shift` + `,` |
 |   ⟩    | [U+27E9](https://codepoints.net/U+27E9) |      angle bracket (right)       | `Alt` + `Shift` + `.` |
 
