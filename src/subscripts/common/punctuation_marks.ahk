@@ -15,7 +15,7 @@ return
 ::*\::
     Send, • ; bullet point
 return
-::**\::
+::•\::
     Send, ○ ; white circle
 return
 !+,::
