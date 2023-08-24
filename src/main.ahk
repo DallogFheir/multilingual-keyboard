@@ -10,8 +10,10 @@ keyboard := "default"
 curIcon := "default"
 Menu, Tray, Icon, icons\keyboards\default.ico
 
-; * = without ending char, ? = inside another string
-#Hotstring * ?
+; * = without ending char
+; ? = inside another string
+; C = case-sensitive
+#Hotstring * ? C
 
 ; input level above precomposed characters
 #InputLevel, 1
