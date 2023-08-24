@@ -8,8 +8,10 @@
 ; AUTO-EXECUTE SECTION
 {AUTO_EXECUTE_SECTION}
 
-; * = without ending char, ? = inside another string
-#Hotstring * ?
+; * = without ending char
+; ? = inside another string
+; C = case-sensitive
+#Hotstring * ? C
 
 ; input level above precomposed characters
 #InputLevel, 1
