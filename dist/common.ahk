@@ -4,11 +4,11 @@ return
 ::capricorn\::
     Send, ♑ ; Capricorn
 return
-::diamonds\::
-    Send, ♦ ; diamonds
-return
 ::subschwa\::
     Send, ₔ ; schwa (subscript)
+return
+::diamonds\::
+    Send, ♦ ; diamonds
 return
 ::aquarius\::
     Send, ♒ ; Aquarius
@@ -16,14 +16,14 @@ return
 ::scorpio\::
     Send, ♏ ; Scorpio
 return
+::circle\::
+    Send, ◌ ; dotted circle
+return
 ::spades\::
     Send, ♠ ; spades
 return
 ::hearts\::
     Send, ♥ ; hearts
-return
-::circle\::
-    Send, ◌ ; dotted circle
 return
 ::taurus\::
     Send, ♉ ; Taurus
@@ -37,14 +37,14 @@ return
 ::pisces\::
     Send, ♓ ; Pisces
 return
-::clubs\::
-    Send, ♣ ; clubs
-return
 ::empty\::
     Send, ∅ ; empty set
 return
 ::infty\::
     Send, ∞ ; infinity
+return
+::clubs\::
+    Send, ♣ ; clubs
 return
 ::aries\::
     Send, ♈ ; Aries
@@ -193,35 +193,17 @@ return
 ::supn\::
     Send, ⁿ ; _n_ (superscript)
 return
+::deg\::
+    Send, ° ; degree
+return
 ::not\::
     Send, ¬ ; negation (logical _NOT_)
 return
 ::and\::
     Send, ∧ ; conjunction (logical _AND_)
 return
-::deg\::
-    Send, ° ; degree
-return
 ::leo\::
     Send, ♌ ; Leo
-return
-!+'::
-    Send, ̋ ; double accute
-return
-!+`::
-    Send, ̏ ; double grave
-return
-::oe\::
-    Send, œ ; _oe_
-return
-::OE\::
-    Send, Œ ; 
-return
-::''\::
-    Send, ʾ ; letter half ring (right)
-return
-::or\::
-    Send, ∨ ; disjunction (logical _OR_)
 return
 ::+-\::
     Send, ± ; plus minus
@@ -244,6 +226,24 @@ return
 ::->\::
     Send, → ; arrow (right)
 return
+!+'::
+    Send, ̋ ; double accute
+return
+!+`::
+    Send, ̏ ; double grave
+return
+::oe\::
+    Send, œ ; _oe_
+return
+::OE\::
+    Send, Œ ; 
+return
+::''\::
+    Send, ʾ ; letter half ring (right)
+return
+::or\::
+    Send, ∨ ; disjunction (logical _OR_)
+return
 !+=::
     Send, – ; en dash
 return
@@ -258,6 +258,15 @@ return
 return
 !+.::
     Send, ⟩ ; angle bracket (right)
+return
+::x\::
+    Send, × ; multiplication sign
+return
+::c\::
+    Send, © ; copyright
+return
+::v\::
+    Send, ✓ ; check mark
 return
 !`::
     Send, ̀ ; grave
@@ -295,20 +304,11 @@ return
 !.::
     Send, ̨ ; ogonek
 return
-::x\::
-    Send, × ; multiplication sign
-return
 ::b\::
     Send, ♭ ; flat
 return
 ::#\::
     Send, ♯ ; sharp
-return
-::c\::
-    Send, © ; copyright
-return
-::v\::
-    Send, ✓ ; check mark
 return
 !=::
     Send, — ; em dash
