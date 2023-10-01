@@ -4,6 +4,7 @@ from textwrap import dedent
 from github_slugger import GithubSlugger
 import mdformat
 from .templates.intro import INTRO
+from .common import KEYBOARDS_PATH, SCRIPTS_PATH, HOTKEY_REGEX
 
 SYMBOL = "Symbol"
 UNICODE = "Unicode"
@@ -45,7 +46,7 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
     rows = {}
 
     for rule_match in re.findall(
-        r"^(.+?)::.*?Send, (.+?)(?: ; ?(.*?))?\nreturn$",
+        HOTKEY_REGEX,
         script,
         re.DOTALL | re.MULTILINE,
     ):
@@ -184,13 +185,9 @@ def parse_files(title: str, path: Path, slugger: GithubSlugger) -> str | None:
 
 def generate_docs(without_intro: bool) -> None:
     """Generates documentation for the multilingual keyboard project."""
-    subscripts_path = Path.cwd() / "src" / "subscripts"
-    keyboards_path = subscripts_path / "keyboards"
-    common_path = subscripts_path / "common"
-
     slugger = GithubSlugger()
     sections = []
-    for title, path in (("Keyboards", keyboards_path), ("Common", common_path)):
+    for title, path in (("Keyboards", KEYBOARDS_PATH), ("Common", SCRIPTS_PATH)):
         res = parse_files(title, path, slugger)
         if res is not None:
             sections.append(res)

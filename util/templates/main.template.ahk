@@ -23,9 +23,7 @@
 ; switches
 {IF_STATEMENTS}
 
-; COMMON
-#include subscripts\common.ahk
-; PRECOMPOSED_CHARACTERS
-#include subscripts\precomposed_characters.ahk
-; UTILS
-#include subscripts\utils.ahk
+; includes
+#include common.ahk
+#include precomposed_characters.ahk
+#include utils.ahk

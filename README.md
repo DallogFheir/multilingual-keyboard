@@ -5,7 +5,7 @@
 ## Usage
 
 To use this app, you have to install [AutoHotkey](https://www.autohotkey.com/)
-and download `src` directory from this repository. Then you can just run
+and download `dist` directory from this repository. Then you can just run
 the `main.ahk` file.
 
 The app currently supports 5 keyboard layouts:
@@ -468,18 +468,36 @@ Various punctuation marks.
 
 Subscript characters.
 
-| Symbol |                 Unicode                 |   Description   | Hotstring / hotkey |
-| :----: | :-------------------------------------: | :-------------: | :----------------: |
-|   ₀    | [U+2080](https://codepoints.net/U+2080) | _0_ (subscript) |      `sub0\`       |
-|   ₁    | [U+2081](https://codepoints.net/U+2081) | _1_ (subscript) |      `sub1\`       |
-|   ₂    | [U+2082](https://codepoints.net/U+2082) | _2_ (subscript) |      `sub2\`       |
-|   ₃    | [U+2083](https://codepoints.net/U+2083) | _3_ (subscript) |      `sub3\`       |
-|   ₄    | [U+2084](https://codepoints.net/U+2084) | _4_ (subscript) |      `sub4\`       |
-|   ₅    | [U+2085](https://codepoints.net/U+2085) | _5_ (subscript) |      `sub5\`       |
-|   ₆    | [U+2086](https://codepoints.net/U+2086) | _6_ (subscript) |      `sub6\`       |
-|   ₇    | [U+2087](https://codepoints.net/U+2087) | _7_ (subscript) |      `sub7\`       |
-|   ₈    | [U+2088](https://codepoints.net/U+2088) | _8_ (subscript) |      `sub8\`       |
-|   ₉    | [U+2089](https://codepoints.net/U+2089) | _9_ (subscript) |      `sub9\`       |
+| Symbol |                 Unicode                 |    Description    | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :---------------: | :----------------: |
+|   ₀    | [U+2080](https://codepoints.net/U+2080) |  _0_ (subscript)  |      `sub0\`       |
+|   ₁    | [U+2081](https://codepoints.net/U+2081) |  _1_ (subscript)  |      `sub1\`       |
+|   ₂    | [U+2082](https://codepoints.net/U+2082) |  _2_ (subscript)  |      `sub2\`       |
+|   ₃    | [U+2083](https://codepoints.net/U+2083) |  _3_ (subscript)  |      `sub3\`       |
+|   ₄    | [U+2084](https://codepoints.net/U+2084) |  _4_ (subscript)  |      `sub4\`       |
+|   ₅    | [U+2085](https://codepoints.net/U+2085) |  _5_ (subscript)  |      `sub5\`       |
+|   ₆    | [U+2086](https://codepoints.net/U+2086) |  _6_ (subscript)  |      `sub6\`       |
+|   ₇    | [U+2087](https://codepoints.net/U+2087) |  _7_ (subscript)  |      `sub7\`       |
+|   ₈    | [U+2088](https://codepoints.net/U+2088) |  _8_ (subscript)  |      `sub8\`       |
+|   ₉    | [U+2089](https://codepoints.net/U+2089) |  _9_ (subscript)  |      `sub9\`       |
+|   ₊    | [U+208A](https://codepoints.net/U+208A) |  _+_ (subscript)  |      `sub+\`       |
+|   ₋    | [U+208B](https://codepoints.net/U+208B) |  _-_ (subscript)  |      `sub-\`       |
+|   ₌    | [U+208C](https://codepoints.net/U+208C) |  _=_ (subscript)  |      `sub=\`       |
+|   ₍    | [U+208D](https://codepoints.net/U+208D) |  _(_ (subscript)  |      `sub(\`       |
+|   ₎    | [U+208E](https://codepoints.net/U+208E) |  _)_ (subscript)  |      `sub)\`       |
+|   ₐ    | [U+2090](https://codepoints.net/U+2090) |  _a_ (subscript)  |      `suba\`       |
+|   ₑ    | [U+2091](https://codepoints.net/U+2091) |  _e_ (subscript)  |      `sube\`       |
+|   ₒ    | [U+2092](https://codepoints.net/U+2092) |  _o_ (subscript)  |      `subo\`       |
+|   ₓ    | [U+2093](https://codepoints.net/U+2093) |  _x_ (subscript)  |      `subx\`       |
+|   ₔ    | [U+2094](https://codepoints.net/U+2094) | schwa (subscript) |    `subschwa\`     |
+|   ₕ    | [U+2095](https://codepoints.net/U+2095) |  _h_ (subscript)  |      `subh\`       |
+|   ₖ    | [U+2096](https://codepoints.net/U+2096) |  _k_ (subscript)  |      `subk\`       |
+|   ₗ    | [U+2097](https://codepoints.net/U+2097) |  _l_ (subscript)  |      `subl\`       |
+|   ₘ    | [U+2098](https://codepoints.net/U+2098) |  _m_ (subscript)  |      `subm\`       |
+|   ₙ    | [U+2099](https://codepoints.net/U+2099) |  _n_ (subscript)  |      `subn\`       |
+|   ₚ    | [U+209A](https://codepoints.net/U+209A) |  _p_ (subscript)  |      `subp\`       |
+|   ₛ    | [U+209B](https://codepoints.net/U+209B) |  _s_ (subscript)  |      `subs\`       |
+|   ₜ    | [U+209C](https://codepoints.net/U+209C) |  _t_ (subscript)  |      `subt\`       |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Subscripts](#subscripts) ⬆️
 
@@ -493,12 +511,19 @@ Superscript characters.
 |   ³    | [U+00B3](https://codepoints.net/U+00B3) | _3_ (superscript) |      `sup3\`       |
 |   ¹    | [U+00B9](https://codepoints.net/U+00B9) | _1_ (superscript) |      `sup1\`       |
 |   ⁰    | [U+2070](https://codepoints.net/U+2070) | _0_ (superscript) |      `sup0\`       |
+|   ⁱ    | [U+2071](https://codepoints.net/U+2071) | _i_ (superscript) |      `supi\`       |
 |   ⁴    | [U+2074](https://codepoints.net/U+2074) | _4_ (superscript) |      `sup4\`       |
 |   ⁵    | [U+2075](https://codepoints.net/U+2075) | _5_ (superscript) |      `sup5\`       |
 |   ⁶    | [U+2076](https://codepoints.net/U+2076) | _6_ (superscript) |      `sup6\`       |
 |   ⁷    | [U+2077](https://codepoints.net/U+2077) | _7_ (superscript) |      `sup7\`       |
 |   ⁸    | [U+2078](https://codepoints.net/U+2078) | _8_ (superscript) |      `sup8\`       |
 |   ⁹    | [U+2079](https://codepoints.net/U+2079) | _9_ (superscript) |      `sup9\`       |
+|   ⁺    | [U+207A](https://codepoints.net/U+207A) | _+_ (superscript) |      `sup+\`       |
+|   ⁻    | [U+207B](https://codepoints.net/U+207B) | _-_ (superscript) |      `sup-\`       |
+|   ⁼    | [U+207C](https://codepoints.net/U+207C) | _=_ (superscript) |      `sup=\`       |
+|   ⁽    | [U+207D](https://codepoints.net/U+207D) | _(_ (superscript) |      `sup(\`       |
+|   ⁾    | [U+207E](https://codepoints.net/U+207E) | _)_ (superscript) |      `sup)\`       |
+|   ⁿ    | [U+207F](https://codepoints.net/U+207F) | _n_ (superscript) |      `supn\`       |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Superscripts](#superscripts) ⬆️
 
@@ -515,7 +540,7 @@ Western zodiac signs.
 |   ♌    | [U+264C](https://codepoints.net/U+264C) |     Leo     |       `leo\`       |
 |   ♍    | [U+264D](https://codepoints.net/U+264D) |    Virgo    |      `virgo\`      |
 |   ♎    | [U+264E](https://codepoints.net/U+264E) |    Libra    |      `libra\`      |
-|   ♏    | [U+264F](https://codepoints.net/U+264F) |   Scorpio   |    `scorpius\`     |
+|   ♏    | [U+264F](https://codepoints.net/U+264F) |   Scorpio   |     `scorpio\`     |
 |   ♐    | [U+2650](https://codepoints.net/U+2650) | Sagittarius |   `sagittarius\`   |
 |   ♑    | [U+2651](https://codepoints.net/U+2651) |  Capricorn  |    `capricorn\`    |
 |   ♒    | [U+2652](https://codepoints.net/U+2652) |  Aquarius   |    `aquarius\`     |

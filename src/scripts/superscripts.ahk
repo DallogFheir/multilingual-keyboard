@@ -12,6 +12,9 @@ return
 ::sup0\::
     Send, ⁰ ; _0_ (superscript)
 return
+::supi\::
+    Send, ⁱ ; _i_ (superscript)
+return
 ::sup4\::
     Send, ⁴ ; _4_ (superscript)
 return
@@ -29,4 +32,22 @@ return
 return
 ::sup9\::
     Send, ⁹ ; _9_ (superscript)
+return
+::sup+\::
+    Send, ⁺ ; _+_ (superscript)
+return
+::sup-\::
+    Send, ⁻ ; _-_ (superscript)
+return
+::sup=\::
+    Send, ⁼ ; _=_ (superscript)
+return
+::sup(\::
+    Send, ⁽ ; _(_ (superscript)
+return
+::sup)\::
+    Send, ⁾ ; _)_ (superscript)
+return
+::supn\::
+    Send, ⁿ ; _n_ (superscript)
 return

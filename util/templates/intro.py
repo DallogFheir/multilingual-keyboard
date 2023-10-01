@@ -5,7 +5,7 @@ hotstrings for a variety of symbols.
 ## Usage
 
 To use this app, you have to install [AutoHotkey](https://www.autohotkey.com/)
-and download `src` directory from this repository. Then you can just run
+and download `dist` directory from this repository. Then you can just run
 the `main.ahk` file.
 
 The app currently supports 5 keyboard layouts:

@@ -1,20 +1,36 @@
 from pathlib import Path, PureWindowsPath
+import re
+import shutil
 from textwrap import dedent
+from .common import SRC_PATH, ICONS_PATH, KEYBOARDS_PATH, DIST_PATH, HOTKEY_REGEX
 
 
 def generate_common():
     """Generates common.ahk file."""
-    src_dir = Path.cwd() / "src"
-    includes = [
-        f"#include {str(file.relative_to(src_dir))}\n"
-        for file in sorted(
-            (src_dir / "subscripts" / "common").iterdir(), key=lambda k: k.stem
-        )
-        if file.suffix == ".ahk"
-    ]
+    scripts_dir = Path.cwd() / "src" / "scripts"
+    hotstrings = []
 
-    with open(src_dir / "common.ahk", "w", encoding="utf-8-sig") as f:
-        f.writelines(includes)
+    for file in scripts_dir.iterdir():
+        with open(file, encoding="utf-8-sig") as f:
+            script = f.read()
+            file_hotstrings = re.findall(
+                HOTKEY_REGEX,
+                script,
+                re.DOTALL | re.MULTILINE,
+            )
+
+            for file_hotstring_match in file_hotstrings:
+                hotstrings.append(file_hotstring_match)
+
+    hotstrings.sort(key=lambda k: len(k[0].removeprefix("::")), reverse=True)
+
+    with open(DIST_PATH / "common.ahk", "w", encoding="utf-8-sig") as f:
+        f.writelines(
+            [
+                f"{hotstring}::\n    Send, {replacement} ; {description}\nreturn\n"
+                for hotstring, replacement, description in hotstrings
+            ]
+        )
 
 
 def generate_main(default: str):
@@ -23,13 +39,10 @@ def generate_main(default: str):
     Args:
         default (str): Default keyboard name.
     """
-    src_dir = Path.cwd() / "src"
-    icons_dir = src_dir / "icons" / "keyboards"
-    keyboards_dir = src_dir / "subscripts" / "keyboards"
-
+    keyboard_icons_path = ICONS_PATH / "keyboards"
     icon_not_found_message = (
         "Warning: icon {}.ico not found in "
-        + str(icons_dir)
+        + str(keyboard_icons_path)
         + ". Using default AHK icon."
     )
     hotkey_template = dedent(
@@ -43,18 +56,20 @@ def generate_main(default: str):
     if_template = dedent(
         """\
         #If keyboard = "{0}"
-            #include subscripts\\keyboards\\{0}.ahk
+            #include keyboards\\{0}.ahk
         #If"""
     )
 
-    default_keyboard = keyboards_dir / f"{default}.ahk"
+    default_keyboard = KEYBOARDS_PATH / f"{default}.ahk"
     if not default_keyboard.exists():
         raise FileNotFoundError(
-            f"Default keyboard {default}.ahk not found in {keyboards_dir}."
+            f"Default keyboard {default}.ahk not found in {KEYBOARDS_PATH}."
         )
     default_icon = default
-    default_icon_path = icons_dir / f"{default}.ico"
-    default_icon_path_str = str(PureWindowsPath(default_icon_path.relative_to(src_dir)))
+    default_icon_path = keyboard_icons_path / f"{default}.ico"
+    default_icon_path_str = str(
+        PureWindowsPath(default_icon_path.relative_to(SRC_PATH))
+    )
     if not default_icon_path.exists():
         default_icon = "*"
         default_icon_path_str = "*"
@@ -69,14 +84,14 @@ def generate_main(default: str):
     hotkeys = {}
     if_statements = {}
     order_dict = {}
-    for keyboard in keyboards_dir.iterdir():
+    for keyboard in KEYBOARDS_PATH.iterdir():
         if keyboard.suffix == ".ahk":
             with open(keyboard, encoding="utf-8-sig") as f:
                 hotkey = f.readlines()[2].removeprefix("; ").strip()
 
             name = keyboard.stem
-            icon_path = icons_dir / f"{name}.ico"
-            icon_path_str = str(PureWindowsPath(icon_path.relative_to(src_dir)))
+            icon_path = keyboard_icons_path / f"{name}.ico"
+            icon_path_str = str(PureWindowsPath(icon_path.relative_to(SRC_PATH)))
             icon = name
             if not icon_path.exists():
                 icon = "*"
@@ -116,5 +131,14 @@ def generate_main(default: str):
         )
     )
 
-    with open(src_dir / "main.ahk", "w", encoding="utf-8-sig") as f:
+    with open(DIST_PATH / "main.ahk", "w", encoding="utf-8-sig") as f:
         f.write(final_template)
+
+
+def copy_files():
+    shutil.copytree(
+        SRC_PATH,
+        DIST_PATH,
+        ignore=shutil.ignore_patterns("scripts"),
+        dirs_exist_ok=True,
+    )

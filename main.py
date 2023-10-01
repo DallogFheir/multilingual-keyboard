@@ -1,5 +1,5 @@
 from util.generate_docs import generate_docs
-from util.generate_main_files import generate_common, generate_main
+from util.generate_main_files import generate_common, generate_main, copy_files
 from util.sort_hotkeys import sort_hotkeys
 from pathlib import Path
 import click
@@ -22,6 +22,8 @@ def generate_main_files_func(default: str) -> None:
     generate_common()
     print("Generating main.ahk...")
     generate_main(default)
+    print("Copying other files...")
+    copy_files()
     print("Main files generated.")
 
 

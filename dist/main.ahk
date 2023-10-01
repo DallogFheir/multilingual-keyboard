@@ -52,28 +52,26 @@ return
 
 ; switches
 #If keyboard = "default"
-    #include subscripts\keyboards\default.ahk
+    #include keyboards\default.ahk
 #If
 
 #If keyboard = "cyrillic"
-    #include subscripts\keyboards\cyrillic.ahk
+    #include keyboards\cyrillic.ahk
 #If
 
 #If keyboard = "greek"
-    #include subscripts\keyboards\greek.ahk
+    #include keyboards\greek.ahk
 #If
 
 #If keyboard = "ipa"
-    #include subscripts\keyboards\ipa.ahk
+    #include keyboards\ipa.ahk
 #If
 
 #If keyboard = "flag"
-    #include subscripts\keyboards\flag.ahk
+    #include keyboards\flag.ahk
 #If
 
-; COMMON
-#include subscripts\common.ahk
-; PRECOMPOSED_CHARACTERS
-#include subscripts\precomposed_characters.ahk
-; UTILS
-#include subscripts\utils.ahk
+; includes
+#include common.ahk
+#include precomposed_characters.ahk
+#include utils.ahk

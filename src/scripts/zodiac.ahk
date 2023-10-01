@@ -21,7 +21,7 @@ return
 ::libra\::
     Send, ♎ ; Libra
 return
-::scorpius\::
+::scorpio\::
     Send, ♏ ; Scorpio
 return
 ::sagittarius\::

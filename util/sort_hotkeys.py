@@ -1,5 +1,6 @@
 from pathlib import Path
 import re
+from .common import SRC_PATH, KEYBOARDS_PATH, SCRIPTS_PATH
 
 
 def sort_file(file: Path) -> None:
@@ -52,15 +53,11 @@ def sort_file(file: Path) -> None:
 
 def sort_hotkeys() -> None:
     """Sorts hotkeys in AHK scripts in directories 'common' and 'keyboards' alphabetically (lowercase letters before their uppercase counterparts)."""
-    subscripts_path = Path.cwd() / "src" / "subscripts"
-    keyboards_path = subscripts_path / "keyboards"
-    common_path = subscripts_path / "common"
-
-    for path in (keyboards_path, common_path):
+    for path in (KEYBOARDS_PATH, SCRIPTS_PATH):
         for file in path.iterdir():
             sort_file(file)
 
-    additional_files = [subscripts_path / "precomposed_characters.ahk"]
+    additional_files = [SRC_PATH / "precomposed_characters.ahk"]
 
     for file in additional_files:
         sort_file(file)
