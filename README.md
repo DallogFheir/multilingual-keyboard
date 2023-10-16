@@ -407,18 +407,20 @@ Symbols used in mathematical logic.
 
 Various mathematical symbols.
 
-| Symbol |                 Unicode                 |     Description     | Hotstring / hotkey |
-| :----: | :-------------------------------------: | :-----------------: | :----------------: |
-|   ±    | [U+00B1](https://codepoints.net/U+00B1) |     plus minus      |       `+-\`        |
-|   ×    | [U+00D7](https://codepoints.net/U+00D7) | multiplication sign |        `x\`        |
-|   ∅    | [U+2205](https://codepoints.net/U+2205) |      empty set      |      `empty\`      |
-|   ∓    | [U+2213](https://codepoints.net/U+2213) |     minus plus      |       `-+\`        |
-|   √    | [U+221A](https://codepoints.net/U+221A) |     square root     |      `sqrt\`       |
-|   ∞    | [U+221E](https://codepoints.net/U+221E) |      infinity       |      `infty\`      |
-|   ≠    | [U+2260](https://codepoints.net/U+2260) |      not equal      |       `=/=`        |
-|   ≪    | [U+226A](https://codepoints.net/U+226A) |   much less than    |       `<<\`        |
-|   ≫    | [U+226B](https://codepoints.net/U+226B) |  much greater than  |       `>>\`        |
-|   ⋅    | [U+22C5](https://codepoints.net/U+22C5) | multiplication dot  |      `cdot\`       |
+| Symbol |                 Unicode                 |       Description        | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :----------------------: | :----------------: |
+|   ±    | [U+00B1](https://codepoints.net/U+00B1) |        plus minus        |       `+-\`        |
+|   ×    | [U+00D7](https://codepoints.net/U+00D7) |   multiplication sign    |        `x\`        |
+|   ∅    | [U+2205](https://codepoints.net/U+2205) |        empty set         |      `empty\`      |
+|   ∓    | [U+2213](https://codepoints.net/U+2213) |        minus plus        |       `-+\`        |
+|   √    | [U+221A](https://codepoints.net/U+221A) |       square root        |      `sqrt\`       |
+|   ∞    | [U+221E](https://codepoints.net/U+221E) |         infinity         |      `infty\`      |
+|   ≠    | [U+2260](https://codepoints.net/U+2260) |        not equal         |       `=/=`        |
+|   ≤    | [U+2264](https://codepoints.net/U+2264) |  less than or equal to   |       `<=\`        |
+|   ≥    | [U+2265](https://codepoints.net/U+2265) | greater than or equal to |       `>=\`        |
+|   ≪    | [U+226A](https://codepoints.net/U+226A) |      much less than      |       `<<\`        |
+|   ≫    | [U+226B](https://codepoints.net/U+226B) |    much greater than     |       `>>\`        |
+|   ⋅    | [U+22C5](https://codepoints.net/U+22C5) |    multiplication dot    |      `cdot\`       |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Mathematics](#mathematics) ⬆️
 

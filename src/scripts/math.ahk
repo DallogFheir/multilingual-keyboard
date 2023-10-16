@@ -21,6 +21,12 @@ return
 ::=/=::
     Send, ≠ ; not equal
 return
+::<=\::
+    Send, ≤ ; less than or equal to
+return
+::>=\::
+    Send, ≥ ; greater than or equal to
+return
 ::<<\::
     Send, ≪ ; much less than
 return
