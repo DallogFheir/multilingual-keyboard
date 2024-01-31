@@ -356,6 +356,59 @@ Symbols representing cards and card suits.
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Cards](#cards) ⬆️
 
+#### Currencies
+
+Currency symbols.
+
+| Symbol |                 Unicode                 |        Description        | Hotstring / hotkey |
+| :----: | :-------------------------------------: | :-----------------------: | :----------------: |
+|   ¢    | [U+00A2](https://codepoints.net/U+00A2) |           cent            |      `$cent\`      |
+|   ¥    | [U+00A5](https://codepoints.net/U+00A5) |        yen / yuan         |      `$yen\`       |
+|   ƒ    | [U+0192](https://codepoints.net/U+0192) |     florin / guilder      |     `$florin\`     |
+|   ֏    | [U+058F](https://codepoints.net/U+058F) |       Armenian dram       |      `$amd\`       |
+|   ؋    | [U+060B](https://codepoints.net/U+060B) |      Afghan afghani       |      `$afn\`       |
+|   ৲    | [U+09F2](https://codepoints.net/U+09F2) |       Bengali rupee       |     `$brupee\`     |
+|   ৳    | [U+09F3](https://codepoints.net/U+09F3) |     Bangladeshi taka      |      `$bdt\`       |
+|   ૱    | [U+0AF1](https://codepoints.net/U+0AF1) |      Gujarati rupee       |     `$grupee\`     |
+|   ௹    | [U+0BF9](https://codepoints.net/U+0BF9) |        Tamil rupee        |     `$trupee\`     |
+|   ฿    | [U+0E3F](https://codepoints.net/U+0E3F) |         Thai baht         |      `$thb\`       |
+|   ៛    | [U+17DB](https://codepoints.net/U+17DB) |      Cambodian riel       |      `$khr\`       |
+|   ₠    | [U+20A0](https://codepoints.net/U+20A0) |  European Currency Unit   |      `$ecu\`       |
+|   ₡    | [U+20A1](https://codepoints.net/U+20A1) |           colón           |     `$colon\`      |
+|   ₢    | [U+20A2](https://codepoints.net/U+20A2) |         cruzeiro          |    `$cruzeiro\`    |
+|   ₣    | [U+20A3](https://codepoints.net/U+20A3) |           franc           |     `$franc\`      |
+|   ₤    | [U+20A4](https://codepoints.net/U+20A4) |      pound sterling       |      `$gbp\`       |
+|   ₥    | [U+20A5](https://codepoints.net/U+20A5) |           mill            |      `$mill\`      |
+|   ₦    | [U+20A6](https://codepoints.net/U+20A6) |      Nigerian naira       |      `$ngn\`       |
+|   ₧    | [U+20A7](https://codepoints.net/U+20A7) |          peseta           |     `$peseta\`     |
+|   ₨    | [U+20A8](https://codepoints.net/U+20A8) |           rupee           |     `$rupee\`      |
+|   ₩    | [U+20A9](https://codepoints.net/U+20A9) |            won            |      `$won\`       |
+|   ₪    | [U+20AA](https://codepoints.net/U+20AA) |    Israeli new shekel     |      `$ils\`       |
+|   ₫    | [U+20AB](https://codepoints.net/U+20AB) |      Vietnamese đồng      |      `$vnd\`       |
+|   €    | [U+20AC](https://codepoints.net/U+20AC) |           euro            |      `$eur\`       |
+|   ₭    | [U+20AD](https://codepoints.net/U+20AD) |          Lao kip          |      `$lak\`       |
+|   ₮    | [U+20AE](https://codepoints.net/U+20AE) | Mongolian tögrög / tugrik |      `$mnt\`       |
+|   ₯    | [U+20AF](https://codepoints.net/U+20AF) |          drachma          |      `$grd\`       |
+|   ₰    | [U+20B0](https://codepoints.net/U+20B0) |          pfennig          |    `$pfennig\`     |
+|   ₱    | [U+20B1](https://codepoints.net/U+20B1) |      Philippine peso      |      `$php\`       |
+|   ₲    | [U+20B2](https://codepoints.net/U+20B2) |    Paraguayan guaraní     |      `$pyg\`       |
+|   ₳    | [U+20B3](https://codepoints.net/U+20B3) |     Argentine austral     |      `$ara\`       |
+|   ₴    | [U+20B4](https://codepoints.net/U+20B4) |     Ukrainian hryvnia     |      `$uah\`       |
+|   ₵    | [U+20B5](https://codepoints.net/U+20B5) |       Ghanaian cedi       |      `$ghs\`       |
+|   ₶    | [U+20B6](https://codepoints.net/U+20B6) |      livre tournois       |       `$lt\`       |
+|   ₷    | [U+20B7](https://codepoints.net/U+20B7) |         spesmilo          |    `$spesmilo\`    |
+|   ₸    | [U+20B8](https://codepoints.net/U+20B8) |     Kazakhstani tenge     |      `$kzt\`       |
+|   ₹    | [U+20B9](https://codepoints.net/U+20B9) |       Indian rupee        |      `$inr\`       |
+|   ₺    | [U+20BA](https://codepoints.net/U+20BA) |       Turkish lira        |      `$try\`       |
+|   ₼    | [U+20BC](https://codepoints.net/U+20BC) |     Azerbaijani manat     |      `$azn\`       |
+|   ₽    | [U+20BD](https://codepoints.net/U+20BD) |       Russian ruble       |      `$rub\`       |
+|   ₾    | [U+20BE](https://codepoints.net/U+20BE) |       Georgian lari       |      `$gel\`       |
+|   ₿    | [U+20BF](https://codepoints.net/U+20BF) |          Bitcoin          |      `$btc\`       |
+|   ℳ    | [U+2133](https://codepoints.net/U+2133) |        German mark        |      `$mark\`      |
+|   ﷼    | [U+FDFC](https://codepoints.net/U+FDFC) |           rial            |      `$rial\`      |
+
+⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Currencies](#currencies) ⬆️
+
 #### Diacritics
 
 Combining diacritical marks.

@@ -1,29 +1,53 @@
 ﻿::sagittarius\::
     Send, ♐ ; Sagittarius
 return
+::$cruzeiro\::
+    Send, ₢ ; cruzeiro
+return
+::$spesmilo\::
+    Send, ₷ ; spesmilo
+return
 ::capricorn\::
     Send, ♑ ; Capricorn
 return
 ::subschwa\::
     Send, ₔ ; schwa (subscript)
 return
-::diamonds\::
-    Send, ♦ ; diamonds
+::$pfennig\::
+    Send, ₰ ; pfennig
 return
 ::aquarius\::
     Send, ♒ ; Aquarius
 return
+::diamonds\::
+    Send, ♦ ; diamonds
+return
+::$florin\::
+    Send, ƒ ; florin / guilder
+return
+::$brupee\::
+    Send, ৲ ; Bengali rupee
+return
+::$grupee\::
+    Send, ૱ ; Gujarati rupee
+return
+::$trupee\::
+    Send, ௹ ; Tamil rupee
+return
+::$peseta\::
+    Send, ₧ ; peseta
+return
 ::scorpio\::
     Send, ♏ ; Scorpio
 return
-::circle\::
-    Send, ◌ ; dotted circle
+::$colon\::
+    Send, ₡ ; colón
 return
-::spades\::
-    Send, ♠ ; spades
+::$franc\::
+    Send, ₣ ; franc
 return
-::hearts\::
-    Send, ♥ ; hearts
+::$rupee\::
+    Send, ₨ ; rupee
 return
 ::taurus\::
     Send, ♉ ; Taurus
@@ -37,14 +61,26 @@ return
 ::pisces\::
     Send, ♓ ; Pisces
 return
-::empty\::
-    Send, ∅ ; empty set
+::circle\::
+    Send, ◌ ; dotted circle
 return
-::infty\::
-    Send, ∞ ; infinity
+::spades\::
+    Send, ♠ ; spades
 return
-::clubs\::
-    Send, ♣ ; clubs
+::hearts\::
+    Send, ♥ ; hearts
+return
+::$cent\::
+    Send, ¢ ; cent
+return
+::$mill\::
+    Send, ₥ ; mill
+return
+::$mark\::
+    Send, ℳ ; German mark
+return
+::$rial\::
+    Send, ﷼ ; rial
 return
 ::aries\::
     Send, ♈ ; Aries
@@ -55,11 +91,14 @@ return
 ::libra\::
     Send, ♎ ; Libra
 return
-::sqrt\::
-    Send, √ ; square root
+::empty\::
+    Send, ∅ ; empty set
 return
-::cdot\::
-    Send, ⋅ ; multiplication dot 
+::infty\::
+    Send, ∞ ; infinity
+return
+::clubs\::
+    Send, ♣ ; clubs
 return
 ::sub0\::
     Send, ₀ ; _0_ (subscript)
@@ -142,6 +181,90 @@ return
 ::subt\::
     Send, ₜ ; _t_ (subscript)
 return
+::$yen\::
+    Send, ¥ ; yen / yuan
+return
+::$amd\::
+    Send, ֏ ; Armenian dram
+return
+::$afn\::
+    Send, ؋ ; Afghan afghani
+return
+::$bdt\::
+    Send, ৳ ; Bangladeshi taka
+return
+::$thb\::
+    Send, ฿ ; Thai baht
+return
+::$khr\::
+    Send, ៛ ; Cambodian riel
+return
+::$ecu\::
+    Send, ₠ ; European Currency Unit
+return
+::$gbp\::
+    Send, ₤ ; pound sterling
+return
+::$ngn\::
+    Send, ₦ ; Nigerian naira
+return
+::$won\::
+    Send, ₩ ; won
+return
+::$ils\::
+    Send, ₪ ; Israeli new shekel
+return
+::$vnd\::
+    Send, ₫ ; Vietnamese đồng
+return
+::$eur\::
+    Send, € ; euro
+return
+::$lak\::
+    Send, ₭ ; Lao kip
+return
+::$mnt\::
+    Send, ₮ ; Mongolian tögrög / tugrik
+return
+::$grd\::
+    Send, ₯ ; drachma
+return
+::$php\::
+    Send, ₱ ; Philippine peso
+return
+::$pyg\::
+    Send, ₲ ; Paraguayan guaraní
+return
+::$ara\::
+    Send, ₳ ; Argentine austral
+return
+::$uah\::
+    Send, ₴ ; Ukrainian hryvnia
+return
+::$ghs\::
+    Send, ₵ ; Ghanaian cedi
+return
+::$kzt\::
+    Send, ₸ ; Kazakhstani tenge
+return
+::$inr\::
+    Send, ₹ ; Indian rupee
+return
+::$try\::
+    Send, ₺ ; Turkish lira
+return
+::$azn\::
+    Send, ₼ ; Azerbaijani manat
+return
+::$rub\::
+    Send, ₽ ; Russian ruble
+return
+::$gel\::
+    Send, ₾ ; Georgian lari
+return
+::$btc\::
+    Send, ₿ ; Bitcoin
+return
 ::sup2\::
     Send, ² ; _2_ (superscript)
 return
@@ -193,8 +316,11 @@ return
 ::supn\::
     Send, ⁿ ; _n_ (superscript)
 return
-::deg\::
-    Send, ° ; degree
+::sqrt\::
+    Send, √ ; square root
+return
+::cdot\::
+    Send, ⋅ ; multiplication dot 
 return
 ::not\::
     Send, ¬ ; negation (logical _NOT_)
@@ -202,8 +328,44 @@ return
 ::and\::
     Send, ∧ ; conjunction (logical _AND_)
 return
+::$lt\::
+    Send, ₶ ; livre tournois
+return
 ::leo\::
     Send, ♌ ; Leo
+return
+::deg\::
+    Send, ° ; degree
+return
+::or\::
+    Send, ∨ ; disjunction (logical _OR_)
+return
+!+=::
+    Send, – ; en dash
+return
+::"u\::
+    Send, ” ; double quotation mark (right)
+return
+::"d\::
+    Send, „ ; double low quotation mark (left)
+return
+!+,::
+    Send, ⟨ ; angle bracket (left)
+return
+!+.::
+    Send, ⟩ ; angle bracket (right)
+return
+!+'::
+    Send, ̋ ; double accute
+return
+!+`::
+    Send, ̏ ; double grave
+return
+::tm\::
+    Send, ™ ; trademark
+return
+::->\::
+    Send, → ; arrow (right)
 return
 ::+-\::
     Send, ± ; plus minus
@@ -226,18 +388,6 @@ return
 ::>>\::
     Send, ≫ ; much greater than
 return
-::tm\::
-    Send, ™ ; trademark
-return
-::->\::
-    Send, → ; arrow (right)
-return
-!+'::
-    Send, ̋ ; double accute
-return
-!+`::
-    Send, ̏ ; double grave
-return
 ::oe\::
     Send, œ ; _oe_
 return
@@ -247,32 +397,14 @@ return
 ::''\::
     Send, ʾ ; letter half ring (right)
 return
-::or\::
-    Send, ∨ ; disjunction (logical _OR_)
+!=::
+    Send, — ; em dash
 return
-!+=::
-    Send, – ; en dash
+::*\::
+    Send, • ; bullet point
 return
-::"u\::
-    Send, ” ; double quotation mark (right)
-return
-::"d\::
-    Send, „ ; double low quotation mark (left)
-return
-!+,::
-    Send, ⟨ ; angle bracket (left)
-return
-!+.::
-    Send, ⟩ ; angle bracket (right)
-return
-::x\::
-    Send, × ; multiplication sign
-return
-::c\::
-    Send, © ; copyright
-return
-::v\::
-    Send, ✓ ; check mark
+::•\::
+    Send, ○ ; white circle
 return
 !`::
     Send, ̀ ; grave
@@ -310,18 +442,18 @@ return
 !.::
     Send, ̨ ; ogonek
 return
+::c\::
+    Send, © ; copyright
+return
+::v\::
+    Send, ✓ ; check mark
+return
 ::b\::
     Send, ♭ ; flat
 return
 ::#\::
     Send, ♯ ; sharp
 return
-!=::
-    Send, — ; em dash
-return
-::*\::
-    Send, • ; bullet point
-return
-::•\::
-    Send, ○ ; white circle
+::x\::
+    Send, × ; multiplication sign
 return
