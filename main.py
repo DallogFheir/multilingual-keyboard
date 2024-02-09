@@ -28,10 +28,10 @@ def generate_main_files_func(default: str) -> None:
     print("Main files generated.")
 
 
-def generate_dist_func() -> None:
-    print("Generating dist.zip...")
+def generate_dist_func(dist_archive_name: str) -> None:
+    print(f"Generating {dist_archive_name}.zip...")
     try:
-        create_dist()
+        create_dist(dist_archive_name)
     except FileNotFoundError:
         print("dist folder not found.")
 
@@ -75,9 +75,16 @@ def generate_main_files_command(default: str) -> None:
     generate_main_files_func(default)
 
 
-@cli.command("dist", help="generate dist.zip")
-def generate_dist_command() -> None:
-    generate_dist_func()
+@cli.command("dist", help="generate dist ZIP archive")
+@click.option(
+    "-n",
+    "--name",
+    default="dist",
+    show_default=True,
+    help="Choose the dist archive name.",
+)
+def generate_dist_command(name: str) -> None:
+    generate_dist_func(name)
 
 
 if __name__ == "__main__":

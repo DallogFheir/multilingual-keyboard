@@ -37,7 +37,7 @@ jobs:
       - name: Run creation of files
         run: python3 main.py main-files
       - name: Run creation of dist.zip
-        run: python3 main.py dist
+        run: python3 main.py dist -n multilingual-keyboard
       - name: Create a release
         uses: comnoco/create-release-action@v2.0.5
         env:
@@ -49,4 +49,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.run_number }}
-          files: dist.zip
+          files: multilingual-keyboard.zip
