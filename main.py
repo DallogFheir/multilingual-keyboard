@@ -1,3 +1,4 @@
+from util.create_dist import create_dist
 from util.generate_docs import generate_docs
 from util.generate_main_files import generate_common, generate_main, copy_files
 from util.sort_hotkeys import sort_hotkeys
@@ -27,6 +28,14 @@ def generate_main_files_func(default: str) -> None:
     print("Main files generated.")
 
 
+def generate_dist_func() -> None:
+    print("Generating dist.zip...")
+    try:
+        create_dist()
+    except FileNotFoundError:
+        print("dist folder not found.")
+
+
 @click.group(invoke_without_command=True)
 @click.pass_context
 def cli(ctx: click.Context) -> None:
@@ -34,6 +43,7 @@ def cli(ctx: click.Context) -> None:
         sort_hotkeys_func()
         generate_main_files_func("default")
         generate_docs_func(False)
+        generate_dist_func()
 
 
 @cli.command("docs", help="generate docs for the AHK project")
@@ -42,7 +52,7 @@ def cli(ctx: click.Context) -> None:
     "--without-intro",
     is_flag=True,
     flag_value=True,
-    help="Exclude the introduction from the documentation.",
+    help="Exclude the introduction and acknowledgements from the documentation.",
 )
 def generate_docs_command(without_intro: bool) -> None:
     generate_docs_func(without_intro)
@@ -63,6 +73,11 @@ def sort_hotkeys_command() -> None:
 )
 def generate_main_files_command(default: str) -> None:
     generate_main_files_func(default)
+
+
+@cli.command("dist", help="generate dist.zip")
+def generate_dist_command() -> None:
+    generate_dist_func()
 
 
 if __name__ == "__main__":

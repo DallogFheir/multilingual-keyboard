@@ -41,3 +41,9 @@ If you want to create a new keyboard layout, you need to add a conditional rule 
 Provided for you is a Python script that can generate the documentation (`main.py docs`) and sort hotkeys/hotstrings alphabetically (according to their Unicode code point, but putting lowercase letters before their uppercase counterparts; `main.py sort`). To generate the documentation without this introduction, you can run `main.py docs -w`.
 
 """
+
+OUTRO = """
+## Acknowledgements
+
+The base for the logo created by [Gregor Cresnar - Flaticon](https://www.flaticon.com).
+"""

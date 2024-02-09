@@ -602,3 +602,7 @@ Western zodiac signs.
 |   ♓    | [U+2653](https://codepoints.net/U+2653) |   Pisces    |     `pisces\`      |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Common](#common) | [Zodiac](#zodiac) ⬆️
+
+## Acknowledgements
+
+The base for the logo created by [Gregor Cresnar - Flaticon](https://www.flaticon.com).

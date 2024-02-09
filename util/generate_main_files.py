@@ -7,6 +7,10 @@ from .common import SRC_PATH, ICONS_PATH, KEYBOARDS_PATH, DIST_PATH, HOTKEY_REGE
 
 def generate_common():
     """Generates common.ahk file."""
+
+    if not DIST_PATH.exists():
+        DIST_PATH.mkdir()
+
     scripts_dir = Path.cwd() / "src" / "scripts"
     hotstrings = []
 
@@ -39,6 +43,10 @@ def generate_main(default: str):
     Args:
         default (str): Default keyboard name.
     """
+
+    if not DIST_PATH.exists():
+        DIST_PATH.mkdir()
+
     keyboard_icons_path = ICONS_PATH / "keyboards"
     icon_not_found_message = (
         "Warning: icon {}.ico not found in "
@@ -136,6 +144,9 @@ def generate_main(default: str):
 
 
 def copy_files():
+    if not DIST_PATH.exists():
+        DIST_PATH.mkdir()
+
     shutil.copytree(
         SRC_PATH,
         DIST_PATH,

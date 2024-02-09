@@ -3,7 +3,7 @@ import re
 from textwrap import dedent
 from github_slugger import GithubSlugger
 import mdformat
-from .templates.intro import INTRO
+from .templates.texts import INTRO, OUTRO
 from .common import KEYBOARDS_PATH, SCRIPTS_PATH, HOTKEY_REGEX
 
 SYMBOL = "Symbol"
@@ -183,7 +183,7 @@ def parse_files(title: str, path: Path, slugger: GithubSlugger) -> str | None:
         return f"""### {title}\n\n{subsections_string}"""
 
 
-def generate_docs(without_intro: bool) -> None:
+def generate_docs(sections_only: bool) -> None:
     """Generates documentation for the multilingual keyboard project."""
     slugger = GithubSlugger()
     sections = []
@@ -194,9 +194,10 @@ def generate_docs(without_intro: bool) -> None:
 
     document = (
         "# Multilingual Keyboard\n\n"
-        + ("" if without_intro else INTRO)
+        + ("" if sections_only else INTRO)
         + ("" if len(sections) == 0 else "## Hotkeys & hotstrings\n\n")
         + "\n\n".join(sections)
+        + ("" if sections_only else OUTRO)
         + "\n"
     )
 
