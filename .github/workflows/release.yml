@@ -1,12 +1,11 @@
-name: Generate files
-run-name: Generate docs and main .ahk files
+name: Release
+run-name: Create release
 on:
   push:
     branches:
       - master
 jobs:
-  generate_files:
-    if: ${{ github.actor }} != "GitHub Actions"
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -35,22 +34,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: git push origin master
-  create_release:
-    if: ${{ github.actor }} == "GitHub Actions"
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-          cache: "pip"
-      - name: Install dependencies
-        run: pip3 install -r requirements.txt
       - name: Run creation of files
         run: python3 main.py main-files
       - name: Run creation of dist.zip
         run: python3 main.py dist
-      - name: Release
+      - name: Create a release
+        uses: comnoco/create-release-action@v2.0.5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+      - name: Add files to release
         uses: softprops/action-gh-release@v1
         with:
           files: dist.zip
