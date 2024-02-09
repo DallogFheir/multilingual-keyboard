@@ -48,4 +48,5 @@ jobs:
       - name: Add files to release
         uses: softprops/action-gh-release@v1
         with:
+          tag_name: ${{ github.run_number }}
           files: dist.zip
