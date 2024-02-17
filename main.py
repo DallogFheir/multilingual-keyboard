@@ -43,7 +43,7 @@ def cli(ctx: click.Context) -> None:
         sort_hotkeys_func()
         generate_main_files_func("default")
         generate_docs_func(False)
-        generate_dist_func()
+        generate_dist_func("dist")
 
 
 @cli.command("docs", help="generate docs for the AHK project")

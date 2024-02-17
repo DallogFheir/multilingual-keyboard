@@ -1,4 +1,6 @@
-INTRO = """**Multilingual Keyboard** is an Autohotkey application that allows you to easily \
+INTRO = """<img src="./logo.png" alt="Multilingual Keyboard" width="60px" />
+
+**Multilingual Keyboard** is an Autohotkey application that allows you to easily \
 switch between keyboard layouts of different languages and scripts, and provides \
 hotstrings for a variety of symbols.
 
