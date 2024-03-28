@@ -52,23 +52,23 @@ Provided for you is a Python script that can generate the documentation (`main.p
 
 Default keyboard.
 
-| Symbol | Uppercase |                 Unicode                 |   Description    | Hotstring / hotkey |
-| :----: | :-------: | :-------------------------------------: | :--------------: | :----------------: |
-|   ó    |           | [U+00F3](https://codepoints.net/U+00F3) |  _o_ with acute  |   `AltGr` + `o`    |
-|   þ    |           | [U+00FE](https://codepoints.net/U+00FE) |      thorn       |   `AltGr` + `t`    |
-|   ą    |           | [U+0105](https://codepoints.net/U+0105) | _a_ with ogonek  |   `AltGr` + `a`    |
-|   ć    |           | [U+0107](https://codepoints.net/U+0107) |  _c_ with acute  |   `AltGr` + `c`    |
-|   ę    |           | [U+0119](https://codepoints.net/U+0119) | _e_ with ogonek  |   `AltGr` + `e`    |
-|   ł    |           | [U+0142](https://codepoints.net/U+0142) | _l_ with stroke  |   `AltGr` + `l`    |
-|   ń    |           | [U+0144](https://codepoints.net/U+0144) |  _n_ with acute  |   `AltGr` + `n`    |
-|   ś    |           | [U+015B](https://codepoints.net/U+015B) |  _s_ with acute  |   `AltGr` + `s`    |
-|   ź    |           | [U+017A](https://codepoints.net/U+017A) |  _z_ with acute  |   `AltGr` + `x`    |
-|   ż    |           | [U+017C](https://codepoints.net/U+017C) | _z_ with overdot |   `AltGr` + `z`    |
-|   ǫ    |           | [U+01EB](https://codepoints.net/U+01EB) | _o_ with ogonek  |   `AltGr` + `p`    |
-|   ъ    |           | [U+044A](https://codepoints.net/U+044A) |    hard sign     |   `AltGr` + `w`    |
-|   ь    |           | [U+044C](https://codepoints.net/U+044C) |    soft sign     |   `AltGr` + `q`    |
-|   ₤    |           | [U+20A4](https://codepoints.net/U+20A4) |      pound       |   `AltGr` + `2`    |
-|   €    |           | [U+20AC](https://codepoints.net/U+20AC) |       euro       |   `AltGr` + `3`    |
+| Symbol | Uppercase |                                      Unicode                                      |   Description    | Hotstring / hotkey |
+| :----: | :-------: | :-------------------------------------------------------------------------------: | :--------------: | :----------------: |
+|   ó    |     Ó     | [U+00F3](https://codepoints.net/U+00F3) / [U+00D3](https://codepoints.net/U+00D3) |  _o_ with acute  |   `AltGr` + `o`    |
+|   þ    |     Þ     | [U+00FE](https://codepoints.net/U+00FE) / [U+00DE](https://codepoints.net/U+00DE) |      thorn       |   `AltGr` + `t`    |
+|   ą    |     Ą     | [U+0105](https://codepoints.net/U+0105) / [U+0104](https://codepoints.net/U+0104) | _a_ with ogonek  |   `AltGr` + `a`    |
+|   ć    |     Ć     | [U+0107](https://codepoints.net/U+0107) / [U+0106](https://codepoints.net/U+0106) |  _c_ with acute  |   `AltGr` + `c`    |
+|   ę    |     Ę     | [U+0119](https://codepoints.net/U+0119) / [U+0118](https://codepoints.net/U+0118) | _e_ with ogonek  |   `AltGr` + `e`    |
+|   ł    |     Ł     | [U+0142](https://codepoints.net/U+0142) / [U+0141](https://codepoints.net/U+0141) | _l_ with stroke  |   `AltGr` + `l`    |
+|   ń    |     Ń     | [U+0144](https://codepoints.net/U+0144) / [U+0143](https://codepoints.net/U+0143) |  _n_ with acute  |   `AltGr` + `n`    |
+|   ś    |     Ś     | [U+015B](https://codepoints.net/U+015B) / [U+015A](https://codepoints.net/U+015A) |  _s_ with acute  |   `AltGr` + `s`    |
+|   ź    |     Ź     | [U+017A](https://codepoints.net/U+017A) / [U+0179](https://codepoints.net/U+0179) |  _z_ with acute  |   `AltGr` + `x`    |
+|   ż    |     Ż     | [U+017C](https://codepoints.net/U+017C) / [U+017B](https://codepoints.net/U+017B) | _z_ with overdot |   `AltGr` + `z`    |
+|   ǫ    |     Ǫ     | [U+01EB](https://codepoints.net/U+01EB) / [U+01EA](https://codepoints.net/U+01EA) | _o_ with ogonek  |   `AltGr` + `p`    |
+|   ъ    |     Ъ     | [U+044A](https://codepoints.net/U+044A) / [U+042A](https://codepoints.net/U+042A) |    hard sign     |   `AltGr` + `w`    |
+|   ь    |     Ь     | [U+044C](https://codepoints.net/U+044C) / [U+042C](https://codepoints.net/U+042C) |    soft sign     |   `AltGr` + `q`    |
+|   ₤    |           |                      [U+20A4](https://codepoints.net/U+20A4)                      |      pound       |   `AltGr` + `2`    |
+|   €    |           |                      [U+20AC](https://codepoints.net/U+20AC)                      |       euro       |   `AltGr` + `3`    |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Default](#default) ⬆️
 
@@ -86,7 +86,7 @@ The Cyrillic alphabet.
 |   г    |     Г     | [U+0433](https://codepoints.net/U+0433) / [U+0413](https://codepoints.net/U+0413) |       _ge_       |        `g`         |
 |   д    |     Д     | [U+0434](https://codepoints.net/U+0434) / [U+0414](https://codepoints.net/U+0414) |       _de_       |        `d`         |
 |   е    |     Е     | [U+0435](https://codepoints.net/U+0435) / [U+0415](https://codepoints.net/U+0415) |       _ye_       |        `e`         |
-|   ж    |           |                      [U+0436](https://codepoints.net/U+0436)                      |      _zhe_       |   `AltGr` + `z`    |
+|   ж    |     Ж     | [U+0436](https://codepoints.net/U+0436) / [U+0416](https://codepoints.net/U+0416) |      _zhe_       |   `AltGr` + `z`    |
 |   з    |     З     | [U+0437](https://codepoints.net/U+0437) / [U+0417](https://codepoints.net/U+0417) |       _ze_       |        `z`         |
 |   и    |     И     | [U+0438](https://codepoints.net/U+0438) / [U+0418](https://codepoints.net/U+0418) |       _i_        |        `i`         |
 |   й    |     Й     | [U+0439](https://codepoints.net/U+0439) / [U+0419](https://codepoints.net/U+0419) |      _yot_       |        `y`         |
@@ -103,19 +103,19 @@ The Cyrillic alphabet.
 |   ф    |     Ф     | [U+0444](https://codepoints.net/U+0444) / [U+0424](https://codepoints.net/U+0424) |       _ef_       |        `f`         |
 |   х    |     Х     | [U+0445](https://codepoints.net/U+0445) / [U+0425](https://codepoints.net/U+0425) |      _kha_       |        `h`         |
 |   ц    |     Ц     | [U+0446](https://codepoints.net/U+0446) / [U+0426](https://codepoints.net/U+0426) |      _tse_       |        `c`         |
-|   ч    |           |                      [U+0447](https://codepoints.net/U+0447)                      |      _che_       |   `AltGr` + `c`    |
-|   ш    |           |                      [U+0448](https://codepoints.net/U+0448)                      |      _sha_       |   `AltGr` + `s`    |
-|   щ    |           |                      [U+0449](https://codepoints.net/U+0449)                      |     _shcha_      |   `AltGr` + `d`    |
-|   ъ    |           |                      [U+044A](https://codepoints.net/U+044A)                      |    hard sign     |   `AltGr` + `q`    |
-|   ы    |           |                      [U+044B](https://codepoints.net/U+044B)                      |      _yeru_      |   `AltGr` + `y`    |
+|   ч    |     Ч     | [U+0447](https://codepoints.net/U+0447) / [U+0427](https://codepoints.net/U+0427) |      _che_       |   `AltGr` + `c`    |
+|   ш    |     Ш     | [U+0448](https://codepoints.net/U+0448) / [U+0428](https://codepoints.net/U+0428) |      _sha_       |   `AltGr` + `s`    |
+|   щ    |     Щ     | [U+0449](https://codepoints.net/U+0449) / [U+0429](https://codepoints.net/U+0429) |     _shcha_      |   `AltGr` + `d`    |
+|   ъ    |     Ъ     | [U+044A](https://codepoints.net/U+044A) / [U+042A](https://codepoints.net/U+042A) |    hard sign     |   `AltGr` + `q`    |
+|   ы    |     Ы     | [U+044B](https://codepoints.net/U+044B) / [U+042B](https://codepoints.net/U+042B) |      _yeru_      |   `AltGr` + `y`    |
 |   ь    |     Ь     | [U+044C](https://codepoints.net/U+044C) / [U+042C](https://codepoints.net/U+042C) |    soft sign     |        `q`         |
-|   э    |           |                      [U+044D](https://codepoints.net/U+044D)                      |       _e_        |   `AltGr` + `e`    |
-|   ю    |           |                      [U+044E](https://codepoints.net/U+044E)                      |       _yu_       |   `AltGr` + `u`    |
-|   я    |           |                      [U+044F](https://codepoints.net/U+044F)                      |       _ya_       |   `AltGr` + `f`    |
-|   є    |           |                      [U+0454](https://codepoints.net/U+0454)                      |  Ukrainian _ye_  |   `AltGr` + `r`    |
-|   і    |           |                      [U+0456](https://codepoints.net/U+0456)                      |    dotted _i_    |   `AltGr` + `i`    |
-|   ї    |           |                      [U+0457](https://codepoints.net/U+0457)                      |       _yi_       |   `AltGr` + `o`    |
-|   ґ    |           |                      [U+0491](https://codepoints.net/U+0491)                      | _ge_ with upturn |   `AltGr` + `g`    |
+|   э    |     Э     | [U+044D](https://codepoints.net/U+044D) / [U+042D](https://codepoints.net/U+042D) |       _e_        |   `AltGr` + `e`    |
+|   ю    |     Ю     | [U+044E](https://codepoints.net/U+044E) / [U+042E](https://codepoints.net/U+042E) |       _yu_       |   `AltGr` + `u`    |
+|   я    |     Я     | [U+044F](https://codepoints.net/U+044F) / [U+042F](https://codepoints.net/U+042F) |       _ya_       |   `AltGr` + `f`    |
+|   є    |     Є     | [U+0454](https://codepoints.net/U+0454) / [U+0404](https://codepoints.net/U+0404) |  Ukrainian _ye_  |   `AltGr` + `r`    |
+|   і    |     І     | [U+0456](https://codepoints.net/U+0456) / [U+0406](https://codepoints.net/U+0406) |    dotted _i_    |   `AltGr` + `i`    |
+|   ї    |     Ї     | [U+0457](https://codepoints.net/U+0457) / [U+0407](https://codepoints.net/U+0407) |       _yi_       |   `AltGr` + `o`    |
+|   ґ    |     Ґ     | [U+0491](https://codepoints.net/U+0491) / [U+0490](https://codepoints.net/U+0490) | _ge_ with upturn |   `AltGr` + `g`    |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Cyrillic](#cyrillic) ⬆️
 
@@ -133,8 +133,8 @@ The Greek alphabet.
 |   δ    |     Δ     | [U+03B4](https://codepoints.net/U+03B4) / [U+0394](https://codepoints.net/U+0394) |     _delta_     |        `d`         |
 |   ε    |     Ε     | [U+03B5](https://codepoints.net/U+03B5) / [U+0395](https://codepoints.net/U+0395) |    _epsilon_    |        `e`         |
 |   ζ    |     Ζ     | [U+03B6](https://codepoints.net/U+03B6) / [U+0396](https://codepoints.net/U+0396) |     _zeta_      |        `z`         |
-|   η    |           |                      [U+03B7](https://codepoints.net/U+03B7)                      |      _eta_      |   `AltGr` + `i`    |
-|   θ    |           |                      [U+03B8](https://codepoints.net/U+03B8)                      |     _theta_     |   `AltGr` + `t`    |
+|   η    |     Η     | [U+03B7](https://codepoints.net/U+03B7) / [U+0397](https://codepoints.net/U+0397) |      _eta_      |   `AltGr` + `i`    |
+|   θ    |     Θ     | [U+03B8](https://codepoints.net/U+03B8) / [U+0398](https://codepoints.net/U+0398) |     _theta_     |   `AltGr` + `t`    |
 |   ι    |     Ι     | [U+03B9](https://codepoints.net/U+03B9) / [U+0399](https://codepoints.net/U+0399) |     _iota_      |        `i`         |
 |   κ    |     Κ     | [U+03BA](https://codepoints.net/U+03BA) / [U+039A](https://codepoints.net/U+039A) |     _kappa_     |        `k`         |
 |   λ    |     Λ     | [U+03BB](https://codepoints.net/U+03BB) / [U+039B](https://codepoints.net/U+039B) |    _lambda_     |        `l`         |
@@ -144,14 +144,14 @@ The Greek alphabet.
 |   ο    |     Ο     | [U+03BF](https://codepoints.net/U+03BF) / [U+039F](https://codepoints.net/U+039F) |    _omicron_    |        `o`         |
 |   π    |     Π     | [U+03C0](https://codepoints.net/U+03C0) / [U+03A0](https://codepoints.net/U+03A0) |      _pi_       |        `p`         |
 |   ρ    |     Ρ     | [U+03C1](https://codepoints.net/U+03C1) / [U+03A1](https://codepoints.net/U+03A1) |      _rho_      |        `r`         |
-|   ς    |           |                      [U+03C2](https://codepoints.net/U+03C2)                      | _sigma_ (final) |   `AltGr` + `s`    |
+|   ς    |     Σ     | [U+03C2](https://codepoints.net/U+03C2) / [U+03A3](https://codepoints.net/U+03A3) | _sigma_ (final) |   `AltGr` + `s`    |
 |   σ    |     Σ     | [U+03C3](https://codepoints.net/U+03C3) / [U+03A3](https://codepoints.net/U+03A3) |     _sigma_     |        `s`         |
 |   τ    |     Τ     | [U+03C4](https://codepoints.net/U+03C4) / [U+03A4](https://codepoints.net/U+03A4) |      _tau_      |        `t`         |
 |   υ    |     Υ     | [U+03C5](https://codepoints.net/U+03C5) / [U+03A5](https://codepoints.net/U+03A5) |    _upsilon_    |        `u`         |
 |   φ    |     Φ     | [U+03C6](https://codepoints.net/U+03C6) / [U+03A6](https://codepoints.net/U+03A6) |      _phi_      |        `f`         |
 |   χ    |     Χ     | [U+03C7](https://codepoints.net/U+03C7) / [U+03A7](https://codepoints.net/U+03A7) |      _chi_      |        `h`         |
-|   ψ    |           |                      [U+03C8](https://codepoints.net/U+03C8)                      |      _psi_      |   `AltGr` + `p`    |
-|   ω    |           |                      [U+03C9](https://codepoints.net/U+03C9)                      |     _omega_     |   `AltGr` + `o`    |
+|   ψ    |     Ψ     | [U+03C8](https://codepoints.net/U+03C8) / [U+03A8](https://codepoints.net/U+03A8) |      _psi_      |   `AltGr` + `p`    |
+|   ω    |     Ω     | [U+03C9](https://codepoints.net/U+03C9) / [U+03A9](https://codepoints.net/U+03A9) |     _omega_     |   `AltGr` + `o`    |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [Greek](#greek) ⬆️
 
