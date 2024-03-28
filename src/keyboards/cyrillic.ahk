@@ -1,6 +1,6 @@
 ﻿; Cyrillic
 ; The Cyrillic alphabet.
-; !+2
+; <^>!+2
 ; UPPERCASE
 a::
     Send, а ; _a_
@@ -38,10 +38,10 @@ return
 +e::
     Send, Е
 return
-!z::
+<^>!z::
     Send, ж ; _zhe_
 return
-!+z::
+<^>!+z::
     Send, Ж
 return
 z::
@@ -140,34 +140,34 @@ return
 +c::
     Send, Ц
 return
-!c::
+<^>!c::
     Send, ч ; _che_
 return
-!+c::
+<^>!+c::
     Send, Ч
 return
-!s::
+<^>!s::
     Send, ш ; _sha_
 return
-!+s::
+<^>!+s::
     Send, Ш
 return
-!d::
+<^>!d::
     Send, щ ; _shcha_
 return
-!+d::
+<^>!+d::
     Send, Щ
 return
-!q::
+<^>!q::
     Send, ъ ; hard sign
 return
-!+q::
+<^>!+q::
     Send, Ъ
 return
-!y::
+<^>!y::
     Send, ы ; _yeru_
 return
-!+y::
+<^>!+y::
     Send, Ы
 return
 q::
@@ -176,45 +176,45 @@ return
 +q::
     Send, Ь
 return
-!e::
+<^>!e::
     Send, э ; _e_
 return
-!+e::
+<^>!+e::
     Send, Э
 return
-!u::
+<^>!u::
     Send, ю ; _yu_
 return
-!+u::
+<^>!+u::
     Send, Ю
 return
-!f::
+<^>!f::
     Send, я ; _ya_
 return
-!+f::
+<^>!+f::
     Send, Я
 return
-!r::
+<^>!r::
     Send, є ; Ukrainian _ye_
 return
-!+r::
+<^>!+r::
     Send, Є
 return
-!i::
+<^>!i::
     Send, і ; dotted _i_
 return
-!+i::
+<^>!+i::
     Send, І
 return
-!o::
+<^>!o::
     Send, ї ; _yi_
 return
-!+o::
+<^>!+o::
     Send, Ї
 return
-!g::
+<^>!g::
     Send, ґ ; _ge_ with upturn
 return
-!+g::
+<^>!+g::
     Send, Ґ
 return

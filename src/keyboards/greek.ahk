@@ -1,6 +1,6 @@
 ﻿; Greek
 ; The Greek alphabet.
-; !+3
+; <^>!+3
 ; UPPERCASE
 a::
     Send, α ; _alpha_
@@ -38,16 +38,16 @@ return
 +z::
     Send, Ζ
 return
-!i::
+<^>!i::
     Send, η ; _eta_
 return
-!+i::
+<^>!+i::
     Send, Η
 return
-!t::
+<^>!t::
     Send, θ ; _theta_
 return
-!+t::
+<^>!+t::
     Send, Θ
 return
 i::
@@ -104,7 +104,7 @@ return
 +r::
     Send, Ρ
 return
-!s::
+<^>!s::
     Send, ς ; _sigma_ (final)
 return
 s::
@@ -113,7 +113,7 @@ return
 +s::
     Send, Σ
 return
-!+s::
+<^>!+s::
     Send, Σ
 return
 t::
@@ -140,15 +140,15 @@ return
 +h::
     Send, Χ
 return
-!p::
+<^>!p::
     Send, ψ ; _psi_
 return
-!+p::
+<^>!+p::
     Send, Ψ
 return
-!o::
+<^>!o::
     Send, ω ; _omega_
 return
-!+o::
+<^>!+o::
     Send, Ω
 return

@@ -1,88 +1,88 @@
 ﻿; Default
 ; Default keyboard.
-; !+1
+; <^>!+1
 ; UPPERCASE
-!o::
+<^>!o::
     Send, ó ; _o_ with acute
 return
-!+o::
+<^>!+o::
     Send, Ó
 return
-!t::
+<^>!t::
     Send, þ ; thorn
 return
-!+t::
+<^>!+t::
     Send, Þ
 return
-!a::
+<^>!a::
     Send, ą ; _a_ with ogonek
 return
-!+a::
+<^>!+a::
     Send, Ą
 return
-!c::
+<^>!c::
     Send, ć ; _c_ with acute
 return
-!+c::
+<^>!+c::
     Send, Ć
 return
-!e::
+<^>!e::
     Send, ę ; _e_ with ogonek
 return
-!+e::
+<^>!+e::
     Send, Ę
 return
-!l::
+<^>!l::
     Send, ł ; _l_ with stroke
 return
-!+l::
+<^>!+l::
     Send, Ł
 return
-!n::
+<^>!n::
     Send, ń ; _n_ with acute
 return
-!+n::
+<^>!+n::
     Send, Ń
 return
-!s::
+<^>!s::
     Send, ś ; _s_ with acute
 return
-!+s::
+<^>!+s::
     Send, Ś
 return
-!x::
+<^>!x::
     Send, ź ; _z_ with acute
 return
-!+x::
+<^>!+x::
     Send, Ź
 return
-!z::
+<^>!z::
     Send, ż ; _z_ with overdot
 return
-!+z::
+<^>!+z::
     Send, Ż
 return
-!p::
+<^>!p::
     Send, ǫ ; _o_ with ogonek
 return
-!+p::
+<^>!+p::
     Send, Ǫ
 return
-!w::
+<^>!w::
     Send, ъ ; hard sign
 return
-!+w::
+<^>!+w::
     Send, Ъ
 return
-!q::
+<^>!q::
     Send, ь ; soft sign
 return
-!+q::
+<^>!+q::
     Send, Ь
 return
-!2::
+<^>!2::
     Send, ₤ ; pound
 return
-!3::
+<^>!3::
     Send, € ; euro
 return

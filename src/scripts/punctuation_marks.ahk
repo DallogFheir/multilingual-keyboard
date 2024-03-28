@@ -1,9 +1,9 @@
 ﻿; Punctuation marks
 ; Various punctuation marks.
-!+=::
+<^>!+=::
     Send, – ; en dash
 return
-!=::
+<^>!=::
     Send, — ; em dash
 return
 ::"u\::
@@ -18,9 +18,9 @@ return
 ::•\::
     Send, ○ ; white circle
 return
-!+,::
+<^>!+,::
     Send, ⟨ ; angle bracket (left)
 return
-!+.::
+<^>!+.::
     Send, ⟩ ; angle bracket (right)
 return

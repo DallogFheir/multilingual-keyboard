@@ -1,22 +1,22 @@
 ﻿; IPA
 ; The International Phonetic Alphabet.
-; !+4
+; <^>!+4
 +a::
     Send, æ ; near-open front unrounded vowel
 return
-!c::
+<^>!c::
     Send, ç ; voiceless palatal fricative
 return
-!d::
+<^>!d::
     Send, ð ; voiced dental fricative
 return
-!p::
+<^>!p::
     Send, ø ; close-mid front rounded vowel
 return
 +h::
     Send, ħ ; voiceless pharyngeal fricative
 return
-!n::
+<^>!n::
     Send, ŋ ; voiced velar nasal
 return
 +p::
@@ -37,7 +37,7 @@ return
 +1::
     Send, ɐ ; near-open central vowel
 return
-!a::
+<^>!a::
     Send, ɑ ; open back unrounded vowel
 return
 +o::
@@ -46,31 +46,31 @@ return
 +b::
     Send, ɓ ; voiced bilabial implosive
 return
-!o::
+<^>!o::
     Send, ɔ ; open-mid back rounded vowel
 return
-!+s::
+<^>!+s::
     Send, ɕ ; voiceless alveolo-palatal sibilant fricative
 return
 +d::
     Send, ɖ ; voiced retroflex plosive
 return
-!+d::
+<^>!+d::
     Send, ɗ ; voiced alveolar implosive
 return
-!+i::
+<^>!+i::
     Send, ɘ ; close-mid central unrounded vowel
 return
 +e::
     Send, ə ; mid central vowel
 return
-!e::
+<^>!e::
     Send, ɛ ; open-mid front unrounded vowel
 return
-!+e::
+<^>!+e::
     Send, ɜ ; open-mid central unrounded vowel
 return
-!+y::
+<^>!+y::
     Send, ɞ ; open-mid central rounded vowel
 return
 +c::
@@ -82,16 +82,16 @@ return
 +g::
     Send, ɢ ; voiced uvular plosive
 return
-!g::
+<^>!g::
     Send, ɣ ; voiced velar fricative
 return
-!+o::
+<^>!+o::
     Send, ɤ ; close-mid back unrounded vowel
 return
 +w::
     Send, ɥ ; voiced labio-palatal approximant
 return
-!h::
+<^>!h::
     Send, ɦ ; voiced glottal fricative
 return
 6::
@@ -100,16 +100,16 @@ return
 +i::
     Send, ɨ ; close central unrounded vowel
 return
-!i::
+<^>!i::
     Send, ɪ ; near-close front unrounded vowel
 return
 +l::
     Send, ɬ ; voiceless alveolar lateral fricative
 return
-!k::
+<^>!k::
     Send, ɭ ; voiced retroflex lateral approximant
 return
-!+l::
+<^>!+l::
     Send, ɮ ; voiced alveolar lateral fricative
 return
 +u::
@@ -118,7 +118,7 @@ return
 +2::
     Send, ɰ ; voiced velar approximant
 return
-!m::
+<^>!m::
     Send, ɱ ; voiced labio-dental nasal
 return
 +n::
@@ -127,31 +127,31 @@ return
 +m::
     Send, ɳ ; voiced retroflex nasal
 return
-!+n::
+<^>!+n::
     Send, ɴ ; voiced uvular nasal
 return
 +y::
     Send, ɵ ; close-mid central rounded vowel
 return
-!+p::
+<^>!+p::
     Send, ɶ ; open front rounded vowel
 return
-!f::
+<^>!f::
     Send, ɸ ; voiceless bilabial fricative
 return
-!+r::
+<^>!+r::
     Send, ɹ ; voiced alveolar approximant
 return
-!+k::
+<^>!+k::
     Send, ɺ ; voiced alveolar lateral flap
 return
-!+f::
+<^>!+f::
     Send, ɻ ; voiced retroflex approximant
 return
 +3::
     Send, ɽ ; voiced retroflex flap
 return
-!r::
+<^>!r::
     Send, ɾ ; voiced alveolar flap
 return
 +f::
@@ -163,7 +163,7 @@ return
 +s::
     Send, ʂ ; voiceless retroflex sibilant fricative
 return
-!s::
+<^>!s::
     Send, ʃ ; voiceless post-alveolar fricative
 return
 ::pimplo::
@@ -172,37 +172,37 @@ return
 +t::
     Send, ʈ ; voiceless retroflex plosive
 return
-!+u::
+<^>!+u::
     Send, ʉ ; close central rounded vowel
 return
-!u::
+<^>!u::
     Send, ʊ ; near-close near-back rounded vowel
 return
-!v::
+<^>!v::
     Send, ʋ ; voiced labiodental approximant
 return
-!+a::
+<^>!+a::
     Send, ʌ ; open-mid back unrounded vowel
 return
-!w::
+<^>!w::
     Send, ʍ ; voiceless labio-velar fricative
 return
-!l::
+<^>!l::
     Send, ʎ ; voiced palatal lateral approximant
 return
-!y::
+<^>!y::
     Send, ʏ ; near-close front rounded vowel
 return
 +z::
     Send, ʐ ; voiced retroflex sibilant fricative
 return
-!+z::
+<^>!+z::
     Send, ʑ ; voiced alveolo-palatal sibilant fricative
 return
-!z::
+<^>!z::
     Send, ʒ ; voiced post-alveolar fricative
 return
-!q::
+<^>!q::
     Send, ʔ ; glottal stop
 return
 +q::
@@ -211,7 +211,7 @@ return
 ::bclick::
     Send, ʘ ; bilabial click
 return
-!+b::
+<^>!+b::
     Send, ʙ ; bilabial trill
 return
 ::uimplo::
@@ -220,7 +220,7 @@ return
 +x::
     Send, ʜ ; voiceless pharyngeal trill
 return
-!j::
+<^>!j::
     Send, ʝ ; voiced palatal fricative
 return
 +k::
@@ -229,31 +229,31 @@ return
 +5::
     Send, ʡ ; pharyngeal plosive
 return
-!+x::
+<^>!+x::
     Send, ʢ ; voiced pharyngeal trill
 return
-!+h::
+<^>!+h::
     Send, ʰ ; aspirated
 return
 +j::
     Send, ʱ ; voiced aspirated
 return
-!+j::
+<^>!+j::
     Send, ʲ ; palatalized
 return
-!+w::
+<^>!+w::
     Send, ʷ ; labialized
 return
 +'::
     Send, ʼ ; ejective
 return
-!+q::
+<^>!+q::
     Send, ˀ ; glottalized
 return
 '::
     Send, ˈ ; primary stress
 return
-!+`;::
+<^>!+`;::
 Send, ˌ ; secondary stress
 return
 `;::
@@ -277,7 +277,7 @@ return
 +4::
     Send, ˞ ; _r_-colored
 return
-!+g::
+<^>!+g::
     Send, ˠ ; velarized
 return
 ::lrel::
@@ -310,10 +310,10 @@ return
 +0::
     Send, ̍ ; syllabic (above)
 return
-!\::
+<^>!\::
     Send, ̘ ; advanced tongue root
 return
-!+\::
+<^>!+\::
     Send, ̙ ; retracted tongue root
 return
 7::
@@ -367,7 +367,7 @@ return
 ::midcentral::
     Send, ̽ ; mid-centralized
 return
-![::
+<^>![::
     Send, ͆ ; dental
 return
 ::alround::
@@ -382,19 +382,19 @@ return
 ,::
     Send, ͡ ; affricate (above)
 return
-!b::
+<^>!b::
     Send, β ; voiced bilabial fricative
 return
-!t::
+<^>!t::
     Send, θ ; voiceless dental fricative
 return
-!x::
+<^>!x::
     Send, χ ; voiceless uvular fricative
 return
 ::mdvrel::
     Send, ᵊ ; mid central vowel release
 return
-!+t::
+<^>!+t::
     Send, ᶑ ; voiced retroflex implosive
 return
 ::vdfrel::
@@ -403,7 +403,7 @@ return
 \::
     Send, ‖ ; major (intonation) break
 return
-!+m::
+<^>!+m::
     Send, ‿ ; linking
 return
 -::
@@ -412,7 +412,7 @@ return
 ::nrel::
     Send, ⁿ ; nasal release
 return
-!+,::
+<^>!+,::
     Send, ↘ ; global fall
 return
 +v::

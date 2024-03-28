@@ -24,7 +24,7 @@ def parse_hotkey(hotkey: str) -> str:
     if hotkey.startswith("::"):
         hotkey = hotkey.removeprefix("::")
     else:
-        for key_symbol, key in [("!", "Alt"), ("+", "Shift")]:
+        for key_symbol, key in [("<^>!", "AltGr"), ("+", "Shift")]:
             if hotkey.startswith(key_symbol):
                 keys.append(key)
                 hotkey = hotkey.removeprefix(key_symbol)
@@ -57,7 +57,7 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
             hotstring_uppercase = hotkey.lower()
             if (
                 with_uppercase
-                and re.match(r"^(!)?\+", hotkey) is not None
+                and re.match(r"^(<^>!)?\+", hotkey) is not None
                 and hotkey_uppercase in rows
             ):
                 rows[hotkey_uppercase][UPPERCASE] = symbol
@@ -123,7 +123,7 @@ def parse_files(title: str, path: Path, slugger: GithubSlugger) -> str | None:
     order = {}
     for file in path.iterdir():
         if file.is_file() and file.suffix == ".ahk":
-            with open(file, encoding="utf-8-sig") as f:
+            with open(file, encoding="utf-8-sig", newline="\n") as f:
                 script_lines = f.read().splitlines()
 
             if script_lines[0].startswith("; ") and script_lines[1].startswith("; "):
@@ -201,5 +201,5 @@ def generate_docs(sections_only: bool) -> None:
         + "\n"
     )
 
-    with open(Path.cwd() / "README.md", "w", encoding="utf-8") as f:
+    with open(Path.cwd() / "README.md", "w", encoding="utf-8", newline="\n") as f:
         f.write(mdformat.text(document, extensions=("gfm",)))
