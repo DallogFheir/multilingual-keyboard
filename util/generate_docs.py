@@ -57,7 +57,7 @@ def generate_table(script: str, with_uppercase: bool = False) -> str:
             hotstring_uppercase = hotkey.lower()
             if (
                 with_uppercase
-                and re.match(r"^(<^>!)?\+", hotkey) is not None
+                and re.match(r"^(<\^>!)?\+", hotkey) is not None
                 and hotkey_uppercase in rows
             ):
                 rows[hotkey_uppercase][UPPERCASE] = symbol
