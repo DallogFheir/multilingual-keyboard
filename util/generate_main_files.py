@@ -15,7 +15,7 @@ def generate_common():
     hotstrings = []
 
     for file in scripts_dir.iterdir():
-        with open(file, encoding="utf-8-sig", newline="\n") as f:
+        with open(file, encoding="utf-8", newline="\n") as f:
             script = f.read()
             file_hotstrings = re.findall(
                 HOTKEY_REGEX,
@@ -28,7 +28,7 @@ def generate_common():
 
     hotstrings.sort(key=lambda k: len(k[0].removeprefix("::")), reverse=True)
 
-    with open(DIST_PATH / "common.ahk", "w", encoding="utf-8-sig", newline="\n") as f:
+    with open(DIST_PATH / "common.ahk", "w", encoding="utf-8", newline="\n") as f:
         f.writelines(
             [
                 f"{hotstring}::\n    Send, {replacement} ; {description}\nreturn\n"
@@ -95,7 +95,7 @@ def generate_main(default: str):
     order_dict = {}
     for keyboard in KEYBOARDS_PATH.iterdir():
         if keyboard.suffix == ".ahk":
-            with open(keyboard, encoding="utf-8-sig", newline="\n") as f:
+            with open(keyboard, encoding="utf-8", newline="\n") as f:
                 hotkey = f.readlines()[2].removeprefix("; ").strip()
 
             name = keyboard.stem
@@ -114,7 +114,7 @@ def generate_main(default: str):
     order = sorted(order_dict, key=lambda k: order_dict[k])
 
     with open(
-        Path(__file__).parent / "templates" / "main.template.ahk", encoding="utf-8-sig"
+        Path(__file__).parent / "templates" / "main.template.ahk", encoding="utf-8"
     ) as f:
         template = f.read()
 
@@ -140,7 +140,7 @@ def generate_main(default: str):
         )
     )
 
-    with open(DIST_PATH / "main.ahk", "w", encoding="utf-8-sig", newline="\n") as f:
+    with open(DIST_PATH / "main.ahk", "w", encoding="utf-8", newline="\n") as f:
         f.write(final_template)
 
 

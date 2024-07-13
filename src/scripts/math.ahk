@@ -1,4 +1,4 @@
-﻿; Mathematics
+; Mathematics
 ; Various mathematical symbols.
 ::+-\::
 {

@@ -1,4 +1,4 @@
-﻿; Superscripts
+; Superscripts
 ; Superscript characters.
 ::sup2\::
 {

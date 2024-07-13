@@ -1,4 +1,4 @@
-﻿; Letters
+; Letters
 ; Miscellaneous letters.
 ; UPPERCASE
 ::oe\::

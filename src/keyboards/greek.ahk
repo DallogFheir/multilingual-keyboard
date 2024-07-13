@@ -1,4 +1,4 @@
-﻿; Greek
+; Greek
 ; The Greek alphabet.
 ; <^>!+3
 ; UPPERCASE

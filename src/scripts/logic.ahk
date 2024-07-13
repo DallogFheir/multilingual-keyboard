@@ -1,4 +1,4 @@
-﻿; Logic
+; Logic
 ; Symbols used in mathematical logic.
 ::not\::
 {

@@ -1,4 +1,4 @@
-﻿; Cards
+; Cards
 ; Symbols representing cards and card suits.
 ::spades\::
 {

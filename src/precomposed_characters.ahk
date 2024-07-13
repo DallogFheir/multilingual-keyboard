@@ -1,4 +1,4 @@
-﻿; necessary to work with combining diacritics
+; necessary to work with combining diacritics
 #InputLevel 0
 
 ::à::

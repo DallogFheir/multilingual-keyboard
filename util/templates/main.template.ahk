@@ -1,4 +1,4 @@
-﻿; DEFAULT
+; DEFAULT
 #SingleInstance Force
 
 ; AUTO-EXECUTE SECTION

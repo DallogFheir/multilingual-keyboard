@@ -1,4 +1,4 @@
-﻿; Punctuation marks
+; Punctuation marks
 ; Various punctuation marks.
 <^>!+=::
 {

@@ -1,4 +1,4 @@
-﻿; Flags
+; Flags
 ; The regional indicator symbols that can be combined into flag emojis.
 ; <^>!+5
 a::

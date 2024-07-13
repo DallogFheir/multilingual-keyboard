@@ -1,4 +1,4 @@
-﻿; Diacritics
+; Diacritics
 ; Combining diacritical marks.
 <^>!`::
 {

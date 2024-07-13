@@ -1,4 +1,4 @@
-﻿; Subscripts
+; Subscripts
 ; Subscript characters.
 ::sub0\::
 {

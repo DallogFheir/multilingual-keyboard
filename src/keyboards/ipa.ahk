@@ -1,4 +1,4 @@
-﻿; IPA
+; IPA
 ; The International Phonetic Alphabet.
 ; <^>!+4
 +a::

@@ -1,4 +1,4 @@
-﻿; Music
+; Music
 ; Symbols used in musical notation.
 ::b\::
 {

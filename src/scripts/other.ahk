@@ -1,4 +1,4 @@
-﻿; Other
+; Other
 ; Other symbols.
 ::c\::
 {

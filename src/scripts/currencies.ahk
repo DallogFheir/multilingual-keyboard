@@ -1,4 +1,4 @@
-﻿; Currencies
+; Currencies
 ; Currency symbols.
 ::$cent\::
 {

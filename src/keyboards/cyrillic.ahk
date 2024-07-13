@@ -1,4 +1,4 @@
-﻿; Cyrillic
+; Cyrillic
 ; The Cyrillic alphabet.
 ; <^>!+2
 ; UPPERCASE

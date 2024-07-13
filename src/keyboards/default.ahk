@@ -1,4 +1,4 @@
-﻿; Default
+; Default
 ; Default keyboard.
 ; <^>!+1
 ; UPPERCASE
