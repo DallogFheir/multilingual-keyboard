@@ -31,7 +31,12 @@ def generate_common():
     with open(DIST_PATH / "common.ahk", "w", encoding="utf-8", newline="\n") as f:
         f.writelines(
             [
-                f"{hotstring}::\n    Send, {replacement} ; {description}\nreturn\n"
+                hotstring
+                + '::\n{\n    Send "'
+                + replacement
+                + '" ; '
+                + description
+                + "\n}\n"
                 for hotstring, replacement, description in hotstrings
             ]
         )
@@ -57,8 +62,8 @@ def generate_main(default: str):
         """\
         {}::
         {{
-            keyboard := "{}"
-            curIcon := "{}"
+            Global keyboard := "{}"
+            Global curIcon := "{}"
             TraySetIcon "{}"
         }}"""
     )
