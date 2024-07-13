@@ -6,4 +6,4 @@ KEYBOARDS_PATH = SRC_PATH / "keyboards"
 SCRIPTS_PATH = SRC_PATH / "scripts"
 DIST_PATH = Path.cwd() / "dist"
 
-HOTKEY_REGEX = r"^(?!;)(.+?)::.*?Send, (.+?)(?: ; ?(.*?))?\nreturn$"
+HOTKEY_REGEX = r'^(?!;)(.+?)::\n{\n.*?Send "(.+?)"(?: ; ?(.*?))?\n}$'

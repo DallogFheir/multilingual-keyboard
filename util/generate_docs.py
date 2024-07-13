@@ -30,7 +30,10 @@ def parse_hotkey(hotkey: str) -> str:
                 hotkey = hotkey.removeprefix(key_symbol)
     keys.append(hotkey.removeprefix("::"))
 
-    return " + ".join(f"`` {key} ``" if "`" in key else f"`{key}`" for key in keys)
+    return " + ".join(
+        f"`` {';' if key == '`;' else key} ``" if "`" in key else f"`{key}`"
+        for key in keys
+    )
 
 
 def generate_table(script: str, with_uppercase: bool = False) -> str:
