@@ -1,8 +1,10 @@
 ﻿; Music
 ; Symbols used in musical notation.
 ::b\::
-    Send, ♭ ; flat
-return
+{
+    Send "♭" ; flat
+}
 ::#\::
-    Send, ♯ ; sharp
-return
+{
+    Send "♯" ; sharp
+}

@@ -3,218 +3,290 @@
 ; <^>!+2
 ; UPPERCASE
 a::
-    Send, а ; _a_
-return
+{
+    Send "а" ; _a_
+}
 +a::
-    Send, А
-return
+{
+    Send "А"
+}
 b::
-    Send, б ; _be_
-return
+{
+    Send "б" ; _be_
+}
 +b::
-    Send, Б
-return
+{
+    Send "Б"
+}
 v::
-    Send, в ; _ve_
-return
+{
+    Send "в" ; _ve_
+}
 +v::
-    Send, В
-return
+{
+    Send "В"
+}
 g::
-    Send, г ; _ge_
-return
+{
+    Send "г" ; _ge_
+}
 +g::
-    Send, Г
-return
+{
+    Send "Г"
+}
 d::
-    Send, д ; _de_
-return
+{
+    Send "д" ; _de_
+}
 +d::
-    Send, Д
-return
+{
+    Send "Д"
+}
 e::
-    Send, е ; _ye_
-return
+{
+    Send "е" ; _ye_
+}
 +e::
-    Send, Е
-return
+{
+    Send "Е"
+}
 <^>!z::
-    Send, ж ; _zhe_
-return
+{
+    Send "ж" ; _zhe_
+}
 <^>!+z::
-    Send, Ж
-return
+{
+    Send "Ж"
+}
 z::
-    Send, з ; _ze_
-return
+{
+    Send "з" ; _ze_
+}
 +z::
-    Send, З
-return
+{
+    Send "З"
+}
 i::
-    Send, и ; _i_
-return
+{
+    Send "и" ; _i_
+}
 +i::
-    Send, И
-return
+{
+    Send "И"
+}
 y::
-    Send, й ; _yot_
-return
+{
+    Send "й" ; _yot_
+}
 +y::
-    Send, Й
-return
+{
+    Send "Й"
+}
 k::
-    Send, к ; _ka_
-return
+{
+    Send "к" ; _ka_
+}
 +k::
-    Send, К
-return
+{
+    Send "К"
+}
 l::
-    Send, л ; _el_
-return
+{
+    Send "л" ; _el_
+}
 +l::
-    Send, Л
-return
+{
+    Send "Л"
+}
 m::
-    Send, м ; _em_
-return
+{
+    Send "м" ; _em_
+}
 +m::
-    Send, М
-return
+{
+    Send "М"
+}
 n::
-    Send, н ; _en_
-return
+{
+    Send "н" ; _en_
+}
 +n::
-    Send, Н
-return
+{
+    Send "Н"
+}
 o::
-    Send, о ; _o_
-return
+{
+    Send "о" ; _o_
+}
 +o::
-    Send, О
-return
+{
+    Send "О"
+}
 p::
-    Send, п ; _pe_
-return
+{
+    Send "п" ; _pe_
+}
 +p::
-    Send, П
-return
+{
+    Send "П"
+}
 r::
-    Send, р ; _er_
-return
+{
+    Send "р" ; _er_
+}
 +r::
-    Send, Р
-return
+{
+    Send "Р"
+}
 s::
-    Send, с ; _es_
-return
+{
+    Send "с" ; _es_
+}
 +s::
-    Send, С
-return
+{
+    Send "С"
+}
 t::
-    Send, т ; _te_
-return
+{
+    Send "т" ; _te_
+}
 +t::
-    Send, Т
-return
+{
+    Send "Т"
+}
 u::
-    Send, у ; _u_
-return
+{
+    Send "у" ; _u_
+}
 +u::
-    Send, У
-return
+{
+    Send "У"
+}
 f::
-    Send, ф ; _ef_
-return
+{
+    Send "ф" ; _ef_
+}
 +f::
-    Send, Ф
-return
+{
+    Send "Ф"
+}
 h::
-    Send, х ; _kha_
-return
+{
+    Send "х" ; _kha_
+}
 +h::
-    Send, Х
-return
+{
+    Send "Х"
+}
 c::
-    Send, ц ; _tse_
-return
+{
+    Send "ц" ; _tse_
+}
 +c::
-    Send, Ц
-return
+{
+    Send "Ц"
+}
 <^>!c::
-    Send, ч ; _che_
-return
+{
+    Send "ч" ; _che_
+}
 <^>!+c::
-    Send, Ч
-return
+{
+    Send "Ч"
+}
 <^>!s::
-    Send, ш ; _sha_
-return
+{
+    Send "ш" ; _sha_
+}
 <^>!+s::
-    Send, Ш
-return
+{
+    Send "Ш"
+}
 <^>!d::
-    Send, щ ; _shcha_
-return
+{
+    Send "щ" ; _shcha_
+}
 <^>!+d::
-    Send, Щ
-return
+{
+    Send "Щ"
+}
 <^>!q::
-    Send, ъ ; hard sign
-return
+{
+    Send "ъ" ; hard sign
+}
 <^>!+q::
-    Send, Ъ
-return
+{
+    Send "Ъ"
+}
 <^>!y::
-    Send, ы ; _yeru_
-return
+{
+    Send "ы" ; _yeru_
+}
 <^>!+y::
-    Send, Ы
-return
+{
+    Send "Ы"
+}
 q::
-    Send, ь ; soft sign
-return
+{
+    Send "ь" ; soft sign
+}
 +q::
-    Send, Ь
-return
+{
+    Send "Ь"
+}
 <^>!e::
-    Send, э ; _e_
-return
+{
+    Send "э" ; _e_
+}
 <^>!+e::
-    Send, Э
-return
+{
+    Send "Э"
+}
 <^>!u::
-    Send, ю ; _yu_
-return
+{
+    Send "ю" ; _yu_
+}
 <^>!+u::
-    Send, Ю
-return
+{
+    Send "Ю"
+}
 <^>!f::
-    Send, я ; _ya_
-return
+{
+    Send "я" ; _ya_
+}
 <^>!+f::
-    Send, Я
-return
+{
+    Send "Я"
+}
 <^>!r::
-    Send, є ; Ukrainian _ye_
-return
+{
+    Send "є" ; Ukrainian _ye_
+}
 <^>!+r::
-    Send, Є
-return
+{
+    Send "Є"
+}
 <^>!i::
-    Send, і ; dotted _i_
-return
+{
+    Send "і" ; dotted _i_
+}
 <^>!+i::
-    Send, І
-return
+{
+    Send "І"
+}
 <^>!o::
-    Send, ї ; _yi_
-return
+{
+    Send "ї" ; _yi_
+}
 <^>!+o::
-    Send, Ї
-return
+{
+    Send "Ї"
+}
 <^>!g::
-    Send, ґ ; _ge_ with upturn
-return
+{
+    Send "ґ" ; _ge_ with upturn
+}
 <^>!+g::
-    Send, Ґ
-return
+{
+    Send "Ґ"
+}

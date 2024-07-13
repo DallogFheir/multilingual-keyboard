@@ -1,38 +1,50 @@
 ﻿; Zodiac
 ; Western zodiac signs.
 ::aries\::
-    Send, ♈ ; Aries
-return
+{
+    Send "♈" ; Aries
+}
 ::taurus\::
-    Send, ♉ ; Taurus
-return
+{
+    Send "♉" ; Taurus
+}
 ::gemini\::
-    Send, ♊ ; Gemini
-return
+{
+    Send "♊" ; Gemini
+}
 ::cancer\::
-    Send, ♋ ; Cancer
-return
+{
+    Send "♋" ; Cancer
+}
 ::leo\::
-    Send, ♌ ; Leo
-return
+{
+    Send "♌" ; Leo
+}
 ::virgo\::
-    Send, ♍ ; Virgo
-return
+{
+    Send "♍" ; Virgo
+}
 ::libra\::
-    Send, ♎ ; Libra
-return
+{
+    Send "♎" ; Libra
+}
 ::scorpio\::
-    Send, ♏ ; Scorpio
-return
+{
+    Send "♏" ; Scorpio
+}
 ::sagittarius\::
-    Send, ♐ ; Sagittarius
-return
+{
+    Send "♐" ; Sagittarius
+}
 ::capricorn\::
-    Send, ♑ ; Capricorn
-return
+{
+    Send "♑" ; Capricorn
+}
 ::aquarius\::
-    Send, ♒ ; Aquarius
-return
+{
+    Send "♒" ; Aquarius
+}
 ::pisces\::
-    Send, ♓ ; Pisces
-return
+{
+    Send "♓" ; Pisces
+}

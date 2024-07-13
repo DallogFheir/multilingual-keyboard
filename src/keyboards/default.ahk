@@ -3,86 +3,114 @@
 ; <^>!+1
 ; UPPERCASE
 <^>!o::
-    Send, ó ; _o_ with acute
-return
+{
+    Send "ó" ; _o_ with acute
+}
 <^>!+o::
-    Send, Ó
-return
+{
+    Send "Ó"
+}
 <^>!t::
-    Send, þ ; thorn
-return
+{
+    Send "þ" ; thorn
+}
 <^>!+t::
-    Send, Þ
-return
+{
+    Send "Þ"
+}
 <^>!a::
-    Send, ą ; _a_ with ogonek
-return
+{
+    Send "ą" ; _a_ with ogonek
+}
 <^>!+a::
-    Send, Ą
-return
+{
+    Send "Ą"
+}
 <^>!c::
-    Send, ć ; _c_ with acute
-return
+{
+    Send "ć" ; _c_ with acute
+}
 <^>!+c::
-    Send, Ć
-return
+{
+    Send "Ć"
+}
 <^>!e::
-    Send, ę ; _e_ with ogonek
-return
+{
+    Send "ę" ; _e_ with ogonek
+}
 <^>!+e::
-    Send, Ę
-return
+{
+    Send "Ę"
+}
 <^>!l::
-    Send, ł ; _l_ with stroke
-return
+{
+    Send "ł" ; _l_ with stroke
+}
 <^>!+l::
-    Send, Ł
-return
+{
+    Send "Ł"
+}
 <^>!n::
-    Send, ń ; _n_ with acute
-return
+{
+    Send "ń" ; _n_ with acute
+}
 <^>!+n::
-    Send, Ń
-return
+{
+    Send "Ń"
+}
 <^>!s::
-    Send, ś ; _s_ with acute
-return
+{
+    Send "ś" ; _s_ with acute
+}
 <^>!+s::
-    Send, Ś
-return
+{
+    Send "Ś"
+}
 <^>!x::
-    Send, ź ; _z_ with acute
-return
+{
+    Send "ź" ; _z_ with acute
+}
 <^>!+x::
-    Send, Ź
-return
+{
+    Send "Ź"
+}
 <^>!z::
-    Send, ż ; _z_ with overdot
-return
+{
+    Send "ż" ; _z_ with overdot
+}
 <^>!+z::
-    Send, Ż
-return
+{
+    Send "Ż"
+}
 <^>!p::
-    Send, ǫ ; _o_ with ogonek
-return
+{
+    Send "ǫ" ; _o_ with ogonek
+}
 <^>!+p::
-    Send, Ǫ
-return
+{
+    Send "Ǫ"
+}
 <^>!w::
-    Send, ъ ; hard sign
-return
+{
+    Send "ъ" ; hard sign
+}
 <^>!+w::
-    Send, Ъ
-return
+{
+    Send "Ъ"
+}
 <^>!q::
-    Send, ь ; soft sign
-return
+{
+    Send "ь" ; soft sign
+}
 <^>!+q::
-    Send, Ь
-return
+{
+    Send "Ь"
+}
 <^>!2::
-    Send, ₤ ; pound
-return
+{
+    Send "₤" ; pound
+}
 <^>!3::
-    Send, € ; euro
-return
+{
+    Send "€" ; euro
+}

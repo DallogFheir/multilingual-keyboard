@@ -20,7 +20,7 @@ The app currently supports 5 keyboard layouts:
 
 You can switch between keyboards by pressing `AltGr` + `Shift` + the keyboard's number, for example `AltGr` + `Shift` + `5` for the flag keyboard.
 
-Outside of keyboard layouts, Multilingual Keyboard enables hotstrings used to type various symbols. For example, to get the ♥ symbol, you can type `hearts\`.
+Outside of keyboard layouts, Multilingual Keyboard enables hotstrings used to type various symbols. For example, to get the ♥ symbol, you can type `hearts\\`.
 
 The app also automatically converts letters followed by combining diacritics to pre-composed characters, if available.
 

@@ -1,47 +1,62 @@
 ﻿; Diacritics
 ; Combining diacritical marks.
 <^>!`::
-    Send, ̀ ; grave
-return
+{
+    Send "̀" ; grave
+}
 <^>!'::
-    Send, ́ ; acute
-return
+{
+    Send "́" ; acute
+}
 <^>!6::
-    Send, ̂ ; circumflex
-return
+{
+    Send "̂" ; circumflex
+}
 <^>!1::
-    Send, ̃ ; tilde
-return
+{
+    Send "̃" ; tilde
+}
 <^>!-::
-    Send, ̄ ; macron
-return
+{
+    Send "̄" ; macron
+}
 <^>!5::
-    Send, ̆ ; breve
-return
+{
+    Send "̆" ; breve
+}
 <^>!;::
-Send, ̈ ; diaeresis
-return
+{
+    Send "̈" ; diaeresis
+}
 <^>!0::
-    Send, ̊ ; overring
-return
+{
+    Send "̊" ; overring
+}
 <^>!+'::
-    Send, ̋ ; double accute
-return
+{
+    Send "̋" ; double accute
+}
 <^>!7::
-    Send, ̌ ; caron
-return
+{
+    Send "̌" ; caron
+}
 <^>!+`::
-    Send, ̏ ; double grave
-return
+{
+    Send "̏" ; double grave
+}
 <^>!4::
-    Send, ̑ ; inverted breve
-return
+{
+    Send "̑" ; inverted breve
+}
 <^>!,::
-    Send, ̧ ; cedilla
-return
+{
+    Send "̧" ; cedilla
+}
 <^>!.::
-    Send, ̨ ; ogonek
-return
+{
+    Send "̨" ; ogonek
+}
 ::circle\::
-    Send, ◌ ; dotted circle
-return
+{
+    Send "◌" ; dotted circle
+}

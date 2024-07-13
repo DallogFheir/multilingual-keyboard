@@ -56,16 +56,17 @@ def generate_main(default: str):
     hotkey_template = dedent(
         """\
         {}::
+        {{
             keyboard := "{}"
             curIcon := "{}"
-            Menu, Tray, Icon, {}
-        return"""
+            TraySetIcon "{}"
+        }}"""
     )
     if_template = dedent(
         """\
-        #If keyboard = "{0}"
+        #HotIf keyboard = "{0}"
             #include keyboards\\{0}.ahk
-        #If"""
+        #HotIf"""
     )
 
     default_keyboard = KEYBOARDS_PATH / f"{default}.ahk"
@@ -83,10 +84,10 @@ def generate_main(default: str):
         default_icon_path_str = "*"
         print(icon_not_found_message.format(default))
     auto_execute_section = dedent(
-        f"""\
+        f'''\
         keyboard := "{default}"
         curIcon := "{default_icon}"
-        Menu, Tray, Icon, {default_icon_path_str}"""
+        TraySetIcon "{default_icon_path_str}"'''
     )
 
     hotkeys = {}

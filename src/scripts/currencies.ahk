@@ -1,134 +1,178 @@
 ﻿; Currencies
 ; Currency symbols.
 ::$cent\::
-    Send, ¢ ; cent
-return
+{
+    Send "¢" ; cent
+}
 ::$yen\::
-    Send, ¥ ; yen / yuan
-return
+{
+    Send "¥" ; yen / yuan
+}
 ::$florin\::
-    Send, ƒ ; florin / guilder
-return
+{
+    Send "ƒ" ; florin / guilder
+}
 ::$amd\::
-    Send, ֏ ; Armenian dram
-return
+{
+    Send "֏" ; Armenian dram
+}
 ::$afn\::
-    Send, ؋ ; Afghan afghani
-return
+{
+    Send "؋" ; Afghan afghani
+}
 ::$brupee\::
-    Send, ৲ ; Bengali rupee
-return
+{
+    Send "৲" ; Bengali rupee
+}
 ::$bdt\::
-    Send, ৳ ; Bangladeshi taka
-return
+{
+    Send "৳" ; Bangladeshi taka
+}
 ::$grupee\::
-    Send, ૱ ; Gujarati rupee
-return
+{
+    Send "૱" ; Gujarati rupee
+}
 ::$trupee\::
-    Send, ௹ ; Tamil rupee
-return
+{
+    Send "௹" ; Tamil rupee
+}
 ::$thb\::
-    Send, ฿ ; Thai baht
-return
+{
+    Send "฿" ; Thai baht
+}
 ::$khr\::
-    Send, ៛ ; Cambodian riel
-return
+{
+    Send "៛" ; Cambodian riel
+}
 ::$ecu\::
-    Send, ₠ ; European Currency Unit
-return
+{
+    Send "₠" ; European Currency Unit
+}
 ::$colon\::
-    Send, ₡ ; colón
-return
+{
+    Send "₡" ; colón
+}
 ::$cruzeiro\::
-    Send, ₢ ; cruzeiro
-return
+{
+    Send "₢" ; cruzeiro
+}
 ::$franc\::
-    Send, ₣ ; franc
-return
+{
+    Send "₣" ; franc
+}
 ::$gbp\::
-    Send, ₤ ; pound sterling
-return
+{
+    Send "₤" ; pound sterling
+}
 ::$mill\::
-    Send, ₥ ; mill
-return
+{
+    Send "₥" ; mill
+}
 ::$ngn\::
-    Send, ₦ ; Nigerian naira
-return
+{
+    Send "₦" ; Nigerian naira
+}
 ::$peseta\::
-    Send, ₧ ; peseta
-return
+{
+    Send "₧" ; peseta
+}
 ::$rupee\::
-    Send, ₨ ; rupee
-return
+{
+    Send "₨" ; rupee
+}
 ::$won\::
-    Send, ₩ ; won
-return
+{
+    Send "₩" ; won
+}
 ::$ils\::
-    Send, ₪ ; Israeli new shekel
-return
+{
+    Send "₪" ; Israeli new shekel
+}
 ::$vnd\::
-    Send, ₫ ; Vietnamese đồng
-return
+{
+    Send "₫" ; Vietnamese đồng
+}
 ::$eur\::
-    Send, € ; euro
-return
+{
+    Send "€" ; euro
+}
 ::$lak\::
-    Send, ₭ ; Lao kip
-return
+{
+    Send "₭" ; Lao kip
+}
 ::$mnt\::
-    Send, ₮ ; Mongolian tögrög / tugrik
-return
+{
+    Send "₮" ; Mongolian tögrög / tugrik
+}
 ::$grd\::
-    Send, ₯ ; drachma
-return
+{
+    Send "₯" ; drachma
+}
 ::$pfennig\::
-    Send, ₰ ; pfennig
-return
+{
+    Send "₰" ; pfennig
+}
 ::$php\::
-    Send, ₱ ; Philippine peso
-return
+{
+    Send "₱" ; Philippine peso
+}
 ::$pyg\::
-    Send, ₲ ; Paraguayan guaraní
-return
+{
+    Send "₲" ; Paraguayan guaraní
+}
 ::$ara\::
-    Send, ₳ ; Argentine austral
-return
+{
+    Send "₳" ; Argentine austral
+}
 ::$uah\::
-    Send, ₴ ; Ukrainian hryvnia
-return
+{
+    Send "₴" ; Ukrainian hryvnia
+}
 ::$ghs\::
-    Send, ₵ ; Ghanaian cedi
-return
+{
+    Send "₵" ; Ghanaian cedi
+}
 ::$lt\::
-    Send, ₶ ; livre tournois
-return
+{
+    Send "₶" ; livre tournois
+}
 ::$spesmilo\::
-    Send, ₷ ; spesmilo
-return
+{
+    Send "₷" ; spesmilo
+}
 ::$kzt\::
-    Send, ₸ ; Kazakhstani tenge
-return
+{
+    Send "₸" ; Kazakhstani tenge
+}
 ::$inr\::
-    Send, ₹ ; Indian rupee
-return
+{
+    Send "₹" ; Indian rupee
+}
 ::$try\::
-    Send, ₺ ; Turkish lira
-return
+{
+    Send "₺" ; Turkish lira
+}
 ::$azn\::
-    Send, ₼ ; Azerbaijani manat
-return
+{
+    Send "₼" ; Azerbaijani manat
+}
 ::$rub\::
-    Send, ₽ ; Russian ruble
-return
+{
+    Send "₽" ; Russian ruble
+}
 ::$gel\::
-    Send, ₾ ; Georgian lari
-return
+{
+    Send "₾" ; Georgian lari
+}
 ::$btc\::
-    Send, ₿ ; Bitcoin
-return
+{
+    Send "₿" ; Bitcoin
+}
 ::$mark\::
-    Send, ℳ ; German mark
-return
+{
+    Send "ℳ" ; German mark
+}
 ::$rial\::
-    Send, ﷼ ; rial
-return
+{
+    Send "﷼" ; rial
+}

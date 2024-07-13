@@ -3,152 +3,202 @@
 ; <^>!+3
 ; UPPERCASE
 a::
-    Send, α ; _alpha_
-return
+{
+    Send "α" ; _alpha_
+}
 +a::
-    Send, Α
-return
+{
+    Send "Α"
+}
 v::
-    Send, β ; _beta_
-return
+{
+    Send "β" ; _beta_
+}
 +v::
-    Send, Β
-return
+{
+    Send "Β"
+}
 g::
-    Send, γ ; _gamma_
-return
+{
+    Send "γ" ; _gamma_
+}
 +g::
-    Send, Γ
-return
+{
+    Send "Γ"
+}
 d::
-    Send, δ ; _delta_
-return
+{
+    Send "δ" ; _delta_
+}
 +d::
-    Send, Δ
-return
+{
+    Send "Δ"
+}
 e::
-    Send, ε ; _epsilon_
-return
+{
+    Send "ε" ; _epsilon_
+}
 +e::
-    Send, Ε
-return
+{
+    Send "Ε"
+}
 z::
-    Send, ζ ; _zeta_
-return
+{
+    Send "ζ" ; _zeta_
+}
 +z::
-    Send, Ζ
-return
+{
+    Send "Ζ"
+}
 <^>!i::
-    Send, η ; _eta_
-return
+{
+    Send "η" ; _eta_
+}
 <^>!+i::
-    Send, Η
-return
+{
+    Send "Η"
+}
 <^>!t::
-    Send, θ ; _theta_
-return
+{
+    Send "θ" ; _theta_
+}
 <^>!+t::
-    Send, Θ
-return
+{
+    Send "Θ"
+}
 i::
-    Send, ι ; _iota_
-return
+{
+    Send "ι" ; _iota_
+}
 +i::
-    Send, Ι
-return
+{
+    Send "Ι"
+}
 k::
-    Send, κ ; _kappa_
-return
+{
+    Send "κ" ; _kappa_
+}
 +k::
-    Send, Κ
-return
+{
+    Send "Κ"
+}
 l::
-    Send, λ ; _lambda_
-return
+{
+    Send "λ" ; _lambda_
+}
 +l::
-    Send, Λ
-return
+{
+    Send "Λ"
+}
 m::
-    Send, μ ; _mu_
-return
+{
+    Send "μ" ; _mu_
+}
 +m::
-    Send, Μ
-return
+{
+    Send "Μ"
+}
 n::
-    Send, ν ; _nu_
-return
+{
+    Send "ν" ; _nu_
+}
 +n::
-    Send, Ν
-return
+{
+    Send "Ν"
+}
 x::
-    Send, ξ ; _xi_
-return
+{
+    Send "ξ" ; _xi_
+}
 +x::
-    Send, Ξ
-return
+{
+    Send "Ξ"
+}
 o::
-    Send, ο ; _omicron_
-return
+{
+    Send "ο" ; _omicron_
+}
 +o::
-    Send, Ο
-return
+{
+    Send "Ο"
+}
 p::
-    Send, π ; _pi_
-return
+{
+    Send "π" ; _pi_
+}
 +p::
-    Send, Π
-return
+{
+    Send "Π"
+}
 r::
-    Send, ρ ; _rho_
-return
+{
+    Send "ρ" ; _rho_
+}
 +r::
-    Send, Ρ
-return
+{
+    Send "Ρ"
+}
 <^>!s::
-    Send, ς ; _sigma_ (final)
-return
+{
+    Send "ς" ; _sigma_ (final)
+}
 s::
-    Send, σ ; _sigma_
-return
+{
+    Send "σ" ; _sigma_
+}
 +s::
-    Send, Σ
-return
+{
+    Send "Σ"
+}
 <^>!+s::
-    Send, Σ
-return
+{
+    Send "Σ"
+}
 t::
-    Send, τ ; _tau_
-return
+{
+    Send "τ" ; _tau_
+}
 +t::
-    Send, Τ
-return
+{
+    Send "Τ"
+}
 u::
-    Send, υ ; _upsilon_
-return
+{
+    Send "υ" ; _upsilon_
+}
 +u::
-    Send, Υ
-return
+{
+    Send "Υ"
+}
 f::
-    Send, φ ; _phi_
-return
+{
+    Send "φ" ; _phi_
+}
 +f::
-    Send, Φ
-return
+{
+    Send "Φ"
+}
 h::
-    Send, χ ; _chi_
-return
+{
+    Send "χ" ; _chi_
+}
 +h::
-    Send, Χ
-return
+{
+    Send "Χ"
+}
 <^>!p::
-    Send, ψ ; _psi_
-return
+{
+    Send "ψ" ; _psi_
+}
 <^>!+p::
-    Send, Ψ
-return
+{
+    Send "Ψ"
+}
 <^>!o::
-    Send, ω ; _omega_
-return
+{
+    Send "ω" ; _omega_
+}
 <^>!+o::
-    Send, Ω
-return
+{
+    Send "Ω"
+}

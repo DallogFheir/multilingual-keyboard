@@ -1,641 +1,853 @@
-﻿; input level so that it works with combining diacritics
-#InputLevel, 0
+﻿; necessary to work with combining diacritics
+#InputLevel 0
 
 ::à::
-    Send, à
-return
+{
+    Send "à"
+}
 ::À::
-    Send, À
-return
+{
+    Send "À"
+}
 ::á::
-    Send, á
-return
+{
+    Send "á"
+}
 ::Á::
-    Send, Á
-return
+{
+    Send "Á"
+}
 ::â::
-    Send, â
-return
+{
+    Send "â"
+}
 ::Â::
-    Send, Â
-return
+{
+    Send "Â"
+}
 ::ã::
-    Send, ã
-return
+{
+    Send "ã"
+}
 ::Ã::
-    Send, Ã
-return
+{
+    Send "Ã"
+}
 ::ä::
-    Send, ä
-return
+{
+    Send "ä"
+}
 ::Ä::
-    Send, Ä
-return
+{
+    Send "Ä"
+}
 ::å::
-    Send, å
-return
+{
+    Send "å"
+}
 ::Å::
-    Send, Å
-return
+{
+    Send "Å"
+}
 ::ç::
-    Send, ç
-return
+{
+    Send "ç"
+}
 ::Ç::
-    Send, Ç
-return
+{
+    Send "Ç"
+}
 ::è::
-    Send, è
-return
+{
+    Send "è"
+}
 ::È::
-    Send, È
-return
+{
+    Send "È"
+}
 ::é::
-    Send, é
-return
+{
+    Send "é"
+}
 ::É::
-    Send, É
-return
+{
+    Send "É"
+}
 ::ê::
-    Send, ê
-return
+{
+    Send "ê"
+}
 ::Ê::
-    Send, Ê
-return
+{
+    Send "Ê"
+}
 ::ë::
-    Send, ë
-return
+{
+    Send "ë"
+}
 ::Ë::
-    Send, Ë
-return
+{
+    Send "Ë"
+}
 ::ì::
-    Send, ì
-return
+{
+    Send "ì"
+}
 ::Ì::
-    Send, Ì
-return
+{
+    Send "Ì"
+}
 ::í::
-    Send, í
-return
+{
+    Send "í"
+}
 ::Í::
-    Send, Í
-return
+{
+    Send "Í"
+}
 ::î::
-    Send, î
-return
+{
+    Send "î"
+}
 ::Î::
-    Send, Î
-return
+{
+    Send "Î"
+}
 ::ï::
-    Send, ï
-return
+{
+    Send "ï"
+}
 ::Ï::
-    Send, Ï
-return
+{
+    Send "Ï"
+}
 ::ñ::
-    Send, ñ
-return
+{
+    Send "ñ"
+}
 ::Ñ::
-    Send, Ñ
-return
+{
+    Send "Ñ"
+}
 ::ò::
-    Send, ò
-return
+{
+    Send "ò"
+}
 ::Ò::
-    Send, Ò
-return
+{
+    Send "Ò"
+}
 ::ó::
-    Send, ó
-return
+{
+    Send "ó"
+}
 ::Ó::
-    Send, Ó
-return
+{
+    Send "Ó"
+}
 ::ô::
-    Send, ô
-return
+{
+    Send "ô"
+}
 ::Ô::
-    Send, Ô
-return
+{
+    Send "Ô"
+}
 ::õ::
-    Send, õ
-return
+{
+    Send "õ"
+}
 ::Õ::
-    Send, Õ
-return
+{
+    Send "Õ"
+}
 ::ö::
-    Send, ö
-return
+{
+    Send "ö"
+}
 ::Ö::
-    Send, Ö
-return
+{
+    Send "Ö"
+}
 ::ù::
-    Send, ù
-return
+{
+    Send "ù"
+}
 ::Ù::
-    Send, Ù
-return
+{
+    Send "Ù"
+}
 ::ú::
-    Send, ú
-return
+{
+    Send "ú"
+}
 ::Ú::
-    Send, Ú
-return
+{
+    Send "Ú"
+}
 ::û::
-    Send, û
-return
+{
+    Send "û"
+}
 ::Û::
-    Send, Û
-return
+{
+    Send "Û"
+}
 ::ü::
-    Send, ü
-return
+{
+    Send "ü"
+}
 ::Ü::
-    Send, Ü
-return
+{
+    Send "Ü"
+}
 ::ý::
-    Send, ý
-return
+{
+    Send "ý"
+}
 ::Ý::
-    Send, Ý
-return
+{
+    Send "Ý"
+}
 ::Ÿ::
-    Send, Ÿ
-return
+{
+    Send "Ÿ"
+}
 ::ÿ::
-    Send, ÿ
-return
+{
+    Send "ÿ"
+}
 ::ā::
-    Send, ā
-return
+{
+    Send "ā"
+}
 ::Ā::
-    Send, Ā
-return
+{
+    Send "Ā"
+}
 ::ă::
-    Send, ă
-return
+{
+    Send "ă"
+}
 ::Ă::
-    Send, Ă
-return
+{
+    Send "Ă"
+}
 ::ą::
-    Send, ą
-return
+{
+    Send "ą"
+}
 ::Ą::
-    Send, Ą
-return
+{
+    Send "Ą"
+}
 ::ć::
-    Send, ć
-return
+{
+    Send "ć"
+}
 ::Ć::
-    Send, Ć
-return
+{
+    Send "Ć"
+}
 ::ĉ::
-    Send, ĉ
-return
+{
+    Send "ĉ"
+}
 ::Ĉ::
-    Send, Ĉ
-return
+{
+    Send "Ĉ"
+}
 ::č::
-    Send, č
-return
+{
+    Send "č"
+}
 ::Č::
-    Send, Č
-return
+{
+    Send "Č"
+}
 ::ď::
-    Send, ď
-return
+{
+    Send "ď"
+}
 ::Ď::
-    Send, Ď
-return
+{
+    Send "Ď"
+}
 ::ē::
-    Send, ē
-return
+{
+    Send "ē"
+}
 ::Ē::
-    Send, Ē
-return
+{
+    Send "Ē"
+}
 ::ĕ::
-    Send, ĕ
-return
+{
+    Send "ĕ"
+}
 ::Ĕ::
-    Send, Ĕ
-return
+{
+    Send "Ĕ"
+}
 ::ę::
-    Send, ę
-return
+{
+    Send "ę"
+}
 ::Ę::
-    Send, Ę
-return
+{
+    Send "Ę"
+}
 ::ě::
-    Send, ě
-return
+{
+    Send "ě"
+}
 ::Ě::
-    Send, Ě
-return
+{
+    Send "Ě"
+}
 ::ĝ::
-    Send, ĝ
-return
+{
+    Send "ĝ"
+}
 ::Ĝ::
-    Send, Ĝ
-return
+{
+    Send "Ĝ"
+}
 ::ĥ::
-    Send, ĥ
-return
+{
+    Send "ĥ"
+}
 ::Ĥ::
-    Send, Ĥ
-return
+{
+    Send "Ĥ"
+}
 ::ĩ::
-    Send, ĩ
-return
+{
+    Send "ĩ"
+}
 ::Ĩ::
-    Send, Ĩ
-return
+{
+    Send "Ĩ"
+}
 ::ī::
-    Send, ī
-return
+{
+    Send "ī"
+}
 ::Ī::
-    Send, Ī
-return
+{
+    Send "Ī"
+}
 ::ĭ::
-    Send, ĭ
-return
+{
+    Send "ĭ"
+}
 ::Ĭ::
-    Send, Ĭ
-return
+{
+    Send "Ĭ"
+}
 ::į::
-    Send, į
-return
+{
+    Send "į"
+}
 ::Į::
-    Send, Į
-return
+{
+    Send "Į"
+}
 ::ĵ::
-    Send, ĵ
-return
+{
+    Send "ĵ"
+}
 ::Ĵ::
-    Send, Ĵ
-return
+{
+    Send "Ĵ"
+}
 ::ĺ::
-    Send, ĺ
-return
+{
+    Send "ĺ"
+}
 ::Ĺ::
-    Send, Ĺ
-return
+{
+    Send "Ĺ"
+}
 ::ľ::
-    Send, ľ
-return
+{
+    Send "ľ"
+}
 ::Ľ::
-    Send, Ľ
-return
+{
+    Send "Ľ"
+}
 ::ń::
-    Send, ń
-return
+{
+    Send "ń"
+}
 ::Ń::
-    Send, Ń
-return
+{
+    Send "Ń"
+}
 ::ň::
-    Send, ň
-return
+{
+    Send "ň"
+}
 ::Ň::
-    Send, Ň
-return
+{
+    Send "Ň"
+}
 ::ō::
-    Send, ō
-return
+{
+    Send "ō"
+}
 ::Ō::
-    Send, Ō
-return
+{
+    Send "Ō"
+}
 ::ŏ::
-    Send, ŏ
-return
+{
+    Send "ŏ"
+}
 ::Ŏ::
-    Send, Ŏ
-return
+{
+    Send "Ŏ"
+}
 ::ő::
-    Send, ő
-return
+{
+    Send "ő"
+}
 ::Ő::
-    Send, Ő
-return
+{
+    Send "Ő"
+}
 ::ŕ::
-    Send, ŕ
-return
+{
+    Send "ŕ"
+}
 ::Ŕ::
-    Send, Ŕ
-return
+{
+    Send "Ŕ"
+}
 ::ř::
-    Send, ř
-return
+{
+    Send "ř"
+}
 ::Ř::
-    Send, Ř
-return
+{
+    Send "Ř"
+}
 ::ś::
-    Send, ś
-return
+{
+    Send "ś"
+}
 ::Ś::
-    Send, Ś
-return
+{
+    Send "Ś"
+}
 ::ŝ::
-    Send, ŝ
-return
+{
+    Send "ŝ"
+}
 ::Ŝ::
-    Send, Ŝ
-return
+{
+    Send "Ŝ"
+}
 ::ş::
-    Send, ş
-return
+{
+    Send "ş"
+}
 ::Ş::
-    Send, Ş
-return
+{
+    Send "Ş"
+}
 ::š::
-    Send, š
-return
+{
+    Send "š"
+}
 ::Š::
-    Send, Š
-return
+{
+    Send "Š"
+}
 ::ť::
-    Send, ť
-return
+{
+    Send "ť"
+}
 ::Ť::
-    Send, Ť
-return
+{
+    Send "Ť"
+}
 ::ũ::
-    Send, ũ
-return
+{
+    Send "ũ"
+}
 ::Ũ::
-    Send, Ũ
-return
+{
+    Send "Ũ"
+}
 ::ū::
-    Send, ū
-return
+{
+    Send "ū"
+}
 ::Ū::
-    Send, Ū
-return
+{
+    Send "Ū"
+}
 ::ŭ::
-    Send, ŭ
-return
+{
+    Send "ŭ"
+}
 ::Ŭ::
-    Send, Ŭ
-return
+{
+    Send "Ŭ"
+}
 ::ů::
-    Send, ů
-return
+{
+    Send "ů"
+}
 ::Ů::
-    Send, Ů
-return
+{
+    Send "Ů"
+}
 ::ű::
-    Send, ű
-return
+{
+    Send "ű"
+}
 ::Ű::
-    Send, Ű
-return
+{
+    Send "Ű"
+}
 ::ų::
-    Send, ų
-return
+{
+    Send "ų"
+}
 ::Ų::
-    Send, Ų
-return
+{
+    Send "Ų"
+}
 ::ŷ::
-    Send, ŷ
-return
+{
+    Send "ŷ"
+}
 ::Ŷ::
-    Send, Ŷ
-return
+{
+    Send "Ŷ"
+}
 ::ž::
-    Send, ž
-return
+{
+    Send "ž"
+}
 ::Ž::
-    Send, Ž
-return
+{
+    Send "Ž"
+}
 ::ǎ::
-    Send, ǎ
-return
+{
+    Send "ǎ"
+}
 ::Ǎ::
-    Send, Ǎ
-return
+{
+    Send "Ǎ"
+}
 ::ǐ::
-    Send, ǐ
-return
+{
+    Send "ǐ"
+}
 ::Ǐ::
-    Send, Ǐ
-return
+{
+    Send "Ǐ"
+}
 ::ǒ::
-    Send, ǒ
-return
+{
+    Send "ǒ"
+}
 ::Ǒ::
-    Send, Ǒ
-return
+{
+    Send "Ǒ"
+}
 ::ǔ::
-    Send, ǔ
-return
+{
+    Send "ǔ"
+}
 ::Ǔ::
-    Send, Ǔ
-return
+{
+    Send "Ǔ"
+}
 ::ǧ::
-    Send, ǧ
-return
+{
+    Send "ǧ"
+}
 ::Ǧ::
-    Send, Ǧ
-return
+{
+    Send "Ǧ"
+}
 ::ǫ::
-    Send, ǫ
-return
+{
+    Send "ǫ"
+}
 ::Ǫ::
-    Send, Ǫ
-return
+{
+    Send "Ǫ"
+}
 ::ȁ::
-    Send, ȁ
-return
+{
+    Send "ȁ"
+}
 ::Ȁ::
-    Send, Ȁ
-return
+{
+    Send "Ȁ"
+}
 ::ȃ::
-    Send, ȃ
-return
+{
+    Send "ȃ"
+}
 ::Ȃ::
-    Send, Ȃ
-return
+{
+    Send "Ȃ"
+}
 ::ȅ::
-    Send, ȅ
-return
+{
+    Send "ȅ"
+}
 ::Ȅ::
-    Send, Ȅ
-return
+{
+    Send "Ȅ"
+}
 ::ȇ::
-    Send, ȇ
-return
+{
+    Send "ȇ"
+}
 ::Ȇ::
-    Send, Ȇ
-return
+{
+    Send "Ȇ"
+}
 ::ȉ::
-    Send, ȉ
-return
+{
+    Send "ȉ"
+}
 ::Ȉ::
-    Send, Ȉ
-return
+{
+    Send "Ȉ"
+}
 ::ȋ::
-    Send, ȋ
-return
+{
+    Send "ȋ"
+}
 ::Ȋ::
-    Send, Ȋ
-return
+{
+    Send "Ȋ"
+}
 ::ȍ::
-    Send, ȍ
-return
+{
+    Send "ȍ"
+}
 ::Ȍ::
-    Send, Ȍ
-return
+{
+    Send "Ȍ"
+}
 ::ȏ::
-    Send, ȏ
-return
+{
+    Send "ȏ"
+}
 ::Ȏ::
-    Send, Ȏ
-return
+{
+    Send "Ȏ"
+}
 ::ȓ::
-    Send, ȓ
-return
+{
+    Send "ȓ"
+}
 ::Ȓ::
-    Send, Ȓ
-return
+{
+    Send "Ȓ"
+}
 ::ȕ::
-    Send, ȕ
-return
+{
+    Send "ȕ"
+}
 ::Ȕ::
-    Send, Ȕ
-return
+{
+    Send "Ȕ"
+}
 ::ȗ::
-    Send, ȗ
-return
+{
+    Send "ȗ"
+}
 ::Ȗ::
-    Send, Ȗ
-return
+{
+    Send "Ȗ"
+}
 ::ȳ::
-    Send, ȳ
-return
+{
+    Send "ȳ"
+}
 ::Ȳ::
-    Send, Ȳ
-return
+{
+    Send "Ȳ"
+}
 ::ə˞::
-    Send, ɚ
-return
+{
+    Send "ɚ"
+}
 ::Ə˞::
-    Send, ɚ
-return
+{
+    Send "ɚ"
+}
 ::ɜ˞::
-    Send, ɝ
-return
+{
+    Send "ɝ"
+}
 ::Ɜ˞::
-    Send, ɝ
-return
+{
+    Send "ɝ"
+}
 ::L̴::
-    Send, Ɫ
-return
+{
+    Send "Ɫ"
+}
 ::l̴::
-    Send, ɫ
-return
+{
+    Send "ɫ"
+}
 ::ά::
-    Send, ά
-return
+{
+    Send "ά"
+}
 ::Ά::
-    Send, Ά
-return
+{
+    Send "Ά"
+}
 ::έ::
-    Send, έ
-return
+{
+    Send "έ"
+}
 ::Έ::
-    Send, Έ
-return
+{
+    Send "Έ"
+}
 ::ή::
-    Send, ή
-return
+{
+    Send "ή"
+}
 ::Ή::
-    Send, Ή
-return
+{
+    Send "Ή"
+}
 ::ί::
-    Send, ί
-return
+{
+    Send "ί"
+}
 ::Ί::
-    Send, Ί
-return
+{
+    Send "Ί"
+}
 ::ϊ::
-    Send, ϊ
-return
+{
+    Send "ϊ"
+}
 ::Ϊ::
-    Send, Ϊ
-return
+{
+    Send "Ϊ"
+}
 ::ό::
-    Send, ό
-return
+{
+    Send "ό"
+}
 ::Ό::
-    Send, Ό
-return
+{
+    Send "Ό"
+}
 ::ύ::
-    Send, ύ
-return
+{
+    Send "ύ"
+}
 ::Ύ::
-    Send, Ύ
-return
+{
+    Send "Ύ"
+}
 ::ώ::
-    Send, ώ
-return
+{
+    Send "ώ"
+}
 ::Ώ::
-    Send, Ώ
-return
+{
+    Send "Ώ"
+}
 ::ḁ::
-    Send, ḁ
-return
+{
+    Send "ḁ"
+}
 ::Ḁ::
-    Send, Ḁ
-return
+{
+    Send "Ḁ"
+}
 ::ḛ::
-    Send, ḛ
-return
+{
+    Send "ḛ"
+}
 ::Ḛ::
-    Send, Ḛ
-return
+{
+    Send "Ḛ"
+}
 ::ḭ::
-    Send, ḭ
-return
+{
+    Send "ḭ"
+}
 ::Ḭ::
-    Send, Ḭ
-return
+{
+    Send "Ḭ"
+}
 ::ṳ::
-    Send, ṳ
-return
+{
+    Send "ṳ"
+}
 ::Ṳ::
-    Send, Ṳ
-return
+{
+    Send "Ṳ"
+}
 ::ṵ::
-    Send, ṵ
-return
+{
+    Send "ṵ"
+}
 ::Ṵ::
-    Send, Ṵ
-return
+{
+    Send "Ṵ"
+}
 ::ṽ::
-    Send, ṽ
-return
+{
+    Send "ṽ"
+}
 ::Ṽ::
-    Send, Ṽ
-return
+{
+    Send "Ṽ"
+}
 ::ẘ::
-    Send, ẘ
-return
+{
+    Send "ẘ"
+}
 ::ẙ::
-    Send, ẙ
-return
+{
+    Send "ẙ"
+}
 ::ẽ::
-    Send, ẽ
-return
+{
+    Send "ẽ"
+}
 ::Ẽ::
-    Send, Ẽ
-return
+{
+    Send "Ẽ"
+}
 ::ỳ::
-    Send, ỳ
-return
+{
+    Send "ỳ"
+}
 ::Ỳ::
-    Send, Ỳ
-return
+{
+    Send "Ỳ"
+}
 ::ỹ::
-    Send, ỹ
-return
+{
+    Send "ỹ"
+}
 ::Ỹ::
-    Send, Ỹ
-return
+{
+    Send "Ỹ"
+}
 
-#InputLevel, 1
+#InputLevel 1

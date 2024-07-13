@@ -1,21 +1,20 @@
-; suspends this script
+#SuspendExempt
 F2::
-    suspend, Permit
-
+{
     iconPath := curIcon == "*" ? "*" : "icons\keyboards\" curIcon ".ico"
 
     if A_IsSuspended
     {
-        Menu, Tray, Icon, %iconPath% , 0
-        Suspend, Off
+        TraySetIcon %iconPath%, 0
     }
     else
     {
-        Menu, Tray, Icon, icons\suspend.ico, , 1
-        Suspend, On
+        TraySetIcon "icons\suspend.ico", , 1
     }
-return
+    Suspend -1
+}
+#SuspendExempt False
 
-; disables changing languages
+; disables changing languages on Windows
 #Space::
-return
+{ }

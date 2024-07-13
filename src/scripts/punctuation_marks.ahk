@@ -1,26 +1,34 @@
 ﻿; Punctuation marks
 ; Various punctuation marks.
 <^>!+=::
-    Send, – ; en dash
-return
+{
+    Send "–" ; en dash
+}
 <^>!=::
-    Send, — ; em dash
-return
+{
+    Send "—" ; em dash
+}
 ::"u\::
-    Send, ” ; double quotation mark (right)
-return
+{
+    Send "”" ; double quotation mark (right)
+}
 ::"d\::
-    Send, „ ; double low quotation mark (left)
-return
+{
+    Send "„" ; double low quotation mark (left)
+}
 ::*\::
-    Send, • ; bullet point
-return
+{
+    Send "•" ; bullet point
+}
 ::•\::
-    Send, ○ ; white circle
-return
+{
+    Send "○" ; white circle
+}
 <^>!+,::
-    Send, ⟨ ; angle bracket (left)
-return
+{
+    Send "⟨" ; angle bracket (left)
+}
 <^>!+.::
-    Send, ⟩ ; angle bracket (right)
-return
+{
+    Send "⟩" ; angle bracket (right)
+}

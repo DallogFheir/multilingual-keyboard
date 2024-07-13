@@ -2,11 +2,14 @@
 ; Miscellaneous letters.
 ; UPPERCASE
 ::oe\::
-    Send, œ ; _oe_
-return
+{
+    Send "œ" ; _oe_
+}
 ::OE\::
-    Send, Œ
-return
+{
+    Send "Œ"
+}
 ::''\::
-    Send, ʾ ; letter half ring (right)
-return
+{
+    Send "ʾ" ; letter half ring (right)
+}
