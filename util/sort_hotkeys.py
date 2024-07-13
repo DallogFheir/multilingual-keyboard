@@ -13,7 +13,7 @@ def sort_file(file: Path) -> None:
         with open(file, encoding="utf-8", newline="\n") as f:
             script = f.read()
 
-        rest = re.fullmatch(r"((?:.|\n)*?)((?:\n?.+\n.*\nreturn)+)((?:.|\n)*)", script)
+        rest = re.fullmatch(r"^(.*?)(::.*\})(.*)$", script, re.MULTILINE | re.DOTALL)
 
         if rest is not None:
             before, middle, after = rest.groups()
@@ -24,7 +24,7 @@ def sort_file(file: Path) -> None:
 
             rules = []
             for rule_match in re.findall(
-                r"^((?:.+?)::.*?Send, (.+?)(?: ; ?(?:.*?))?\nreturn)$",
+                r'^((?!;)(?:.+?)::\n{\n.*?Send "(.+?)"(?: ; ?(?:.*?))?\n})$',
                 middle,
                 re.DOTALL | re.MULTILINE,
             ):
