@@ -5,7 +5,7 @@ F2::
 
     if A_IsSuspended
     {
-        TraySetIcon %iconPath%, 0
+        TraySetIcon iconPath, 0
     }
     else
     {
