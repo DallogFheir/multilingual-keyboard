@@ -3,13 +3,13 @@
 ; UPPERCASE
 ::oe\::
 {
-    Send "œ" ; _oe_
+    SendEvent "œ" ; _oe_
 }
 ::OE\::
 {
-    Send "Œ"
+    SendEvent "Œ"
 }
 ::''\::
 {
-    Send "ʾ" ; letter half ring (right)
+    SendEvent "ʾ" ; letter half ring (right)
 }

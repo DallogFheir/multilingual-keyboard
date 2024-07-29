@@ -2,49 +2,49 @@
 ; Western zodiac signs.
 ::aries\::
 {
-    Send "♈" ; Aries
+    SendEvent "♈" ; Aries
 }
 ::taurus\::
 {
-    Send "♉" ; Taurus
+    SendEvent "♉" ; Taurus
 }
 ::gemini\::
 {
-    Send "♊" ; Gemini
+    SendEvent "♊" ; Gemini
 }
 ::cancer\::
 {
-    Send "♋" ; Cancer
+    SendEvent "♋" ; Cancer
 }
 ::leo\::
 {
-    Send "♌" ; Leo
+    SendEvent "♌" ; Leo
 }
 ::virgo\::
 {
-    Send "♍" ; Virgo
+    SendEvent "♍" ; Virgo
 }
 ::libra\::
 {
-    Send "♎" ; Libra
+    SendEvent "♎" ; Libra
 }
 ::scorpio\::
 {
-    Send "♏" ; Scorpio
+    SendEvent "♏" ; Scorpio
 }
 ::sagittarius\::
 {
-    Send "♐" ; Sagittarius
+    SendEvent "♐" ; Sagittarius
 }
 ::capricorn\::
 {
-    Send "♑" ; Capricorn
+    SendEvent "♑" ; Capricorn
 }
 ::aquarius\::
 {
-    Send "♒" ; Aquarius
+    SendEvent "♒" ; Aquarius
 }
 ::pisces\::
 {
-    Send "♓" ; Pisces
+    SendEvent "♓" ; Pisces
 }

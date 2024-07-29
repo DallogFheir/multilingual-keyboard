@@ -2,69 +2,69 @@
 ; Superscript characters.
 ::sup2\::
 {
-    Send "²" ; _2_ (superscript)
+    SendEvent "²" ; _2_ (superscript)
 }
 ::sup3\::
 {
-    Send "³" ; _3_ (superscript)
+    SendEvent "³" ; _3_ (superscript)
 }
 ::sup1\::
 {
-    Send "¹" ; _1_ (superscript)
+    SendEvent "¹" ; _1_ (superscript)
 }
 ::sup0\::
 {
-    Send "⁰" ; _0_ (superscript)
+    SendEvent "⁰" ; _0_ (superscript)
 }
 ::supi\::
 {
-    Send "ⁱ" ; _i_ (superscript)
+    SendEvent "ⁱ" ; _i_ (superscript)
 }
 ::sup4\::
 {
-    Send "⁴" ; _4_ (superscript)
+    SendEvent "⁴" ; _4_ (superscript)
 }
 ::sup5\::
 {
-    Send "⁵" ; _5_ (superscript)
+    SendEvent "⁵" ; _5_ (superscript)
 }
 ::sup6\::
 {
-    Send "⁶" ; _6_ (superscript)
+    SendEvent "⁶" ; _6_ (superscript)
 }
 ::sup7\::
 {
-    Send "⁷" ; _7_ (superscript)
+    SendEvent "⁷" ; _7_ (superscript)
 }
 ::sup8\::
 {
-    Send "⁸" ; _8_ (superscript)
+    SendEvent "⁸" ; _8_ (superscript)
 }
 ::sup9\::
 {
-    Send "⁹" ; _9_ (superscript)
+    SendEvent "⁹" ; _9_ (superscript)
 }
 ::sup+\::
 {
-    Send "⁺" ; _+_ (superscript)
+    SendEvent "⁺" ; _+_ (superscript)
 }
 ::sup-\::
 {
-    Send "⁻" ; _-_ (superscript)
+    SendEvent "⁻" ; _-_ (superscript)
 }
 ::sup=\::
 {
-    Send "⁼" ; _=_ (superscript)
+    SendEvent "⁼" ; _=_ (superscript)
 }
 ::sup(\::
 {
-    Send "⁽" ; _(_ (superscript)
+    SendEvent "⁽" ; _(_ (superscript)
 }
 ::sup)\::
 {
-    Send "⁾" ; _)_ (superscript)
+    SendEvent "⁾" ; _)_ (superscript)
 }
 ::supn\::
 {
-    Send "ⁿ" ; _n_ (superscript)
+    SendEvent "ⁿ" ; _n_ (superscript)
 }

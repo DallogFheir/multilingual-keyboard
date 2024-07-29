@@ -2,9 +2,9 @@
 ; Symbols used in musical notation.
 ::b\::
 {
-    Send "♭" ; flat
+    SendEvent "♭" ; flat
 }
 ::#\::
 {
-    Send "♯" ; sharp
+    SendEvent "♯" ; sharp
 }

@@ -2,177 +2,177 @@
 ; Currency symbols.
 ::$cent\::
 {
-    Send "¢" ; cent
+    SendEvent "¢" ; cent
 }
 ::$yen\::
 {
-    Send "¥" ; yen / yuan
+    SendEvent "¥" ; yen / yuan
 }
 ::$florin\::
 {
-    Send "ƒ" ; florin / guilder
+    SendEvent "ƒ" ; florin / guilder
 }
 ::$amd\::
 {
-    Send "֏" ; Armenian dram
+    SendEvent "֏" ; Armenian dram
 }
 ::$afn\::
 {
-    Send "؋" ; Afghan afghani
+    SendEvent "؋" ; Afghan afghani
 }
 ::$brupee\::
 {
-    Send "৲" ; Bengali rupee
+    SendEvent "৲" ; Bengali rupee
 }
 ::$bdt\::
 {
-    Send "৳" ; Bangladeshi taka
+    SendEvent "৳" ; Bangladeshi taka
 }
 ::$grupee\::
 {
-    Send "૱" ; Gujarati rupee
+    SendEvent "૱" ; Gujarati rupee
 }
 ::$trupee\::
 {
-    Send "௹" ; Tamil rupee
+    SendEvent "௹" ; Tamil rupee
 }
 ::$thb\::
 {
-    Send "฿" ; Thai baht
+    SendEvent "฿" ; Thai baht
 }
 ::$khr\::
 {
-    Send "៛" ; Cambodian riel
+    SendEvent "៛" ; Cambodian riel
 }
 ::$ecu\::
 {
-    Send "₠" ; European Currency Unit
+    SendEvent "₠" ; European Currency Unit
 }
 ::$colon\::
 {
-    Send "₡" ; colón
+    SendEvent "₡" ; colón
 }
 ::$cruzeiro\::
 {
-    Send "₢" ; cruzeiro
+    SendEvent "₢" ; cruzeiro
 }
 ::$franc\::
 {
-    Send "₣" ; franc
+    SendEvent "₣" ; franc
 }
 ::$gbp\::
 {
-    Send "₤" ; pound sterling
+    SendEvent "₤" ; pound sterling
 }
 ::$mill\::
 {
-    Send "₥" ; mill
+    SendEvent "₥" ; mill
 }
 ::$ngn\::
 {
-    Send "₦" ; Nigerian naira
+    SendEvent "₦" ; Nigerian naira
 }
 ::$peseta\::
 {
-    Send "₧" ; peseta
+    SendEvent "₧" ; peseta
 }
 ::$rupee\::
 {
-    Send "₨" ; rupee
+    SendEvent "₨" ; rupee
 }
 ::$won\::
 {
-    Send "₩" ; won
+    SendEvent "₩" ; won
 }
 ::$ils\::
 {
-    Send "₪" ; Israeli new shekel
+    SendEvent "₪" ; Israeli new shekel
 }
 ::$vnd\::
 {
-    Send "₫" ; Vietnamese đồng
+    SendEvent "₫" ; Vietnamese đồng
 }
 ::$eur\::
 {
-    Send "€" ; euro
+    SendEvent "€" ; euro
 }
 ::$lak\::
 {
-    Send "₭" ; Lao kip
+    SendEvent "₭" ; Lao kip
 }
 ::$mnt\::
 {
-    Send "₮" ; Mongolian tögrög / tugrik
+    SendEvent "₮" ; Mongolian tögrög / tugrik
 }
 ::$grd\::
 {
-    Send "₯" ; drachma
+    SendEvent "₯" ; drachma
 }
 ::$pfennig\::
 {
-    Send "₰" ; pfennig
+    SendEvent "₰" ; pfennig
 }
 ::$php\::
 {
-    Send "₱" ; Philippine peso
+    SendEvent "₱" ; Philippine peso
 }
 ::$pyg\::
 {
-    Send "₲" ; Paraguayan guaraní
+    SendEvent "₲" ; Paraguayan guaraní
 }
 ::$ara\::
 {
-    Send "₳" ; Argentine austral
+    SendEvent "₳" ; Argentine austral
 }
 ::$uah\::
 {
-    Send "₴" ; Ukrainian hryvnia
+    SendEvent "₴" ; Ukrainian hryvnia
 }
 ::$ghs\::
 {
-    Send "₵" ; Ghanaian cedi
+    SendEvent "₵" ; Ghanaian cedi
 }
 ::$lt\::
 {
-    Send "₶" ; livre tournois
+    SendEvent "₶" ; livre tournois
 }
 ::$spesmilo\::
 {
-    Send "₷" ; spesmilo
+    SendEvent "₷" ; spesmilo
 }
 ::$kzt\::
 {
-    Send "₸" ; Kazakhstani tenge
+    SendEvent "₸" ; Kazakhstani tenge
 }
 ::$inr\::
 {
-    Send "₹" ; Indian rupee
+    SendEvent "₹" ; Indian rupee
 }
 ::$try\::
 {
-    Send "₺" ; Turkish lira
+    SendEvent "₺" ; Turkish lira
 }
 ::$azn\::
 {
-    Send "₼" ; Azerbaijani manat
+    SendEvent "₼" ; Azerbaijani manat
 }
 ::$rub\::
 {
-    Send "₽" ; Russian ruble
+    SendEvent "₽" ; Russian ruble
 }
 ::$gel\::
 {
-    Send "₾" ; Georgian lari
+    SendEvent "₾" ; Georgian lari
 }
 ::$btc\::
 {
-    Send "₿" ; Bitcoin
+    SendEvent "₿" ; Bitcoin
 }
 ::$mark\::
 {
-    Send "ℳ" ; German mark
+    SendEvent "ℳ" ; German mark
 }
 ::$rial\::
 {
-    Send "﷼" ; rial
+    SendEvent "﷼" ; rial
 }

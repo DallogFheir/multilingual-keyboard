@@ -4,201 +4,201 @@
 ; UPPERCASE
 a::
 {
-    Send "α" ; _alpha_
+    SendEvent "α" ; _alpha_
 }
 +a::
 {
-    Send "Α"
+    SendEvent "Α"
 }
 v::
 {
-    Send "β" ; _beta_
+    SendEvent "β" ; _beta_
 }
 +v::
 {
-    Send "Β"
+    SendEvent "Β"
 }
 g::
 {
-    Send "γ" ; _gamma_
+    SendEvent "γ" ; _gamma_
 }
 +g::
 {
-    Send "Γ"
+    SendEvent "Γ"
 }
 d::
 {
-    Send "δ" ; _delta_
+    SendEvent "δ" ; _delta_
 }
 +d::
 {
-    Send "Δ"
+    SendEvent "Δ"
 }
 e::
 {
-    Send "ε" ; _epsilon_
+    SendEvent "ε" ; _epsilon_
 }
 +e::
 {
-    Send "Ε"
+    SendEvent "Ε"
 }
 z::
 {
-    Send "ζ" ; _zeta_
+    SendEvent "ζ" ; _zeta_
 }
 +z::
 {
-    Send "Ζ"
+    SendEvent "Ζ"
 }
 <^>!i::
 {
-    Send "η" ; _eta_
+    SendEvent "η" ; _eta_
 }
 <^>!+i::
 {
-    Send "Η"
+    SendEvent "Η"
 }
 <^>!t::
 {
-    Send "θ" ; _theta_
+    SendEvent "θ" ; _theta_
 }
 <^>!+t::
 {
-    Send "Θ"
+    SendEvent "Θ"
 }
 i::
 {
-    Send "ι" ; _iota_
+    SendEvent "ι" ; _iota_
 }
 +i::
 {
-    Send "Ι"
+    SendEvent "Ι"
 }
 k::
 {
-    Send "κ" ; _kappa_
+    SendEvent "κ" ; _kappa_
 }
 +k::
 {
-    Send "Κ"
+    SendEvent "Κ"
 }
 l::
 {
-    Send "λ" ; _lambda_
+    SendEvent "λ" ; _lambda_
 }
 +l::
 {
-    Send "Λ"
+    SendEvent "Λ"
 }
 m::
 {
-    Send "μ" ; _mu_
+    SendEvent "μ" ; _mu_
 }
 +m::
 {
-    Send "Μ"
+    SendEvent "Μ"
 }
 n::
 {
-    Send "ν" ; _nu_
+    SendEvent "ν" ; _nu_
 }
 +n::
 {
-    Send "Ν"
+    SendEvent "Ν"
 }
 x::
 {
-    Send "ξ" ; _xi_
+    SendEvent "ξ" ; _xi_
 }
 +x::
 {
-    Send "Ξ"
+    SendEvent "Ξ"
 }
 o::
 {
-    Send "ο" ; _omicron_
+    SendEvent "ο" ; _omicron_
 }
 +o::
 {
-    Send "Ο"
+    SendEvent "Ο"
 }
 p::
 {
-    Send "π" ; _pi_
+    SendEvent "π" ; _pi_
 }
 +p::
 {
-    Send "Π"
+    SendEvent "Π"
 }
 r::
 {
-    Send "ρ" ; _rho_
+    SendEvent "ρ" ; _rho_
 }
 +r::
 {
-    Send "Ρ"
+    SendEvent "Ρ"
 }
 <^>!s::
 {
-    Send "ς" ; _sigma_ (final)
+    SendEvent "ς" ; _sigma_ (final)
 }
 s::
 {
-    Send "σ" ; _sigma_
+    SendEvent "σ" ; _sigma_
 }
 +s::
 {
-    Send "Σ"
+    SendEvent "Σ"
 }
 <^>!+s::
 {
-    Send "Σ"
+    SendEvent "Σ"
 }
 t::
 {
-    Send "τ" ; _tau_
+    SendEvent "τ" ; _tau_
 }
 +t::
 {
-    Send "Τ"
+    SendEvent "Τ"
 }
 u::
 {
-    Send "υ" ; _upsilon_
+    SendEvent "υ" ; _upsilon_
 }
 +u::
 {
-    Send "Υ"
+    SendEvent "Υ"
 }
 f::
 {
-    Send "φ" ; _phi_
+    SendEvent "φ" ; _phi_
 }
 +f::
 {
-    Send "Φ"
+    SendEvent "Φ"
 }
 h::
 {
-    Send "χ" ; _chi_
+    SendEvent "χ" ; _chi_
 }
 +h::
 {
-    Send "Χ"
+    SendEvent "Χ"
 }
 <^>!p::
 {
-    Send "ψ" ; _psi_
+    SendEvent "ψ" ; _psi_
 }
 <^>!+p::
 {
-    Send "Ψ"
+    SendEvent "Ψ"
 }
 <^>!o::
 {
-    Send "ω" ; _omega_
+    SendEvent "ω" ; _omega_
 }
 <^>!+o::
 {
-    Send "Ω"
+    SendEvent "Ω"
 }

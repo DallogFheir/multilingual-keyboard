@@ -2,49 +2,49 @@
 ; Various mathematical symbols.
 ::+-\::
 {
-    Send "±" ; plus minus
+    SendEvent "±" ; plus minus
 }
 ::x\::
 {
-    Send "×" ; multiplication sign
+    SendEvent "×" ; multiplication sign
 }
 ::empty\::
 {
-    Send "∅" ; empty set
+    SendEvent "∅" ; empty set
 }
 ::-+\::
 {
-    Send "∓" ; minus plus
+    SendEvent "∓" ; minus plus
 }
 ::sqrt\::
 {
-    Send "√" ; square root
+    SendEvent "√" ; square root
 }
 ::infty\::
 {
-    Send "∞" ; infinity
+    SendEvent "∞" ; infinity
 }
 ::=/=::
 {
-    Send "≠" ; not equal
+    SendEvent "≠" ; not equal
 }
 ::<=\::
 {
-    Send "≤" ; less than or equal to
+    SendEvent "≤" ; less than or equal to
 }
 ::>=\::
 {
-    Send "≥" ; greater than or equal to
+    SendEvent "≥" ; greater than or equal to
 }
 ::<<\::
 {
-    Send "≪" ; much less than
+    SendEvent "≪" ; much less than
 }
 ::>>\::
 {
-    Send "≫" ; much greater than
+    SendEvent "≫" ; much greater than
 }
 ::cdot\::
 {
-    Send "⋅" ; multiplication dot
+    SendEvent "⋅" ; multiplication dot
 }

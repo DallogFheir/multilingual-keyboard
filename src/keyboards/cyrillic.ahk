@@ -4,289 +4,289 @@
 ; UPPERCASE
 a::
 {
-    Send "а" ; _a_
+    SendEvent "а" ; _a_
 }
 +a::
 {
-    Send "А"
+    SendEvent "А"
 }
 b::
 {
-    Send "б" ; _be_
+    SendEvent "б" ; _be_
 }
 +b::
 {
-    Send "Б"
+    SendEvent "Б"
 }
 v::
 {
-    Send "в" ; _ve_
+    SendEvent "в" ; _ve_
 }
 +v::
 {
-    Send "В"
+    SendEvent "В"
 }
 g::
 {
-    Send "г" ; _ge_
+    SendEvent "г" ; _ge_
 }
 +g::
 {
-    Send "Г"
+    SendEvent "Г"
 }
 d::
 {
-    Send "д" ; _de_
+    SendEvent "д" ; _de_
 }
 +d::
 {
-    Send "Д"
+    SendEvent "Д"
 }
 e::
 {
-    Send "е" ; _ye_
+    SendEvent "е" ; _ye_
 }
 +e::
 {
-    Send "Е"
+    SendEvent "Е"
 }
 <^>!z::
 {
-    Send "ж" ; _zhe_
+    SendEvent "ж" ; _zhe_
 }
 <^>!+z::
 {
-    Send "Ж"
+    SendEvent "Ж"
 }
 z::
 {
-    Send "з" ; _ze_
+    SendEvent "з" ; _ze_
 }
 +z::
 {
-    Send "З"
+    SendEvent "З"
 }
 i::
 {
-    Send "и" ; _i_
+    SendEvent "и" ; _i_
 }
 +i::
 {
-    Send "И"
+    SendEvent "И"
 }
 y::
 {
-    Send "й" ; _yot_
+    SendEvent "й" ; _yot_
 }
 +y::
 {
-    Send "Й"
+    SendEvent "Й"
 }
 k::
 {
-    Send "к" ; _ka_
+    SendEvent "к" ; _ka_
 }
 +k::
 {
-    Send "К"
+    SendEvent "К"
 }
 l::
 {
-    Send "л" ; _el_
+    SendEvent "л" ; _el_
 }
 +l::
 {
-    Send "Л"
+    SendEvent "Л"
 }
 m::
 {
-    Send "м" ; _em_
+    SendEvent "м" ; _em_
 }
 +m::
 {
-    Send "М"
+    SendEvent "М"
 }
 n::
 {
-    Send "н" ; _en_
+    SendEvent "н" ; _en_
 }
 +n::
 {
-    Send "Н"
+    SendEvent "Н"
 }
 o::
 {
-    Send "о" ; _o_
+    SendEvent "о" ; _o_
 }
 +o::
 {
-    Send "О"
+    SendEvent "О"
 }
 p::
 {
-    Send "п" ; _pe_
+    SendEvent "п" ; _pe_
 }
 +p::
 {
-    Send "П"
+    SendEvent "П"
 }
 r::
 {
-    Send "р" ; _er_
+    SendEvent "р" ; _er_
 }
 +r::
 {
-    Send "Р"
+    SendEvent "Р"
 }
 s::
 {
-    Send "с" ; _es_
+    SendEvent "с" ; _es_
 }
 +s::
 {
-    Send "С"
+    SendEvent "С"
 }
 t::
 {
-    Send "т" ; _te_
+    SendEvent "т" ; _te_
 }
 +t::
 {
-    Send "Т"
+    SendEvent "Т"
 }
 u::
 {
-    Send "у" ; _u_
+    SendEvent "у" ; _u_
 }
 +u::
 {
-    Send "У"
+    SendEvent "У"
 }
 f::
 {
-    Send "ф" ; _ef_
+    SendEvent "ф" ; _ef_
 }
 +f::
 {
-    Send "Ф"
+    SendEvent "Ф"
 }
 h::
 {
-    Send "х" ; _kha_
+    SendEvent "х" ; _kha_
 }
 +h::
 {
-    Send "Х"
+    SendEvent "Х"
 }
 c::
 {
-    Send "ц" ; _tse_
+    SendEvent "ц" ; _tse_
 }
 +c::
 {
-    Send "Ц"
+    SendEvent "Ц"
 }
 <^>!c::
 {
-    Send "ч" ; _che_
+    SendEvent "ч" ; _che_
 }
 <^>!+c::
 {
-    Send "Ч"
+    SendEvent "Ч"
 }
 <^>!s::
 {
-    Send "ш" ; _sha_
+    SendEvent "ш" ; _sha_
 }
 <^>!+s::
 {
-    Send "Ш"
+    SendEvent "Ш"
 }
 <^>!d::
 {
-    Send "щ" ; _shcha_
+    SendEvent "щ" ; _shcha_
 }
 <^>!+d::
 {
-    Send "Щ"
+    SendEvent "Щ"
 }
 <^>!q::
 {
-    Send "ъ" ; hard sign
+    SendEvent "ъ" ; hard sign
 }
 <^>!+q::
 {
-    Send "Ъ"
+    SendEvent "Ъ"
 }
 <^>!y::
 {
-    Send "ы" ; _yeru_
+    SendEvent "ы" ; _yeru_
 }
 <^>!+y::
 {
-    Send "Ы"
+    SendEvent "Ы"
 }
 q::
 {
-    Send "ь" ; soft sign
+    SendEvent "ь" ; soft sign
 }
 +q::
 {
-    Send "Ь"
+    SendEvent "Ь"
 }
 <^>!e::
 {
-    Send "э" ; _e_
+    SendEvent "э" ; _e_
 }
 <^>!+e::
 {
-    Send "Э"
+    SendEvent "Э"
 }
 <^>!u::
 {
-    Send "ю" ; _yu_
+    SendEvent "ю" ; _yu_
 }
 <^>!+u::
 {
-    Send "Ю"
+    SendEvent "Ю"
 }
 <^>!f::
 {
-    Send "я" ; _ya_
+    SendEvent "я" ; _ya_
 }
 <^>!+f::
 {
-    Send "Я"
+    SendEvent "Я"
 }
 <^>!r::
 {
-    Send "є" ; Ukrainian _ye_
+    SendEvent "є" ; Ukrainian _ye_
 }
 <^>!+r::
 {
-    Send "Є"
+    SendEvent "Є"
 }
 <^>!i::
 {
-    Send "і" ; dotted _i_
+    SendEvent "і" ; dotted _i_
 }
 <^>!+i::
 {
-    Send "І"
+    SendEvent "І"
 }
 <^>!o::
 {
-    Send "ї" ; _yi_
+    SendEvent "ї" ; _yi_
 }
 <^>!+o::
 {
-    Send "Ї"
+    SendEvent "Ї"
 }
 <^>!g::
 {
-    Send "ґ" ; _ge_ with upturn
+    SendEvent "ґ" ; _ge_ with upturn
 }
 <^>!+g::
 {
-    Send "Ґ"
+    SendEvent "Ґ"
 }

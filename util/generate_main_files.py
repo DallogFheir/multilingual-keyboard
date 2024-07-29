@@ -32,7 +32,7 @@ def generate_common():
         f.writelines(
             [
                 hotstring
-                + '::\n{\n    Send "'
+                + '::\n{\n    SendEvent "'
                 + replacement
                 + '" ; '
                 + description

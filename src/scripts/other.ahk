@@ -2,21 +2,21 @@
 ; Other symbols.
 ::c\::
 {
-    Send "©" ; copyright
+    SendEvent "©" ; copyright
 }
 ::deg\::
 {
-    Send "°" ; degree
+    SendEvent "°" ; degree
 }
 ::tm\::
 {
-    Send "™" ; trademark
+    SendEvent "™" ; trademark
 }
 ::->\::
 {
-    Send "→" ; arrow (right)
+    SendEvent "→" ; arrow (right)
 }
 ::v\::
 {
-    Send "✓" ; check mark
+    SendEvent "✓" ; check mark
 }

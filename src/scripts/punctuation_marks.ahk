@@ -2,33 +2,33 @@
 ; Various punctuation marks.
 <^>!+=::
 {
-    Send "–" ; en dash
+    SendEvent "–" ; en dash
 }
 <^>!=::
 {
-    Send "—" ; em dash
+    SendEvent "—" ; em dash
 }
 ::"u\::
 {
-    Send "”" ; double quotation mark (right)
+    SendEvent "”" ; double quotation mark (right)
 }
 ::"d\::
 {
-    Send "„" ; double low quotation mark (left)
+    SendEvent "„" ; double low quotation mark (left)
 }
 ::*\::
 {
-    Send "•" ; bullet point
+    SendEvent "•" ; bullet point
 }
 ::•\::
 {
-    Send "○" ; white circle
+    SendEvent "○" ; white circle
 }
 <^>!+,::
 {
-    Send "⟨" ; angle bracket (left)
+    SendEvent "⟨" ; angle bracket (left)
 }
 <^>!+.::
 {
-    Send "⟩" ; angle bracket (right)
+    SendEvent "⟩" ; angle bracket (right)
 }

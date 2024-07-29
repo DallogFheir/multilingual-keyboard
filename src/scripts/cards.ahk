@@ -2,17 +2,17 @@
 ; Symbols representing cards and card suits.
 ::spades\::
 {
-    Send "♠" ; spades
+    SendEvent "♠" ; spades
 }
 ::clubs\::
 {
-    Send "♣" ; clubs
+    SendEvent "♣" ; clubs
 }
 ::hearts\::
 {
-    Send "♥" ; hearts
+    SendEvent "♥" ; hearts
 }
 ::diamonds\::
 {
-    Send "♦" ; diamonds
+    SendEvent "♦" ; diamonds
 }

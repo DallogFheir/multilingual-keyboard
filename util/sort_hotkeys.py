@@ -24,7 +24,7 @@ def sort_file(file: Path) -> None:
 
             rules = []
             for rule_match in re.findall(
-                r'^((?!;)(?:.+?)::\n{\n.*?Send "(.+?)"(?: ; ?(?:.*?))?\n})$',
+                r'^((?!;)(?:.+?)::\n{\n.*?SendEvent "(.+?)"(?: ; ?(?:.*?))?\n})$',
                 middle,
                 re.DOTALL | re.MULTILINE,
             ):

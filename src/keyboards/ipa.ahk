@@ -3,565 +3,565 @@
 ; <^>!+4
 +a::
 {
-    Send "æ" ; near-open front unrounded vowel
+    SendEvent "æ" ; near-open front unrounded vowel
 }
 <^>!c::
 {
-    Send "ç" ; voiceless palatal fricative
+    SendEvent "ç" ; voiceless palatal fricative
 }
 <^>!d::
 {
-    Send "ð" ; voiced dental fricative
+    SendEvent "ð" ; voiced dental fricative
 }
 <^>!p::
 {
-    Send "ø" ; close-mid front rounded vowel
+    SendEvent "ø" ; close-mid front rounded vowel
 }
 +h::
 {
-    Send "ħ" ; voiceless pharyngeal fricative
+    SendEvent "ħ" ; voiceless pharyngeal fricative
 }
 <^>!n::
 {
-    Send "ŋ" ; voiced velar nasal
+    SendEvent "ŋ" ; voiced velar nasal
 }
 +p::
 {
-    Send "œ" ; open-mid front rounded vowel
+    SendEvent "œ" ; open-mid front rounded vowel
 }
 ::dclick::
 {
-    Send "ǀ" ; dental click
+    SendEvent "ǀ" ; dental click
 }
 ::lclick::
 {
-    Send "ǁ" ; lateral click
+    SendEvent "ǁ" ; lateral click
 }
 ::pclick::
 {
-    Send "ǂ" ; palatal click
+    SendEvent "ǂ" ; palatal click
 }
 ::aclick::
 {
-    Send "ǃ" ; alveolar click
+    SendEvent "ǃ" ; alveolar click
 }
 +1::
 {
-    Send "ɐ" ; near-open central vowel
+    SendEvent "ɐ" ; near-open central vowel
 }
 <^>!a::
 {
-    Send "ɑ" ; open back unrounded vowel
+    SendEvent "ɑ" ; open back unrounded vowel
 }
 +o::
 {
-    Send "ɒ" ; open back rounded vowel
+    SendEvent "ɒ" ; open back rounded vowel
 }
 +b::
 {
-    Send "ɓ" ; voiced bilabial implosive
+    SendEvent "ɓ" ; voiced bilabial implosive
 }
 <^>!o::
 {
-    Send "ɔ" ; open-mid back rounded vowel
+    SendEvent "ɔ" ; open-mid back rounded vowel
 }
 <^>!+s::
 {
-    Send "ɕ" ; voiceless alveolo-palatal sibilant fricative
+    SendEvent "ɕ" ; voiceless alveolo-palatal sibilant fricative
 }
 +d::
 {
-    Send "ɖ" ; voiced retroflex plosive
+    SendEvent "ɖ" ; voiced retroflex plosive
 }
 <^>!+d::
 {
-    Send "ɗ" ; voiced alveolar implosive
+    SendEvent "ɗ" ; voiced alveolar implosive
 }
 <^>!+i::
 {
-    Send "ɘ" ; close-mid central unrounded vowel
+    SendEvent "ɘ" ; close-mid central unrounded vowel
 }
 +e::
 {
-    Send "ə" ; mid central vowel
+    SendEvent "ə" ; mid central vowel
 }
 <^>!e::
 {
-    Send "ɛ" ; open-mid front unrounded vowel
+    SendEvent "ɛ" ; open-mid front unrounded vowel
 }
 <^>!+e::
 {
-    Send "ɜ" ; open-mid central unrounded vowel
+    SendEvent "ɜ" ; open-mid central unrounded vowel
 }
 <^>!+y::
 {
-    Send "ɞ" ; open-mid central rounded vowel
+    SendEvent "ɞ" ; open-mid central rounded vowel
 }
 +c::
 {
-    Send "ɟ" ; voiced palatal plosive
+    SendEvent "ɟ" ; voiced palatal plosive
 }
 ::vimplo::
 {
-    Send "ɠ" ; voiced velar implosive
+    SendEvent "ɠ" ; voiced velar implosive
 }
 +g::
 {
-    Send "ɢ" ; voiced uvular plosive
+    SendEvent "ɢ" ; voiced uvular plosive
 }
 <^>!g::
 {
-    Send "ɣ" ; voiced velar fricative
+    SendEvent "ɣ" ; voiced velar fricative
 }
 <^>!+o::
 {
-    Send "ɤ" ; close-mid back unrounded vowel
+    SendEvent "ɤ" ; close-mid back unrounded vowel
 }
 +w::
 {
-    Send "ɥ" ; voiced labio-palatal approximant
+    SendEvent "ɥ" ; voiced labio-palatal approximant
 }
 <^>!h::
 {
-    Send "ɦ" ; voiced glottal fricative
+    SendEvent "ɦ" ; voiced glottal fricative
 }
 6::
 {
-    Send "ɧ" ; _sj_-sound
+    SendEvent "ɧ" ; _sj_-sound
 }
 +i::
 {
-    Send "ɨ" ; close central unrounded vowel
+    SendEvent "ɨ" ; close central unrounded vowel
 }
 <^>!i::
 {
-    Send "ɪ" ; near-close front unrounded vowel
+    SendEvent "ɪ" ; near-close front unrounded vowel
 }
 +l::
 {
-    Send "ɬ" ; voiceless alveolar lateral fricative
+    SendEvent "ɬ" ; voiceless alveolar lateral fricative
 }
 <^>!k::
 {
-    Send "ɭ" ; voiced retroflex lateral approximant
+    SendEvent "ɭ" ; voiced retroflex lateral approximant
 }
 <^>!+l::
 {
-    Send "ɮ" ; voiced alveolar lateral fricative
+    SendEvent "ɮ" ; voiced alveolar lateral fricative
 }
 +u::
 {
-    Send "ɯ" ; close back unrounded vowel
+    SendEvent "ɯ" ; close back unrounded vowel
 }
 +2::
 {
-    Send "ɰ" ; voiced velar approximant
+    SendEvent "ɰ" ; voiced velar approximant
 }
 <^>!m::
 {
-    Send "ɱ" ; voiced labio-dental nasal
+    SendEvent "ɱ" ; voiced labio-dental nasal
 }
 +n::
 {
-    Send "ɲ" ; voiced palatal nasal
+    SendEvent "ɲ" ; voiced palatal nasal
 }
 +m::
 {
-    Send "ɳ" ; voiced retroflex nasal
+    SendEvent "ɳ" ; voiced retroflex nasal
 }
 <^>!+n::
 {
-    Send "ɴ" ; voiced uvular nasal
+    SendEvent "ɴ" ; voiced uvular nasal
 }
 +y::
 {
-    Send "ɵ" ; close-mid central rounded vowel
+    SendEvent "ɵ" ; close-mid central rounded vowel
 }
 <^>!+p::
 {
-    Send "ɶ" ; open front rounded vowel
+    SendEvent "ɶ" ; open front rounded vowel
 }
 <^>!f::
 {
-    Send "ɸ" ; voiceless bilabial fricative
+    SendEvent "ɸ" ; voiceless bilabial fricative
 }
 <^>!+r::
 {
-    Send "ɹ" ; voiced alveolar approximant
+    SendEvent "ɹ" ; voiced alveolar approximant
 }
 <^>!+k::
 {
-    Send "ɺ" ; voiced alveolar lateral flap
+    SendEvent "ɺ" ; voiced alveolar lateral flap
 }
 <^>!+f::
 {
-    Send "ɻ" ; voiced retroflex approximant
+    SendEvent "ɻ" ; voiced retroflex approximant
 }
 +3::
 {
-    Send "ɽ" ; voiced retroflex flap
+    SendEvent "ɽ" ; voiced retroflex flap
 }
 <^>!r::
 {
-    Send "ɾ" ; voiced alveolar flap
+    SendEvent "ɾ" ; voiced alveolar flap
 }
 +f::
 {
-    Send "ʀ" ; voiced uvular trill
+    SendEvent "ʀ" ; voiced uvular trill
 }
 +r::
 {
-    Send "ʁ" ; voiced uvular fricative
+    SendEvent "ʁ" ; voiced uvular fricative
 }
 +s::
 {
-    Send "ʂ" ; voiceless retroflex sibilant fricative
+    SendEvent "ʂ" ; voiceless retroflex sibilant fricative
 }
 <^>!s::
 {
-    Send "ʃ" ; voiceless post-alveolar fricative
+    SendEvent "ʃ" ; voiceless post-alveolar fricative
 }
 ::pimplo::
 {
-    Send "ʄ" ; voiced palatal implosive
+    SendEvent "ʄ" ; voiced palatal implosive
 }
 +t::
 {
-    Send "ʈ" ; voiceless retroflex plosive
+    SendEvent "ʈ" ; voiceless retroflex plosive
 }
 <^>!+u::
 {
-    Send "ʉ" ; close central rounded vowel
+    SendEvent "ʉ" ; close central rounded vowel
 }
 <^>!u::
 {
-    Send "ʊ" ; near-close near-back rounded vowel
+    SendEvent "ʊ" ; near-close near-back rounded vowel
 }
 <^>!v::
 {
-    Send "ʋ" ; voiced labiodental approximant
+    SendEvent "ʋ" ; voiced labiodental approximant
 }
 <^>!+a::
 {
-    Send "ʌ" ; open-mid back unrounded vowel
+    SendEvent "ʌ" ; open-mid back unrounded vowel
 }
 <^>!w::
 {
-    Send "ʍ" ; voiceless labio-velar fricative
+    SendEvent "ʍ" ; voiceless labio-velar fricative
 }
 <^>!l::
 {
-    Send "ʎ" ; voiced palatal lateral approximant
+    SendEvent "ʎ" ; voiced palatal lateral approximant
 }
 <^>!y::
 {
-    Send "ʏ" ; near-close front rounded vowel
+    SendEvent "ʏ" ; near-close front rounded vowel
 }
 +z::
 {
-    Send "ʐ" ; voiced retroflex sibilant fricative
+    SendEvent "ʐ" ; voiced retroflex sibilant fricative
 }
 <^>!+z::
 {
-    Send "ʑ" ; voiced alveolo-palatal sibilant fricative
+    SendEvent "ʑ" ; voiced alveolo-palatal sibilant fricative
 }
 <^>!z::
 {
-    Send "ʒ" ; voiced post-alveolar fricative
+    SendEvent "ʒ" ; voiced post-alveolar fricative
 }
 <^>!q::
 {
-    Send "ʔ" ; glottal stop
+    SendEvent "ʔ" ; glottal stop
 }
 +q::
 {
-    Send "ʕ" ; voiced pharyngeal approximant
+    SendEvent "ʕ" ; voiced pharyngeal approximant
 }
 ::bclick::
 {
-    Send "ʘ" ; bilabial click
+    SendEvent "ʘ" ; bilabial click
 }
 <^>!+b::
 {
-    Send "ʙ" ; bilabial trill
+    SendEvent "ʙ" ; bilabial trill
 }
 ::uimplo::
 {
-    Send "ʛ" ; voiced uvular implosive
+    SendEvent "ʛ" ; voiced uvular implosive
 }
 +x::
 {
-    Send "ʜ" ; voiceless pharyngeal trill
+    SendEvent "ʜ" ; voiceless pharyngeal trill
 }
 <^>!j::
 {
-    Send "ʝ" ; voiced palatal fricative
+    SendEvent "ʝ" ; voiced palatal fricative
 }
 +k::
 {
-    Send "ʟ" ; voiced velar lateral approximant
+    SendEvent "ʟ" ; voiced velar lateral approximant
 }
 +5::
 {
-    Send "ʡ" ; pharyngeal plosive
+    SendEvent "ʡ" ; pharyngeal plosive
 }
 <^>!+x::
 {
-    Send "ʢ" ; voiced pharyngeal trill
+    SendEvent "ʢ" ; voiced pharyngeal trill
 }
 <^>!+h::
 {
-    Send "ʰ" ; aspirated
+    SendEvent "ʰ" ; aspirated
 }
 +j::
 {
-    Send "ʱ" ; voiced aspirated
+    SendEvent "ʱ" ; voiced aspirated
 }
 <^>!+j::
 {
-    Send "ʲ" ; palatalized
+    SendEvent "ʲ" ; palatalized
 }
 <^>!+w::
 {
-    Send "ʷ" ; labialized
+    SendEvent "ʷ" ; labialized
 }
 +'::
 {
-    Send "ʼ" ; ejective
+    SendEvent "ʼ" ; ejective
 }
 <^>!+q::
 {
-    Send "ˀ" ; glottalized
+    SendEvent "ˀ" ; glottalized
 }
 '::
 {
-    Send "ˈ" ; primary stress
+    SendEvent "ˈ" ; primary stress
 }
 <^>!+`;::
 {
-    Send "ˌ" ; secondary stress
+    SendEvent "ˌ" ; secondary stress
 }
 `;::
 {
-    Send "ː" ; long
+    SendEvent "ː" ; long
 }
 ::halflong::
 {
-    Send "ˑ" ; half-long
+    SendEvent "ˑ" ; half-long
 }
 +8::
 {
-    Send "˔" ;
+    SendEvent "˔" ;
 }
 +9::
 {
-    Send "˕" ; lowered (beside)
+    SendEvent "˕" ; lowered (beside)
 }
 +=::
 {
-    Send "˖" ; advanced (beside)
+    SendEvent "˖" ; advanced (beside)
 }
 ::sretract::
 {
-    Send "˗" ; retracted (beside)
+    SendEvent "˗" ; retracted (beside)
 }
 +4::
 {
-    Send "˞" ; _r_-colored
+    SendEvent "˞" ; _r_-colored
 }
 <^>!+g::
 {
-    Send "ˠ" ; velarized
+    SendEvent "ˠ" ; velarized
 }
 ::lrel::
 {
-    Send "ˡ" ; lateral release
+    SendEvent "ˡ" ; lateral release
 }
 ::vvfrel::
 {
-    Send "ˣ" ; voiceless velar fricative release
+    SendEvent "ˣ" ; voiceless velar fricative release
 }
 ::phar::
 {
-    Send "ˤ" ; pharyngealized
+    SendEvent "ˤ" ; pharyngealized
 }
 1::
 {
-    Send "˥" ; high Chao tone letter
+    SendEvent "˥" ; high Chao tone letter
 }
 2::
 {
-    Send "˦" ; half-high Chao tone letter
+    SendEvent "˦" ; half-high Chao tone letter
 }
 3::
 {
-    Send "˧" ; mid Chao tone letter
+    SendEvent "˧" ; mid Chao tone letter
 }
 4::
 {
-    Send "˨" ; half-low Chao tone letter
+    SendEvent "˨" ; half-low Chao tone letter
 }
 5::
 {
-    Send "˩" ; low Chao tone letter
+    SendEvent "˩" ; low Chao tone letter
 }
 +`;::
 {
-    Send "̈" ; centralized
+    SendEvent "̈" ; centralized
 }
 +0::
 {
-    Send "̍" ; syllabic (above)
+    SendEvent "̍" ; syllabic (above)
 }
 <^>!\::
 {
-    Send "̘" ; advanced tongue root
+    SendEvent "̘" ; advanced tongue root
 }
 <^>!+\::
 {
-    Send "̙" ; retracted tongue root
+    SendEvent "̙" ; retracted tongue root
 }
 7::
 {
-    Send "̚" ; no audible release
+    SendEvent "̚" ; no audible release
 }
 ::lround::
 {
-    Send "̜" ; less rounded (below)
+    SendEvent "̜" ; less rounded (below)
 }
 8::
 {
-    Send "̝" ; raised
+    SendEvent "̝" ; raised
 }
 9::
 {
-    Send "̞" ; lowered (below)
+    SendEvent "̞" ; lowered (below)
 }
 =::
 {
-    Send "̟" ; advanced (below)
+    SendEvent "̟" ; advanced (below)
 }
 ::retract::
 {
-    Send "̠" ; retracted (below)
+    SendEvent "̠" ; retracted (below)
 }
 0::
 {
-    Send "̥" ; voiceless
+    SendEvent "̥" ; voiceless
 }
 +-::
 {
-    Send "̩" ; syllabic (below)
+    SendEvent "̩" ; syllabic (below)
 }
 +[::
 {
-    Send "̪" ; dental (below)
+    SendEvent "̪" ; dental (below)
 }
 ::voiced::
 {
-    Send "̬" ; voiced
+    SendEvent "̬" ; voiced
 }
 +6::
 {
-    Send "̯" ; non-syllabic
+    SendEvent "̯" ; non-syllabic
 }
 +7::
 {
-    Send "̰" ; creaky voiced
+    SendEvent "̰" ; creaky voiced
 }
 `::
 {
-    Send "̴" ; velarized / pharyngealized
+    SendEvent "̴" ; velarized / pharyngealized
 }
 ::mround::
 {
-    Send "̹" ; more rounded (below)
+    SendEvent "̹" ; more rounded (below)
 }
 +]::
 {
-    Send "̺" ; apical
+    SendEvent "̺" ; apical
 }
 ::linglab::
 {
-    Send "̼" ; linguolabial
+    SendEvent "̼" ; linguolabial
 }
 ::midcentral::
 {
-    Send "̽" ; mid-centralized
+    SendEvent "̽" ; mid-centralized
 }
 <^>![::
 {
-    Send "͆" ; dental
+    SendEvent "͆" ; dental
 }
 ::alround::
 {
-    Send "͑" ; less rounded (above)
+    SendEvent "͑" ; less rounded (above)
 }
 ::amround::
 {
-    Send "͗" ; more rounded (above)
+    SendEvent "͗" ; more rounded (above)
 }
 ::affric::
 {
-    Send "͜" ; affricate (below)
+    SendEvent "͜" ; affricate (below)
 }
 ,::
 {
-    Send "͡" ; affricate (above)
+    SendEvent "͡" ; affricate (above)
 }
 <^>!b::
 {
-    Send "β" ; voiced bilabial fricative
+    SendEvent "β" ; voiced bilabial fricative
 }
 <^>!t::
 {
-    Send "θ" ; voiceless dental fricative
+    SendEvent "θ" ; voiceless dental fricative
 }
 <^>!x::
 {
-    Send "χ" ; voiceless uvular fricative
+    SendEvent "χ" ; voiceless uvular fricative
 }
 ::mdvrel::
 {
-    Send "ᵊ" ; mid central vowel release
+    SendEvent "ᵊ" ; mid central vowel release
 }
 <^>!+t::
 {
-    Send "ᶑ" ; voiced retroflex implosive
+    SendEvent "ᶑ" ; voiced retroflex implosive
 }
 ::vdfrel::
 {
-    Send "ᶿ" ; voiceless dental fricative release
+    SendEvent "ᶿ" ; voiceless dental fricative release
 }
 \::
 {
-    Send "‖" ; major (intonation) break
+    SendEvent "‖" ; major (intonation) break
 }
 <^>!+m::
 {
-    Send "‿" ; linking
+    SendEvent "‿" ; linking
 }
 -::
 {
-    Send "⁼" ; unaspirated
+    SendEvent "⁼" ; unaspirated
 }
 ::nrel::
 {
-    Send "ⁿ" ; nasal release
+    SendEvent "ⁿ" ; nasal release
 }
 <^>!+,::
 {
-    Send "↘" ; global fall
+    SendEvent "↘" ; global fall
 }
 +v::
 {
-    Send "ⱱ" ; voiced labiodental flap
+    SendEvent "ⱱ" ; voiced labiodental flap
 }
 +.::
 {
-    Send "ꜛ" ; upstep
+    SendEvent "ꜛ" ; upstep
 }
 +,::
 {
-    Send "ꜜ" ; downstep
+    SendEvent "ꜜ" ; downstep
 }

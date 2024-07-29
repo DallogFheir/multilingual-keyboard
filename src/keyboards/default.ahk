@@ -4,113 +4,113 @@
 ; UPPERCASE
 <^>!o::
 {
-    Send "ó" ; _o_ with acute
+    SendEvent "ó" ; _o_ with acute
 }
 <^>!+o::
 {
-    Send "Ó"
+    SendEvent "Ó"
 }
 <^>!t::
 {
-    Send "þ" ; thorn
+    SendEvent "þ" ; thorn
 }
 <^>!+t::
 {
-    Send "Þ"
+    SendEvent "Þ"
 }
 <^>!a::
 {
-    Send "ą" ; _a_ with ogonek
+    SendEvent "ą" ; _a_ with ogonek
 }
 <^>!+a::
 {
-    Send "Ą"
+    SendEvent "Ą"
 }
 <^>!c::
 {
-    Send "ć" ; _c_ with acute
+    SendEvent "ć" ; _c_ with acute
 }
 <^>!+c::
 {
-    Send "Ć"
+    SendEvent "Ć"
 }
 <^>!e::
 {
-    Send "ę" ; _e_ with ogonek
+    SendEvent "ę" ; _e_ with ogonek
 }
 <^>!+e::
 {
-    Send "Ę"
+    SendEvent "Ę"
 }
 <^>!l::
 {
-    Send "ł" ; _l_ with stroke
+    SendEvent "ł" ; _l_ with stroke
 }
 <^>!+l::
 {
-    Send "Ł"
+    SendEvent "Ł"
 }
 <^>!n::
 {
-    Send "ń" ; _n_ with acute
+    SendEvent "ń" ; _n_ with acute
 }
 <^>!+n::
 {
-    Send "Ń"
+    SendEvent "Ń"
 }
 <^>!s::
 {
-    Send "ś" ; _s_ with acute
+    SendEvent "ś" ; _s_ with acute
 }
 <^>!+s::
 {
-    Send "Ś"
+    SendEvent "Ś"
 }
 <^>!x::
 {
-    Send "ź" ; _z_ with acute
+    SendEvent "ź" ; _z_ with acute
 }
 <^>!+x::
 {
-    Send "Ź"
+    SendEvent "Ź"
 }
 <^>!z::
 {
-    Send "ż" ; _z_ with overdot
+    SendEvent "ż" ; _z_ with overdot
 }
 <^>!+z::
 {
-    Send "Ż"
+    SendEvent "Ż"
 }
 <^>!p::
 {
-    Send "ǫ" ; _o_ with ogonek
+    SendEvent "ǫ" ; _o_ with ogonek
 }
 <^>!+p::
 {
-    Send "Ǫ"
+    SendEvent "Ǫ"
 }
 <^>!w::
 {
-    Send "ъ" ; hard sign
+    SendEvent "ъ" ; hard sign
 }
 <^>!+w::
 {
-    Send "Ъ"
+    SendEvent "Ъ"
 }
 <^>!q::
 {
-    Send "ь" ; soft sign
+    SendEvent "ь" ; soft sign
 }
 <^>!+q::
 {
-    Send "Ь"
+    SendEvent "Ь"
 }
 <^>!2::
 {
-    Send "₤" ; pound
+    SendEvent "₤" ; pound
 }
 <^>!3::
 {
-    Send "€" ; euro
+    SendEvent "€" ; euro
 }
