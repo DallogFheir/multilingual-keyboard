@@ -1,47 +1,62 @@
-﻿; Diacritics
+; Diacritics
 ; Combining diacritical marks.
 <^>!`::
-    Send, ̀ ; grave
-return
+{
+    SendEvent "̀" ; grave
+}
 <^>!'::
-    Send, ́ ; acute
-return
+{
+    SendEvent "́" ; acute
+}
 <^>!6::
-    Send, ̂ ; circumflex
-return
+{
+    SendEvent "̂" ; circumflex
+}
 <^>!1::
-    Send, ̃ ; tilde
-return
+{
+    SendEvent "̃" ; tilde
+}
 <^>!-::
-    Send, ̄ ; macron
-return
+{
+    SendEvent "̄" ; macron
+}
 <^>!5::
-    Send, ̆ ; breve
-return
+{
+    SendEvent "̆" ; breve
+}
 <^>!;::
-Send, ̈ ; diaeresis
-return
+{
+    SendEvent "̈" ; diaeresis
+}
 <^>!0::
-    Send, ̊ ; overring
-return
+{
+    SendEvent "̊" ; overring
+}
 <^>!+'::
-    Send, ̋ ; double accute
-return
+{
+    SendEvent "̋" ; double accute
+}
 <^>!7::
-    Send, ̌ ; caron
-return
+{
+    SendEvent "̌" ; caron
+}
 <^>!+`::
-    Send, ̏ ; double grave
-return
+{
+    SendEvent "̏" ; double grave
+}
 <^>!4::
-    Send, ̑ ; inverted breve
-return
+{
+    SendEvent "̑" ; inverted breve
+}
 <^>!,::
-    Send, ̧ ; cedilla
-return
+{
+    SendEvent "̧" ; cedilla
+}
 <^>!.::
-    Send, ̨ ; ogonek
-return
+{
+    SendEvent "̨" ; ogonek
+}
 ::circle\::
-    Send, ◌ ; dotted circle
-return
+{
+    SendEvent "◌" ; dotted circle
+}

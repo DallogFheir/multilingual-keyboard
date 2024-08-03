@@ -1,11 +1,14 @@
-﻿; Logic
+; Logic
 ; Symbols used in mathematical logic.
 ::not\::
-    Send, ¬ ; negation (logical _NOT_)
-return
+{
+    SendEvent "¬" ; negation (logical _NOT_)
+}
 ::and\::
-    Send, ∧ ; conjunction (logical _AND_)
-return
+{
+    SendEvent "∧" ; conjunction (logical _AND_)
+}
 ::or\::
-    Send, ∨ ; disjunction (logical _OR_)
-return
+{
+    SendEvent "∨" ; disjunction (logical _OR_)
+}

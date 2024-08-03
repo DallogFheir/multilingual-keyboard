@@ -30,7 +30,10 @@ def parse_hotkey(hotkey: str) -> str:
                 hotkey = hotkey.removeprefix(key_symbol)
     keys.append(hotkey.removeprefix("::"))
 
-    return " + ".join(f"`` {key} ``" if "`" in key else f"`{key}`" for key in keys)
+    return " + ".join(
+        f"`` {';' if key == '`;' else key} ``" if "`" in key else f"`{key}`"
+        for key in keys
+    )
 
 
 def generate_table(script: str, with_uppercase: bool = False) -> str:
@@ -123,7 +126,7 @@ def parse_files(title: str, path: Path, slugger: GithubSlugger) -> str | None:
     order = {}
     for file in path.iterdir():
         if file.is_file() and file.suffix == ".ahk":
-            with open(file, encoding="utf-8-sig", newline="\n") as f:
+            with open(file, encoding="utf-8", newline="\n") as f:
                 script_lines = f.read().splitlines()
 
             if script_lines[0].startswith("; ") and script_lines[1].startswith("; "):

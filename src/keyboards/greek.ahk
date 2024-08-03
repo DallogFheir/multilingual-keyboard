@@ -1,154 +1,204 @@
-﻿; Greek
+; Greek
 ; The Greek alphabet.
 ; <^>!+3
 ; UPPERCASE
 a::
-    Send, α ; _alpha_
-return
+{
+    SendEvent "α" ; _alpha_
+}
 +a::
-    Send, Α
-return
+{
+    SendEvent "Α"
+}
 v::
-    Send, β ; _beta_
-return
+{
+    SendEvent "β" ; _beta_
+}
 +v::
-    Send, Β
-return
+{
+    SendEvent "Β"
+}
 g::
-    Send, γ ; _gamma_
-return
+{
+    SendEvent "γ" ; _gamma_
+}
 +g::
-    Send, Γ
-return
+{
+    SendEvent "Γ"
+}
 d::
-    Send, δ ; _delta_
-return
+{
+    SendEvent "δ" ; _delta_
+}
 +d::
-    Send, Δ
-return
+{
+    SendEvent "Δ"
+}
 e::
-    Send, ε ; _epsilon_
-return
+{
+    SendEvent "ε" ; _epsilon_
+}
 +e::
-    Send, Ε
-return
+{
+    SendEvent "Ε"
+}
 z::
-    Send, ζ ; _zeta_
-return
+{
+    SendEvent "ζ" ; _zeta_
+}
 +z::
-    Send, Ζ
-return
+{
+    SendEvent "Ζ"
+}
 <^>!i::
-    Send, η ; _eta_
-return
+{
+    SendEvent "η" ; _eta_
+}
 <^>!+i::
-    Send, Η
-return
+{
+    SendEvent "Η"
+}
 <^>!t::
-    Send, θ ; _theta_
-return
+{
+    SendEvent "θ" ; _theta_
+}
 <^>!+t::
-    Send, Θ
-return
+{
+    SendEvent "Θ"
+}
 i::
-    Send, ι ; _iota_
-return
+{
+    SendEvent "ι" ; _iota_
+}
 +i::
-    Send, Ι
-return
+{
+    SendEvent "Ι"
+}
 k::
-    Send, κ ; _kappa_
-return
+{
+    SendEvent "κ" ; _kappa_
+}
 +k::
-    Send, Κ
-return
+{
+    SendEvent "Κ"
+}
 l::
-    Send, λ ; _lambda_
-return
+{
+    SendEvent "λ" ; _lambda_
+}
 +l::
-    Send, Λ
-return
+{
+    SendEvent "Λ"
+}
 m::
-    Send, μ ; _mu_
-return
+{
+    SendEvent "μ" ; _mu_
+}
 +m::
-    Send, Μ
-return
+{
+    SendEvent "Μ"
+}
 n::
-    Send, ν ; _nu_
-return
+{
+    SendEvent "ν" ; _nu_
+}
 +n::
-    Send, Ν
-return
+{
+    SendEvent "Ν"
+}
 x::
-    Send, ξ ; _xi_
-return
+{
+    SendEvent "ξ" ; _xi_
+}
 +x::
-    Send, Ξ
-return
+{
+    SendEvent "Ξ"
+}
 o::
-    Send, ο ; _omicron_
-return
+{
+    SendEvent "ο" ; _omicron_
+}
 +o::
-    Send, Ο
-return
+{
+    SendEvent "Ο"
+}
 p::
-    Send, π ; _pi_
-return
+{
+    SendEvent "π" ; _pi_
+}
 +p::
-    Send, Π
-return
+{
+    SendEvent "Π"
+}
 r::
-    Send, ρ ; _rho_
-return
+{
+    SendEvent "ρ" ; _rho_
+}
 +r::
-    Send, Ρ
-return
+{
+    SendEvent "Ρ"
+}
 <^>!s::
-    Send, ς ; _sigma_ (final)
-return
+{
+    SendEvent "ς" ; _sigma_ (final)
+}
 s::
-    Send, σ ; _sigma_
-return
+{
+    SendEvent "σ" ; _sigma_
+}
 +s::
-    Send, Σ
-return
+{
+    SendEvent "Σ"
+}
 <^>!+s::
-    Send, Σ
-return
+{
+    SendEvent "Σ"
+}
 t::
-    Send, τ ; _tau_
-return
+{
+    SendEvent "τ" ; _tau_
+}
 +t::
-    Send, Τ
-return
+{
+    SendEvent "Τ"
+}
 u::
-    Send, υ ; _upsilon_
-return
+{
+    SendEvent "υ" ; _upsilon_
+}
 +u::
-    Send, Υ
-return
+{
+    SendEvent "Υ"
+}
 f::
-    Send, φ ; _phi_
-return
+{
+    SendEvent "φ" ; _phi_
+}
 +f::
-    Send, Φ
-return
+{
+    SendEvent "Φ"
+}
 h::
-    Send, χ ; _chi_
-return
+{
+    SendEvent "χ" ; _chi_
+}
 +h::
-    Send, Χ
-return
+{
+    SendEvent "Χ"
+}
 <^>!p::
-    Send, ψ ; _psi_
-return
+{
+    SendEvent "ψ" ; _psi_
+}
 <^>!+p::
-    Send, Ψ
-return
+{
+    SendEvent "Ψ"
+}
 <^>!o::
-    Send, ω ; _omega_
-return
+{
+    SendEvent "ω" ; _omega_
+}
 <^>!+o::
-    Send, Ω
-return
+{
+    SendEvent "Ω"
+}

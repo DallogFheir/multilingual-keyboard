@@ -1,14 +1,18 @@
-﻿; Cards
+; Cards
 ; Symbols representing cards and card suits.
 ::spades\::
-    Send, ♠ ; spades
-return
+{
+    SendEvent "♠" ; spades
+}
 ::clubs\::
-    Send, ♣ ; clubs
-return
+{
+    SendEvent "♣" ; clubs
+}
 ::hearts\::
-    Send, ♥ ; hearts
-return
+{
+    SendEvent "♥" ; hearts
+}
 ::diamonds\::
-    Send, ♦ ; diamonds
-return
+{
+    SendEvent "♦" ; diamonds
+}

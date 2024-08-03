@@ -34,7 +34,7 @@ If you want to modify the app, you should get familiar with AutoHotkey documenta
 
 Each AHK file should start with 2 lines of comments: the first containing the name of the module, the second - the description. Optionally, on the third line, you can type `; UPPERCASE` to indicate that the module will contain lowercase and uppercase variants of characters.
 
-Each AHK rule consists of the hotkey/hotstring, the `Send` clause, and `return` keyword. You can put a comment after the `Send` clause to describe the replacement symbol. If there is no comment, the symbol will not be included in the auto-generated documentation, unless it's the uppercase variant of another character.
+Each AHK rule consists of the hotkey/hotstring and the body with the `SendEvent` statement. You can put a comment after the `SendEvent` statement to describe the replacement symbol. If there is no comment, the symbol will not be included in the auto-generated documentation, unless it's the uppercase variant of another character.
 
 If you want to create a new `common` module, you need to include it in the `common.ahk` file.
 
@@ -161,148 +161,148 @@ The Greek alphabet.
 
 The International Phonetic Alphabet.
 
-| Symbol |                 Unicode                 |                 Description                  |      Hotstring / hotkey      |
-| :----: | :-------------------------------------: | :------------------------------------------: | :--------------------------: |
-|   æ    | [U+00E6](https://codepoints.net/U+00E6) |       near-open front unrounded vowel        |        `Shift` + `a`         |
-|   ç    | [U+00E7](https://codepoints.net/U+00E7) |         voiceless palatal fricative          |        `AltGr` + `c`         |
-|   ð    | [U+00F0](https://codepoints.net/U+00F0) |           voiced dental fricative            |        `AltGr` + `d`         |
-|   ø    | [U+00F8](https://codepoints.net/U+00F8) |        close-mid front rounded vowel         |        `AltGr` + `p`         |
-|   ħ    | [U+0127](https://codepoints.net/U+0127) |        voiceless pharyngeal fricative        |        `Shift` + `h`         |
-|   ŋ    | [U+014B](https://codepoints.net/U+014B) |              voiced velar nasal              |        `AltGr` + `n`         |
-|   œ    | [U+0153](https://codepoints.net/U+0153) |         open-mid front rounded vowel         |        `Shift` + `p`         |
-|   ǀ    | [U+01C0](https://codepoints.net/U+01C0) |                 dental click                 |           `dclick`           |
-|   ǁ    | [U+01C1](https://codepoints.net/U+01C1) |                lateral click                 |           `lclick`           |
-|   ǂ    | [U+01C2](https://codepoints.net/U+01C2) |                palatal click                 |           `pclick`           |
-|   ǃ    | [U+01C3](https://codepoints.net/U+01C3) |                alveolar click                |           `aclick`           |
-|   ɐ    | [U+0250](https://codepoints.net/U+0250) |           near-open central vowel            |        `Shift` + `1`         |
-|   ɑ    | [U+0251](https://codepoints.net/U+0251) |          open back unrounded vowel           |        `AltGr` + `a`         |
-|   ɒ    | [U+0252](https://codepoints.net/U+0252) |           open back rounded vowel            |        `Shift` + `o`         |
-|   ɓ    | [U+0253](https://codepoints.net/U+0253) |          voiced bilabial implosive           |        `Shift` + `b`         |
-|   ɔ    | [U+0254](https://codepoints.net/U+0254) |         open-mid back rounded vowel          |        `AltGr` + `o`         |
-|   ɕ    | [U+0255](https://codepoints.net/U+0255) | voiceless alveolo-palatal sibilant fricative |   `AltGr` + `Shift` + `s`    |
-|   ɖ    | [U+0256](https://codepoints.net/U+0256) |           voiced retroflex plosive           |        `Shift` + `d`         |
-|   ɗ    | [U+0257](https://codepoints.net/U+0257) |          voiced alveolar implosive           |   `AltGr` + `Shift` + `d`    |
-|   ɘ    | [U+0258](https://codepoints.net/U+0258) |      close-mid central unrounded vowel       |   `AltGr` + `Shift` + `i`    |
-|   ə    | [U+0259](https://codepoints.net/U+0259) |              mid central vowel               |        `Shift` + `e`         |
-|   ɛ    | [U+025B](https://codepoints.net/U+025B) |        open-mid front unrounded vowel        |        `AltGr` + `e`         |
-|   ɜ    | [U+025C](https://codepoints.net/U+025C) |       open-mid central unrounded vowel       |   `AltGr` + `Shift` + `e`    |
-|   ɞ    | [U+025E](https://codepoints.net/U+025E) |        open-mid central rounded vowel        |   `AltGr` + `Shift` + `y`    |
-|   ɟ    | [U+025F](https://codepoints.net/U+025F) |            voiced palatal plosive            |        `Shift` + `c`         |
-|   ɠ    | [U+0260](https://codepoints.net/U+0260) |            voiced velar implosive            |           `vimplo`           |
-|   ɢ    | [U+0262](https://codepoints.net/U+0262) |            voiced uvular plosive             |        `Shift` + `g`         |
-|   ɣ    | [U+0263](https://codepoints.net/U+0263) |            voiced velar fricative            |        `AltGr` + `g`         |
-|   ɤ    | [U+0264](https://codepoints.net/U+0264) |        close-mid back unrounded vowel        |   `AltGr` + `Shift` + `o`    |
-|   ɥ    | [U+0265](https://codepoints.net/U+0265) |       voiced labio-palatal approximant       |        `Shift` + `w`         |
-|   ɦ    | [U+0266](https://codepoints.net/U+0266) |           voiced glottal fricative           |        `AltGr` + `h`         |
-|   ɧ    | [U+0267](https://codepoints.net/U+0267) |                  _sj_-sound                  |             `6`              |
-|   ɨ    | [U+0268](https://codepoints.net/U+0268) |        close central unrounded vowel         |        `Shift` + `i`         |
-|   ɪ    | [U+026A](https://codepoints.net/U+026A) |       near-close front unrounded vowel       |        `AltGr` + `i`         |
-|   ɬ    | [U+026C](https://codepoints.net/U+026C) |     voiceless alveolar lateral fricative     |        `Shift` + `l`         |
-|   ɭ    | [U+026D](https://codepoints.net/U+026D) |     voiced retroflex lateral approximant     |        `AltGr` + `k`         |
-|   ɮ    | [U+026E](https://codepoints.net/U+026E) |      voiced alveolar lateral fricative       |   `AltGr` + `Shift` + `l`    |
-|   ɯ    | [U+026F](https://codepoints.net/U+026F) |          close back unrounded vowel          |        `Shift` + `u`         |
-|   ɰ    | [U+0270](https://codepoints.net/U+0270) |           voiced velar approximant           |        `Shift` + `2`         |
-|   ɱ    | [U+0271](https://codepoints.net/U+0271) |          voiced labio-dental nasal           |        `AltGr` + `m`         |
-|   ɲ    | [U+0272](https://codepoints.net/U+0272) |             voiced palatal nasal             |        `Shift` + `n`         |
-|   ɳ    | [U+0273](https://codepoints.net/U+0273) |            voiced retroflex nasal            |        `Shift` + `m`         |
-|   ɴ    | [U+0274](https://codepoints.net/U+0274) |             voiced uvular nasal              |   `AltGr` + `Shift` + `n`    |
-|   ɵ    | [U+0275](https://codepoints.net/U+0275) |       close-mid central rounded vowel        |        `Shift` + `y`         |
-|   ɶ    | [U+0276](https://codepoints.net/U+0276) |           open front rounded vowel           |   `AltGr` + `Shift` + `p`    |
-|   ɸ    | [U+0278](https://codepoints.net/U+0278) |         voiceless bilabial fricative         |        `AltGr` + `f`         |
-|   ɹ    | [U+0279](https://codepoints.net/U+0279) |         voiced alveolar approximant          |   `AltGr` + `Shift` + `r`    |
-|   ɺ    | [U+027A](https://codepoints.net/U+027A) |         voiced alveolar lateral flap         |   `AltGr` + `Shift` + `k`    |
-|   ɻ    | [U+027B](https://codepoints.net/U+027B) |         voiced retroflex approximant         |   `AltGr` + `Shift` + `f`    |
-|   ɽ    | [U+027D](https://codepoints.net/U+027D) |            voiced retroflex flap             |        `Shift` + `3`         |
-|   ɾ    | [U+027E](https://codepoints.net/U+027E) |             voiced alveolar flap             |        `AltGr` + `r`         |
-|   ʀ    | [U+0280](https://codepoints.net/U+0280) |             voiced uvular trill              |        `Shift` + `f`         |
-|   ʁ    | [U+0281](https://codepoints.net/U+0281) |           voiced uvular fricative            |        `Shift` + `r`         |
-|   ʂ    | [U+0282](https://codepoints.net/U+0282) |    voiceless retroflex sibilant fricative    |        `Shift` + `s`         |
-|   ʃ    | [U+0283](https://codepoints.net/U+0283) |      voiceless post-alveolar fricative       |        `AltGr` + `s`         |
-|   ʄ    | [U+0284](https://codepoints.net/U+0284) |           voiced palatal implosive           |           `pimplo`           |
-|   ʈ    | [U+0288](https://codepoints.net/U+0288) |         voiceless retroflex plosive          |        `Shift` + `t`         |
-|   ʉ    | [U+0289](https://codepoints.net/U+0289) |         close central rounded vowel          |   `AltGr` + `Shift` + `u`    |
-|   ʊ    | [U+028A](https://codepoints.net/U+028A) |      near-close near-back rounded vowel      |        `AltGr` + `u`         |
-|   ʋ    | [U+028B](https://codepoints.net/U+028B) |        voiced labiodental approximant        |        `AltGr` + `v`         |
-|   ʌ    | [U+028C](https://codepoints.net/U+028C) |        open-mid back unrounded vowel         |   `AltGr` + `Shift` + `a`    |
-|   ʍ    | [U+028D](https://codepoints.net/U+028D) |       voiceless labio-velar fricative        |        `AltGr` + `w`         |
-|   ʎ    | [U+028E](https://codepoints.net/U+028E) |      voiced palatal lateral approximant      |        `AltGr` + `l`         |
-|   ʏ    | [U+028F](https://codepoints.net/U+028F) |        near-close front rounded vowel        |        `AltGr` + `y`         |
-|   ʐ    | [U+0290](https://codepoints.net/U+0290) |     voiced retroflex sibilant fricative      |        `Shift` + `z`         |
-|   ʑ    | [U+0291](https://codepoints.net/U+0291) |  voiced alveolo-palatal sibilant fricative   |   `AltGr` + `Shift` + `z`    |
-|   ʒ    | [U+0292](https://codepoints.net/U+0292) |        voiced post-alveolar fricative        |        `AltGr` + `z`         |
-|   ʔ    | [U+0294](https://codepoints.net/U+0294) |                 glottal stop                 |        `AltGr` + `q`         |
-|   ʕ    | [U+0295](https://codepoints.net/U+0295) |        voiced pharyngeal approximant         |        `Shift` + `q`         |
-|   ʘ    | [U+0298](https://codepoints.net/U+0298) |                bilabial click                |           `bclick`           |
-|   ʙ    | [U+0299](https://codepoints.net/U+0299) |                bilabial trill                |   `AltGr` + `Shift` + `b`    |
-|   ʛ    | [U+029B](https://codepoints.net/U+029B) |           voiced uvular implosive            |           `uimplo`           |
-|   ʜ    | [U+029C](https://codepoints.net/U+029C) |          voiceless pharyngeal trill          |        `Shift` + `x`         |
-|   ʝ    | [U+029D](https://codepoints.net/U+029D) |           voiced palatal fricative           |        `AltGr` + `j`         |
-|   ʟ    | [U+029F](https://codepoints.net/U+029F) |       voiced velar lateral approximant       |        `Shift` + `k`         |
-|   ʡ    | [U+02A1](https://codepoints.net/U+02A1) |              pharyngeal plosive              |        `Shift` + `5`         |
-|   ʢ    | [U+02A2](https://codepoints.net/U+02A2) |           voiced pharyngeal trill            |   `AltGr` + `Shift` + `x`    |
-|   ʰ    | [U+02B0](https://codepoints.net/U+02B0) |                  aspirated                   |   `AltGr` + `Shift` + `h`    |
-|   ʱ    | [U+02B1](https://codepoints.net/U+02B1) |               voiced aspirated               |        `Shift` + `j`         |
-|   ʲ    | [U+02B2](https://codepoints.net/U+02B2) |                 palatalized                  |   `AltGr` + `Shift` + `j`    |
-|   ʷ    | [U+02B7](https://codepoints.net/U+02B7) |                  labialized                  |   `AltGr` + `Shift` + `w`    |
-|   ʼ    | [U+02BC](https://codepoints.net/U+02BC) |                   ejective                   |        `Shift` + `'`         |
-|   ˀ    | [U+02C0](https://codepoints.net/U+02C0) |                 glottalized                  |   `AltGr` + `Shift` + `q`    |
-|   ˈ    | [U+02C8](https://codepoints.net/U+02C8) |                primary stress                |             `'`              |
-|   ˌ    | [U+02CC](https://codepoints.net/U+02CC) |               secondary stress               | `AltGr` + `Shift` + `` `; `` |
-|   ː    | [U+02D0](https://codepoints.net/U+02D0) |                     long                     |           `` `; ``           |
-|   ˑ    | [U+02D1](https://codepoints.net/U+02D1) |                  half-long                   |          `halflong`          |
-|   ˕    | [U+02D5](https://codepoints.net/U+02D5) |               lowered (beside)               |        `Shift` + `9`         |
-|   ˖    | [U+02D6](https://codepoints.net/U+02D6) |              advanced (beside)               |        `Shift` + `=`         |
-|   ˗    | [U+02D7](https://codepoints.net/U+02D7) |              retracted (beside)              |          `sretract`          |
-|   ˞    | [U+02DE](https://codepoints.net/U+02DE) |                 _r_-colored                  |        `Shift` + `4`         |
-|   ˠ    | [U+02E0](https://codepoints.net/U+02E0) |                  velarized                   |   `AltGr` + `Shift` + `g`    |
-|   ˡ    | [U+02E1](https://codepoints.net/U+02E1) |               lateral release                |            `lrel`            |
-|   ˣ    | [U+02E3](https://codepoints.net/U+02E3) |      voiceless velar fricative release       |           `vvfrel`           |
-|   ˤ    | [U+02E4](https://codepoints.net/U+02E4) |                pharyngealized                |            `phar`            |
-|   ˥    | [U+02E5](https://codepoints.net/U+02E5) |            high Chao tone letter             |             `1`              |
-|   ˦    | [U+02E6](https://codepoints.net/U+02E6) |          half-high Chao tone letter          |             `2`              |
-|   ˧    | [U+02E7](https://codepoints.net/U+02E7) |             mid Chao tone letter             |             `3`              |
-|   ˨    | [U+02E8](https://codepoints.net/U+02E8) |          half-low Chao tone letter           |             `4`              |
-|   ˩    | [U+02E9](https://codepoints.net/U+02E9) |             low Chao tone letter             |             `5`              |
-|   ◌̈   | [U+0308](https://codepoints.net/U+0308) |                 centralized                  |      `Shift` + `` `; ``      |
-|   ◌̍   | [U+030D](https://codepoints.net/U+030D) |               syllabic (above)               |        `Shift` + `0`         |
-|   ◌̘   | [U+0318](https://codepoints.net/U+0318) |             advanced tongue root             |        `AltGr` + `\`         |
-|   ◌̙   | [U+0319](https://codepoints.net/U+0319) |            retracted tongue root             |   `AltGr` + `Shift` + `\`    |
-|   ◌̚   | [U+031A](https://codepoints.net/U+031A) |              no audible release              |             `7`              |
-|   ◌̜   | [U+031C](https://codepoints.net/U+031C) |             less rounded (below)             |           `lround`           |
-|   ◌̝   | [U+031D](https://codepoints.net/U+031D) |                    raised                    |             `8`              |
-|   ◌̞   | [U+031E](https://codepoints.net/U+031E) |               lowered (below)                |             `9`              |
-|   ◌̟   | [U+031F](https://codepoints.net/U+031F) |               advanced (below)               |             `=`              |
-|   ◌̠   | [U+0320](https://codepoints.net/U+0320) |              retracted (below)               |          `retract`           |
-|   ◌̥   | [U+0325](https://codepoints.net/U+0325) |                  voiceless                   |             `0`              |
-|   ◌̩   | [U+0329](https://codepoints.net/U+0329) |               syllabic (below)               |        `Shift` + `-`         |
-|   ◌̪   | [U+032A](https://codepoints.net/U+032A) |                dental (below)                |        `Shift` + `[`         |
-|   ◌̬   | [U+032C](https://codepoints.net/U+032C) |                    voiced                    |           `voiced`           |
-|   ◌̯   | [U+032F](https://codepoints.net/U+032F) |                 non-syllabic                 |        `Shift` + `6`         |
-|   ◌̰   | [U+0330](https://codepoints.net/U+0330) |                creaky voiced                 |        `Shift` + `7`         |
-|   ◌̴   | [U+0334](https://codepoints.net/U+0334) |          velarized / pharyngealized          |           `` ` ``            |
-|   ◌̹   | [U+0339](https://codepoints.net/U+0339) |             more rounded (below)             |           `mround`           |
-|   ◌̺   | [U+033A](https://codepoints.net/U+033A) |                    apical                    |        `Shift` + `]`         |
-|   ◌̼   | [U+033C](https://codepoints.net/U+033C) |                 linguolabial                 |          `linglab`           |
-|   ◌̽   | [U+033D](https://codepoints.net/U+033D) |               mid-centralized                |         `midcentral`         |
-|   ◌͆   | [U+0346](https://codepoints.net/U+0346) |                    dental                    |        `AltGr` + `[`         |
-|   ◌͑   | [U+0351](https://codepoints.net/U+0351) |             less rounded (above)             |          `alround`           |
-|   ◌͗   | [U+0357](https://codepoints.net/U+0357) |             more rounded (above)             |          `amround`           |
-|   ◌͜   | [U+035C](https://codepoints.net/U+035C) |              affricate (below)               |           `affric`           |
-|   ◌͡   | [U+0361](https://codepoints.net/U+0361) |              affricate (above)               |             `,`              |
-|   β    | [U+03B2](https://codepoints.net/U+03B2) |          voiced bilabial fricative           |        `AltGr` + `b`         |
-|   θ    | [U+03B8](https://codepoints.net/U+03B8) |          voiceless dental fricative          |        `AltGr` + `t`         |
-|   χ    | [U+03C7](https://codepoints.net/U+03C7) |          voiceless uvular fricative          |        `AltGr` + `x`         |
-|   ᵊ    | [U+1D4A](https://codepoints.net/U+1D4A) |          mid central vowel release           |           `mdvrel`           |
-|   ᶑ    | [U+1D91](https://codepoints.net/U+1D91) |          voiced retroflex implosive          |   `AltGr` + `Shift` + `t`    |
-|   ᶿ    | [U+1DBF](https://codepoints.net/U+1DBF) |      voiceless dental fricative release      |           `vdfrel`           |
-|   ‖    | [U+2016](https://codepoints.net/U+2016) |           major (intonation) break           |             `\`              |
-|   ‿    | [U+203F](https://codepoints.net/U+203F) |                   linking                    |   `AltGr` + `Shift` + `m`    |
-|   ⁼    | [U+207C](https://codepoints.net/U+207C) |                 unaspirated                  |             `-`              |
-|   ⁿ    | [U+207F](https://codepoints.net/U+207F) |                nasal release                 |            `nrel`            |
-|   ↘    | [U+2198](https://codepoints.net/U+2198) |                 global fall                  |   `AltGr` + `Shift` + `,`    |
-|   ⱱ    | [U+2C71](https://codepoints.net/U+2C71) |           voiced labiodental flap            |        `Shift` + `v`         |
-|   ꜛ    | [U+A71B](https://codepoints.net/U+A71B) |                    upstep                    |        `Shift` + `.`         |
-|   ꜜ    | [U+A71C](https://codepoints.net/U+A71C) |                   downstep                   |        `Shift` + `,`         |
+| Symbol |                 Unicode                 |                 Description                  |   Hotstring / hotkey    |
+| :----: | :-------------------------------------: | :------------------------------------------: | :---------------------: |
+|   æ    | [U+00E6](https://codepoints.net/U+00E6) |       near-open front unrounded vowel        |      `Shift` + `a`      |
+|   ç    | [U+00E7](https://codepoints.net/U+00E7) |         voiceless palatal fricative          |      `AltGr` + `c`      |
+|   ð    | [U+00F0](https://codepoints.net/U+00F0) |           voiced dental fricative            |      `AltGr` + `d`      |
+|   ø    | [U+00F8](https://codepoints.net/U+00F8) |        close-mid front rounded vowel         |      `AltGr` + `p`      |
+|   ħ    | [U+0127](https://codepoints.net/U+0127) |        voiceless pharyngeal fricative        |      `Shift` + `h`      |
+|   ŋ    | [U+014B](https://codepoints.net/U+014B) |              voiced velar nasal              |      `AltGr` + `n`      |
+|   œ    | [U+0153](https://codepoints.net/U+0153) |         open-mid front rounded vowel         |      `Shift` + `p`      |
+|   ǀ    | [U+01C0](https://codepoints.net/U+01C0) |                 dental click                 |        `dclick`         |
+|   ǁ    | [U+01C1](https://codepoints.net/U+01C1) |                lateral click                 |        `lclick`         |
+|   ǂ    | [U+01C2](https://codepoints.net/U+01C2) |                palatal click                 |        `pclick`         |
+|   ǃ    | [U+01C3](https://codepoints.net/U+01C3) |                alveolar click                |        `aclick`         |
+|   ɐ    | [U+0250](https://codepoints.net/U+0250) |           near-open central vowel            |      `Shift` + `1`      |
+|   ɑ    | [U+0251](https://codepoints.net/U+0251) |          open back unrounded vowel           |      `AltGr` + `a`      |
+|   ɒ    | [U+0252](https://codepoints.net/U+0252) |           open back rounded vowel            |      `Shift` + `o`      |
+|   ɓ    | [U+0253](https://codepoints.net/U+0253) |          voiced bilabial implosive           |      `Shift` + `b`      |
+|   ɔ    | [U+0254](https://codepoints.net/U+0254) |         open-mid back rounded vowel          |      `AltGr` + `o`      |
+|   ɕ    | [U+0255](https://codepoints.net/U+0255) | voiceless alveolo-palatal sibilant fricative | `AltGr` + `Shift` + `s` |
+|   ɖ    | [U+0256](https://codepoints.net/U+0256) |           voiced retroflex plosive           |      `Shift` + `d`      |
+|   ɗ    | [U+0257](https://codepoints.net/U+0257) |          voiced alveolar implosive           | `AltGr` + `Shift` + `d` |
+|   ɘ    | [U+0258](https://codepoints.net/U+0258) |      close-mid central unrounded vowel       | `AltGr` + `Shift` + `i` |
+|   ə    | [U+0259](https://codepoints.net/U+0259) |              mid central vowel               |      `Shift` + `e`      |
+|   ɛ    | [U+025B](https://codepoints.net/U+025B) |        open-mid front unrounded vowel        |      `AltGr` + `e`      |
+|   ɜ    | [U+025C](https://codepoints.net/U+025C) |       open-mid central unrounded vowel       | `AltGr` + `Shift` + `e` |
+|   ɞ    | [U+025E](https://codepoints.net/U+025E) |        open-mid central rounded vowel        | `AltGr` + `Shift` + `y` |
+|   ɟ    | [U+025F](https://codepoints.net/U+025F) |            voiced palatal plosive            |      `Shift` + `c`      |
+|   ɠ    | [U+0260](https://codepoints.net/U+0260) |            voiced velar implosive            |        `vimplo`         |
+|   ɢ    | [U+0262](https://codepoints.net/U+0262) |            voiced uvular plosive             |      `Shift` + `g`      |
+|   ɣ    | [U+0263](https://codepoints.net/U+0263) |            voiced velar fricative            |      `AltGr` + `g`      |
+|   ɤ    | [U+0264](https://codepoints.net/U+0264) |        close-mid back unrounded vowel        | `AltGr` + `Shift` + `o` |
+|   ɥ    | [U+0265](https://codepoints.net/U+0265) |       voiced labio-palatal approximant       |      `Shift` + `w`      |
+|   ɦ    | [U+0266](https://codepoints.net/U+0266) |           voiced glottal fricative           |      `AltGr` + `h`      |
+|   ɧ    | [U+0267](https://codepoints.net/U+0267) |                  _sj_-sound                  |           `6`           |
+|   ɨ    | [U+0268](https://codepoints.net/U+0268) |        close central unrounded vowel         |      `Shift` + `i`      |
+|   ɪ    | [U+026A](https://codepoints.net/U+026A) |       near-close front unrounded vowel       |      `AltGr` + `i`      |
+|   ɬ    | [U+026C](https://codepoints.net/U+026C) |     voiceless alveolar lateral fricative     |      `Shift` + `l`      |
+|   ɭ    | [U+026D](https://codepoints.net/U+026D) |     voiced retroflex lateral approximant     |      `AltGr` + `k`      |
+|   ɮ    | [U+026E](https://codepoints.net/U+026E) |      voiced alveolar lateral fricative       | `AltGr` + `Shift` + `l` |
+|   ɯ    | [U+026F](https://codepoints.net/U+026F) |          close back unrounded vowel          |      `Shift` + `u`      |
+|   ɰ    | [U+0270](https://codepoints.net/U+0270) |           voiced velar approximant           |      `Shift` + `2`      |
+|   ɱ    | [U+0271](https://codepoints.net/U+0271) |          voiced labio-dental nasal           |      `AltGr` + `m`      |
+|   ɲ    | [U+0272](https://codepoints.net/U+0272) |             voiced palatal nasal             |      `Shift` + `n`      |
+|   ɳ    | [U+0273](https://codepoints.net/U+0273) |            voiced retroflex nasal            |      `Shift` + `m`      |
+|   ɴ    | [U+0274](https://codepoints.net/U+0274) |             voiced uvular nasal              | `AltGr` + `Shift` + `n` |
+|   ɵ    | [U+0275](https://codepoints.net/U+0275) |       close-mid central rounded vowel        |      `Shift` + `y`      |
+|   ɶ    | [U+0276](https://codepoints.net/U+0276) |           open front rounded vowel           | `AltGr` + `Shift` + `p` |
+|   ɸ    | [U+0278](https://codepoints.net/U+0278) |         voiceless bilabial fricative         |      `AltGr` + `f`      |
+|   ɹ    | [U+0279](https://codepoints.net/U+0279) |         voiced alveolar approximant          | `AltGr` + `Shift` + `r` |
+|   ɺ    | [U+027A](https://codepoints.net/U+027A) |         voiced alveolar lateral flap         | `AltGr` + `Shift` + `k` |
+|   ɻ    | [U+027B](https://codepoints.net/U+027B) |         voiced retroflex approximant         | `AltGr` + `Shift` + `f` |
+|   ɽ    | [U+027D](https://codepoints.net/U+027D) |            voiced retroflex flap             |      `Shift` + `3`      |
+|   ɾ    | [U+027E](https://codepoints.net/U+027E) |             voiced alveolar flap             |      `AltGr` + `r`      |
+|   ʀ    | [U+0280](https://codepoints.net/U+0280) |             voiced uvular trill              |      `Shift` + `f`      |
+|   ʁ    | [U+0281](https://codepoints.net/U+0281) |           voiced uvular fricative            |      `Shift` + `r`      |
+|   ʂ    | [U+0282](https://codepoints.net/U+0282) |    voiceless retroflex sibilant fricative    |      `Shift` + `s`      |
+|   ʃ    | [U+0283](https://codepoints.net/U+0283) |      voiceless post-alveolar fricative       |      `AltGr` + `s`      |
+|   ʄ    | [U+0284](https://codepoints.net/U+0284) |           voiced palatal implosive           |        `pimplo`         |
+|   ʈ    | [U+0288](https://codepoints.net/U+0288) |         voiceless retroflex plosive          |      `Shift` + `t`      |
+|   ʉ    | [U+0289](https://codepoints.net/U+0289) |         close central rounded vowel          | `AltGr` + `Shift` + `u` |
+|   ʊ    | [U+028A](https://codepoints.net/U+028A) |      near-close near-back rounded vowel      |      `AltGr` + `u`      |
+|   ʋ    | [U+028B](https://codepoints.net/U+028B) |        voiced labiodental approximant        |      `AltGr` + `v`      |
+|   ʌ    | [U+028C](https://codepoints.net/U+028C) |        open-mid back unrounded vowel         | `AltGr` + `Shift` + `a` |
+|   ʍ    | [U+028D](https://codepoints.net/U+028D) |       voiceless labio-velar fricative        |      `AltGr` + `w`      |
+|   ʎ    | [U+028E](https://codepoints.net/U+028E) |      voiced palatal lateral approximant      |      `AltGr` + `l`      |
+|   ʏ    | [U+028F](https://codepoints.net/U+028F) |        near-close front rounded vowel        |      `AltGr` + `y`      |
+|   ʐ    | [U+0290](https://codepoints.net/U+0290) |     voiced retroflex sibilant fricative      |      `Shift` + `z`      |
+|   ʑ    | [U+0291](https://codepoints.net/U+0291) |  voiced alveolo-palatal sibilant fricative   | `AltGr` + `Shift` + `z` |
+|   ʒ    | [U+0292](https://codepoints.net/U+0292) |        voiced post-alveolar fricative        |      `AltGr` + `z`      |
+|   ʔ    | [U+0294](https://codepoints.net/U+0294) |                 glottal stop                 |      `AltGr` + `q`      |
+|   ʕ    | [U+0295](https://codepoints.net/U+0295) |        voiced pharyngeal approximant         |      `Shift` + `q`      |
+|   ʘ    | [U+0298](https://codepoints.net/U+0298) |                bilabial click                |        `bclick`         |
+|   ʙ    | [U+0299](https://codepoints.net/U+0299) |                bilabial trill                | `AltGr` + `Shift` + `b` |
+|   ʛ    | [U+029B](https://codepoints.net/U+029B) |           voiced uvular implosive            |        `uimplo`         |
+|   ʜ    | [U+029C](https://codepoints.net/U+029C) |          voiceless pharyngeal trill          |      `Shift` + `x`      |
+|   ʝ    | [U+029D](https://codepoints.net/U+029D) |           voiced palatal fricative           |      `AltGr` + `j`      |
+|   ʟ    | [U+029F](https://codepoints.net/U+029F) |       voiced velar lateral approximant       |      `Shift` + `k`      |
+|   ʡ    | [U+02A1](https://codepoints.net/U+02A1) |              pharyngeal plosive              |      `Shift` + `5`      |
+|   ʢ    | [U+02A2](https://codepoints.net/U+02A2) |           voiced pharyngeal trill            | `AltGr` + `Shift` + `x` |
+|   ʰ    | [U+02B0](https://codepoints.net/U+02B0) |                  aspirated                   | `AltGr` + `Shift` + `h` |
+|   ʱ    | [U+02B1](https://codepoints.net/U+02B1) |               voiced aspirated               |      `Shift` + `j`      |
+|   ʲ    | [U+02B2](https://codepoints.net/U+02B2) |                 palatalized                  | `AltGr` + `Shift` + `j` |
+|   ʷ    | [U+02B7](https://codepoints.net/U+02B7) |                  labialized                  | `AltGr` + `Shift` + `w` |
+|   ʼ    | [U+02BC](https://codepoints.net/U+02BC) |                   ejective                   |      `Shift` + `'`      |
+|   ˀ    | [U+02C0](https://codepoints.net/U+02C0) |                 glottalized                  | `AltGr` + `Shift` + `q` |
+|   ˈ    | [U+02C8](https://codepoints.net/U+02C8) |                primary stress                |           `'`           |
+|   ˌ    | [U+02CC](https://codepoints.net/U+02CC) |               secondary stress               | `AltGr` + `Shift` + `;` |
+|   ː    | [U+02D0](https://codepoints.net/U+02D0) |                     long                     |           `;`           |
+|   ˑ    | [U+02D1](https://codepoints.net/U+02D1) |                  half-long                   |       `halflong`        |
+|   ˕    | [U+02D5](https://codepoints.net/U+02D5) |               lowered (beside)               |      `Shift` + `9`      |
+|   ˖    | [U+02D6](https://codepoints.net/U+02D6) |              advanced (beside)               |      `Shift` + `=`      |
+|   ˗    | [U+02D7](https://codepoints.net/U+02D7) |              retracted (beside)              |       `sretract`        |
+|   ˞    | [U+02DE](https://codepoints.net/U+02DE) |                 _r_-colored                  |      `Shift` + `4`      |
+|   ˠ    | [U+02E0](https://codepoints.net/U+02E0) |                  velarized                   | `AltGr` + `Shift` + `g` |
+|   ˡ    | [U+02E1](https://codepoints.net/U+02E1) |               lateral release                |         `lrel`          |
+|   ˣ    | [U+02E3](https://codepoints.net/U+02E3) |      voiceless velar fricative release       |        `vvfrel`         |
+|   ˤ    | [U+02E4](https://codepoints.net/U+02E4) |                pharyngealized                |         `phar`          |
+|   ˥    | [U+02E5](https://codepoints.net/U+02E5) |            high Chao tone letter             |           `1`           |
+|   ˦    | [U+02E6](https://codepoints.net/U+02E6) |          half-high Chao tone letter          |           `2`           |
+|   ˧    | [U+02E7](https://codepoints.net/U+02E7) |             mid Chao tone letter             |           `3`           |
+|   ˨    | [U+02E8](https://codepoints.net/U+02E8) |          half-low Chao tone letter           |           `4`           |
+|   ˩    | [U+02E9](https://codepoints.net/U+02E9) |             low Chao tone letter             |           `5`           |
+|   ◌̈   | [U+0308](https://codepoints.net/U+0308) |                 centralized                  |      `Shift` + `;`      |
+|   ◌̍   | [U+030D](https://codepoints.net/U+030D) |               syllabic (above)               |      `Shift` + `0`      |
+|   ◌̘   | [U+0318](https://codepoints.net/U+0318) |             advanced tongue root             |      `AltGr` + `\`      |
+|   ◌̙   | [U+0319](https://codepoints.net/U+0319) |            retracted tongue root             | `AltGr` + `Shift` + `\` |
+|   ◌̚   | [U+031A](https://codepoints.net/U+031A) |              no audible release              |           `7`           |
+|   ◌̜   | [U+031C](https://codepoints.net/U+031C) |             less rounded (below)             |        `lround`         |
+|   ◌̝   | [U+031D](https://codepoints.net/U+031D) |                    raised                    |           `8`           |
+|   ◌̞   | [U+031E](https://codepoints.net/U+031E) |               lowered (below)                |           `9`           |
+|   ◌̟   | [U+031F](https://codepoints.net/U+031F) |               advanced (below)               |           `=`           |
+|   ◌̠   | [U+0320](https://codepoints.net/U+0320) |              retracted (below)               |        `retract`        |
+|   ◌̥   | [U+0325](https://codepoints.net/U+0325) |                  voiceless                   |           `0`           |
+|   ◌̩   | [U+0329](https://codepoints.net/U+0329) |               syllabic (below)               |      `Shift` + `-`      |
+|   ◌̪   | [U+032A](https://codepoints.net/U+032A) |                dental (below)                |      `Shift` + `[`      |
+|   ◌̬   | [U+032C](https://codepoints.net/U+032C) |                    voiced                    |        `voiced`         |
+|   ◌̯   | [U+032F](https://codepoints.net/U+032F) |                 non-syllabic                 |      `Shift` + `6`      |
+|   ◌̰   | [U+0330](https://codepoints.net/U+0330) |                creaky voiced                 |      `Shift` + `7`      |
+|   ◌̴   | [U+0334](https://codepoints.net/U+0334) |          velarized / pharyngealized          |         `` ` ``         |
+|   ◌̹   | [U+0339](https://codepoints.net/U+0339) |             more rounded (below)             |        `mround`         |
+|   ◌̺   | [U+033A](https://codepoints.net/U+033A) |                    apical                    |      `Shift` + `]`      |
+|   ◌̼   | [U+033C](https://codepoints.net/U+033C) |                 linguolabial                 |        `linglab`        |
+|   ◌̽   | [U+033D](https://codepoints.net/U+033D) |               mid-centralized                |      `midcentral`       |
+|   ◌͆   | [U+0346](https://codepoints.net/U+0346) |                    dental                    |      `AltGr` + `[`      |
+|   ◌͑   | [U+0351](https://codepoints.net/U+0351) |             less rounded (above)             |        `alround`        |
+|   ◌͗   | [U+0357](https://codepoints.net/U+0357) |             more rounded (above)             |        `amround`        |
+|   ◌͜   | [U+035C](https://codepoints.net/U+035C) |              affricate (below)               |        `affric`         |
+|   ◌͡   | [U+0361](https://codepoints.net/U+0361) |              affricate (above)               |           `,`           |
+|   β    | [U+03B2](https://codepoints.net/U+03B2) |          voiced bilabial fricative           |      `AltGr` + `b`      |
+|   θ    | [U+03B8](https://codepoints.net/U+03B8) |          voiceless dental fricative          |      `AltGr` + `t`      |
+|   χ    | [U+03C7](https://codepoints.net/U+03C7) |          voiceless uvular fricative          |      `AltGr` + `x`      |
+|   ᵊ    | [U+1D4A](https://codepoints.net/U+1D4A) |          mid central vowel release           |        `mdvrel`         |
+|   ᶑ    | [U+1D91](https://codepoints.net/U+1D91) |          voiced retroflex implosive          | `AltGr` + `Shift` + `t` |
+|   ᶿ    | [U+1DBF](https://codepoints.net/U+1DBF) |      voiceless dental fricative release      |        `vdfrel`         |
+|   ‖    | [U+2016](https://codepoints.net/U+2016) |           major (intonation) break           |           `\`           |
+|   ‿    | [U+203F](https://codepoints.net/U+203F) |                   linking                    | `AltGr` + `Shift` + `m` |
+|   ⁼    | [U+207C](https://codepoints.net/U+207C) |                 unaspirated                  |           `-`           |
+|   ⁿ    | [U+207F](https://codepoints.net/U+207F) |                nasal release                 |         `nrel`          |
+|   ↘    | [U+2198](https://codepoints.net/U+2198) |                 global fall                  | `AltGr` + `Shift` + `,` |
+|   ⱱ    | [U+2C71](https://codepoints.net/U+2C71) |           voiced labiodental flap            |      `Shift` + `v`      |
+|   ꜛ    | [U+A71B](https://codepoints.net/U+A71B) |                    upstep                    |      `Shift` + `.`      |
+|   ꜜ    | [U+A71C](https://codepoints.net/U+A71C) |                   downstep                   |      `Shift` + `,`      |
 
 ⬆️ go back to [top](#multilingual-keyboard) | [Hotkeys & hotstrings](#hotkeys--hotstrings) | [Keyboards](#keyboards) | [IPA](#ipa) ⬆️
 

@@ -1,426 +1,567 @@
-﻿; IPA
+; IPA
 ; The International Phonetic Alphabet.
 ; <^>!+4
 +a::
-    Send, æ ; near-open front unrounded vowel
-return
+{
+    SendEvent "æ" ; near-open front unrounded vowel
+}
 <^>!c::
-    Send, ç ; voiceless palatal fricative
-return
+{
+    SendEvent "ç" ; voiceless palatal fricative
+}
 <^>!d::
-    Send, ð ; voiced dental fricative
-return
+{
+    SendEvent "ð" ; voiced dental fricative
+}
 <^>!p::
-    Send, ø ; close-mid front rounded vowel
-return
+{
+    SendEvent "ø" ; close-mid front rounded vowel
+}
 +h::
-    Send, ħ ; voiceless pharyngeal fricative
-return
+{
+    SendEvent "ħ" ; voiceless pharyngeal fricative
+}
 <^>!n::
-    Send, ŋ ; voiced velar nasal
-return
+{
+    SendEvent "ŋ" ; voiced velar nasal
+}
 +p::
-    Send, œ ; open-mid front rounded vowel
-return
+{
+    SendEvent "œ" ; open-mid front rounded vowel
+}
 ::dclick::
-    Send, ǀ ; dental click
-return
+{
+    SendEvent "ǀ" ; dental click
+}
 ::lclick::
-    Send, ǁ ; lateral click
-return
+{
+    SendEvent "ǁ" ; lateral click
+}
 ::pclick::
-    Send, ǂ ; palatal click
-return
+{
+    SendEvent "ǂ" ; palatal click
+}
 ::aclick::
-    Send, ǃ ; alveolar click
-return
+{
+    SendEvent "ǃ" ; alveolar click
+}
 +1::
-    Send, ɐ ; near-open central vowel
-return
+{
+    SendEvent "ɐ" ; near-open central vowel
+}
 <^>!a::
-    Send, ɑ ; open back unrounded vowel
-return
+{
+    SendEvent "ɑ" ; open back unrounded vowel
+}
 +o::
-    Send, ɒ ; open back rounded vowel
-return
+{
+    SendEvent "ɒ" ; open back rounded vowel
+}
 +b::
-    Send, ɓ ; voiced bilabial implosive
-return
+{
+    SendEvent "ɓ" ; voiced bilabial implosive
+}
 <^>!o::
-    Send, ɔ ; open-mid back rounded vowel
-return
+{
+    SendEvent "ɔ" ; open-mid back rounded vowel
+}
 <^>!+s::
-    Send, ɕ ; voiceless alveolo-palatal sibilant fricative
-return
+{
+    SendEvent "ɕ" ; voiceless alveolo-palatal sibilant fricative
+}
 +d::
-    Send, ɖ ; voiced retroflex plosive
-return
+{
+    SendEvent "ɖ" ; voiced retroflex plosive
+}
 <^>!+d::
-    Send, ɗ ; voiced alveolar implosive
-return
+{
+    SendEvent "ɗ" ; voiced alveolar implosive
+}
 <^>!+i::
-    Send, ɘ ; close-mid central unrounded vowel
-return
+{
+    SendEvent "ɘ" ; close-mid central unrounded vowel
+}
 +e::
-    Send, ə ; mid central vowel
-return
+{
+    SendEvent "ə" ; mid central vowel
+}
 <^>!e::
-    Send, ɛ ; open-mid front unrounded vowel
-return
+{
+    SendEvent "ɛ" ; open-mid front unrounded vowel
+}
 <^>!+e::
-    Send, ɜ ; open-mid central unrounded vowel
-return
+{
+    SendEvent "ɜ" ; open-mid central unrounded vowel
+}
 <^>!+y::
-    Send, ɞ ; open-mid central rounded vowel
-return
+{
+    SendEvent "ɞ" ; open-mid central rounded vowel
+}
 +c::
-    Send, ɟ ; voiced palatal plosive
-return
+{
+    SendEvent "ɟ" ; voiced palatal plosive
+}
 ::vimplo::
-    Send, ɠ ; voiced velar implosive
-return
+{
+    SendEvent "ɠ" ; voiced velar implosive
+}
 +g::
-    Send, ɢ ; voiced uvular plosive
-return
+{
+    SendEvent "ɢ" ; voiced uvular plosive
+}
 <^>!g::
-    Send, ɣ ; voiced velar fricative
-return
+{
+    SendEvent "ɣ" ; voiced velar fricative
+}
 <^>!+o::
-    Send, ɤ ; close-mid back unrounded vowel
-return
+{
+    SendEvent "ɤ" ; close-mid back unrounded vowel
+}
 +w::
-    Send, ɥ ; voiced labio-palatal approximant
-return
+{
+    SendEvent "ɥ" ; voiced labio-palatal approximant
+}
 <^>!h::
-    Send, ɦ ; voiced glottal fricative
-return
+{
+    SendEvent "ɦ" ; voiced glottal fricative
+}
 6::
-    Send, ɧ ; _sj_-sound
-return
+{
+    SendEvent "ɧ" ; _sj_-sound
+}
 +i::
-    Send, ɨ ; close central unrounded vowel
-return
+{
+    SendEvent "ɨ" ; close central unrounded vowel
+}
 <^>!i::
-    Send, ɪ ; near-close front unrounded vowel
-return
+{
+    SendEvent "ɪ" ; near-close front unrounded vowel
+}
 +l::
-    Send, ɬ ; voiceless alveolar lateral fricative
-return
+{
+    SendEvent "ɬ" ; voiceless alveolar lateral fricative
+}
 <^>!k::
-    Send, ɭ ; voiced retroflex lateral approximant
-return
+{
+    SendEvent "ɭ" ; voiced retroflex lateral approximant
+}
 <^>!+l::
-    Send, ɮ ; voiced alveolar lateral fricative
-return
+{
+    SendEvent "ɮ" ; voiced alveolar lateral fricative
+}
 +u::
-    Send, ɯ ; close back unrounded vowel
-return
+{
+    SendEvent "ɯ" ; close back unrounded vowel
+}
 +2::
-    Send, ɰ ; voiced velar approximant
-return
+{
+    SendEvent "ɰ" ; voiced velar approximant
+}
 <^>!m::
-    Send, ɱ ; voiced labio-dental nasal
-return
+{
+    SendEvent "ɱ" ; voiced labio-dental nasal
+}
 +n::
-    Send, ɲ ; voiced palatal nasal
-return
+{
+    SendEvent "ɲ" ; voiced palatal nasal
+}
 +m::
-    Send, ɳ ; voiced retroflex nasal
-return
+{
+    SendEvent "ɳ" ; voiced retroflex nasal
+}
 <^>!+n::
-    Send, ɴ ; voiced uvular nasal
-return
+{
+    SendEvent "ɴ" ; voiced uvular nasal
+}
 +y::
-    Send, ɵ ; close-mid central rounded vowel
-return
+{
+    SendEvent "ɵ" ; close-mid central rounded vowel
+}
 <^>!+p::
-    Send, ɶ ; open front rounded vowel
-return
+{
+    SendEvent "ɶ" ; open front rounded vowel
+}
 <^>!f::
-    Send, ɸ ; voiceless bilabial fricative
-return
+{
+    SendEvent "ɸ" ; voiceless bilabial fricative
+}
 <^>!+r::
-    Send, ɹ ; voiced alveolar approximant
-return
+{
+    SendEvent "ɹ" ; voiced alveolar approximant
+}
 <^>!+k::
-    Send, ɺ ; voiced alveolar lateral flap
-return
+{
+    SendEvent "ɺ" ; voiced alveolar lateral flap
+}
 <^>!+f::
-    Send, ɻ ; voiced retroflex approximant
-return
+{
+    SendEvent "ɻ" ; voiced retroflex approximant
+}
 +3::
-    Send, ɽ ; voiced retroflex flap
-return
+{
+    SendEvent "ɽ" ; voiced retroflex flap
+}
 <^>!r::
-    Send, ɾ ; voiced alveolar flap
-return
+{
+    SendEvent "ɾ" ; voiced alveolar flap
+}
 +f::
-    Send, ʀ ; voiced uvular trill
-return
+{
+    SendEvent "ʀ" ; voiced uvular trill
+}
 +r::
-    Send, ʁ ; voiced uvular fricative
-return
+{
+    SendEvent "ʁ" ; voiced uvular fricative
+}
 +s::
-    Send, ʂ ; voiceless retroflex sibilant fricative
-return
+{
+    SendEvent "ʂ" ; voiceless retroflex sibilant fricative
+}
 <^>!s::
-    Send, ʃ ; voiceless post-alveolar fricative
-return
+{
+    SendEvent "ʃ" ; voiceless post-alveolar fricative
+}
 ::pimplo::
-    Send, ʄ ; voiced palatal implosive
-return
+{
+    SendEvent "ʄ" ; voiced palatal implosive
+}
 +t::
-    Send, ʈ ; voiceless retroflex plosive
-return
+{
+    SendEvent "ʈ" ; voiceless retroflex plosive
+}
 <^>!+u::
-    Send, ʉ ; close central rounded vowel
-return
+{
+    SendEvent "ʉ" ; close central rounded vowel
+}
 <^>!u::
-    Send, ʊ ; near-close near-back rounded vowel
-return
+{
+    SendEvent "ʊ" ; near-close near-back rounded vowel
+}
 <^>!v::
-    Send, ʋ ; voiced labiodental approximant
-return
+{
+    SendEvent "ʋ" ; voiced labiodental approximant
+}
 <^>!+a::
-    Send, ʌ ; open-mid back unrounded vowel
-return
+{
+    SendEvent "ʌ" ; open-mid back unrounded vowel
+}
 <^>!w::
-    Send, ʍ ; voiceless labio-velar fricative
-return
+{
+    SendEvent "ʍ" ; voiceless labio-velar fricative
+}
 <^>!l::
-    Send, ʎ ; voiced palatal lateral approximant
-return
+{
+    SendEvent "ʎ" ; voiced palatal lateral approximant
+}
 <^>!y::
-    Send, ʏ ; near-close front rounded vowel
-return
+{
+    SendEvent "ʏ" ; near-close front rounded vowel
+}
 +z::
-    Send, ʐ ; voiced retroflex sibilant fricative
-return
+{
+    SendEvent "ʐ" ; voiced retroflex sibilant fricative
+}
 <^>!+z::
-    Send, ʑ ; voiced alveolo-palatal sibilant fricative
-return
+{
+    SendEvent "ʑ" ; voiced alveolo-palatal sibilant fricative
+}
 <^>!z::
-    Send, ʒ ; voiced post-alveolar fricative
-return
+{
+    SendEvent "ʒ" ; voiced post-alveolar fricative
+}
 <^>!q::
-    Send, ʔ ; glottal stop
-return
+{
+    SendEvent "ʔ" ; glottal stop
+}
 +q::
-    Send, ʕ ; voiced pharyngeal approximant
-return
+{
+    SendEvent "ʕ" ; voiced pharyngeal approximant
+}
 ::bclick::
-    Send, ʘ ; bilabial click
-return
+{
+    SendEvent "ʘ" ; bilabial click
+}
 <^>!+b::
-    Send, ʙ ; bilabial trill
-return
+{
+    SendEvent "ʙ" ; bilabial trill
+}
 ::uimplo::
-    Send, ʛ ; voiced uvular implosive
-return
+{
+    SendEvent "ʛ" ; voiced uvular implosive
+}
 +x::
-    Send, ʜ ; voiceless pharyngeal trill
-return
+{
+    SendEvent "ʜ" ; voiceless pharyngeal trill
+}
 <^>!j::
-    Send, ʝ ; voiced palatal fricative
-return
+{
+    SendEvent "ʝ" ; voiced palatal fricative
+}
 +k::
-    Send, ʟ ; voiced velar lateral approximant
-return
+{
+    SendEvent "ʟ" ; voiced velar lateral approximant
+}
 +5::
-    Send, ʡ ; pharyngeal plosive
-return
+{
+    SendEvent "ʡ" ; pharyngeal plosive
+}
 <^>!+x::
-    Send, ʢ ; voiced pharyngeal trill
-return
+{
+    SendEvent "ʢ" ; voiced pharyngeal trill
+}
 <^>!+h::
-    Send, ʰ ; aspirated
-return
+{
+    SendEvent "ʰ" ; aspirated
+}
 +j::
-    Send, ʱ ; voiced aspirated
-return
+{
+    SendEvent "ʱ" ; voiced aspirated
+}
 <^>!+j::
-    Send, ʲ ; palatalized
-return
+{
+    SendEvent "ʲ" ; palatalized
+}
 <^>!+w::
-    Send, ʷ ; labialized
-return
+{
+    SendEvent "ʷ" ; labialized
+}
 +'::
-    Send, ʼ ; ejective
-return
+{
+    SendEvent "ʼ" ; ejective
+}
 <^>!+q::
-    Send, ˀ ; glottalized
-return
+{
+    SendEvent "ˀ" ; glottalized
+}
 '::
-    Send, ˈ ; primary stress
-return
+{
+    SendEvent "ˈ" ; primary stress
+}
 <^>!+`;::
-Send, ˌ ; secondary stress
-return
+{
+    SendEvent "ˌ" ; secondary stress
+}
 `;::
-Send, ː ; long
-return
+{
+    SendEvent "ː" ; long
+}
 ::halflong::
-    Send, ˑ ; half-long
-return
+{
+    SendEvent "ˑ" ; half-long
+}
 +8::
-    Send, ˔ ; 
-return
+{
+    SendEvent "˔" ;
+}
 +9::
-    Send, ˕ ; lowered (beside)
-return
+{
+    SendEvent "˕" ; lowered (beside)
+}
 +=::
-    Send, ˖ ; advanced (beside)
-return
+{
+    SendEvent "˖" ; advanced (beside)
+}
 ::sretract::
-    Send, ˗ ; retracted (beside)
-return
+{
+    SendEvent "˗" ; retracted (beside)
+}
 +4::
-    Send, ˞ ; _r_-colored
-return
+{
+    SendEvent "˞" ; _r_-colored
+}
 <^>!+g::
-    Send, ˠ ; velarized
-return
+{
+    SendEvent "ˠ" ; velarized
+}
 ::lrel::
-    Send, ˡ ; lateral release
-return
+{
+    SendEvent "ˡ" ; lateral release
+}
 ::vvfrel::
-    Send, ˣ ; voiceless velar fricative release
-return
+{
+    SendEvent "ˣ" ; voiceless velar fricative release
+}
 ::phar::
-    Send, ˤ ; pharyngealized
-return
+{
+    SendEvent "ˤ" ; pharyngealized
+}
 1::
-    Send, ˥ ; high Chao tone letter
-return
+{
+    SendEvent "˥" ; high Chao tone letter
+}
 2::
-    Send, ˦ ; half-high Chao tone letter
-return
+{
+    SendEvent "˦" ; half-high Chao tone letter
+}
 3::
-    Send, ˧ ; mid Chao tone letter
-return
+{
+    SendEvent "˧" ; mid Chao tone letter
+}
 4::
-    Send, ˨ ; half-low Chao tone letter
-return
+{
+    SendEvent "˨" ; half-low Chao tone letter
+}
 5::
-    Send, ˩ ; low Chao tone letter
-return
+{
+    SendEvent "˩" ; low Chao tone letter
+}
 +`;::
-Send, ̈ ; centralized
-return
+{
+    SendEvent "̈" ; centralized
+}
 +0::
-    Send, ̍ ; syllabic (above)
-return
+{
+    SendEvent "̍" ; syllabic (above)
+}
 <^>!\::
-    Send, ̘ ; advanced tongue root
-return
+{
+    SendEvent "̘" ; advanced tongue root
+}
 <^>!+\::
-    Send, ̙ ; retracted tongue root
-return
+{
+    SendEvent "̙" ; retracted tongue root
+}
 7::
-    Send, ̚ ; no audible release
-return
+{
+    SendEvent "̚" ; no audible release
+}
 ::lround::
-    Send, ̜ ; less rounded (below)
-return
+{
+    SendEvent "̜" ; less rounded (below)
+}
 8::
-    Send, ̝ ; raised
-return
+{
+    SendEvent "̝" ; raised
+}
 9::
-    Send, ̞ ; lowered (below)
-return
+{
+    SendEvent "̞" ; lowered (below)
+}
 =::
-    Send, ̟ ; advanced (below)
-return
+{
+    SendEvent "̟" ; advanced (below)
+}
 ::retract::
-    Send, ̠ ; retracted (below)
-return
+{
+    SendEvent "̠" ; retracted (below)
+}
 0::
-    Send, ̥ ; voiceless
-return
+{
+    SendEvent "̥" ; voiceless
+}
 +-::
-    Send, ̩ ; syllabic (below)
-return
+{
+    SendEvent "̩" ; syllabic (below)
+}
 +[::
-    Send, ̪ ; dental (below)
-return
+{
+    SendEvent "̪" ; dental (below)
+}
 ::voiced::
-    Send, ̬ ; voiced
-return
+{
+    SendEvent "̬" ; voiced
+}
 +6::
-    Send, ̯ ; non-syllabic
-return
+{
+    SendEvent "̯" ; non-syllabic
+}
 +7::
-    Send, ̰ ; creaky voiced
-return
+{
+    SendEvent "̰" ; creaky voiced
+}
 `::
-    Send, ̴ ; velarized / pharyngealized
-return
+{
+    SendEvent "̴" ; velarized / pharyngealized
+}
 ::mround::
-    Send, ̹ ; more rounded (below)
-return
+{
+    SendEvent "̹" ; more rounded (below)
+}
 +]::
-    Send, ̺ ; apical
-return
+{
+    SendEvent "̺" ; apical
+}
 ::linglab::
-    Send, ̼ ; linguolabial
-return
+{
+    SendEvent "̼" ; linguolabial
+}
 ::midcentral::
-    Send, ̽ ; mid-centralized
-return
+{
+    SendEvent "̽" ; mid-centralized
+}
 <^>![::
-    Send, ͆ ; dental
-return
+{
+    SendEvent "͆" ; dental
+}
 ::alround::
-    Send, ͑ ; less rounded (above)
-return
+{
+    SendEvent "͑" ; less rounded (above)
+}
 ::amround::
-    Send, ͗ ; more rounded (above)
-return
+{
+    SendEvent "͗" ; more rounded (above)
+}
 ::affric::
-    Send, ͜ ; affricate (below)
-return
+{
+    SendEvent "͜" ; affricate (below)
+}
 ,::
-    Send, ͡ ; affricate (above)
-return
+{
+    SendEvent "͡" ; affricate (above)
+}
 <^>!b::
-    Send, β ; voiced bilabial fricative
-return
+{
+    SendEvent "β" ; voiced bilabial fricative
+}
 <^>!t::
-    Send, θ ; voiceless dental fricative
-return
+{
+    SendEvent "θ" ; voiceless dental fricative
+}
 <^>!x::
-    Send, χ ; voiceless uvular fricative
-return
+{
+    SendEvent "χ" ; voiceless uvular fricative
+}
 ::mdvrel::
-    Send, ᵊ ; mid central vowel release
-return
+{
+    SendEvent "ᵊ" ; mid central vowel release
+}
 <^>!+t::
-    Send, ᶑ ; voiced retroflex implosive
-return
+{
+    SendEvent "ᶑ" ; voiced retroflex implosive
+}
 ::vdfrel::
-    Send, ᶿ ; voiceless dental fricative release
-return
+{
+    SendEvent "ᶿ" ; voiceless dental fricative release
+}
 \::
-    Send, ‖ ; major (intonation) break
-return
+{
+    SendEvent "‖" ; major (intonation) break
+}
 <^>!+m::
-    Send, ‿ ; linking
-return
+{
+    SendEvent "‿" ; linking
+}
 -::
-    Send, ⁼ ; unaspirated
-return
+{
+    SendEvent "⁼" ; unaspirated
+}
 ::nrel::
-    Send, ⁿ ; nasal release
-return
+{
+    SendEvent "ⁿ" ; nasal release
+}
 <^>!+,::
-    Send, ↘ ; global fall
-return
+{
+    SendEvent "↘" ; global fall
+}
 +v::
-    Send, ⱱ ; voiced labiodental flap
-return
+{
+    SendEvent "ⱱ" ; voiced labiodental flap
+}
 +.::
-    Send, ꜛ ; upstep
-return
+{
+    SendEvent "ꜛ" ; upstep
+}
 +,::
-    Send, ꜜ ; downstep
-return
+{
+    SendEvent "ꜜ" ; downstep
+}

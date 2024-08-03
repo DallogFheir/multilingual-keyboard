@@ -20,7 +20,7 @@ The app currently supports 5 keyboard layouts:
 
 You can switch between keyboards by pressing `AltGr` + `Shift` + the keyboard's number, for example `AltGr` + `Shift` + `5` for the flag keyboard.
 
-Outside of keyboard layouts, Multilingual Keyboard enables hotstrings used to type various symbols. For example, to get the ♥ symbol, you can type `hearts\`.
+Outside of keyboard layouts, Multilingual Keyboard enables hotstrings used to type various symbols. For example, to get the ♥ symbol, you can type `hearts\\`.
 
 The app also automatically converts letters followed by combining diacritics to pre-composed characters, if available.
 
@@ -34,7 +34,7 @@ If you want to modify the app, you should get familiar with AutoHotkey documenta
 
 Each AHK file should start with 2 lines of comments: the first containing the name of the module, the second - the description. Optionally, on the third line, you can type `; UPPERCASE` to indicate that the module will contain lowercase and uppercase variants of characters.
 
-Each AHK rule consists of the hotkey/hotstring, the `Send` clause, and `return` keyword. You can put a comment after the `Send` clause to describe the replacement symbol. If there is no comment, the symbol will not be included in the auto-generated documentation, unless it's the uppercase variant of another character.
+Each AHK rule consists of the hotkey/hotstring and the body with the `SendEvent` statement. You can put a comment after the `SendEvent` statement to describe the replacement symbol. If there is no comment, the symbol will not be included in the auto-generated documentation, unless it's the uppercase variant of another character.
 
 If you want to create a new `common` module, you need to include it in the `common.ahk` file.
 

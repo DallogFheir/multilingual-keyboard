@@ -1,8 +1,4 @@
-﻿; DEFAULT
-#NoEnv ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-; (DISABLED) SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-; SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
+; DEFAULT
 #SingleInstance Force
 
 ; AUTO-EXECUTE SECTION
@@ -14,7 +10,7 @@
 #Hotstring * ? C
 
 ; input level above precomposed characters
-#InputLevel, 1
+#InputLevel 1
 
 ; KEYBOARD LAYOUTS
 ; hotkeys

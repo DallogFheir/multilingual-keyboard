@@ -1,88 +1,116 @@
-﻿; Default
+; Default
 ; Default keyboard.
 ; <^>!+1
 ; UPPERCASE
 <^>!o::
-    Send, ó ; _o_ with acute
-return
+{
+    SendEvent "ó" ; _o_ with acute
+}
 <^>!+o::
-    Send, Ó
-return
+{
+    SendEvent "Ó"
+}
 <^>!t::
-    Send, þ ; thorn
-return
+{
+    SendEvent "þ" ; thorn
+}
 <^>!+t::
-    Send, Þ
-return
+{
+    SendEvent "Þ"
+}
 <^>!a::
-    Send, ą ; _a_ with ogonek
-return
+{
+    SendEvent "ą" ; _a_ with ogonek
+}
 <^>!+a::
-    Send, Ą
-return
+{
+    SendEvent "Ą"
+}
 <^>!c::
-    Send, ć ; _c_ with acute
-return
+{
+    SendEvent "ć" ; _c_ with acute
+}
 <^>!+c::
-    Send, Ć
-return
+{
+    SendEvent "Ć"
+}
 <^>!e::
-    Send, ę ; _e_ with ogonek
-return
+{
+    SendEvent "ę" ; _e_ with ogonek
+}
 <^>!+e::
-    Send, Ę
-return
+{
+    SendEvent "Ę"
+}
 <^>!l::
-    Send, ł ; _l_ with stroke
-return
+{
+    SendEvent "ł" ; _l_ with stroke
+}
 <^>!+l::
-    Send, Ł
-return
+{
+    SendEvent "Ł"
+}
 <^>!n::
-    Send, ń ; _n_ with acute
-return
+{
+    SendEvent "ń" ; _n_ with acute
+}
 <^>!+n::
-    Send, Ń
-return
+{
+    SendEvent "Ń"
+}
 <^>!s::
-    Send, ś ; _s_ with acute
-return
+{
+    SendEvent "ś" ; _s_ with acute
+}
 <^>!+s::
-    Send, Ś
-return
+{
+    SendEvent "Ś"
+}
 <^>!x::
-    Send, ź ; _z_ with acute
-return
+{
+    SendEvent "ź" ; _z_ with acute
+}
 <^>!+x::
-    Send, Ź
-return
+{
+    SendEvent "Ź"
+}
 <^>!z::
-    Send, ż ; _z_ with overdot
-return
+{
+    SendEvent "ż" ; _z_ with overdot
+}
 <^>!+z::
-    Send, Ż
-return
+{
+    SendEvent "Ż"
+}
 <^>!p::
-    Send, ǫ ; _o_ with ogonek
-return
+{
+    SendEvent "ǫ" ; _o_ with ogonek
+}
 <^>!+p::
-    Send, Ǫ
-return
+{
+    SendEvent "Ǫ"
+}
 <^>!w::
-    Send, ъ ; hard sign
-return
+{
+    SendEvent "ъ" ; hard sign
+}
 <^>!+w::
-    Send, Ъ
-return
+{
+    SendEvent "Ъ"
+}
 <^>!q::
-    Send, ь ; soft sign
-return
+{
+    SendEvent "ь" ; soft sign
+}
 <^>!+q::
-    Send, Ь
-return
+{
+    SendEvent "Ь"
+}
 <^>!2::
-    Send, ₤ ; pound
-return
+{
+    SendEvent "₤" ; pound
+}
 <^>!3::
-    Send, € ; euro
-return
+{
+    SendEvent "€" ; euro
+}

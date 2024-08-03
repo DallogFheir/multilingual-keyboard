@@ -1,641 +1,853 @@
-﻿; input level so that it works with combining diacritics
-#InputLevel, 0
+; necessary to work with combining diacritics
+#InputLevel 0
 
 ::à::
-    Send, à
-return
+{
+    SendEvent "à"
+}
 ::À::
-    Send, À
-return
+{
+    SendEvent "À"
+}
 ::á::
-    Send, á
-return
+{
+    SendEvent "á"
+}
 ::Á::
-    Send, Á
-return
+{
+    SendEvent "Á"
+}
 ::â::
-    Send, â
-return
+{
+    SendEvent "â"
+}
 ::Â::
-    Send, Â
-return
+{
+    SendEvent "Â"
+}
 ::ã::
-    Send, ã
-return
+{
+    SendEvent "ã"
+}
 ::Ã::
-    Send, Ã
-return
+{
+    SendEvent "Ã"
+}
 ::ä::
-    Send, ä
-return
+{
+    SendEvent "ä"
+}
 ::Ä::
-    Send, Ä
-return
+{
+    SendEvent "Ä"
+}
 ::å::
-    Send, å
-return
+{
+    SendEvent "å"
+}
 ::Å::
-    Send, Å
-return
+{
+    SendEvent "Å"
+}
 ::ç::
-    Send, ç
-return
+{
+    SendEvent "ç"
+}
 ::Ç::
-    Send, Ç
-return
+{
+    SendEvent "Ç"
+}
 ::è::
-    Send, è
-return
+{
+    SendEvent "è"
+}
 ::È::
-    Send, È
-return
+{
+    SendEvent "È"
+}
 ::é::
-    Send, é
-return
+{
+    SendEvent "é"
+}
 ::É::
-    Send, É
-return
+{
+    SendEvent "É"
+}
 ::ê::
-    Send, ê
-return
+{
+    SendEvent "ê"
+}
 ::Ê::
-    Send, Ê
-return
+{
+    SendEvent "Ê"
+}
 ::ë::
-    Send, ë
-return
+{
+    SendEvent "ë"
+}
 ::Ë::
-    Send, Ë
-return
+{
+    SendEvent "Ë"
+}
 ::ì::
-    Send, ì
-return
+{
+    SendEvent "ì"
+}
 ::Ì::
-    Send, Ì
-return
+{
+    SendEvent "Ì"
+}
 ::í::
-    Send, í
-return
+{
+    SendEvent "í"
+}
 ::Í::
-    Send, Í
-return
+{
+    SendEvent "Í"
+}
 ::î::
-    Send, î
-return
+{
+    SendEvent "î"
+}
 ::Î::
-    Send, Î
-return
+{
+    SendEvent "Î"
+}
 ::ï::
-    Send, ï
-return
+{
+    SendEvent "ï"
+}
 ::Ï::
-    Send, Ï
-return
+{
+    SendEvent "Ï"
+}
 ::ñ::
-    Send, ñ
-return
+{
+    SendEvent "ñ"
+}
 ::Ñ::
-    Send, Ñ
-return
+{
+    SendEvent "Ñ"
+}
 ::ò::
-    Send, ò
-return
+{
+    SendEvent "ò"
+}
 ::Ò::
-    Send, Ò
-return
+{
+    SendEvent "Ò"
+}
 ::ó::
-    Send, ó
-return
+{
+    SendEvent "ó"
+}
 ::Ó::
-    Send, Ó
-return
+{
+    SendEvent "Ó"
+}
 ::ô::
-    Send, ô
-return
+{
+    SendEvent "ô"
+}
 ::Ô::
-    Send, Ô
-return
+{
+    SendEvent "Ô"
+}
 ::õ::
-    Send, õ
-return
+{
+    SendEvent "õ"
+}
 ::Õ::
-    Send, Õ
-return
+{
+    SendEvent "Õ"
+}
 ::ö::
-    Send, ö
-return
+{
+    SendEvent "ö"
+}
 ::Ö::
-    Send, Ö
-return
+{
+    SendEvent "Ö"
+}
 ::ù::
-    Send, ù
-return
+{
+    SendEvent "ù"
+}
 ::Ù::
-    Send, Ù
-return
+{
+    SendEvent "Ù"
+}
 ::ú::
-    Send, ú
-return
+{
+    SendEvent "ú"
+}
 ::Ú::
-    Send, Ú
-return
+{
+    SendEvent "Ú"
+}
 ::û::
-    Send, û
-return
+{
+    SendEvent "û"
+}
 ::Û::
-    Send, Û
-return
+{
+    SendEvent "Û"
+}
 ::ü::
-    Send, ü
-return
+{
+    SendEvent "ü"
+}
 ::Ü::
-    Send, Ü
-return
+{
+    SendEvent "Ü"
+}
 ::ý::
-    Send, ý
-return
+{
+    SendEvent "ý"
+}
 ::Ý::
-    Send, Ý
-return
+{
+    SendEvent "Ý"
+}
 ::Ÿ::
-    Send, Ÿ
-return
+{
+    SendEvent "Ÿ"
+}
 ::ÿ::
-    Send, ÿ
-return
+{
+    SendEvent "ÿ"
+}
 ::ā::
-    Send, ā
-return
+{
+    SendEvent "ā"
+}
 ::Ā::
-    Send, Ā
-return
+{
+    SendEvent "Ā"
+}
 ::ă::
-    Send, ă
-return
+{
+    SendEvent "ă"
+}
 ::Ă::
-    Send, Ă
-return
+{
+    SendEvent "Ă"
+}
 ::ą::
-    Send, ą
-return
+{
+    SendEvent "ą"
+}
 ::Ą::
-    Send, Ą
-return
+{
+    SendEvent "Ą"
+}
 ::ć::
-    Send, ć
-return
+{
+    SendEvent "ć"
+}
 ::Ć::
-    Send, Ć
-return
+{
+    SendEvent "Ć"
+}
 ::ĉ::
-    Send, ĉ
-return
+{
+    SendEvent "ĉ"
+}
 ::Ĉ::
-    Send, Ĉ
-return
+{
+    SendEvent "Ĉ"
+}
 ::č::
-    Send, č
-return
+{
+    SendEvent "č"
+}
 ::Č::
-    Send, Č
-return
+{
+    SendEvent "Č"
+}
 ::ď::
-    Send, ď
-return
+{
+    SendEvent "ď"
+}
 ::Ď::
-    Send, Ď
-return
+{
+    SendEvent "Ď"
+}
 ::ē::
-    Send, ē
-return
+{
+    SendEvent "ē"
+}
 ::Ē::
-    Send, Ē
-return
+{
+    SendEvent "Ē"
+}
 ::ĕ::
-    Send, ĕ
-return
+{
+    SendEvent "ĕ"
+}
 ::Ĕ::
-    Send, Ĕ
-return
+{
+    SendEvent "Ĕ"
+}
 ::ę::
-    Send, ę
-return
+{
+    SendEvent "ę"
+}
 ::Ę::
-    Send, Ę
-return
+{
+    SendEvent "Ę"
+}
 ::ě::
-    Send, ě
-return
+{
+    SendEvent "ě"
+}
 ::Ě::
-    Send, Ě
-return
+{
+    SendEvent "Ě"
+}
 ::ĝ::
-    Send, ĝ
-return
+{
+    SendEvent "ĝ"
+}
 ::Ĝ::
-    Send, Ĝ
-return
+{
+    SendEvent "Ĝ"
+}
 ::ĥ::
-    Send, ĥ
-return
+{
+    SendEvent "ĥ"
+}
 ::Ĥ::
-    Send, Ĥ
-return
+{
+    SendEvent "Ĥ"
+}
 ::ĩ::
-    Send, ĩ
-return
+{
+    SendEvent "ĩ"
+}
 ::Ĩ::
-    Send, Ĩ
-return
+{
+    SendEvent "Ĩ"
+}
 ::ī::
-    Send, ī
-return
+{
+    SendEvent "ī"
+}
 ::Ī::
-    Send, Ī
-return
+{
+    SendEvent "Ī"
+}
 ::ĭ::
-    Send, ĭ
-return
+{
+    SendEvent "ĭ"
+}
 ::Ĭ::
-    Send, Ĭ
-return
+{
+    SendEvent "Ĭ"
+}
 ::į::
-    Send, į
-return
+{
+    SendEvent "į"
+}
 ::Į::
-    Send, Į
-return
+{
+    SendEvent "Į"
+}
 ::ĵ::
-    Send, ĵ
-return
+{
+    SendEvent "ĵ"
+}
 ::Ĵ::
-    Send, Ĵ
-return
+{
+    SendEvent "Ĵ"
+}
 ::ĺ::
-    Send, ĺ
-return
+{
+    SendEvent "ĺ"
+}
 ::Ĺ::
-    Send, Ĺ
-return
+{
+    SendEvent "Ĺ"
+}
 ::ľ::
-    Send, ľ
-return
+{
+    SendEvent "ľ"
+}
 ::Ľ::
-    Send, Ľ
-return
+{
+    SendEvent "Ľ"
+}
 ::ń::
-    Send, ń
-return
+{
+    SendEvent "ń"
+}
 ::Ń::
-    Send, Ń
-return
+{
+    SendEvent "Ń"
+}
 ::ň::
-    Send, ň
-return
+{
+    SendEvent "ň"
+}
 ::Ň::
-    Send, Ň
-return
+{
+    SendEvent "Ň"
+}
 ::ō::
-    Send, ō
-return
+{
+    SendEvent "ō"
+}
 ::Ō::
-    Send, Ō
-return
+{
+    SendEvent "Ō"
+}
 ::ŏ::
-    Send, ŏ
-return
+{
+    SendEvent "ŏ"
+}
 ::Ŏ::
-    Send, Ŏ
-return
+{
+    SendEvent "Ŏ"
+}
 ::ő::
-    Send, ő
-return
+{
+    SendEvent "ő"
+}
 ::Ő::
-    Send, Ő
-return
+{
+    SendEvent "Ő"
+}
 ::ŕ::
-    Send, ŕ
-return
+{
+    SendEvent "ŕ"
+}
 ::Ŕ::
-    Send, Ŕ
-return
+{
+    SendEvent "Ŕ"
+}
 ::ř::
-    Send, ř
-return
+{
+    SendEvent "ř"
+}
 ::Ř::
-    Send, Ř
-return
+{
+    SendEvent "Ř"
+}
 ::ś::
-    Send, ś
-return
+{
+    SendEvent "ś"
+}
 ::Ś::
-    Send, Ś
-return
+{
+    SendEvent "Ś"
+}
 ::ŝ::
-    Send, ŝ
-return
+{
+    SendEvent "ŝ"
+}
 ::Ŝ::
-    Send, Ŝ
-return
+{
+    SendEvent "Ŝ"
+}
 ::ş::
-    Send, ş
-return
+{
+    SendEvent "ş"
+}
 ::Ş::
-    Send, Ş
-return
+{
+    SendEvent "Ş"
+}
 ::š::
-    Send, š
-return
+{
+    SendEvent "š"
+}
 ::Š::
-    Send, Š
-return
+{
+    SendEvent "Š"
+}
 ::ť::
-    Send, ť
-return
+{
+    SendEvent "ť"
+}
 ::Ť::
-    Send, Ť
-return
+{
+    SendEvent "Ť"
+}
 ::ũ::
-    Send, ũ
-return
+{
+    SendEvent "ũ"
+}
 ::Ũ::
-    Send, Ũ
-return
+{
+    SendEvent "Ũ"
+}
 ::ū::
-    Send, ū
-return
+{
+    SendEvent "ū"
+}
 ::Ū::
-    Send, Ū
-return
+{
+    SendEvent "Ū"
+}
 ::ŭ::
-    Send, ŭ
-return
+{
+    SendEvent "ŭ"
+}
 ::Ŭ::
-    Send, Ŭ
-return
+{
+    SendEvent "Ŭ"
+}
 ::ů::
-    Send, ů
-return
+{
+    SendEvent "ů"
+}
 ::Ů::
-    Send, Ů
-return
+{
+    SendEvent "Ů"
+}
 ::ű::
-    Send, ű
-return
+{
+    SendEvent "ű"
+}
 ::Ű::
-    Send, Ű
-return
+{
+    SendEvent "Ű"
+}
 ::ų::
-    Send, ų
-return
+{
+    SendEvent "ų"
+}
 ::Ų::
-    Send, Ų
-return
+{
+    SendEvent "Ų"
+}
 ::ŷ::
-    Send, ŷ
-return
+{
+    SendEvent "ŷ"
+}
 ::Ŷ::
-    Send, Ŷ
-return
+{
+    SendEvent "Ŷ"
+}
 ::ž::
-    Send, ž
-return
+{
+    SendEvent "ž"
+}
 ::Ž::
-    Send, Ž
-return
+{
+    SendEvent "Ž"
+}
 ::ǎ::
-    Send, ǎ
-return
+{
+    SendEvent "ǎ"
+}
 ::Ǎ::
-    Send, Ǎ
-return
+{
+    SendEvent "Ǎ"
+}
 ::ǐ::
-    Send, ǐ
-return
+{
+    SendEvent "ǐ"
+}
 ::Ǐ::
-    Send, Ǐ
-return
+{
+    SendEvent "Ǐ"
+}
 ::ǒ::
-    Send, ǒ
-return
+{
+    SendEvent "ǒ"
+}
 ::Ǒ::
-    Send, Ǒ
-return
+{
+    SendEvent "Ǒ"
+}
 ::ǔ::
-    Send, ǔ
-return
+{
+    SendEvent "ǔ"
+}
 ::Ǔ::
-    Send, Ǔ
-return
+{
+    SendEvent "Ǔ"
+}
 ::ǧ::
-    Send, ǧ
-return
+{
+    SendEvent "ǧ"
+}
 ::Ǧ::
-    Send, Ǧ
-return
+{
+    SendEvent "Ǧ"
+}
 ::ǫ::
-    Send, ǫ
-return
+{
+    SendEvent "ǫ"
+}
 ::Ǫ::
-    Send, Ǫ
-return
+{
+    SendEvent "Ǫ"
+}
 ::ȁ::
-    Send, ȁ
-return
+{
+    SendEvent "ȁ"
+}
 ::Ȁ::
-    Send, Ȁ
-return
+{
+    SendEvent "Ȁ"
+}
 ::ȃ::
-    Send, ȃ
-return
+{
+    SendEvent "ȃ"
+}
 ::Ȃ::
-    Send, Ȃ
-return
+{
+    SendEvent "Ȃ"
+}
 ::ȅ::
-    Send, ȅ
-return
+{
+    SendEvent "ȅ"
+}
 ::Ȅ::
-    Send, Ȅ
-return
+{
+    SendEvent "Ȅ"
+}
 ::ȇ::
-    Send, ȇ
-return
+{
+    SendEvent "ȇ"
+}
 ::Ȇ::
-    Send, Ȇ
-return
+{
+    SendEvent "Ȇ"
+}
 ::ȉ::
-    Send, ȉ
-return
+{
+    SendEvent "ȉ"
+}
 ::Ȉ::
-    Send, Ȉ
-return
+{
+    SendEvent "Ȉ"
+}
 ::ȋ::
-    Send, ȋ
-return
+{
+    SendEvent "ȋ"
+}
 ::Ȋ::
-    Send, Ȋ
-return
+{
+    SendEvent "Ȋ"
+}
 ::ȍ::
-    Send, ȍ
-return
+{
+    SendEvent "ȍ"
+}
 ::Ȍ::
-    Send, Ȍ
-return
+{
+    SendEvent "Ȍ"
+}
 ::ȏ::
-    Send, ȏ
-return
+{
+    SendEvent "ȏ"
+}
 ::Ȏ::
-    Send, Ȏ
-return
+{
+    SendEvent "Ȏ"
+}
 ::ȓ::
-    Send, ȓ
-return
+{
+    SendEvent "ȓ"
+}
 ::Ȓ::
-    Send, Ȓ
-return
+{
+    SendEvent "Ȓ"
+}
 ::ȕ::
-    Send, ȕ
-return
+{
+    SendEvent "ȕ"
+}
 ::Ȕ::
-    Send, Ȕ
-return
+{
+    SendEvent "Ȕ"
+}
 ::ȗ::
-    Send, ȗ
-return
+{
+    SendEvent "ȗ"
+}
 ::Ȗ::
-    Send, Ȗ
-return
+{
+    SendEvent "Ȗ"
+}
 ::ȳ::
-    Send, ȳ
-return
+{
+    SendEvent "ȳ"
+}
 ::Ȳ::
-    Send, Ȳ
-return
+{
+    SendEvent "Ȳ"
+}
 ::ə˞::
-    Send, ɚ
-return
+{
+    SendEvent "ɚ"
+}
 ::Ə˞::
-    Send, ɚ
-return
+{
+    SendEvent "ɚ"
+}
 ::ɜ˞::
-    Send, ɝ
-return
+{
+    SendEvent "ɝ"
+}
 ::Ɜ˞::
-    Send, ɝ
-return
+{
+    SendEvent "ɝ"
+}
 ::L̴::
-    Send, Ɫ
-return
+{
+    SendEvent "Ɫ"
+}
 ::l̴::
-    Send, ɫ
-return
+{
+    SendEvent "ɫ"
+}
 ::ά::
-    Send, ά
-return
+{
+    SendEvent "ά"
+}
 ::Ά::
-    Send, Ά
-return
+{
+    SendEvent "Ά"
+}
 ::έ::
-    Send, έ
-return
+{
+    SendEvent "έ"
+}
 ::Έ::
-    Send, Έ
-return
+{
+    SendEvent "Έ"
+}
 ::ή::
-    Send, ή
-return
+{
+    SendEvent "ή"
+}
 ::Ή::
-    Send, Ή
-return
+{
+    SendEvent "Ή"
+}
 ::ί::
-    Send, ί
-return
+{
+    SendEvent "ί"
+}
 ::Ί::
-    Send, Ί
-return
+{
+    SendEvent "Ί"
+}
 ::ϊ::
-    Send, ϊ
-return
+{
+    SendEvent "ϊ"
+}
 ::Ϊ::
-    Send, Ϊ
-return
+{
+    SendEvent "Ϊ"
+}
 ::ό::
-    Send, ό
-return
+{
+    SendEvent "ό"
+}
 ::Ό::
-    Send, Ό
-return
+{
+    SendEvent "Ό"
+}
 ::ύ::
-    Send, ύ
-return
+{
+    SendEvent "ύ"
+}
 ::Ύ::
-    Send, Ύ
-return
+{
+    SendEvent "Ύ"
+}
 ::ώ::
-    Send, ώ
-return
+{
+    SendEvent "ώ"
+}
 ::Ώ::
-    Send, Ώ
-return
+{
+    SendEvent "Ώ"
+}
 ::ḁ::
-    Send, ḁ
-return
+{
+    SendEvent "ḁ"
+}
 ::Ḁ::
-    Send, Ḁ
-return
+{
+    SendEvent "Ḁ"
+}
 ::ḛ::
-    Send, ḛ
-return
+{
+    SendEvent "ḛ"
+}
 ::Ḛ::
-    Send, Ḛ
-return
+{
+    SendEvent "Ḛ"
+}
 ::ḭ::
-    Send, ḭ
-return
+{
+    SendEvent "ḭ"
+}
 ::Ḭ::
-    Send, Ḭ
-return
+{
+    SendEvent "Ḭ"
+}
 ::ṳ::
-    Send, ṳ
-return
+{
+    SendEvent "ṳ"
+}
 ::Ṳ::
-    Send, Ṳ
-return
+{
+    SendEvent "Ṳ"
+}
 ::ṵ::
-    Send, ṵ
-return
+{
+    SendEvent "ṵ"
+}
 ::Ṵ::
-    Send, Ṵ
-return
+{
+    SendEvent "Ṵ"
+}
 ::ṽ::
-    Send, ṽ
-return
+{
+    SendEvent "ṽ"
+}
 ::Ṽ::
-    Send, Ṽ
-return
+{
+    SendEvent "Ṽ"
+}
 ::ẘ::
-    Send, ẘ
-return
+{
+    SendEvent "ẘ"
+}
 ::ẙ::
-    Send, ẙ
-return
+{
+    SendEvent "ẙ"
+}
 ::ẽ::
-    Send, ẽ
-return
+{
+    SendEvent "ẽ"
+}
 ::Ẽ::
-    Send, Ẽ
-return
+{
+    SendEvent "Ẽ"
+}
 ::ỳ::
-    Send, ỳ
-return
+{
+    SendEvent "ỳ"
+}
 ::Ỳ::
-    Send, Ỳ
-return
+{
+    SendEvent "Ỳ"
+}
 ::ỹ::
-    Send, ỹ
-return
+{
+    SendEvent "ỹ"
+}
 ::Ỹ::
-    Send, Ỹ
-return
+{
+    SendEvent "Ỹ"
+}
 
-#InputLevel, 1
+#InputLevel 1

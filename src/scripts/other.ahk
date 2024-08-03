@@ -1,17 +1,22 @@
-﻿; Other
+; Other
 ; Other symbols.
 ::c\::
-    Send, © ; copyright
-return
+{
+    SendEvent "©" ; copyright
+}
 ::deg\::
-    Send, ° ; degree
-return
+{
+    SendEvent "°" ; degree
+}
 ::tm\::
-    Send, ™ ; trademark
-return
+{
+    SendEvent "™" ; trademark
+}
 ::->\::
-    Send, → ; arrow (right)
-return
+{
+    SendEvent "→" ; arrow (right)
+}
 ::v\::
-    Send, ✓ ; check mark
-return
+{
+    SendEvent "✓" ; check mark
+}

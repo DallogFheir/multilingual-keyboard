@@ -1,38 +1,50 @@
-﻿; Mathematics
+; Mathematics
 ; Various mathematical symbols.
 ::+-\::
-    Send, ± ; plus minus
-return
+{
+    SendEvent "±" ; plus minus
+}
 ::x\::
-    Send, × ; multiplication sign
-return
+{
+    SendEvent "×" ; multiplication sign
+}
 ::empty\::
-    Send, ∅ ; empty set
-return
+{
+    SendEvent "∅" ; empty set
+}
 ::-+\::
-    Send, ∓ ; minus plus
-return
+{
+    SendEvent "∓" ; minus plus
+}
 ::sqrt\::
-    Send, √ ; square root
-return
+{
+    SendEvent "√" ; square root
+}
 ::infty\::
-    Send, ∞ ; infinity
-return
+{
+    SendEvent "∞" ; infinity
+}
 ::=/=::
-    Send, ≠ ; not equal
-return
+{
+    SendEvent "≠" ; not equal
+}
 ::<=\::
-    Send, ≤ ; less than or equal to
-return
+{
+    SendEvent "≤" ; less than or equal to
+}
 ::>=\::
-    Send, ≥ ; greater than or equal to
-return
+{
+    SendEvent "≥" ; greater than or equal to
+}
 ::<<\::
-    Send, ≪ ; much less than
-return
+{
+    SendEvent "≪" ; much less than
+}
 ::>>\::
-    Send, ≫ ; much greater than
-return
+{
+    SendEvent "≫" ; much greater than
+}
 ::cdot\::
-    Send, ⋅ ; multiplication dot 
-return
+{
+    SendEvent "⋅" ; multiplication dot
+}

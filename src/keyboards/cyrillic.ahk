@@ -1,220 +1,292 @@
-﻿; Cyrillic
+; Cyrillic
 ; The Cyrillic alphabet.
 ; <^>!+2
 ; UPPERCASE
 a::
-    Send, а ; _a_
-return
+{
+    SendEvent "а" ; _a_
+}
 +a::
-    Send, А
-return
+{
+    SendEvent "А"
+}
 b::
-    Send, б ; _be_
-return
+{
+    SendEvent "б" ; _be_
+}
 +b::
-    Send, Б
-return
+{
+    SendEvent "Б"
+}
 v::
-    Send, в ; _ve_
-return
+{
+    SendEvent "в" ; _ve_
+}
 +v::
-    Send, В
-return
+{
+    SendEvent "В"
+}
 g::
-    Send, г ; _ge_
-return
+{
+    SendEvent "г" ; _ge_
+}
 +g::
-    Send, Г
-return
+{
+    SendEvent "Г"
+}
 d::
-    Send, д ; _de_
-return
+{
+    SendEvent "д" ; _de_
+}
 +d::
-    Send, Д
-return
+{
+    SendEvent "Д"
+}
 e::
-    Send, е ; _ye_
-return
+{
+    SendEvent "е" ; _ye_
+}
 +e::
-    Send, Е
-return
+{
+    SendEvent "Е"
+}
 <^>!z::
-    Send, ж ; _zhe_
-return
+{
+    SendEvent "ж" ; _zhe_
+}
 <^>!+z::
-    Send, Ж
-return
+{
+    SendEvent "Ж"
+}
 z::
-    Send, з ; _ze_
-return
+{
+    SendEvent "з" ; _ze_
+}
 +z::
-    Send, З
-return
+{
+    SendEvent "З"
+}
 i::
-    Send, и ; _i_
-return
+{
+    SendEvent "и" ; _i_
+}
 +i::
-    Send, И
-return
+{
+    SendEvent "И"
+}
 y::
-    Send, й ; _yot_
-return
+{
+    SendEvent "й" ; _yot_
+}
 +y::
-    Send, Й
-return
+{
+    SendEvent "Й"
+}
 k::
-    Send, к ; _ka_
-return
+{
+    SendEvent "к" ; _ka_
+}
 +k::
-    Send, К
-return
+{
+    SendEvent "К"
+}
 l::
-    Send, л ; _el_
-return
+{
+    SendEvent "л" ; _el_
+}
 +l::
-    Send, Л
-return
+{
+    SendEvent "Л"
+}
 m::
-    Send, м ; _em_
-return
+{
+    SendEvent "м" ; _em_
+}
 +m::
-    Send, М
-return
+{
+    SendEvent "М"
+}
 n::
-    Send, н ; _en_
-return
+{
+    SendEvent "н" ; _en_
+}
 +n::
-    Send, Н
-return
+{
+    SendEvent "Н"
+}
 o::
-    Send, о ; _o_
-return
+{
+    SendEvent "о" ; _o_
+}
 +o::
-    Send, О
-return
+{
+    SendEvent "О"
+}
 p::
-    Send, п ; _pe_
-return
+{
+    SendEvent "п" ; _pe_
+}
 +p::
-    Send, П
-return
+{
+    SendEvent "П"
+}
 r::
-    Send, р ; _er_
-return
+{
+    SendEvent "р" ; _er_
+}
 +r::
-    Send, Р
-return
+{
+    SendEvent "Р"
+}
 s::
-    Send, с ; _es_
-return
+{
+    SendEvent "с" ; _es_
+}
 +s::
-    Send, С
-return
+{
+    SendEvent "С"
+}
 t::
-    Send, т ; _te_
-return
+{
+    SendEvent "т" ; _te_
+}
 +t::
-    Send, Т
-return
+{
+    SendEvent "Т"
+}
 u::
-    Send, у ; _u_
-return
+{
+    SendEvent "у" ; _u_
+}
 +u::
-    Send, У
-return
+{
+    SendEvent "У"
+}
 f::
-    Send, ф ; _ef_
-return
+{
+    SendEvent "ф" ; _ef_
+}
 +f::
-    Send, Ф
-return
+{
+    SendEvent "Ф"
+}
 h::
-    Send, х ; _kha_
-return
+{
+    SendEvent "х" ; _kha_
+}
 +h::
-    Send, Х
-return
+{
+    SendEvent "Х"
+}
 c::
-    Send, ц ; _tse_
-return
+{
+    SendEvent "ц" ; _tse_
+}
 +c::
-    Send, Ц
-return
+{
+    SendEvent "Ц"
+}
 <^>!c::
-    Send, ч ; _che_
-return
+{
+    SendEvent "ч" ; _che_
+}
 <^>!+c::
-    Send, Ч
-return
+{
+    SendEvent "Ч"
+}
 <^>!s::
-    Send, ш ; _sha_
-return
+{
+    SendEvent "ш" ; _sha_
+}
 <^>!+s::
-    Send, Ш
-return
+{
+    SendEvent "Ш"
+}
 <^>!d::
-    Send, щ ; _shcha_
-return
+{
+    SendEvent "щ" ; _shcha_
+}
 <^>!+d::
-    Send, Щ
-return
+{
+    SendEvent "Щ"
+}
 <^>!q::
-    Send, ъ ; hard sign
-return
+{
+    SendEvent "ъ" ; hard sign
+}
 <^>!+q::
-    Send, Ъ
-return
+{
+    SendEvent "Ъ"
+}
 <^>!y::
-    Send, ы ; _yeru_
-return
+{
+    SendEvent "ы" ; _yeru_
+}
 <^>!+y::
-    Send, Ы
-return
+{
+    SendEvent "Ы"
+}
 q::
-    Send, ь ; soft sign
-return
+{
+    SendEvent "ь" ; soft sign
+}
 +q::
-    Send, Ь
-return
+{
+    SendEvent "Ь"
+}
 <^>!e::
-    Send, э ; _e_
-return
+{
+    SendEvent "э" ; _e_
+}
 <^>!+e::
-    Send, Э
-return
+{
+    SendEvent "Э"
+}
 <^>!u::
-    Send, ю ; _yu_
-return
+{
+    SendEvent "ю" ; _yu_
+}
 <^>!+u::
-    Send, Ю
-return
+{
+    SendEvent "Ю"
+}
 <^>!f::
-    Send, я ; _ya_
-return
+{
+    SendEvent "я" ; _ya_
+}
 <^>!+f::
-    Send, Я
-return
+{
+    SendEvent "Я"
+}
 <^>!r::
-    Send, є ; Ukrainian _ye_
-return
+{
+    SendEvent "є" ; Ukrainian _ye_
+}
 <^>!+r::
-    Send, Є
-return
+{
+    SendEvent "Є"
+}
 <^>!i::
-    Send, і ; dotted _i_
-return
+{
+    SendEvent "і" ; dotted _i_
+}
 <^>!+i::
-    Send, І
-return
+{
+    SendEvent "І"
+}
 <^>!o::
-    Send, ї ; _yi_
-return
+{
+    SendEvent "ї" ; _yi_
+}
 <^>!+o::
-    Send, Ї
-return
+{
+    SendEvent "Ї"
+}
 <^>!g::
-    Send, ґ ; _ge_ with upturn
-return
+{
+    SendEvent "ґ" ; _ge_ with upturn
+}
 <^>!+g::
-    Send, Ґ
-return
+{
+    SendEvent "Ґ"
+}

@@ -15,7 +15,7 @@ def generate_common():
     hotstrings = []
 
     for file in scripts_dir.iterdir():
-        with open(file, encoding="utf-8-sig", newline="\n") as f:
+        with open(file, encoding="utf-8", newline="\n") as f:
             script = f.read()
             file_hotstrings = re.findall(
                 HOTKEY_REGEX,
@@ -28,10 +28,15 @@ def generate_common():
 
     hotstrings.sort(key=lambda k: len(k[0].removeprefix("::")), reverse=True)
 
-    with open(DIST_PATH / "common.ahk", "w", encoding="utf-8-sig", newline="\n") as f:
+    with open(DIST_PATH / "common.ahk", "w", encoding="utf-8", newline="\n") as f:
         f.writelines(
             [
-                f"{hotstring}::\n    Send, {replacement} ; {description}\nreturn\n"
+                hotstring
+                + '::\n{\n    SendEvent "'
+                + replacement
+                + '" ; '
+                + description
+                + "\n}\n"
                 for hotstring, replacement, description in hotstrings
             ]
         )
@@ -56,16 +61,17 @@ def generate_main(default: str):
     hotkey_template = dedent(
         """\
         {}::
-            keyboard := "{}"
-            curIcon := "{}"
-            Menu, Tray, Icon, {}
-        return"""
+        {{
+            Global keyboard := "{}"
+            Global curIcon := "{}"
+            TraySetIcon "{}"
+        }}"""
     )
     if_template = dedent(
         """\
-        #If keyboard = "{0}"
+        #HotIf keyboard = "{0}"
             #include keyboards\\{0}.ahk
-        #If"""
+        #HotIf"""
     )
 
     default_keyboard = KEYBOARDS_PATH / f"{default}.ahk"
@@ -83,10 +89,10 @@ def generate_main(default: str):
         default_icon_path_str = "*"
         print(icon_not_found_message.format(default))
     auto_execute_section = dedent(
-        f"""\
+        f'''\
         keyboard := "{default}"
         curIcon := "{default_icon}"
-        Menu, Tray, Icon, {default_icon_path_str}"""
+        TraySetIcon "{default_icon_path_str}"'''
     )
 
     hotkeys = {}
@@ -94,7 +100,7 @@ def generate_main(default: str):
     order_dict = {}
     for keyboard in KEYBOARDS_PATH.iterdir():
         if keyboard.suffix == ".ahk":
-            with open(keyboard, encoding="utf-8-sig", newline="\n") as f:
+            with open(keyboard, encoding="utf-8", newline="\n") as f:
                 hotkey = f.readlines()[2].removeprefix("; ").strip()
 
             name = keyboard.stem
@@ -113,7 +119,7 @@ def generate_main(default: str):
     order = sorted(order_dict, key=lambda k: order_dict[k])
 
     with open(
-        Path(__file__).parent / "templates" / "main.template.ahk", encoding="utf-8-sig"
+        Path(__file__).parent / "templates" / "main.template.ahk", encoding="utf-8"
     ) as f:
         template = f.read()
 
@@ -139,7 +145,7 @@ def generate_main(default: str):
         )
     )
 
-    with open(DIST_PATH / "main.ahk", "w", encoding="utf-8-sig", newline="\n") as f:
+    with open(DIST_PATH / "main.ahk", "w", encoding="utf-8", newline="\n") as f:
         f.write(final_template)
 
 

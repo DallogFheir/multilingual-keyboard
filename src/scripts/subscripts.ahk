@@ -1,86 +1,114 @@
-﻿; Subscripts
+; Subscripts
 ; Subscript characters.
 ::sub0\::
-    Send, ₀ ; _0_ (subscript)
-return
+{
+    SendEvent "₀" ; _0_ (subscript)
+}
 ::sub1\::
-    Send, ₁ ; _1_ (subscript)
-return
+{
+    SendEvent "₁" ; _1_ (subscript)
+}
 ::sub2\::
-    Send, ₂ ; _2_ (subscript)
-return
+{
+    SendEvent "₂" ; _2_ (subscript)
+}
 ::sub3\::
-    Send, ₃ ; _3_ (subscript)
-return
+{
+    SendEvent "₃" ; _3_ (subscript)
+}
 ::sub4\::
-    Send, ₄ ; _4_ (subscript)
-return
+{
+    SendEvent "₄" ; _4_ (subscript)
+}
 ::sub5\::
-    Send, ₅ ; _5_ (subscript)
-return
+{
+    SendEvent "₅" ; _5_ (subscript)
+}
 ::sub6\::
-    Send, ₆ ; _6_ (subscript)
-return
+{
+    SendEvent "₆" ; _6_ (subscript)
+}
 ::sub7\::
-    Send, ₇ ; _7_ (subscript)
-return
+{
+    SendEvent "₇" ; _7_ (subscript)
+}
 ::sub8\::
-    Send, ₈ ; _8_ (subscript)
-return
+{
+    SendEvent "₈" ; _8_ (subscript)
+}
 ::sub9\::
-    Send, ₉ ; _9_ (subscript)
-return
+{
+    SendEvent "₉" ; _9_ (subscript)
+}
 ::sub+\::
-    Send, ₊ ; _+_ (subscript)
-return
+{
+    SendEvent "₊" ; _+_ (subscript)
+}
 ::sub-\::
-    Send, ₋ ; _-_ (subscript)
-return
+{
+    SendEvent "₋" ; _-_ (subscript)
+}
 ::sub=\::
-    Send, ₌ ; _=_ (subscript)
-return
+{
+    SendEvent "₌" ; _=_ (subscript)
+}
 ::sub(\::
-    Send, ₍ ; _(_ (subscript)
-return
+{
+    SendEvent "₍" ; _(_ (subscript)
+}
 ::sub)\::
-    Send, ₎ ; _)_ (subscript)
-return
+{
+    SendEvent "₎" ; _)_ (subscript)
+}
 ::suba\::
-    Send, ₐ ; _a_ (subscript)
-return
+{
+    SendEvent "ₐ" ; _a_ (subscript)
+}
 ::sube\::
-    Send, ₑ ; _e_ (subscript)
-return
+{
+    SendEvent "ₑ" ; _e_ (subscript)
+}
 ::subo\::
-    Send, ₒ ; _o_ (subscript)
-return
+{
+    SendEvent "ₒ" ; _o_ (subscript)
+}
 ::subx\::
-    Send, ₓ ; _x_ (subscript)
-return
+{
+    SendEvent "ₓ" ; _x_ (subscript)
+}
 ::subschwa\::
-    Send, ₔ ; schwa (subscript)
-return
+{
+    SendEvent "ₔ" ; schwa (subscript)
+}
 ::subh\::
-    Send, ₕ ; _h_ (subscript)
-return
+{
+    SendEvent "ₕ" ; _h_ (subscript)
+}
 ::subk\::
-    Send, ₖ ; _k_ (subscript)
-return
+{
+    SendEvent "ₖ" ; _k_ (subscript)
+}
 ::subl\::
-    Send, ₗ ; _l_ (subscript)
-return
+{
+    SendEvent "ₗ" ; _l_ (subscript)
+}
 ::subm\::
-    Send, ₘ ; _m_ (subscript)
-return
+{
+    SendEvent "ₘ" ; _m_ (subscript)
+}
 ::subn\::
-    Send, ₙ ; _n_ (subscript)
-return
+{
+    SendEvent "ₙ" ; _n_ (subscript)
+}
 ::subp\::
-    Send, ₚ ; _p_ (subscript)
-return
+{
+    SendEvent "ₚ" ; _p_ (subscript)
+}
 ::subs\::
-    Send, ₛ ; _s_ (subscript)
-return
+{
+    SendEvent "ₛ" ; _s_ (subscript)
+}
 ::subt\::
-    Send, ₜ ; _t_ (subscript)
-return
+{
+    SendEvent "ₜ" ; _t_ (subscript)
+}

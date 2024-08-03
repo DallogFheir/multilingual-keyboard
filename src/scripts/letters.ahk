@@ -1,12 +1,15 @@
-﻿; Letters
+; Letters
 ; Miscellaneous letters.
 ; UPPERCASE
 ::oe\::
-    Send, œ ; _oe_
-return
+{
+    SendEvent "œ" ; _oe_
+}
 ::OE\::
-    Send, Œ
-return
+{
+    SendEvent "Œ"
+}
 ::''\::
-    Send, ʾ ; letter half ring (right)
-return
+{
+    SendEvent "ʾ" ; letter half ring (right)
+}
